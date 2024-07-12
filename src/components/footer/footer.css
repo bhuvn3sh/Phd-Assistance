@@ -1,0 +1,95 @@
+section {
+  display: block;
+}
+.ftco-footer {
+  font-size: 16px;
+  padding: 6em 0 0 0;
+  background: #adbbda;
+  color: #0e0e0ee6;
+}
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.pb-5,
+.py-5 {
+  padding-bottom: 3rem !important;
+}
+
+.justify-content-center {
+  -webkit-box-pack: center !important;
+  -ms-flex-pack: center !important;
+  justify-content: center !important;
+}
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.ftco-section {
+  padding: 6em 0;
+}
+
+.ftco-section {
+  padding: 6em 0;
+  position: relative;
+}
+.bg-light {
+  background: #090909 !important;
+}
+body * a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: #f5f4f0;
+}
+.bg-black {
+  background: #000000;
+}
+.pb-5,
+.py-5 {
+  padding-bottom: 3rem !important;
+}
+.pt-5,
+.py-5 {
+  padding-top: 3rem !important;
+}
+.pl-0,
+.px-0 {
+  padding-left: 0 !important;
+}
+.pr-0,
+.px-0 {
+  padding-right: 0 !important;
+}
+.container-fluid {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+user agent stylesheet div {
+  display: block;
+  unicode-bidi: isolate;
+}
+.ftco-footer {
+  font-size: 16px;
+  padding: 6em 0 0 0;
+
+  color: rgb(14, 13, 13);
+}
