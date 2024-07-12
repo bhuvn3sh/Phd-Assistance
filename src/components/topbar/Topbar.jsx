@@ -3,7 +3,6 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
-//hiiii//
 
 function topbar() {
   return (
@@ -14,11 +13,25 @@ function topbar() {
             <div class="row">
               <div class="col-md-6 d-flex align-items-center">
                 <p class="mb-0 phone pl-md-2">
-                  <a href="#" class="mr-2" style={{ textDecoration: "none" }}>
-                    <span class="fa fa-phone mr-1"></span> +91-976966466
+                  <a
+                    href="#"
+                    class="mr-2"
+                    style={{ textDecoration: "none", color: "#ffffff" }}
+                  >
+                    <span
+                      class="fa fa-phone mr-1"
+                      style={{ color: "#ffffff" }}
+                    ></span>{" "}
+                    +91-976966466
                   </a>
-                  <a href="#" style={{ textDecoration: "none" }}>
-                    <span class="fa fa-paper-plane mr-1 ml-4"></span>{" "}
+                  <a
+                    href="#"
+                    style={{ textDecoration: "none", color: "#ffffff" }}
+                  >
+                    <span
+                      class="fa fa-paper-plane mr-1 ml-4"
+                      style={{ color: "#ffffff" }}
+                    ></span>{" "}
                     info@phdassistance.com
                   </a>
                 </p>
@@ -29,7 +42,7 @@ function topbar() {
                     <a
                       href="https://www.facebook.com/phdassistance/"
                       class="d-flex align-items-center justify-content-center"
-                      style={{ textDecoration: "none" }}
+                      style={{ textDecoration: "none", color: "#ffffff" }}
                     >
                       <span class="fa fa-facebook">
                         <i class="sr-only">Facebook</i>
@@ -38,7 +51,7 @@ function topbar() {
                     <a
                       href="https://x.com/phdassistance/"
                       class="d-flex align-items-center justify-content-center"
-                      style={{ textDecoration: "none" }}
+                      style={{ textDecoration: "none", color: "#ffffff" }}
                     >
                       <span class="fa fa-twitter">
                         <i class="sr-only">Twitter</i>
@@ -47,7 +60,7 @@ function topbar() {
                     <a
                       href="https://www.instagram.com/phdassistance/"
                       class="d-flex align-items-center justify-content-center"
-                      style={{ textDecoration: "none" }}
+                      style={{ textDecoration: "none", color: "#ffffff" }}
                     >
                       <span class="fa fa-instagram">
                         <i class="sr-only">Instagram</i>
@@ -56,7 +69,7 @@ function topbar() {
                     <a
                       href="https://www.youtube.com/channel/UC-mKbdBTZNv5bBoXsMqxqkQ"
                       class="d-flex align-items-center justify-content-center"
-                      style={{ textDecoration: "none" }}
+                      style={{ textDecoration: "none", color: "#ffffff" }}
                     >
                       <span class="fa fa-youtube">
                         <i class="sr-only">Youtube</i>
@@ -65,7 +78,7 @@ function topbar() {
                     <a
                       href="https://www.linkedin.com/company/phd-assistance/"
                       class="d-flex align-items-center justify-content-center"
-                      style={{ textDecoration: "none" }}
+                      style={{ textDecoration: "none", color: "#ffffff" }}
                     >
                       <span class="fa fa-linkedin">
                         <i class="sr-only">LinkedIn</i>
@@ -78,9 +91,9 @@ function topbar() {
           </div>
         </div>
       </div>
-      <Navbar expand="lg" style={{ backgroundColor: "#f2f2f2" }}>
+      <Navbar expand="lg" style={{ backgroundColor: "#503C3C" }}>
         <Container>
-          <Navbar.Brand href="#home" style={{ marginRight: "50px" }}>
+          <Navbar.Brand href="#home" style={{ marginRight: "25px" }}>
             <img
               src="./assets/logo.png"
               width="90"
@@ -92,13 +105,13 @@ function topbar() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ml-auto" style={{ marginLeft: "210px" }}>
-              <Nav.Link href="#home" className="mx-2 text-dark">
+              <Nav.Link href="#home" className="mx-2 text-light">
                 About
               </Nav.Link>
               <NavDropdown
                 title="Services"
                 id="basic-nav-dropdown"
-                className="mx-2 text-dark"
+                className="mx-2 text-"
                 style={{ color: "#141619" }}
               >
                 <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
@@ -130,16 +143,16 @@ function topbar() {
                   Separated link
                 </NavDropdown.Item>
               </NavDropdown>
-              <Nav.Link href="#home" className="mx-2 text-dark">
+              <Nav.Link href="#home" className="mx-2 text-light">
                 Pricing
               </Nav.Link>
-              <Nav.Link href="#home" className="mx-2 text-dark">
+              <Nav.Link href="#home" className="mx-2 text-light">
                 Help-Guide
               </Nav.Link>
-              <Nav.Link href="#home" className="mx-2 text-dark">
+              <Nav.Link href="#home" className="mx-2 text-light">
                 Contact
               </Nav.Link>
-              <Nav.Link href="#home" className="mx-2 text-dark">
+              <Nav.Link href="#home" className="mx-2 text-light">
                 Hire A Research Assistant
               </Nav.Link>
             </Nav>

@@ -4,7 +4,7 @@ section {
 .ftco-footer {
   font-size: 16px;
   padding: 6em 0 0 0;
-  background: #adbbda;
+  background: #7e6363;
   color: #0e0e0ee6;
 }
 .container {
@@ -49,7 +49,7 @@ body * a {
   color: black;
 }
 a:hover {
-  color: #f5f4f0;
+  color: #ffffff;
 }
 .bg-black {
   background: #000000;
@@ -92,4 +92,7 @@ user agent stylesheet div {
   padding: 6em 0 0 0;
 
   color: rgb(14, 13, 13);
+}
+.custom-bg {
+  background-color: #a87c7c; /* Replace with your desired color */
 }
