@@ -12,7 +12,7 @@ function Home() {
         <div
           className="hero-wrap"
           style={{
-            backgroundImage: "url(./assets/bg-2.jpg)",
+            backgroundImage: "url(./assets/imageedit_1_6807744610.jpg)",
             backgroundPosition: "50% 0%",
           }}
           data-stellar-background-ratio="0.5"
@@ -27,14 +27,18 @@ function Home() {
                 >
                   <h1
                     className="mb-4"
-                    style={{ fontSize: "50px", fontWeight: 600 }}
+                    style={{
+                      fontSize: "50px",
+                      fontWeight: 600,
+                      color: "#ffffff",
+                    }}
                   >
                     {" "}
                     Your PhD Research Journey Starts Here !{" "}
                   </h1>
                   <p
                     className="mb-4"
-                    style={{ fontSize: "18px", color: "rgba(0, 0, 0, 0.8)" }}
+                    style={{ fontSize: "18px", color: "#ffffff" }}
                   >
                     The research journey is messy, full of difficulties and
                     surprises, hard work, beginnings and some form of closure.
@@ -47,8 +51,8 @@ function Home() {
                       href="#"
                       className="btn py-2 px-4"
                       style={{
-                        backgroundColor: "#ADBBDA",
-                        color: "#141619",
+                        backgroundColor: "#7E6363",
+                        color: "#ffffff",
                         borderRadius: "1",
                         textDecoration: "none",
                       }}
@@ -63,6 +67,7 @@ function Home() {
                         borderRadius: "1",
                         textDecoration: "none",
                         marginLeft: "20px",
+                        backgroundColor: "#A87C7C",
                       }}
                     >
                       Hire a Reasearcher
@@ -386,7 +391,7 @@ function Home() {
         </div>
       </section>
 
-      <section style={{ margin: '0px 200px'}}>
+      <section style={{ margin: "0px 200px" }}>
         <div className="container">
           <div className="row">
             <div
@@ -409,18 +414,21 @@ function Home() {
                   ensure smooth collaboration between our experts and our
                   clients.{" "}
                 </p>
-                <a className="play-video popup-vimeo d-flex align-items-center mt-4 " href="https://youtu.be/0OOA1ShNJn8">
-                <div className="icon d-flex align-items-center justify-content-center">
-                  <span className=" fa fa-play "></span>
-                </div>
-                <span className="watch">Take a look at our process flow</span>
+                <a
+                  className="play-video popup-vimeo d-flex align-items-center mt-4 "
+                  href="https://youtu.be/0OOA1ShNJn8"
+                >
+                  <div className="icon d-flex align-items-center justify-content-center">
+                    <span className=" fa fa-play "></span>
+                  </div>
+                  <span className="watch">Take a look at our process flow</span>
                 </a>
               </div>
             </div>
           </div>
         </div>
       </section>
-      
+
       <Footer />
     </>
   );
