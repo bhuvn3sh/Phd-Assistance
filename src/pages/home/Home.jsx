@@ -200,7 +200,7 @@ function Home() {
         <div className="container">
           <div className=" row justify-content-center pb-5">
             <div className="heading-section text-center ftco-animate fadeInUp ftco-animated">
-              <h1 style={{ fontWeight: 600, color: "#8697c4" }}>
+              <h1 style={{ fontWeight: 600, color: '#503c3c' }}>
                 Check at what stage you’re into & Analyse how you can fit into
                 our engagement model
               </h1>
@@ -226,7 +226,7 @@ function Home() {
                       style={{
                         fontSize: "15px",
                         fontWeight: 700,
-                        backgroundColor: "#ede8f5",
+                        backgroundColor: "#e5d8d8",
                         padding: "5px",
                       }}
                     >
@@ -249,7 +249,7 @@ function Home() {
                         lineHeight: "20px",
                         margin: "30px 0 20px 0",
                         padding: "10px 0 10px 0",
-                        backgroundColor: "#ede8f5",
+                        backgroundColor: "#e5d8d8",
                       }}
                     >
                       External Peer Review & Addressing Comments Support
@@ -269,7 +269,7 @@ function Home() {
                       style={{
                         fontSize: "15px",
                         fontWeight: 700,
-                        backgroundColor: "#ede8f5",
+                        backgroundColor: "#e5d8d8",
                         padding: "5px",
                       }}
                     >
@@ -292,7 +292,7 @@ function Home() {
                         lineHeight: "20px",
                         margin: "30px 0 20px 0",
                         padding: "10px 0 10px 0",
-                        backgroundColor: "#ede8f5",
+                        backgroundColor: "#e5d8d8",
                       }}
                     >
                       Article Extraction & Annotated Bibliography Services
@@ -312,7 +312,7 @@ function Home() {
                       style={{
                         fontSize: "15px",
                         fontWeight: 700,
-                        backgroundColor: "#ede8f5",
+                        backgroundColor: "#e5d8d8",
                         padding: "5px",
                       }}
                     >
@@ -335,7 +335,7 @@ function Home() {
                         lineHeight: "20px",
                         margin: "30px 0 20px 0",
                         padding: "10px 0 10px 0",
-                        backgroundColor: "#ede8f5",
+                        backgroundColor: "#e5d8d8",
                       }}
                     >
                       Hire a Researcher
@@ -355,7 +355,7 @@ function Home() {
                       style={{
                         fontSize: "15px",
                         fontWeight: 700,
-                        backgroundColor: "#ede8f5",
+                        backgroundColor: "#e5d8d8",
                         padding: "5px",
                       }}
                     >
@@ -378,7 +378,7 @@ function Home() {
                         lineHeight: "20px",
                         margin: "30px 0 20px 0",
                         padding: "10px 0 10px 0",
-                        backgroundColor: "#ede8f5",
+                        backgroundColor: "#e5d8d8",
                       }}
                     >
                       Statistical Analysis services.

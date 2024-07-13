@@ -8,7 +8,7 @@ function topbar() {
   return (
     <div className="topbar">
       <div className="top">
-        <div class="wrap">
+        <div className="wrap">
           <div class="container">
             <div class="row">
               <div class="col-md-6 d-flex align-items-center">
@@ -88,7 +88,7 @@ function topbar() {
                 </div>
               </div>
             </div>
-          </div>
+            </div>
         </div>
       </div>
       <Navbar expand="lg" style={{ backgroundColor: "#503C3C" }}>
@@ -104,8 +104,8 @@ function topbar() {
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="ml-auto" style={{ marginLeft: "210px" }}>
-              <Nav.Link href="#home" className="mx-2 text-light">
+            <Nav className="ml-auto" style={{ marginLeft: "390px" }}>
+              <Nav.Link href="#home" className="mx-2 text-light" >
                 About
               </Nav.Link>
               <NavDropdown
