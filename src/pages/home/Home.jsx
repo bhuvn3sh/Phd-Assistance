@@ -391,6 +391,149 @@ function Home() {
         </div>
       </section>
 
+      <section className="services-area" style={{ margin: '0px 200px 100px 200px'}}>
+        <div className="container">
+          <div className="row justify-content-center mb-5">
+            <div className="col-md-8 text-center heading-section ">
+              <span className="subheading">Our Services</span>
+              <h2 className="mb-3" style={{ color: "#7e6363"}}>We Can Help You With These Situations</h2>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-xl-3 col-lg-3 mb-4">
+              <div className="single-service-cap">
+                <div className="service-img">
+                  <img src="./assets/services1.jpg" />
+                </div>
+                <div className="service-cap">
+                  <h4>
+                    <a href="">Dissertation Services</a>
+                  </h4>
+                  <a className="more-btn" href="">
+                    Read More
+                    <i className="fa-solid fa-plus"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-3 col-lg-3 mb-4">
+              <div className="single-service-cap">
+                <div className="service-img">
+                  <img src="./assets/services1.jpg" />
+                </div>
+                <div className="service-cap">
+                  <h4>
+                    <a href="">Public Support</a>
+                  </h4>
+                  <a className="more-btn" href="">
+                    Read More
+                    <i className="fa-solid fa-plus"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-3 col-lg-3 mb-4">
+              <div className="single-service-cap">
+                <div className="service-img">
+                  <img src="./assets/services1.jpg" />
+                </div>
+                <div className="service-cap">
+                  <h4>
+                    <a href="">Statistical Analysis</a>
+                  </h4>
+                  <a className="more-btn" href="">
+                    Read More
+                    <i className="fa-solid fa-plus"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-3 col-lg-3 mb-4">
+              <div className="single-service-cap">
+                <div className="service-img">
+                  <img src="./assets/services1.jpg" />
+                </div>
+                <div className="service-cap">
+                  <h4>
+                    <a href="">Coding & AlgorithmServices</a>
+                  </h4>
+                  <a className="more-btn" href="">
+                    Read More
+                    <i className="fa-solid fa-plus"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-xl-3 col-lg-3">
+              <div className="single-service-cap">
+                <div className="service-img">
+                  <img src="./assets/services1.jpg" />
+                </div>
+                <div className="service-cap">
+                  <h4>
+                    <a href="">Data Collection</a>
+                  </h4>
+                  <a className="more-btn" href="">
+                    Read More
+                    <i className="fa-solid fa-plus"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-3 col-lg-3">
+              <div className="single-service-cap">
+                <div className="service-img">
+                  <img src="./assets/services1.jpg" />
+                </div>
+                <div className="service-cap">
+                  <h4>
+                    <a href="">Editing & Peering Reviewing</a>
+                  </h4>
+                  <a className="more-btn" href="">
+                    Read More
+                    <i className="fa-solid fa-plus"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-3 col-lg-3">
+              <div className="single-service-cap">
+                <div className="service-img">
+                  <img src="./assets/services1.jpg" />
+                </div>
+                <div className="service-cap">
+                  <h4>
+                    <a href="">Research Support Service</a>
+                  </h4>
+                  <a className="more-btn" href="">
+                    Read More
+                    <i className="fa-solid fa-plus"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-3 col-lg-3">
+              <div className="single-service-cap">
+                <div className="service-img">
+                  <img src="./assets/services1.jpg" />
+                </div>
+                <div className="service-cap">
+                  <h4>
+                    <a href="">Course Work</a>
+                  </h4>
+                  <a className="more-btn" href="">
+                    Read More
+                    <i className="fa-solid fa-plus"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section style={{ margin: "0px 200px" }}>
         <div className="container">
           <div className="row">
