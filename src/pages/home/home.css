@@ -209,7 +209,7 @@ section {
   flex-wrap: wrap;
 }
 .intro.color-1 {
-  background: #a87c7c;
+  background: linear-gradient(135deg, #503c3c, #a87c7c);
 }
 @media (min-width: 768px) {
   .ftco-intro .intro {
@@ -222,11 +222,11 @@ section {
 }
 .intro {
   width: 100%;
-  background: #a87c7c;
+
   padding: 30px;
 }
 .ftco-intro .intro.aside-stretch {
-  background: #a87c7c;
+  background: linear-gradient(135deg, #3e3232, #a87c7c);
 }
 @media (min-width: 768px) {
   .ftco-intro .intro {
@@ -272,7 +272,7 @@ p {
   bottom: 0;
   content: "";
   width: 360%;
-  background: #a87c7c;
+  background: #3a2727;
   z-index: 99;
 }
 *,
@@ -403,4 +403,33 @@ a {
   text-transform: uppercase;
   line-height: 1.8;
   font-weight: 400;
+}
+.btn-dark py-2 px-4 {
+  border: none;
+  border-radius: 25px;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.3s ease;
+  display: inline-block;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+.box {
+  width: 350px;
+  height: 450px;
+  box-shadow: 7px 7px 7px 7px rgb(80, 60, 60);
+  align-items: center;
+
+  padding: 10px 10px 10px 10px;
+  padding-left: 15px;
+}
+.boxdesign {
+  width: 350px;
+  height: 360px;
+  box-shadow: 10px 10px 10px 10px rgba(62, 50, 50);
+  align-items: center;
+  background: linear-gradient(135deg, #ffff, #503c3c);
+  padding: 10px 10px 10px 10px;
+  padding-left: 15px;
 }

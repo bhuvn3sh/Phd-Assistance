@@ -111,14 +111,14 @@ function Home() {
                 </div>
                 <div class="text">
                   <h2>Writing & Rewriting</h2>
-                  <p>
+                  <p style={{ color: "#ffffff" }}>
                     Talk to our experts to rewrite your thesis or manuscript at
                     any stage of your research or from scratch.
                   </p>
                   <a
                     href="https://www.phdassistance.com/services/phd-dissertation/"
-                    className="mx-5"
-                    style={{ color: "white" }}
+                    className=" btn btn-dark py-2 px-4"
+                    style={{ color: "white", backgroundColor: "#503C3C" }}
                   >
                     {" "}
                     Learn More
@@ -133,14 +133,14 @@ function Home() {
                 </div>
                 <div class="text">
                   <h2>Statistical Analysis </h2>
-                  <p>
+                  <p style={{ color: "#ffffff" }}>
                     Consult us for statistical analyses, biostatistics or coding
                     & algorithm development-related services.
                   </p>
                   <a
                     href="https://www.phdassistance.com/services/phd-dissertation/"
-                    className="mx-5"
-                    style={{ color: "white" }}
+                    className=" btn btn-dark py-2 px-4"
+                    style={{ color: "white", backgroundColor: "#503C3C" }}
                   >
                     {" "}
                     Learn More
@@ -155,14 +155,14 @@ function Home() {
                 </div>
                 <div class="text">
                   <h2>Peer Reviewing & Editing </h2>
-                  <p>
+                  <p style={{ color: "#ffffff" }}>
                     Our experts edit your thesis and manuscripts, ensuring that
                     they are easy to understand and acceptable for publication.
                   </p>
                   <a
                     href="https://www.phdassistance.com/services/phd-dissertation/"
-                    className="mx-5"
-                    style={{ color: "white" }}
+                    className=" btn btn-dark py-2 px-4"
+                    style={{ color: "white", backgroundColor: "#503C3C" }}
                   >
                     {" "}
                     Learn More
@@ -177,14 +177,14 @@ function Home() {
                 </div>
                 <div class="text">
                   <h2>Consulting Services </h2>
-                  <p>
+                  <p style={{ color: "#ffffff" }}>
                     Need consultation services on an hourly basis, use our hire
                     a research assistant service. Easy and flexible.
                   </p>
                   <a
                     href="https://www.phdassistance.com/services/phd-dissertation/"
-                    className="mx-5"
-                    style={{ color: "white" }}
+                    className=" btn btn-dark py-2 px-4"
+                    style={{ color: "white", backgroundColor: "#503C3C" }}
                   >
                     {" "}
                     Learn More
@@ -200,11 +200,11 @@ function Home() {
         <div className="container">
           <div className=" row justify-content-center pb-5">
             <div className="heading-section text-center ftco-animate fadeInUp ftco-animated">
-              <h1 style={{ fontWeight: 600, color: '#503c3c' }}>
+              <h1 style={{ fontWeight: 600, color: "#503c3c" }}>
                 Check at what stage you’re into & Analyse how you can fit into
                 our engagement model
               </h1>
-              <p style={{ fontWeight: 400, color: "grey" }}>
+              <p style={{ fontWeight: 400, color: "#A87C7C" }}>
                 The research journey is messy, full of difficulties and
                 surprises, hard work, beginnings and some form of closure.
                 ‘PhDAssistance’ travels as part of this journey by supervising
@@ -396,7 +396,7 @@ function Home() {
           <div className="row">
             <div
               className="col-md-6 img img-3 d-flex justify-content-center align-items-center"
-              style={{ backgroundImage: "url( ./assets/blog-banner.png )" }}
+              style={{ backgroundImage: "url( ./assets/blog.jpg )" }}
             ></div>
             <div className="col-md-6 wrap-about px-md-5 py-5 bg-light">
               <div className="heading-section">
@@ -428,6 +428,597 @@ function Home() {
           </div>
         </div>
       </section>
+
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-sm-12 col-md">
+            <div class="ftco-footer-widget mb-4">
+              <ul class="ftco-footer-social list-unstyled mt-2"></ul>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-md">
+            <div class="ftco-footer-widget mb-4 ml-md-4">
+              <h4 class="ftco-heading-2">Whom We Work For</h4>
+              <ul class="list-unstyled">
+                <li>
+                  <span class="fa fa-chevron-right mr-2"></span> Research
+                  Scholors
+                </li>
+                <li>
+                  <span class="fa fa-chevron-right mr-2"></span>Supervisors
+                </li>
+                <li>
+                  <span class="fa fa-chevron-right mr-2"></span>Litreature
+                  Publishers
+                </li>
+                <li>
+                  <span class="fa fa-chevron-right mr-2"></span>PhD Research
+                  Universities
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md">
+            <div class="ftco-footer-widget mb-4">
+              <ul class="list-unstyled">
+                <li>
+                  <a href="https://www.phdassistance.com/blog/">
+                    <span class="fa fa-chevron-right mr-2"></span>Supply Chain
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.phdassistance.com/industries/">
+                    <span class="fa fa-chevron-right mr-2"></span>Computer
+                    Science
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.phdassistance.com/pricing/">
+                    <span class="fa fa-chevron-right mr-2"></span>Physics
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.phdassistance.com/insights/">
+                    <span class="fa fa-chevron-right mr-2"></span>Chemistry
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.phdassistance.com/help-guide/">
+                    <span class="fa fa-chevron-right mr-2"></span>Biology
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.phdassistance.com/sample-work/">
+                    <span class="fa fa-chevron-right mr-2"></span>Information
+                    Service
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.phdassistance.com/faq/">
+                    <span class="fa fa-chevron-right mr-2"></span>Economics
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.phdassistance.com/career/">
+                    <span class="fa fa-chevron-right mr-2"></span>Psycology
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.phdassistance.com/contact-us/">
+                    <span class="fa fa-chevron-right mr-2"></span>More Subjects
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md">
+            <div class="ftco-footer-widget mb-4">
+              <div class="block-23 mb-3">
+                <ul class="list-unstyled">
+                  <li>
+                    <span class="#"></span>
+                    <span class="fa fa-phone mr-1"></span>Medicine
+                  </li>
+                  <li>
+                    <span class="#"></span>
+                    <span class="fa fa-phone mr-1"></span>Biochemistry
+                  </li>
+                  <li>
+                    <span class="#"></span>
+                    <span class="fa fa-phone mr-1"></span>Human Resources
+                  </li>
+                  <li>
+                    <span class="#"></span>
+                    <span class="fa fa-phone mr-1"></span>Food Sciences
+                  </li>
+                  <li>
+                    <span class="#"></span>
+                    <span class="fa fa-phone mr-1"></span>Geology
+                  </li>
+                  <li>
+                    <span class="#"></span>
+                    <span class="fa fa-paper-plane mr-1 ml-4"></span>{" "}
+                    Engineering
+                  </li>
+                  <li>
+                    <span class="#"></span>
+                    <span class="fa fa-paper-plane mr-1 ml-4"></span> Education
+                  </li>
+                  <li>
+                    <span class="#"></span>
+                    <span class="fa fa-paper-plane mr-1 ml-4"></span> Sociology
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 offset-lg-2 text-center">
+            <div class="section-title">
+              <h2
+                style={{
+                  color: "#503C3C",
+                  fontWeight: "14px",
+                  textAlign: "center",
+                  paddingTop: "40px",
+                }}
+              >
+                Our Sample & Example Works Speaks
+              </h2>
+              <h5
+                style={{
+                  textAlign: "center",
+                  paddingTop: "11px",
+                  color: "#A87C7C",
+                }}
+              >
+                We've worked on so many great PhD projects for our clients
+                across the globe, and we're proud of every single tast that we
+                carry out
+              </h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="single-latest-news">
+              <div class="latest-news-bg news-bg-2"></div>
+              <div class="news-text-box">
+                <div className="boxdesign">
+                  <img
+                    src="https://www.phdassistance.com/wp-content/uploads/2024/06/Site20Images-01.png"
+                    width="315px"
+                    height="200px"
+                  ></img>
+                  <h4 style={{ textAlign: "center" }}>More Subjects</h4>
+                  <p class="excerpt" style={{ textAlign: "center" }}>
+                    Rebuttal letter that we drafted for the successful
+                    submission and publication of the journal
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="single-latest-news">
+              <div class="latest-news-bg news-bg-2"></div>
+              <div class="news-text-box">
+                <div className="boxdesign">
+                  <img
+                    src="https://svg.template.creately.com/jlm6ynsq1"
+                    width="315px"
+                    height="200px"
+                  ></img>
+                  <h4 style={{ textAlign: "center" }}>Theoretical Framework</h4>
+                  <p class="excerpt" style={{ textAlign: "center" }}>
+                    Clear and concise framework with dependent & independent
+                    variables
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="single-latest-news">
+              <div class="latest-news-bg news-bg-2"></div>
+              <div class="news-text-box">
+                <div className="boxdesign">
+                  <img
+                    src="https://www.slideteam.net/media/catalog/product/cache/1280x720/f/r/framework_of_exploratory_research_methodology_slide01.jpg"
+                    width="315px"
+                    height="200px"
+                  ></img>
+                  <h4 style={{ textAlign: "center" }}>
+                    Research methodology framework
+                  </h4>
+                  <p class="excerpt" style={{ textAlign: "center" }}>
+                    Possible steps to carry out the research methodology, but it
+                    should ensure it meets your objectives.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="PhD-assistance-by-country">
+        <div class="container">
+          <h3
+            style={{ marginTop: "50px", textAlign: "left", color: "#3E3232" }}
+          >
+            Phdassistance by country
+          </h3>
+          <div class="row">
+            <div class="col-md-3 offset-md-2"></div>
+          </div>
+          <div class="row">
+            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
+              <div class="service-box">
+                <i>
+                  <img
+                    src="https://imgs.search.brave.com/K1MF7Lovvswe-qk3Kf-MGdcoexPRuFA7sb1gwMYPMXQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzAwLzQ0LzMxLzMw/LzM2MF9GXzQ0MzEz/MDc3X3NHbXd5WElT/cEZWc0NtcEt2bndF/eFBxNkZGM3FzSGRh/LmpwZw"
+                    width="250px"
+                    height="150px"
+                    style={{
+                      border: "2px  black",
+                      boxShadow: "0 14px 18px rgba(62,50,50)",
+                    }}
+                  />
+                </i>
+                <h5 style={{ textAlign: "center", color: "#3E3232" }}>
+                  France
+                </h5>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
+              <div class="service-box">
+                <i>
+                  <img
+                    src="https://imgs.search.brave.com/dm9uzFmRldDOnjHdXUxozXQ9yZQQY0vpu8-lcSg6Xuo/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzAwLzg0LzE1LzM4/LzM2MF9GXzg0MTUz/ODM1X2szdEZQNDVi/YjJUVkM5dDROODRm/cEFvNDFjYk5Lenl2/LmpwZw"
+                    width="250px"
+                    height="150px"
+                    style={{
+                      border: "2px  black",
+                      boxShadow: "0 14px 18px rgba(62,50,50)",
+                    }}
+                  />
+                </i>
+                <h5 style={{ textAlign: "center", color: "#3E3232" }}>
+                  Germany
+                </h5>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
+              <div class="service-box">
+                <i>
+                  <img
+                    src="https://imgs.search.brave.com/LfavTojkB-NhEPjLCMH4u1pK3LsmwlSCsVpENDEeBuc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvNDk1/MjA3NTc3L3Bob3Rv/L2R1Ymxpbi1jaXR5/LmpwZz9zPTYxMng2/MTImdz0wJms9MjAm/Yz1GVUctMUktcWNy/NDJTeXF4Mng2M1RI/VUpJSmloUDBNRXN1/bU1FUTVncUFjPQ"
+                    width="250px"
+                    height="150px"
+                    style={{
+                      border: "2px  black",
+                      boxShadow: "0 14px 18px rgba(62,50,50)",
+                    }}
+                  />
+                </i>
+                <h5 style={{ textAlign: "center", color: "#3E3232" }}>
+                  Ireland
+                </h5>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
+              <div class="service-box">
+                <i>
+                  <img
+                    src="https://imgs.search.brave.com/39UbrIh7chIsChRHOXKPkfvmbMdyF3fXfXsx-5_jH64/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy8x/LzFlL0F1Y2tsYW5k/X0NiZF8oMjE3NDAz/NzUzKS5qcGVn"
+                    width="250px"
+                    height="150px"
+                    style={{
+                      border: "2px  black",
+                      boxShadow: "0 14px 18px rgba(62,50,50)",
+                    }}
+                  />
+                </i>
+                <h5 style={{ textAlign: "center", color: "#3E3232" }}>
+                  NewZealand
+                </h5>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
+              <div class="service-box">
+                <i>
+                  <img
+                    src="https://imgs.search.brave.com/ew8qmYAF6y9dCz0JqqgxAxEdJAscMyb-SjzIbRLlHTI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTU1/NDQ1MzEyL3Bob3Rv/L2xvbmRvbi1vbi10/aGUtbW92ZS5qcGc_/cz02MTJ4NjEyJnc9/MCZrPTIwJmM9ZzRD/bEwydGpIQTJOSm5o/M3RlMmM5ZFM5ZHVq/WGs3QkJ6WDBhYU4z/OGRVcz0"
+                    width="250px"
+                    height="150px"
+                    style={{
+                      border: "2px  black",
+                      boxShadow: "0 14px 18px rgba(62,50,50)",
+                    }}
+                  />
+                </i>
+                <h5 style={{ textAlign: "center", color: "#3E3232" }}>UK</h5>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
+              <div class="service-box">
+                <i>
+                  <img
+                    src="https://imgs.search.brave.com/tsWTX9zvSmOntXlXy8oF5cjbCzk_x2ZGaBcI5KBz65s/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzAyLzU2LzY5LzQy/LzM2MF9GXzI1NjY5/NDI4NF9Ya2hRRmFK/NDJZNjRpRWNxbUhz/akFHdlNmZGxBNksy/VC5qcGc"
+                    width="250px"
+                    height="150px"
+                    style={{
+                      border: "2px  black",
+                      boxShadow: "0 14px 18px rgba(62,50,50)",
+                    }}
+                  />
+                </i>
+                <h5 style={{ textAlign: "center", color: "#3E3232" }}>USA</h5>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
+              <div class="service-box">
+                <i>
+                  <img
+                    src="https://imgs.search.brave.com/KApwCOTfmic2-DUG3WeCxbKDjEUVXricpSLgGK64_-Q/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvNDY4/OTk0MjM5L3Bob3Rv/L3N5ZG5leS5qcGc_/cz02MTJ4NjEyJnc9/MCZrPTIwJmM9MTZB/bkg3MFNhYUhoMDJH/elRTckl0RXhyRE5Y/bTNaVTFYbnJ6TDhS/bzZQVT0"
+                    width="250px"
+                    height="150px"
+                    padding="3px 3px 3px 3px"
+                    style={{
+                      border: "2px  black",
+                      boxShadow: "0 14px 18px rgba(62,50,50)",
+                    }}
+                  />
+                </i>
+                <h5 style={{ textAlign: "center", color: "#3E3232" }}>
+                  Australia
+                </h5>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
+              <div class="service-box">
+                <i>
+                  <img
+                    src="https://imgs.search.brave.com/B2fVxi33yeElRlquuNitxbeeWh-zz9UVNi0BxQ5437E/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvODc0/NjYxOTYyL3Bob3Rv/L3Rvcm9udG8tZG93/bi10b3duLmpwZz9z/PTYxMng2MTImdz0w/Jms9MjAmYz1Fb2Rt/OWlJOVk2c1JzUTNH/cC0tUnh2UDRnSURm/aVZlaXBaWjlXOTB1/UzY4PQ"
+                    width="250px"
+                    height="150px"
+                    style={{
+                      border: "2px  black",
+                      boxShadow: "0 14px 18px rgba(62,50,50)",
+                    }}
+                  />
+                </i>
+                <h5 style={{ textAlign: "center", color: "#3E3232" }}>
+                  Canada
+                </h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 offset-lg-2 text-center">
+            <div class="section-title">
+              <h3 style={{ marginTop: "50px", color: "#3E3232" }}>
+                Blog & News
+              </h3>
+
+              <p
+                style={{
+                  color: "#7E6363",
+                  fontSize: "16px",
+                  alignContent: "end",
+                }}
+              >
+                <strong>
+                  We are passionate about the work we do, which is why we
+                  regulary research and update our blog with original content
+                  keep you updated with industry news.
+                </strong>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="single-latest-news">
+              <div class="latest-news-bg news-bg-2"></div>
+              <div class="news-text-box">
+                <div className="box">
+                  <img
+                    src="https://imgs.search.brave.com/oHqgLIu4p5MRRDAQg6P1bY7nNyaaogc9phygWA3il1Q/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTM3/MDkwMjg0My9waG90/by9zZW5pb3Itd29t/YW4tYW5kLWRpYWJl/dGVzLXRlc3Rlci1z/ZXQuanBnP3M9NjEy/eDYxMiZ3PTAmaz0y/MCZjPWJ6eGliTC1S/V2NJd0hVUUZGOGMw/RGQtemppMlJ1SVBi/a3QzLTBJcVowcVE9"
+                    width="315px"
+                    height="200px"
+                  ></img>
+                  <h4 style={{ textAlign: "center" }}>
+                    PhD Research Directions For 2022 In Nutritional Aspects Of
+                    Sarcopenia..
+                  </h4>
+                  <p class="excerpt" style={{ textAlign: "center" }}>
+                    About 25% of adults over 65 have type 2 diabetes mellitus
+                    (T2DM), a significant health burden for the senior
+                    population..
+                  </p>
+                  <a
+                    href="https://www.phdassistance.com/blog/phd-research-directions-for-2022-in-nutritional-aspects-of-sarcopenia-in-diabetes/"
+                    className="btn btn-dark py-2 px-4"
+                    style={{
+                      color: "#fff",
+                      borderRadius: "1",
+                      textDecoration: "none",
+                      marginLeft: "60px",
+                      backgroundColor: "#A87C7C",
+                    }}
+                  >
+                    Research Proposal
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="single-latest-news">
+              <div class="latest-news-bg news-bg-2"></div>
+              <div class="news-text-box">
+                <div className="box">
+                  <img
+                    src="https://imgs.search.brave.com/eh7VTuydgJxbRO4dxTTvkMj_F6viD74Pb1GUppc03QI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTMx/NzMyMzYyMi92aWRl/by9jYW5jZXItY2Vs/bHMtdmlzLmpwZz9z/PTY0MHg2NDAmaz0y/MCZjPXZiV3J3LTVK/M1l5M1MtTlBiWHg0/Yks2VFB6YThaeExr/QzAxcW5GTVZJblU9"
+                    width="315px"
+                    height="200px"
+                  ></img>
+                  <h4 style={{ textAlign: "center" }}>
+                    A Bibliometric Examination Of Chemotherapy Operations
+                    Management..
+                  </h4>
+
+                  <p class="excerpt" style={{ textAlign: "center" }}>
+                    Cancer care providers face several operational issues across
+                    the world. From screening and diagnosis to therapy,
+                    operations ..
+                  </p>
+                  <a
+                    href="https://www.phdassistance.com/blog/a-bibliometric-examination-of-chemotherapy-operations-management-phd-research-directions-for-2022/"
+                    className="btn btn-dark py-2 px-4"
+                    style={{
+                      color: "#fff",
+                      borderRadius: "1",
+                      textDecoration: "none",
+                      marginLeft: "60px",
+                      backgroundColor: "#A87C7C",
+                    }}
+                  >
+                    Research Proposal
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="single-latest-news">
+              <div class="latest-news-bg news-bg-2"></div>
+              <div class="news-text-box">
+                <div className="box">
+                  <img
+                    src="https://imgs.search.brave.com/XwrvqQby0QGuy3JITFpjZa_M-loAOyEVcvwKizAWlCk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvOTQ0/NTY1NDYvcGhvdG8v/YS0zLWQtaW1hZ2Ut/b2YtYS1odW1hbi1z/a3VsbC1hbmQtYnJh/aW4tZGVwaWN0aW5n/LWNhbmNlci5qcGc_/cz02MTJ4NjEyJnc9/MCZrPTIwJmM9TVJZ/SkVNMUxWcU5NM0o1/OFMwMm85eGhLbFBP/VFVDWWVWV0ZiUEJp/Ml82bz0"
+                    width="315px"
+                    height="200px"
+                    className="image"
+                  />
+                  <h4 style={{ textAlign: "center" }}>
+                    Prediction Of Glioblastoma Survival Using Techniques Based
+                    On Pre-Operative..
+                  </h4>
+
+                  <p class="excerpt" style={{ textAlign: "center" }}>
+                    Glioblastoma multiforme (GBM) is a grade IV brain tumour
+                    with a short survival rate. To execute precision surgery
+                    followed by…
+                  </p>
+                  <a
+                    href="https://www.phdassistance.com/blog/prediction-of-glioblastoma-survival-using-techniques-based-on-pre-operative-brain-mri-imaging-phd-research-directions-for-2022/"
+                    className="btn btn-dark py-2 px-4"
+                    style={{
+                      color: "#fff",
+                      borderRadius: "1",
+                      textDecoration: "none",
+                      marginLeft: "60px",
+                      backgroundColor: "#A87C7C",
+                    }}
+                  >
+                    Research Proposal
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="Published-in">
+        <div class="container">
+          <h3
+            style={{ marginTop: "50px", textAlign: "left", color: "#3E3232" }}
+          >
+            Published in
+          </h3>
+          <div class="row">
+            <div class="col-md-3 offset-md-2"></div>
+          </div>
+          <div class="row">
+            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
+              <div class="service-box">
+                <i>
+                  <img
+                    src="https://www.phdassistance.com/wp-content/uploads/2024/06/abfd.png"
+                    width="250px"
+                    height="150px"
+                    style={{
+                      border: "2px  black",
+                      boxShadow: "0 14px 18px rgba(62,50,50)",
+                    }}
+                  />
+                </i>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
+              <div class="service-box">
+                <i>
+                  <img
+                    src="https://www.phdassistance.com/wp-content/uploads/2024/06/rhrehare.png"
+                    width="250px"
+                    height="150px"
+                    style={{
+                      border: "2px  black",
+                      boxShadow: "0 14px 18px rgba(62,50,50)",
+                    }}
+                  />
+                </i>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
+              <div class="service-box">
+                <i>
+                  <img
+                    src="https://www.phdassistance.com/wp-content/uploads/2024/06/agfg.png"
+                    width="250px"
+                    height="150px"
+                    style={{
+                      border: "2px  black",
+                      boxShadow: "0 14px 18px rgba(62,50,50)",
+                    }}
+                  />
+                </i>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
+              <div class="service-box">
+                <i>
+                  <img
+                    src="https://www.phdassistance.com/wp-content/uploads/2024/06/abfd.png"
+                    width="250px"
+                    height="150px"
+                    style={{
+                      border: "2px  black",
+                      boxShadow: "0 14px 18px rgba(62,50,50)",
+                    }}
+                  />
+                </i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
       <Footer />
     </>

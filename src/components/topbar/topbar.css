@@ -5,22 +5,22 @@
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 1040; 
-  background-color: #3e3232; 
+  z-index: 1040;
+  background-color: #3e3232; /* Adjust as needed */
   color: white;
-  padding: 1px 1px 1px 1px; 
+  padding: 1px 1px 1px 1px;
 }
 
 .navbar-main {
   position: fixed;
-  top: 50px; /* Adjust to match the height of the topbar */
+  top: 0; /* Adjust to match the height of the topbar */
   width: 100%;
   z-index: 1030; /* Ensure it stays below the topbar */
   background-color: #503c3c; /* Ensure this matches the background color in JSX */
   padding: 1px 1px 1px 1px; /* Add some padding for better spacing */
 }
 body {
-  padding-top: 120px; 
+  padding-top: 120px; /* Adjust based on the combined height of both navbars */
 }
 
 .wrap {
@@ -28,7 +28,6 @@ body {
   z-index: 0;
   width: 100%;
   background: #3e3232;
-  
 }
 @media (min-width: 768px) {
   .container {

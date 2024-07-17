@@ -88,7 +88,7 @@ function topbar() {
                 </div>
               </div>
             </div>
-            </div>
+          </div>
         </div>
       </div>
       <Navbar expand="lg" style={{ backgroundColor: "#503C3C" }}>
@@ -105,7 +105,7 @@ function topbar() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ml-auto" style={{ marginLeft: "390px" }}>
-              <Nav.Link href="#home" className="mx-2 text-light" >
+              <Nav.Link href="#home" className="mx-2 text-light">
                 About
               </Nav.Link>
               <NavDropdown
