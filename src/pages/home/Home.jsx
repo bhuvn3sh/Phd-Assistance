@@ -403,7 +403,7 @@ function Home() {
             <div className="col-xl-3 col-lg-3 mb-4">
               <div className="single-service-cap">
                 <div className="service-img">
-                  <img src="./assets/services1.jpg" />
+                  <img src="./assets/service1.jpg" />
                 </div>
                 <div className="service-cap">
                   <h4>
@@ -419,7 +419,7 @@ function Home() {
             <div className="col-xl-3 col-lg-3 mb-4">
               <div className="single-service-cap">
                 <div className="service-img">
-                  <img src="./assets/services1.jpg" />
+                  <img src="./assets/service2.jpg" />
                 </div>
                 <div className="service-cap">
                   <h4>
@@ -451,7 +451,7 @@ function Home() {
             <div className="col-xl-3 col-lg-3 mb-4">
               <div className="single-service-cap">
                 <div className="service-img">
-                  <img src="./assets/services1.jpg" />
+                  <img src="./assets/service4.jpg" />
                 </div>
                 <div className="service-cap">
                   <h4>
@@ -469,7 +469,7 @@ function Home() {
             <div className="col-xl-3 col-lg-3">
               <div className="single-service-cap">
                 <div className="service-img">
-                  <img src="./assets/services1.jpg" />
+                  <img src="./assets/service8.jpg" />
                 </div>
                 <div className="service-cap">
                   <h4>
@@ -485,7 +485,7 @@ function Home() {
             <div className="col-xl-3 col-lg-3">
               <div className="single-service-cap">
                 <div className="service-img">
-                  <img src="./assets/services1.jpg" />
+                  <img src="./assets/service6.jpg" />
                 </div>
                 <div className="service-cap">
                   <h4>
@@ -501,7 +501,7 @@ function Home() {
             <div className="col-xl-3 col-lg-3">
               <div className="single-service-cap">
                 <div className="service-img">
-                  <img src="./assets/services1.jpg" />
+                  <img src="./assets/service7.jpg" />
                 </div>
                 <div className="service-cap">
                   <h4>
@@ -517,7 +517,7 @@ function Home() {
             <div className="col-xl-3 col-lg-3">
               <div className="single-service-cap">
                 <div className="service-img">
-                  <img src="./assets/services1.jpg" />
+                  <img src="./assets/service8.jpg" />
                 </div>
                 <div className="service-cap">
                   <h4>
