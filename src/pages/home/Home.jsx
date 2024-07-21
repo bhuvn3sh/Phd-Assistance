@@ -1027,6 +1027,92 @@ function Home() {
           </div>
         </div>
       </div> */}
+      
+      <section className="testimony-section">
+        <div className="img img-bg border" style={{ backgroundImage: "url(./assets/bg-4.jpg)" }}></div>
+        <div className="overlay"></div>
+        <div className="container">
+          <div className="row justify-content-center mb-5">
+            <div className="col-md-7 text-center heading-section heading-section-white">
+              <span className="subheading">Testimonial</span>
+              <h2 className="mb-3">Happy Clients</h2>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-md-12">
+              <div className="carousel-testimony owl-carousel owl-loaded owl-drag">
+                <div className="owl-stage-outer">
+                  <div className="owl-stage" style={{ transition: '2s', width:'3960px', transform: 'translate3d(-900px, 0px, 0px)'}}>
+                    <div className="owl-item cloned" style={{ width: '330px', marginRight: '30px' }}>
+                      <div className="item">
+                        <div className="testimony-wrap py-4">
+                          <div className="icon d-flex align-items-center justify-content-center">
+                            <span className="fa fa-quote-left"></span>
+                          </div>
+                          <div className="text">
+                            <p className="mb-4">
+                            Phd assistance allocated an expert to do the submission work for me. The communication was very smooth. I was surprised that the submission 
+                            </p>
+                            <div className="d-flex align-items-center">
+                              <div className="user-img" style={{ backgroundImage: "url()" }}></div>
+                              <div className="pl-3">
+                                <p className="name">Roger Scott</p>
+                                <span className="position">Marketing Manager</span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="owl-item cloned" style={{ width: '330px', marginRight: '30px' }}>
+                      <div className="item">
+                        <div className="testimony-wrap py-4">
+                          <div className="icon d-flex align-items-center justify-content-center">
+                            <span className="fa fa-quote-left"></span>
+                          </div>
+                          <div className="text">
+                            <p className="mb-4">
+                            Phd assistance allocated an expert to do the submission work for me. The communication was very smooth. I was surprised that the submission 
+                            </p>
+                            <div className="d-flex align-items-center">
+                              <div className="user-img" style={{ backgroundImage: "url()" }}></div>
+                              <div className="pl-3">
+                                <p className="name">Roger Scott</p>
+                                <span className="position">Marketing Manager</span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="owl-item cloned" style={{ width: '330px', marginRight: '30px' }}>
+                      <div className="item">
+                        <div className="testimony-wrap py-4">
+                          <div className="icon d-flex align-items-center justify-content-center">
+                            <span className="fa fa-quote-left"></span>
+                          </div>
+                          <div className="text">
+                            <p className="mb-4">
+                            Phd assistance allocated an expert to do the submission work for me. The communication was very smooth. I was surprised that the submission 
+                            </p>
+                            <div className="d-flex align-items-center">
+                              <div className="user-img" style={{ backgroundImage: "url()" }}></div>
+                              <div className="pl-3">
+                                <p className="name">Roger Scott</p>
+                                <span className="position">Marketing Manager</span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <div class="container">
         <div class="row">
