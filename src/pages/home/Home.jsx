@@ -2,6 +2,10 @@ import React from "react";
 import Topbar from "../../components/topbar/Topbar";
 import Footer from "../../components/footer/Footer";
 import "./home.css";
+import VerifiedOutlinedIcon from '@mui/icons-material/VerifiedOutlined';
+import EngineeringOutlinedIcon from '@mui/icons-material/EngineeringOutlined';
+import LocalShippingOutlinedIcon from '@mui/icons-material/LocalShippingOutlined';
+import FactCheckOutlinedIcon from '@mui/icons-material/FactCheckOutlined';
 
 function Home() {
   return (
@@ -212,8 +216,60 @@ function Home() {
                     <span>01</span>
                   </div>
                   <div className="icon d-flex align-items-center justify-content-center">
-                    <span className="flaticon-calender"></span>
+                    <div className="calender">
+                      <FactCheckOutlinedIcon style={{ fontSize: 70, color: '#141619',fontWeight:'400' }} />
+                    </div>
                   </div>
+                  <h2>Requirements</h2>
+                  <p> You raise your request via an email to your Single Point Of Contact (SPOC) from Amura </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-3 d-flex align-items-stretch">
+              <div className="services-2 text-center">
+                <div className="icon-wrap">
+                  <div className="number d-flex align-items-center justify-content-center">
+                    <span>02</span>
+                  </div>
+                  <div className="icon d-flex align-items-center justify-content-center">
+                    <div className="calender">
+                      <EngineeringOutlinedIcon style={{ fontSize: 70, color: '#141619' }} />
+                    </div>
+                  </div>
+                  <h2>Execution</h2>
+                  <p>  That SPOC then gets the work done from the internal teams  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-3 d-flex align-items-stretch">
+              <div className="services-2 text-center">
+                <div className="icon-wrap">
+                  <div className="number d-flex align-items-center justify-content-center">
+                    <span>03</span>
+                  </div>
+                  <div className="icon d-flex align-items-center justify-content-center">
+                    <div className="calender">
+                      <VerifiedOutlinedIcon style={{ fontSize: 70, color: '#141619' }} />
+                    </div>
+                  </div>
+                  <h2>Quality Checks</h2>
+                  <p> The work goes through rigorous quality checks by every team's manager and finally the SPOC </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-3 d-flex align-items-stretch">
+              <div className="services-2 text-center">
+                <div className="icon-wrap">
+                  <div className="number d-flex align-items-center justify-content-center">
+                    <span>04</span>
+                  </div>
+                  <div className="icon d-flex align-items-center justify-content-center">
+                    <div className="calender">
+                      <LocalShippingOutlinedIcon style={{ fontSize: 70, color: '#141619' }} />
+                    </div>
+                  </div>
+                  <h2>Delivery</h2>
+                  <p> It is emailed back/a download link is sent to you, meeting previous agreed-upon deadlines </p>
                 </div>
               </div>
             </div>

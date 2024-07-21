@@ -107,7 +107,9 @@ p {
 
 /* services */
 .services{
-  padding: 6em 0;
+  padding-top: 6em;
+  padding-bottom: 6em;
+  margin-bottom: 100px;
   position: relative;
 }
 
@@ -192,9 +194,46 @@ p {
   -ms-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-.services-2 .icon span {
-  font-size: 70px;
-  color: #000000;
+.calendar::before {
+  content: "\f100";
+}
+.services-2 .icon::after {
+  position: absolute;
+  top: 50%;
+  right: 40px;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #503c3c;
+  content: '';
+  z-index: -1;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.services-2:hover .icon::after {
+  background: #fff;
+  right: 50px;
+}
+.services-2:hover .icon {
+  background: #503c3c;
+  -webkit-box-shadow: 0px 4px 15px -6px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0px 4px 15px -6px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 4px 15px -6px rgba(0, 0, 0, 0.15);
+}
+.services-2 h2 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.5;
+  color: rgba(0, 0, 0, 0.7);
+}
+.services-2 p{
+  color: grey;
 }
 
 .analysis {
