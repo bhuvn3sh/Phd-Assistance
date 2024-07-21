@@ -196,6 +196,31 @@ function Home() {
         </div>
       </section>
 
+      <section className="services">
+        <div className="container">
+          <div className="row justify-content-center pb-5">
+            <div className="col-md-7 heading-section text-center">
+              <span className="subheading">Services</span>
+              <h2>How It Works</h2>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-md-3 d-flex align-items-stretch">
+              <div className="services-2 text-center">
+                <div className="icon-wrap">
+                  <div className="number d-flex align-items-center justify-content-center">
+                    <span>01</span>
+                  </div>
+                  <div className="icon d-flex align-items-center justify-content-center">
+                    <span className="flaticon-calender"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section className="analysis">
         <div className="container">
           <div className=" row justify-content-center pb-5">
@@ -791,7 +816,7 @@ function Home() {
         </div>
       </div>
 
-      <div class="PhD-assistance-by-country">
+      {/* <div class="PhD-assistance-by-country">
         <div class="container">
           <h3
             style={{ marginTop: "50px", textAlign: "left", color: "#3E3232" }}
@@ -945,7 +970,7 @@ function Home() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       <div class="container">
         <div class="row">
