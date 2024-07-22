@@ -6,36 +6,14 @@ import VerifiedOutlinedIcon from "@mui/icons-material/VerifiedOutlined";
 import EngineeringOutlinedIcon from "@mui/icons-material/EngineeringOutlined";
 import LocalShippingOutlinedIcon from "@mui/icons-material/LocalShippingOutlined";
 import FactCheckOutlinedIcon from "@mui/icons-material/FactCheckOutlined";
-import OwlCarousel from "react-owl-carousel";
-import "owl.carousel/dist/assets/owl.carousel.css";
-import "owl.carousel/dist/assets/owl.theme.default.css";
+import { useRef, useState } from "react";
+// Import Swiper React components
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Pagination, Autoplay } from 'swiper/modules';
+import "swiper/css";
+import "swiper/css/pagination";
 
 function Home() {
-  const options = {
-    items: 1,
-    loop: true,
-    autoplay:true,
-    autoplayTimeout: 4000,
-    animateOut: 'slideOutUp',
-    nav: false,
-    margin: 0,
-    responsive:{
-      1100:{
-        items: 2,
-      },
-      724:{
-        items: 1,
-      },
-      500:{
-        items: 1,
-      },
-      370:{
-        items: 1,
-        innerWidth:"100%",
-        outerWidth:'100%'
-      },
-    },
-  };
   return (
     <>
       <Topbar />
@@ -932,161 +910,161 @@ function Home() {
         </div>
       </div>
 
-      {/* <div class="PhD-assistance-by-country">
-        <div class="container">
-          <h3
-            style={{ marginTop: "50px", textAlign: "left", color: "#3E3232" }}
-          >
-            Phdassistance by country
-          </h3>
-          <div class="row">
-            <div class="col-md-3 offset-md-2"></div>
-          </div>
-          <div class="row">
-            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
-              <div class="service-box">
-                <i>
-                  <img
-                    src="https://imgs.search.brave.com/K1MF7Lovvswe-qk3Kf-MGdcoexPRuFA7sb1gwMYPMXQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzAwLzQ0LzMxLzMw/LzM2MF9GXzQ0MzEz/MDc3X3NHbXd5WElT/cEZWc0NtcEt2bndF/eFBxNkZGM3FzSGRh/LmpwZw"
-                    width="250px"
-                    height="150px"
-                    style={{
-                      border: "2px  black",
-                      boxShadow: "0 14px 18px rgba(62,50,50)",
-                    }}
-                  />
-                </i>
-                <h5 style={{ textAlign: "center", color: "#3E3232" }}>
-                  France
-                </h5>
-              </div>
-            </div>
-            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
-              <div class="service-box">
-                <i>
-                  <img
-                    src="https://imgs.search.brave.com/dm9uzFmRldDOnjHdXUxozXQ9yZQQY0vpu8-lcSg6Xuo/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzAwLzg0LzE1LzM4/LzM2MF9GXzg0MTUz/ODM1X2szdEZQNDVi/YjJUVkM5dDROODRm/cEFvNDFjYk5Lenl2/LmpwZw"
-                    width="250px"
-                    height="150px"
-                    style={{
-                      border: "2px  black",
-                      boxShadow: "0 14px 18px rgba(62,50,50)",
-                    }}
-                  />
-                </i>
-                <h5 style={{ textAlign: "center", color: "#3E3232" }}>
-                  Germany
-                </h5>
-              </div>
-            </div>
-            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
-              <div class="service-box">
-                <i>
-                  <img
-                    src="https://imgs.search.brave.com/LfavTojkB-NhEPjLCMH4u1pK3LsmwlSCsVpENDEeBuc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvNDk1/MjA3NTc3L3Bob3Rv/L2R1Ymxpbi1jaXR5/LmpwZz9zPTYxMng2/MTImdz0wJms9MjAm/Yz1GVUctMUktcWNy/NDJTeXF4Mng2M1RI/VUpJSmloUDBNRXN1/bU1FUTVncUFjPQ"
-                    width="250px"
-                    height="150px"
-                    style={{
-                      border: "2px  black",
-                      boxShadow: "0 14px 18px rgba(62,50,50)",
-                    }}
-                  />
-                </i>
-                <h5 style={{ textAlign: "center", color: "#3E3232" }}>
-                  Ireland
-                </h5>
-              </div>
-            </div>
-            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
-              <div class="service-box">
-                <i>
-                  <img
-                    src="https://imgs.search.brave.com/39UbrIh7chIsChRHOXKPkfvmbMdyF3fXfXsx-5_jH64/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy8x/LzFlL0F1Y2tsYW5k/X0NiZF8oMjE3NDAz/NzUzKS5qcGVn"
-                    width="250px"
-                    height="150px"
-                    style={{
-                      border: "2px  black",
-                      boxShadow: "0 14px 18px rgba(62,50,50)",
-                    }}
-                  />
-                </i>
-                <h5 style={{ textAlign: "center", color: "#3E3232" }}>
-                  NewZealand
-                </h5>
-              </div>
-            </div>
-            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
-              <div class="service-box">
-                <i>
-                  <img
-                    src="https://imgs.search.brave.com/ew8qmYAF6y9dCz0JqqgxAxEdJAscMyb-SjzIbRLlHTI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTU1/NDQ1MzEyL3Bob3Rv/L2xvbmRvbi1vbi10/aGUtbW92ZS5qcGc_/cz02MTJ4NjEyJnc9/MCZrPTIwJmM9ZzRD/bEwydGpIQTJOSm5o/M3RlMmM5ZFM5ZHVq/WGs3QkJ6WDBhYU4z/OGRVcz0"
-                    width="250px"
-                    height="150px"
-                    style={{
-                      border: "2px  black",
-                      boxShadow: "0 14px 18px rgba(62,50,50)",
-                    }}
-                  />
-                </i>
-                <h5 style={{ textAlign: "center", color: "#3E3232" }}>UK</h5>
-              </div>
-            </div>
-            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
-              <div class="service-box">
-                <i>
-                  <img
-                    src="https://imgs.search.brave.com/tsWTX9zvSmOntXlXy8oF5cjbCzk_x2ZGaBcI5KBz65s/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzAyLzU2LzY5LzQy/LzM2MF9GXzI1NjY5/NDI4NF9Ya2hRRmFK/NDJZNjRpRWNxbUhz/akFHdlNmZGxBNksy/VC5qcGc"
-                    width="250px"
-                    height="150px"
-                    style={{
-                      border: "2px  black",
-                      boxShadow: "0 14px 18px rgba(62,50,50)",
-                    }}
-                  />
-                </i>
-                <h5 style={{ textAlign: "center", color: "#3E3232" }}>USA</h5>
-              </div>
-            </div>
-            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
-              <div class="service-box">
-                <i>
-                  <img
-                    src="https://imgs.search.brave.com/KApwCOTfmic2-DUG3WeCxbKDjEUVXricpSLgGK64_-Q/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvNDY4/OTk0MjM5L3Bob3Rv/L3N5ZG5leS5qcGc_/cz02MTJ4NjEyJnc9/MCZrPTIwJmM9MTZB/bkg3MFNhYUhoMDJH/elRTckl0RXhyRE5Y/bTNaVTFYbnJ6TDhS/bzZQVT0"
-                    width="250px"
-                    height="150px"
-                    padding="3px 3px 3px 3px"
-                    style={{
-                      border: "2px  black",
-                      boxShadow: "0 14px 18px rgba(62,50,50)",
-                    }}
-                  />
-                </i>
-                <h5 style={{ textAlign: "center", color: "#3E3232" }}>
-                  Australia
-                </h5>
-              </div>
-            </div>
-            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
-              <div class="service-box">
-                <i>
-                  <img
-                    src="https://imgs.search.brave.com/B2fVxi33yeElRlquuNitxbeeWh-zz9UVNi0BxQ5437E/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvODc0/NjYxOTYyL3Bob3Rv/L3Rvcm9udG8tZG93/bi10b3duLmpwZz9z/PTYxMng2MTImdz0w/Jms9MjAmYz1Fb2Rt/OWlJOVk2c1JzUTNH/cC0tUnh2UDRnSURm/aVZlaXBaWjlXOTB1/UzY4PQ"
-                    width="250px"
-                    height="150px"
-                    style={{
-                      border: "2px  black",
-                      boxShadow: "0 14px 18px rgba(62,50,50)",
-                    }}
-                  />
-                </i>
-                <h5 style={{ textAlign: "center", color: "#3E3232" }}>
-                  Canada
-                </h5>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> */}
+     {/* <div class="PhD-assistance-by-country">
+      //   <div class="container">
+      //     <h3
+      //       style={{ marginTop: "50px", textAlign: "left", color: "#3E3232" }}
+      //     >
+      //       Phdassistance by country
+      //     </h3>
+      //     <div class="row">
+      //       <div class="col-md-3 offset-md-2"></div>
+      //     </div>
+      //     <div class="row">
+      //       <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
+      //         <div class="service-box">
+      //           <i>
+      //             <img
+      //               src="https://imgs.search.brave.com/K1MF7Lovvswe-qk3Kf-MGdcoexPRuFA7sb1gwMYPMXQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzAwLzQ0LzMxLzMw/LzM2MF9GXzQ0MzEz/MDc3X3NHbXd5WElT/cEZWc0NtcEt2bndF/eFBxNkZGM3FzSGRh/LmpwZw"
+      //               width="250px"
+      //               height="150px"
+      //               style={{
+      //                 border: "2px  black",
+      //                 boxShadow: "0 14px 18px rgba(62,50,50)",
+      //               }}
+      //             />
+      //           </i>
+      //           <h5 style={{ textAlign: "center", color: "#3E3232" }}>
+      //             France
+      //           </h5>
+      //         </div>
+      //       </div>
+      //       <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
+      //         <div class="service-box">
+      //           <i>
+      //             <img
+      //               src="https://imgs.search.brave.com/dm9uzFmRldDOnjHdXUxozXQ9yZQQY0vpu8-lcSg6Xuo/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzAwLzg0LzE1LzM4/LzM2MF9GXzg0MTUz/ODM1X2szdEZQNDVi/YjJUVkM5dDROODRm/cEFvNDFjYk5Lenl2/LmpwZw"
+      //               width="250px"
+      //               height="150px"
+      //               style={{
+      //                 border: "2px  black",
+      //                 boxShadow: "0 14px 18px rgba(62,50,50)",
+      //               }}
+      //             />
+      //           </i>
+      //           <h5 style={{ textAlign: "center", color: "#3E3232" }}>
+      //             Germany
+      //           </h5>
+      //         </div>
+      //       </div>
+      //       <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
+      //         <div class="service-box">
+      //           <i>
+      //             <img
+      //               src="https://imgs.search.brave.com/LfavTojkB-NhEPjLCMH4u1pK3LsmwlSCsVpENDEeBuc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvNDk1/MjA3NTc3L3Bob3Rv/L2R1Ymxpbi1jaXR5/LmpwZz9zPTYxMng2/MTImdz0wJms9MjAm/Yz1GVUctMUktcWNy/NDJTeXF4Mng2M1RI/VUpJSmloUDBNRXN1/bU1FUTVncUFjPQ"
+      //               width="250px"
+      //               height="150px"
+      //               style={{
+      //                 border: "2px  black",
+      //                 boxShadow: "0 14px 18px rgba(62,50,50)",
+      //               }}
+      //             />
+      //           </i>
+      //           <h5 style={{ textAlign: "center", color: "#3E3232" }}>
+      //             Ireland
+      //           </h5>
+      //         </div>
+      //       </div>
+      //       <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
+      //         <div class="service-box">
+      //           <i>
+      //             <img
+      //               src="https://imgs.search.brave.com/39UbrIh7chIsChRHOXKPkfvmbMdyF3fXfXsx-5_jH64/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy8x/LzFlL0F1Y2tsYW5k/X0NiZF8oMjE3NDAz/NzUzKS5qcGVn"
+      //               width="250px"
+      //               height="150px"
+      //               style={{
+      //                 border: "2px  black",
+      //                 boxShadow: "0 14px 18px rgba(62,50,50)",
+      //               }}
+      //             />
+      //           </i>
+      //           <h5 style={{ textAlign: "center", color: "#3E3232" }}>
+      //             NewZealand
+      //           </h5>
+      //         </div>
+      //       </div>
+      //       <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
+      //         <div class="service-box">
+      //           <i>
+      //             <img
+      //               src="https://imgs.search.brave.com/ew8qmYAF6y9dCz0JqqgxAxEdJAscMyb-SjzIbRLlHTI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTU1/NDQ1MzEyL3Bob3Rv/L2xvbmRvbi1vbi10/aGUtbW92ZS5qcGc_/cz02MTJ4NjEyJnc9/MCZrPTIwJmM9ZzRD/bEwydGpIQTJOSm5o/M3RlMmM5ZFM5ZHVq/WGs3QkJ6WDBhYU4z/OGRVcz0"
+      //               width="250px"
+      //               height="150px"
+      //               style={{
+      //                 border: "2px  black",
+      //                 boxShadow: "0 14px 18px rgba(62,50,50)",
+      //               }}
+      //             />
+      //           </i>
+      //           <h5 style={{ textAlign: "center", color: "#3E3232" }}>UK</h5>
+      //         </div>
+      //       </div>
+      //       <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
+      //         <div class="service-box">
+      //           <i>
+      //             <img
+      //               src="https://imgs.search.brave.com/tsWTX9zvSmOntXlXy8oF5cjbCzk_x2ZGaBcI5KBz65s/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzAyLzU2LzY5LzQy/LzM2MF9GXzI1NjY5/NDI4NF9Ya2hRRmFK/NDJZNjRpRWNxbUhz/akFHdlNmZGxBNksy/VC5qcGc"
+      //               width="250px"
+      //               height="150px"
+      //               style={{
+      //                 border: "2px  black",
+      //                 boxShadow: "0 14px 18px rgba(62,50,50)",
+      //               }}
+      //             />
+      //           </i>
+      //           <h5 style={{ textAlign: "center", color: "#3E3232" }}>USA</h5>
+      //         </div>
+      //       </div>
+      //       <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
+      //         <div class="service-box">
+      //           <i>
+      //             <img
+      //               src="https://imgs.search.brave.com/KApwCOTfmic2-DUG3WeCxbKDjEUVXricpSLgGK64_-Q/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvNDY4/OTk0MjM5L3Bob3Rv/L3N5ZG5leS5qcGc_/cz02MTJ4NjEyJnc9/MCZrPTIwJmM9MTZB/bkg3MFNhYUhoMDJH/elRTckl0RXhyRE5Y/bTNaVTFYbnJ6TDhS/bzZQVT0"
+      //               width="250px"
+      //               height="150px"
+      //               padding="3px 3px 3px 3px"
+      //               style={{
+      //                 border: "2px  black",
+      //                 boxShadow: "0 14px 18px rgba(62,50,50)",
+      //               }}
+      //             />
+      //           </i>
+      //           <h5 style={{ textAlign: "center", color: "#3E3232" }}>
+      //             Australia
+      //           </h5>
+      //         </div>
+      //       </div>
+      //       <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
+      //         <div class="service-box">
+      //           <i>
+      //             <img
+      //               src="https://imgs.search.brave.com/B2fVxi33yeElRlquuNitxbeeWh-zz9UVNi0BxQ5437E/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvODc0/NjYxOTYyL3Bob3Rv/L3Rvcm9udG8tZG93/bi10b3duLmpwZz9z/PTYxMng2MTImdz0w/Jms9MjAmYz1Fb2Rt/OWlJOVk2c1JzUTNH/cC0tUnh2UDRnSURm/aVZlaXBaWjlXOTB1/UzY4PQ"
+      //               width="250px"
+      //               height="150px"
+      //               style={{
+      //                 border: "2px  black",
+      //                 boxShadow: "0 14px 18px rgba(62,50,50)",
+      //               }}
+      //             />
+      //           </i>
+      //           <h5 style={{ textAlign: "center", color: "#3E3232" }}>
+      //             Canada
+      //           </h5>
+      //         </div>
+      //       </div>
+      //     </div>
+      //   </div>
+     </div> */}
 
       <section className="testimony-section">
         <div
@@ -1104,30 +1082,138 @@ function Home() {
           <div className="row">
             <div className="col-md-12">
               <div className="carousel-testimony">
-              <OwlCarousel className="owl-theme" {...options}>
-                <div className="item" style={{ width: '330px', marginRight: '30px'}}>
-                  <div className="testimony-wrap py-4">
-                    <div className="icon d-flex align-items-center justify-content-center">
-                      <span className="fa fa-quote-left"></span>
+                <Swiper
+                  slidesPerView={3}
+                  spaceBetween={30}
+                  pagination={{
+                    clickable: true,
+                  }}
+                  autoplay={{
+                    delay: 2500,
+                  }}
+                  modules={[Pagination, Autoplay]}
+                  className="mySwiper"
+                >
+                  <SwiperSlide>
+                    <div className="testimony-wrap py-4">
+                      <div className="icon d-flex align-items-center justify-content-center">
+                        <span className="fa fa-quote-left"></span>
+                      </div>
+                      <div className="text">
+                        <p className="mb-4">Mollit anim laborum duis au dolor in voluptcate velit ess cillum dolore eu lore dsu quality mollit anim laborumuis au dolor in voluptate velit cillu.</p>
+                        <div className="d-flex align-items-center">
+                          <div className="user-img" style={{ backgroundImage: 'url(./assets/Jerry.png)'}}></div>
+                          <div className="pl-3 client-details">
+                            <p className="name">Roger Scott</p>
+                            <span className="position">Marketing Manager</span>
+                          </div>
+                        </div>
+                      </div>
                     </div>
-                  </div>
-                </div>
-                <div className="item" style={{ width: '330px', marginRight: '30px'}}>
-                  <h4>2</h4>
-                </div>
-                <div className="item" style={{ width: '330px', marginRight: '30px'}}>
-                  <h4>3</h4>
-                </div>
-                <div className="item" style={{ width: '330px', marginRight: '30px'}}>
-                  <h4>4</h4>
-                </div>
-                <div className="item" style={{ width: '330px', marginRight: '30px'}}>
-                  <h4>5</h4>
-                </div>
-                <div className="item" style={{ width: '330px', marginRight: '30px'}}>
-                  <h4>6</h4>
-                </div>
-              </OwlCarousel>
+                  </SwiperSlide>
+                  <SwiperSlide>
+                  <div className="testimony-wrap py-4">
+                      <div className="icon d-flex align-items-center justify-content-center">
+                        <span className="fa fa-quote-left"></span>
+                      </div>
+                      <div className="text">
+                        <p className="mb-4">Mollit anim laborum duis au dolor in voluptcate velit ess cillum dolore eu lore dsu quality mollit anim laborumuis au dolor in voluptate velit cillu.</p>
+                        <div className="d-flex align-items-center">
+                          <div className="user-img" style={{ backgroundImage: 'url(./assets/Jerry.png)'}}></div>
+                          <div className="pl-3 client-details">
+                            <p className="name">Roger Scott</p>
+                            <span className="position">Marketing Manager</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </SwiperSlide>
+                  <SwiperSlide>
+                  <div className="testimony-wrap py-4">
+                      <div className="icon d-flex align-items-center justify-content-center">
+                        <span className="fa fa-quote-left"></span>
+                      </div>
+                      <div className="text">
+                        <p className="mb-4">Mollit anim laborum duis au dolor in voluptcate velit ess cillum dolore eu lore dsu quality mollit anim laborumuis au dolor in voluptate velit cillu.</p>
+                        <div className="d-flex align-items-center">
+                          <div className="user-img" style={{ backgroundImage: 'url(./assets/Jerry.png)'}}></div>
+                          <div className="pl-3 client-details">
+                            <p className="name">Roger Scott</p>
+                            <span className="position">Marketing Manager</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </SwiperSlide>
+                  <SwiperSlide>
+                  <div className="testimony-wrap py-4">
+                      <div className="icon d-flex align-items-center justify-content-center">
+                        <span className="fa fa-quote-left"></span>
+                      </div>
+                      <div className="text">
+                        <p className="mb-4">Mollit anim laborum duis au dolor in voluptcate velit ess cillum dolore eu lore dsu quality mollit anim laborumuis au dolor in voluptate velit cillu.</p>
+                        <div className="d-flex align-items-center">
+                          <div className="user-img" style={{ backgroundImage: 'url(./assets/Jerry.png)'}}></div>
+                          <div className="pl-3 client-details">
+                            <p className="name">Roger Scott</p>
+                            <span className="position">Marketing Manager</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </SwiperSlide>
+                  <SwiperSlide>
+                  <div className="testimony-wrap py-4">
+                      <div className="icon d-flex align-items-center justify-content-center">
+                        <span className="fa fa-quote-left"></span>
+                      </div>
+                      <div className="text">
+                        <p className="mb-4">Mollit anim laborum duis au dolor in voluptcate velit ess cillum dolore eu lore dsu quality mollit anim laborumuis au dolor in voluptate velit cillu.</p>
+                        <div className="d-flex align-items-center">
+                          <div className="user-img" style={{ backgroundImage: 'url(./assets/Jerry.png)'}}></div>
+                          <div className="pl-3 client-details">
+                            <p className="name">Roger Scott</p>
+                            <span className="position">Marketing Manager</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </SwiperSlide>
+                  <SwiperSlide>
+                  <div className="testimony-wrap py-4">
+                      <div className="icon d-flex align-items-center justify-content-center">
+                        <span className="fa fa-quote-left"></span>
+                      </div>
+                      <div className="text">
+                        <p className="mb-4">Mollit anim laborum duis au dolor in voluptcate velit ess cillum dolore eu lore dsu quality mollit anim laborumuis au dolor in voluptate velit cillu.</p>
+                        <div className="d-flex align-items-center">
+                          <div className="user-img" style={{ backgroundImage: 'url(./assets/Jerry.png)'}}></div>
+                          <div className="pl-3 client-details">
+                            <p className="name">Roger Scott</p>
+                            <span className="position">Marketing Manager</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </SwiperSlide>
+                  <SwiperSlide>
+                  <div className="testimony-wrap py-4">
+                      <div className="icon d-flex align-items-center justify-content-center">
+                        <span className="fa fa-quote-left"></span>
+                      </div>
+                      <div className="text">
+                        <p className="mb-4">Mollit anim laborum duis au dolor in voluptcate velit ess cillum dolore eu lore dsu quality mollit anim laborumuis au dolor in voluptate velit cillu.</p>
+                        <div className="d-flex align-items-center">
+                          <div className="user-img" style={{ backgroundImage: 'url(./assets/Jerry.png)'}}></div>
+                          <div className="pl-3 client-details">
+                            <p className="name">Roger Scott</p>
+                            <span className="position">Marketing Manager</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </SwiperSlide>
+                </Swiper>
               </div>
             </div>
           </div>
