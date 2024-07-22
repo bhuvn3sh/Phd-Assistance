@@ -2,12 +2,40 @@ import React from "react";
 import Topbar from "../../components/topbar/Topbar";
 import Footer from "../../components/footer/Footer";
 import "./home.css";
-import VerifiedOutlinedIcon from '@mui/icons-material/VerifiedOutlined';
-import EngineeringOutlinedIcon from '@mui/icons-material/EngineeringOutlined';
-import LocalShippingOutlinedIcon from '@mui/icons-material/LocalShippingOutlined';
-import FactCheckOutlinedIcon from '@mui/icons-material/FactCheckOutlined';
+import VerifiedOutlinedIcon from "@mui/icons-material/VerifiedOutlined";
+import EngineeringOutlinedIcon from "@mui/icons-material/EngineeringOutlined";
+import LocalShippingOutlinedIcon from "@mui/icons-material/LocalShippingOutlined";
+import FactCheckOutlinedIcon from "@mui/icons-material/FactCheckOutlined";
+import OwlCarousel from "react-owl-carousel";
+import "owl.carousel/dist/assets/owl.carousel.css";
+import "owl.carousel/dist/assets/owl.theme.default.css";
 
 function Home() {
+  const options = {
+    items: 1,
+    loop: true,
+    autoplay:true,
+    autoplayTimeout: 4000,
+    animateOut: 'slideOutUp',
+    nav: false,
+    margin: 0,
+    responsive:{
+      1100:{
+        items: 2,
+      },
+      724:{
+        items: 1,
+      },
+      500:{
+        items: 1,
+      },
+      370:{
+        items: 1,
+        innerWidth:"100%",
+        outerWidth:'100%'
+      },
+    },
+  };
   return (
     <>
       <Topbar />
@@ -217,11 +245,21 @@ function Home() {
                   </div>
                   <div className="icon d-flex align-items-center justify-content-center">
                     <div className="calender">
-                      <FactCheckOutlinedIcon style={{ fontSize: 70, color: '#141619',fontWeight:'400' }} />
+                      <FactCheckOutlinedIcon
+                        style={{
+                          fontSize: 70,
+                          color: "#141619",
+                          fontWeight: "400",
+                        }}
+                      />
                     </div>
                   </div>
                   <h2>Requirements</h2>
-                  <p> You raise your request via an email to your Single Point Of Contact (SPOC) from Amura </p>
+                  <p>
+                    {" "}
+                    You raise your request via an email to your Single Point Of
+                    Contact (SPOC) from Amura{" "}
+                  </p>
                 </div>
               </div>
             </div>
@@ -233,11 +271,16 @@ function Home() {
                   </div>
                   <div className="icon d-flex align-items-center justify-content-center">
                     <div className="calender">
-                      <EngineeringOutlinedIcon style={{ fontSize: 70, color: '#141619' }} />
+                      <EngineeringOutlinedIcon
+                        style={{ fontSize: 70, color: "#141619" }}
+                      />
                     </div>
                   </div>
                   <h2>Execution</h2>
-                  <p>  That SPOC then gets the work done from the internal teams  </p>
+                  <p>
+                    {" "}
+                    That SPOC then gets the work done from the internal teams{" "}
+                  </p>
                 </div>
               </div>
             </div>
@@ -249,11 +292,17 @@ function Home() {
                   </div>
                   <div className="icon d-flex align-items-center justify-content-center">
                     <div className="calender">
-                      <VerifiedOutlinedIcon style={{ fontSize: 70, color: '#141619' }} />
+                      <VerifiedOutlinedIcon
+                        style={{ fontSize: 70, color: "#141619" }}
+                      />
                     </div>
                   </div>
                   <h2>Quality Checks</h2>
-                  <p> The work goes through rigorous quality checks by every team's manager and finally the SPOC </p>
+                  <p>
+                    {" "}
+                    The work goes through rigorous quality checks by every
+                    team's manager and finally the SPOC{" "}
+                  </p>
                 </div>
               </div>
             </div>
@@ -265,11 +314,17 @@ function Home() {
                   </div>
                   <div className="icon d-flex align-items-center justify-content-center">
                     <div className="calender">
-                      <LocalShippingOutlinedIcon style={{ fontSize: 70, color: '#141619' }} />
+                      <LocalShippingOutlinedIcon
+                        style={{ fontSize: 70, color: "#141619" }}
+                      />
                     </div>
                   </div>
                   <h2>Delivery</h2>
-                  <p> It is emailed back/a download link is sent to you, meeting previous agreed-upon deadlines </p>
+                  <p>
+                    {" "}
+                    It is emailed back/a download link is sent to you, meeting
+                    previous agreed-upon deadlines{" "}
+                  </p>
                 </div>
               </div>
             </div>
@@ -472,12 +527,17 @@ function Home() {
         </div>
       </section>
 
-      <section className="services-area" style={{ margin: '0px 200px 100px 200px'}}>
+      <section
+        className="services-area"
+        style={{ margin: "0px 200px 100px 200px" }}
+      >
         <div className="container">
           <div className="row justify-content-center mb-5">
             <div className="col-md-8 text-center heading-section ">
               <span className="subheading">Our Services</span>
-              <h2 className="mb-3" style={{ color: "#7e6363"}}>We Can Help You With These Situations</h2>
+              <h2 className="mb-3" style={{ color: "#7e6363" }}>
+                We Can Help You With These Situations
+              </h2>
             </div>
           </div>
           <div className="row">
@@ -1027,9 +1087,12 @@ function Home() {
           </div>
         </div>
       </div> */}
-      
+
       <section className="testimony-section">
-        <div className="img img-bg border" style={{ backgroundImage: "url(./assets/bg-4.jpg)" }}></div>
+        <div
+          className="img img-bg border"
+          style={{ backgroundImage: "url(./assets/bg-4.jpg)" }}
+        ></div>
         <div className="overlay"></div>
         <div className="container">
           <div className="row justify-content-center mb-5">
@@ -1040,74 +1103,31 @@ function Home() {
           </div>
           <div className="row">
             <div className="col-md-12">
-              <div className="carousel-testimony owl-carousel owl-loaded owl-drag">
-                <div className="owl-stage-outer">
-                  <div className="owl-stage" style={{ transition: '2s', width:'3960px', transform: 'translate3d(-900px, 0px, 0px)'}}>
-                    <div className="owl-item cloned" style={{ width: '330px', marginRight: '30px' }}>
-                      <div className="item">
-                        <div className="testimony-wrap py-4">
-                          <div className="icon d-flex align-items-center justify-content-center">
-                            <span className="fa fa-quote-left"></span>
-                          </div>
-                          <div className="text">
-                            <p className="mb-4">
-                            Phd assistance allocated an expert to do the submission work for me. The communication was very smooth. I was surprised that the submission 
-                            </p>
-                            <div className="d-flex align-items-center">
-                              <div className="user-img" style={{ backgroundImage: "url()" }}></div>
-                              <div className="pl-3">
-                                <p className="name">Roger Scott</p>
-                                <span className="position">Marketing Manager</span>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="owl-item cloned" style={{ width: '330px', marginRight: '30px' }}>
-                      <div className="item">
-                        <div className="testimony-wrap py-4">
-                          <div className="icon d-flex align-items-center justify-content-center">
-                            <span className="fa fa-quote-left"></span>
-                          </div>
-                          <div className="text">
-                            <p className="mb-4">
-                            Phd assistance allocated an expert to do the submission work for me. The communication was very smooth. I was surprised that the submission 
-                            </p>
-                            <div className="d-flex align-items-center">
-                              <div className="user-img" style={{ backgroundImage: "url()" }}></div>
-                              <div className="pl-3">
-                                <p className="name">Roger Scott</p>
-                                <span className="position">Marketing Manager</span>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="owl-item cloned" style={{ width: '330px', marginRight: '30px' }}>
-                      <div className="item">
-                        <div className="testimony-wrap py-4">
-                          <div className="icon d-flex align-items-center justify-content-center">
-                            <span className="fa fa-quote-left"></span>
-                          </div>
-                          <div className="text">
-                            <p className="mb-4">
-                            Phd assistance allocated an expert to do the submission work for me. The communication was very smooth. I was surprised that the submission 
-                            </p>
-                            <div className="d-flex align-items-center">
-                              <div className="user-img" style={{ backgroundImage: "url()" }}></div>
-                              <div className="pl-3">
-                                <p className="name">Roger Scott</p>
-                                <span className="position">Marketing Manager</span>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
+              <div className="carousel-testimony">
+              <OwlCarousel className="owl-theme" {...options}>
+                <div className="item" style={{ width: '330px', marginRight: '30px'}}>
+                  <div className="testimony-wrap py-4">
+                    <div className="icon d-flex align-items-center justify-content-center">
+                      <span className="fa fa-quote-left"></span>
                     </div>
                   </div>
                 </div>
+                <div className="item" style={{ width: '330px', marginRight: '30px'}}>
+                  <h4>2</h4>
+                </div>
+                <div className="item" style={{ width: '330px', marginRight: '30px'}}>
+                  <h4>3</h4>
+                </div>
+                <div className="item" style={{ width: '330px', marginRight: '30px'}}>
+                  <h4>4</h4>
+                </div>
+                <div className="item" style={{ width: '330px', marginRight: '30px'}}>
+                  <h4>5</h4>
+                </div>
+                <div className="item" style={{ width: '330px', marginRight: '30px'}}>
+                  <h4>6</h4>
+                </div>
+              </OwlCarousel>
               </div>
             </div>
           </div>

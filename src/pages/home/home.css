@@ -508,68 +508,7 @@ a {
     max-width: 100%;
   }
 }
-.testimony-section .owl-carousel {
-  margin: 0;
-}
-.owl-carousel.owl-loaded {
-  display: block;
-}
-.owl-carousel {
-  position: relative;
-}
-.owl-carousel {
-  width: 100%;
-  z-index: 1;
-}
-.testimony-section .owl-carousel .owl-stage-outer {
-  padding: 1.5em 0 2em 0;
-  position: relative;
-}
-.owl-carousel .owl-stage-outer {
-  position: relative;
-  overflow: hidden;
-}
-.owl-carousel .owl-stage::after {
-  content: ".";
-  display: block;
-  clear: both;
-  visibility: hidden;
-  line-height: 0;
-  height: 0;
-}
-.owl-carousel .owl-stage {
-  position: relative;
-  touch-action: manipulation;
-  
-}
-.owl-carousel.owl-drag .owl-item {
-  touch-action: pan-y;
-}
-.owl-carousel.owl-drag .owl-item {
-  -ms-touch-action: none;
-  touch-action: none;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
-.owl-carousel .owl-item {
-  opacity: .4;
-}
-.owl-carousel .owl-item {
-  min-height: 1px;
-  float: left;
-  -webkit-backface-visibility: hidden;
-}
-.owl-carousel .owl-item, .owl-carousel .owl-wrapper {
-  -webkit-backface-visibility: hidden;
-  -moz-backface-visibility: hidden;
-  -ms-backface-visibility: hidden;
-  -webkit-transform: translate3d(0,0,0);
-  -moz-transform: translate3d(0,0,0);
-  -ms-transform: translate3d(0,0,0);
-}
-.owl-carousel .owl-item {
+.carousel-testimony{
   position: relative;
 }
 .testimony-wrap {
@@ -577,7 +516,11 @@ a {
   position: relative;
   background: white;
   padding: 0 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
   border-radius: 4px;
+  -webkit-box-shadow: 0px 30px 33px -41px rgba(0, 0, 0, 0.24);
+  -moz-box-shadow: 0px 30px 33px -41px rgba(0, 0, 0, 0.24);
   box-shadow: 0px 30px 33px -41px rgba(0, 0, 0, 0.24);
 }
 .testimony-wrap .icon {
@@ -587,8 +530,23 @@ a {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background: #7e6363;
+  background: #589167;
 }
+/* .testimony-section .owl-carousel {
+  margin: 0;
+}
+.testimony-section .owl-carousel .owl-stage-outer {
+  padding: 1.5em 0 2em 0;
+  position: relative;
+}
+.owl-carousel.owl-drag .owl-item {
+  -ms-touch-action: pan-y;
+  touch-action: pan-y;
+}
+.owl-carousel .owl-item {
+  opacity: .4;
+}
+
 .testimony-wrap .icon span {
   color: #fff;
 }
@@ -597,6 +555,8 @@ a {
   height: 80px;
   position: relative;
   border-radius: 50%;
+}
+.user-img{
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -610,4 +570,4 @@ a {
 .testimony-wrap .position {
   font-size: 16px;
   color: #4d4d4d;
-}
+} */
