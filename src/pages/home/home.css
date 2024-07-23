@@ -322,7 +322,7 @@ a {
 .wrap-about .play-video .icon {
   width: 40px;
   height: 30px;
-  border: 1px solid #7091e6;
+  border: 1px solid #3a2727;
   border-radius: 5px;
   margin-right: 10px;
   -webkit-animation: pulse 2s infinite;
@@ -345,7 +345,7 @@ a {
 }
 
 .wrap-about .play-video .icon span {
-  color: #7091e6;
+  color: #3a2727;
 }
 
 .fa-play::before {
@@ -353,11 +353,11 @@ a {
 }
 
 .wrap-about .play-video span.watch {
-  color: #141619;
+  color: #000000;
   font-size: 14px;
   text-transform: uppercase;
   line-height: 1.8;
-  font-weight: 400;
+  font-weight: 500;
 }
 .btn-dark py-2 px-4 {
   border: none;
@@ -469,7 +469,6 @@ a {
   position: relative;
   z-index: 0;
   padding: 3em 0;
-  margin-bottom: 30px;
   margin-top: 100px;
 }
 .testimony-section .img-bg {
@@ -515,7 +514,6 @@ a {
 .swiper {
   width: 80%;
   height: 80%;
-  margin-top: 50px;
 }
 
 .swiper-slide {
@@ -545,8 +543,6 @@ a {
   position: relative;
   background: white;
   padding: 0 20px;
-    padding-top: 0px;
-    padding-bottom: 0px;
   border-radius: 4px;
   -webkit-box-shadow: 0px 30px 33px -41px rgba(0, 0, 0, 0.24);
   -moz-box-shadow: 0px 30px 33px -41px rgba(0, 0, 0, 0.24);
@@ -614,3 +610,136 @@ a {
   margin-left: 10px;
 }
 
+
+/* appointment-section */
+.appointment-section{
+  background-position: center center !important;
+  position: relative;
+  background-attachment: fixed;
+  padding: 6em 0;
+  margin-top: 60px;
+}
+.appointment-section .overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  content: '';
+  opacity: .5;
+  background: #7e6363;
+}
+.appointment-section .half {
+  width: 40%;
+}
+.animate {
+  opacity: 0;
+  visibility: hidden;
+}
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    visibility: hidden;
+    /*-webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);*/
+    -webkit-transform: translate3d(0, 40px, 0);
+    transform: translate3d(0, 40px, 0);
+  }
+
+  to {
+    visibility: visible;
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+.fadeInUp {
+  animation-name: fadeInUp;
+}
+.animated {
+  -webkit-animation-duration: .5s;
+  animation-duration: .5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+.appointment-section .half h2 {
+  font-weight: 700;
+  color: #fff;
+  line-height: 1.5;
+  font-size: 2rem;
+}
+
+.appointment .form-group {
+  position: relative;
+  width: 100%;
+  display: block;
+}
+.form-group {
+  margin-bottom: 1rem;
+}
+.appointment .form-control::placeholder {
+  color: rgba(0, 0, 0, 0.8);
+}
+.form-control::placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+.appointment .form-control {
+  border: transparent;
+  background: white !important;
+  color: rgba(0, 0, 0, 0.8) !important;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 5px;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+.form-control {
+  height: 52px !important;
+  line-height: 1.5;
+}
+input {
+  overflow: visible;
+  margin: 0;
+  font-family: inherit;
+}
+.appointment .form-group .select-wrap, .appointment .form-group .input-wrap {
+  position: relative;
+}
+.appointment .form-group .icon {
+  position: absolute;
+  top: 50% !important;
+  right: 15px;
+  font-size: 16px;
+  transform: translateY(-50%);
+}
+.appointment .form-group .icon span {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.5) !important;
+}
+.appointment .form-group .select-wrap select, .appointment .form-group .input-wrap select {
+  appearance: none;
+}
+select {
+  text-transform: none;
+  margin: 0;
+  font-family: inherit;
+}
+.appointment textarea.form-control {
+  height: inherit !important;
+}
+textarea {
+  overflow: auto;
+  resize: vertical;
+  margin: 0;
+  font-family: inherit;
+}
+.appointment .form-group .btn {
+  width: 100%;
+  display: block !important;
+}
+.btn.btn-primary {
+  background: #7e6363 !important;
+  border: 1px solid #7e6363 !important;
+  color: #fff !important;
+}
