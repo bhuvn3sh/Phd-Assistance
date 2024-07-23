@@ -8,6 +8,7 @@
   position: relative;
   z-index: 0;
 }
+
 @media (min-width: 992px) {
   .container {
     max-width: 960px;
@@ -256,7 +257,8 @@ a {
   padding-left: 15px;
 }
 
-.col-md-8, .col-xl-3{
+.col-md-8,
+.col-xl-3 {
   position: relative;
   width: 100%;
   padding-right: 15px;
@@ -275,11 +277,11 @@ a {
 .services-area .single-service-cap .service-img img {
   width: 100%;
   transform: scale(1);
-  -webkit-transition: all .5s ease-out 0s;
-  -moz-transition: all .5s ease-out 0s;
-  -ms-transition: all .5s ease-out 0s;
-  -o-transition: all .5s ease-out 0s;
-  transition: all .5s ease-out 0s;
+  -webkit-transition: all 0.5s ease-out 0s;
+  -moz-transition: all 0.5s ease-out 0s;
+  -ms-transition: all 0.5s ease-out 0s;
+  -o-transition: all 0.5s ease-out 0s;
+  transition: all 0.5s ease-out 0s;
 }
 .services-area .single-service-cap .service-cap {
   padding: 20px 30px 20px 30px;
@@ -294,7 +296,7 @@ a {
   color: #0e132a;
   font-size: 24px;
   font-weight: 600;
-  transition: all .3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
   outline: medium none;
 }
 .services-area .single-service-cap .service-cap h4 a:hover {
@@ -306,9 +308,11 @@ a {
   font-weight: 500;
   display: block;
   margin-bottom: 10px;
+  transition: transform 0.3s;
 }
 .more-btn:hover {
   color: #7e6363;
+  transform: translateY(-10px);
 }
 .single-service-cap:hover .more-btn i {
   color: #fff;
@@ -324,9 +328,75 @@ a {
   text-align: center;
   font-size: 15px;
   margin-left: 10px;
-  -webkit-transition: all .4s ease-out 0s;
-  -moz-transition: all .4s ease-out 0s;
-  -ms-transition: all .4s ease-out 0s;
-  -o-transition: all .4s ease-out 0s;
-  transition: all .4s ease-out 0s;
+  -webkit-transition: all 0.4s ease-out 0s;
+  -moz-transition: all 0.4s ease-out 0s;
+  -ms-transition: all 0.4s ease-out 0s;
+  -o-transition: all 0.4s ease-out 0s;
+  transition: all 0.4s ease-out 0s;
+}
+.ftco-animate {
+  opacity: 0;
+  visibility: hidden;
+}
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    visibility: hidden;
+    /*-webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);*/
+    -webkit-transform: translate3d(0, 40px, 0);
+    transform: translate3d(0, 40px, 0);
+  }
+
+  to {
+    visibility: visible;
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+}
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+.ftco-animated {
+  -webkit-animation-duration: 0.5s;
+  animation-duration: 0.5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+@media (max-width: 767.98px) {
+  .img-video {
+    bottom: 12px;
+    left: 0;
+  }
+}
+
+.img-video {
+  display: block;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #fff;
+  -webkit-animation: pulse 1s infinite;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: none;
+  animation-play-state: running;
+  animation-name: pulse;
+  animation-timeline: auto;
+  animation-range-start: normal;
+  animation-range-end: normal;
+  animation: pulse 1s infinite;
+  position: absolute;
 }
