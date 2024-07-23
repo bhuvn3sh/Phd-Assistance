@@ -89,12 +89,10 @@ function Home() {
               </div>
               <a
                 href="https://vimeo.com/45830194"
-                className="d-flex justify-content-end align-items-center"
+                class="img-video popup-vimeo d-flex align-items-center justify-content-center"
                 style={{
-                  marginRight: "200px",
-                  color: "#fff",
-                  marginBottom: "200px",
-                  paddingBottom: "300px",
+                  color: "#3E3232",
+                  marginLeft: "950px",
                 }}
               >
                 <span className="fa fa-play"></span>
@@ -1500,6 +1498,167 @@ function Home() {
                     Research Proposal
                   </a>
                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="Our guarantee">
+        <div
+          class="container"
+          style={{
+            marginLeft: "100px",
+            marginRight: "150px",
+          }}
+        >
+          <h1 style={{ textAlign: "center", paddingTop: "50px" }}>
+            Our Guarantee
+          </h1>
+          <h3 style={{ textAlign: "center", paddingTop: "15px" }}>
+            What We promise , we deliver exactly the same
+          </h3>
+          <p style={{ textAlign: "center" }}>
+            PhD. Assistance Research Lab assists in framing the PhD research
+            proposal as per the standard university guidelines. We have assisted
+            researchers pursuing their PhD from universities across the globe,
+            such as the UK, the USA, Netherlands, Australia, UAE, Dubai, Kenya,
+            Nigeria, China, Russia and many more countries. We are aware of the
+            guidelines set by different universities and strictly follow the
+            same.
+            <br></br>Further, we are aware of the plagiarism tolerance policy
+            and therefore strive to ensure that all the papers sent to our
+            clients are original. Our Qualified and experienced
+            writers/researchers ensure to deliver your work with
+            100%confidentiality, on-time delivery, and 100% match with the
+            initial requirement
+          </p>
+          <div class="row">
+            <div class="col-md-3 offset-md-2"></div>
+          </div>
+          <div class="row">
+            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
+              <div class="service-box">
+                <i>
+                  <img
+                    src="https://www.phdassistance.com/wp-content/uploads/2024/06/Plagiarism-Free.png"
+                    width="50px"
+                    height="50px"
+                    style={{
+                      border: "2px  black",
+                      boxShadow: "0 5px 5px rgba(62,50,50)",
+                    }}
+                  />
+                </i>
+                <h6 style={{ color: "#3E3232" }}>Plagiarism Free</h6>
+              </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
+              <div class="service-box">
+                <i>
+                  <img
+                    src="https://www.phdassistance.com/wp-content/uploads/2024/06/Unlimited-Support.png"
+                    width="50px"
+                    height="50px"
+                    style={{
+                      border: "2px  black",
+                      boxShadow: "0 5px 5px rgba(62,50,50)",
+                    }}
+                  />
+                </i>
+                <h6 style={{ color: "#3E3232" }}>Unlimited Support</h6>
+              </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
+              <div class="service-box">
+                <i>
+                  <img
+                    src="https://www.phdassistance.com/wp-content/uploads/2024/06/On-time-delivery.png"
+                    width="50px"
+                    height="50px"
+                    style={{
+                      border: "2px  black",
+                      boxShadow: "0 5px 5px rgba(62,50,50)",
+                    }}
+                  />
+                </i>
+                <h6 style={{ color: "#3E3232" }}>On-time delivery</h6>
+              </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
+              <div class="service-box">
+                <i>
+                  <img
+                    src="https://www.phdassistance.com/wp-content/uploads/2024/06/Subject-Matter-Expertise.png"
+                    width="50px"
+                    height="50px"
+                    style={{
+                      border: "2px  black",
+                      boxShadow: "0 5px 5px rgba(62,50,50)",
+                    }}
+                  />
+                </i>
+                <h6 style={{ color: "#3E3232" }}>Subject Matter Expertise</h6>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-4 col-md-6">
+              <div class="service-box">
+                <i>
+                  <img
+                    src="https://www.phdassistance.com/wp-content/uploads/2024/06/Plagiarism-Free.png"
+                    width="50px"
+                    height="50px"
+                    style={{
+                      border: "2px  black",
+                      boxShadow: "0 5px 5px rgba(62,50,50)",
+                    }}
+                  />
+                </i>
+                <h6 style={{ color: "#3E3232" }}>
+                  Communicate with your writer
+                </h6>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+              <div class="service-box">
+                <i>
+                  <img
+                    src="https://www.phdassistance.com/wp-content/uploads/2024/06/Updated-academic-resources.png"
+                    width="50px"
+                    height="50px"
+                    style={{
+                      border: "2px  black",
+                      boxShadow: "0 5px 5px rgba(62,50,50)",
+                    }}
+                  />
+                </i>
+                <h6 style={{ color: "#3E3232" }}>Updated academic resources</h6>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+              <div class="service-box">
+                <i>
+                  <img
+                    src="https://www.phdassistance.com/wp-content/uploads/2024/06/Free-research-articles-supply-.png"
+                    width="50px"
+                    height="50px"
+                    style={{
+                      border: "2px  black",
+                      boxShadow: "0 5px 5px rgba(62,50,50)",
+                    }}
+                  />
+                </i>
+                <h6 style={{ color: "#3E3232" }}>
+                  Free research articles supply{" "}
+                </h6>
               </div>
             </div>
           </div>
