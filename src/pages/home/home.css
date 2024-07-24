@@ -488,10 +488,6 @@ a {
   }
 }
 
-.fadeInUp {
-  -webkit-animation-name: fadeInUp;
-  animation-name: fadeInUp;
-}
 .animated {
   -webkit-animation-duration: 1s;
   animation-duration: 1s;

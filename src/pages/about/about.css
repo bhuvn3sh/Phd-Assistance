@@ -1,0 +1,209 @@
+
+.hero-wrap.hero-wrap-2 {
+    height: 400px !important;
+    position: relative;
+}
+.hero-wrap.hero-wrap-2 .overlay {
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    opacity: 1;
+    background: linear-gradient(45deg, #3e3232 0%, rgba(88, 145, 103, 0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#589167', endColorstr='#589167', GradientType=1 );
+}
+.hero-wrap .about-cap h2 {
+    color: whitesmoke;
+    font-size: 70px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.hero-wrap .about-cap nav {
+    margin: 7px 0;
+    padding-left: 95px;
+    position: relative;
+}
+.hero-wrap .about-cap nav::before {
+    position: absolute;
+    content: "";
+    width: 75px;
+    height: 1px;
+    background: white;
+    left: 0;
+    top: 52%;
+    transform: translateY(-50%);
+}
+.hero-wrap .about-cap .breadcrumb {
+    background: none;
+    padding: 0;
+    margin: 0;
+}
+li {
+    list-style: none;
+}
+.hero-wrap .about-cap .breadcrumb a {
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+    outline: medium none;
+}
+.hero-wrap .about-cap .breadcrumb-item + .breadcrumb-item::before {
+    color: white;
+}
+
+
+.about-us{
+  position: relative;
+}
+
+/* counter-section */
+#section-counter {
+  position: relative;
+  z-index: 0;
+  padding-bottom: 0;
+  padding-top: 0;
+  background: #f5f4f0 !important;
+}
+#section-counter::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  content: '';
+  z-index: -1;
+  opacity: 0;
+  background: #000000;
+}
+@media (min-width: 992px) {
+  .col-lg-3 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+}
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    visibility: hidden;
+    /*-webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);*/
+    -webkit-transform: translate3d(0, 40px, 0);
+    transform: translate3d(0, 40px, 0);
+  }
+
+  to {
+    visibility: visible;
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+.fadeInUp {
+  animation-name: fadeInUp;
+}
+.counter .block-18 {
+  text-align: center;
+  padding: 0 20px;
+}
+.counter .text strong.number {
+  font-weight: 600;
+  font-size: 40px;
+  color: #503c3c;
+}
+.counter .text span {
+  display: block;
+  font-size: 16px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 10px;
+  line-height: 1.2;
+  margin-bottom: 0;
+}
+
+
+/* about-us-section */
+/* @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .section-padding30 {
+      padding-top: 100px;
+      padding-bottom: 70px;
+    }
+}
+.section-padding30 {
+    padding-top: 183px;
+    padding-bottom: 170px;
+  }
+.fix {
+    overflow: hidden;
+  }
+  .about-us .support-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .about-us .support-wrapper .left-content {
+      width: 100%;
+      padding-left: 30px;
+    }
+  }
+  .about-us .support-wrapper .left-content {
+    width: 54%;
+    padding-left: 366px;
+  }
+  .section-tittle {
+    position: relative;
+    margin-bottom: 55px;
+  }
+  .section-tittle .front-text {
+    position: relative;
+    z-index: 2;
+  }
+  .section-tittle .section-tittle2 .front-text h2 {
+    font-size: 70px;
+  }
+  .section-tittle .front-text h2 {
+    color: #0e132a;
+    font-size: 70px;
+    font-weight: 600;
+    line-height: 1.2;
+    text-transform: uppercase;
+    font-family: inherit;
+  }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .section-tittle.section-tittle2 span.back-text {
+      font-size: 117px;
+      transform: translateY(-128%);
+    }
+  }
+  .section-tittle span.back-text {
+    font-size: 140px;
+    font-weight: 800;
+    text-transform: uppercase;
+    -webkit-text-stroke: 1px #f6f7f8;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+    line-height: 1;
+    position: absolute;
+    transform: translateY(-114%);
+    right: 0;
+    left: 12px;
+  }
+  .about-us .support-wrapper .left-content .about-caption {
+    padding-right: 144px;
+  }
+  .about-us .support-wrapper .left-content .about-caption p.pera-top {
+    font-size: 17px;
+    font-weight: 700;
+    color: #0b0b2b;
+  }
+  .about-us .support-wrapper .left-content .about-caption p {
+    margin-bottom: 46px;
+    font-size: 15px;
+    line-height: 24px;
+  } */
