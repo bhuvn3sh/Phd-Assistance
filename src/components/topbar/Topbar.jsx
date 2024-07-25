@@ -6,92 +6,98 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 
 function topbar() {
   return (
-    <div className="topbar">
-      <div className="top">
-        <div className="wrap">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-6 d-flex align-items-center">
-                <p class="mb-0 phone pl-md-2">
-                  <a
-                    href="#"
-                    class="mr-2"
-                    style={{ textDecoration: "none", color: "#ffffff" }}
-                  >
-                    <span
-                      class="fa fa-phone mr-1"
-                      style={{ color: "#ffffff" }}
-                    ></span>{" "}
-                    +91-976966466
-                  </a>
-                  <a
-                    href="#"
-                    style={{ textDecoration: "none", color: "#ffffff" }}
-                  >
-                    <span
-                      class="fa fa-paper-plane mr-1 ml-4"
-                      style={{ color: "#ffffff" }}
-                    ></span>{" "}
-                    info@phdassistance.com
-                  </a>
-                </p>
-              </div>
-              <div class="col-md-6 d-flex justify-content-md-end">
-                <div class="social-media">
-                  <p class="mb-0 d-flex">
+    <>
+      <div className="topbar">
+        <div className="top">
+          <div className="wrap">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-6 d-flex align-items-center">
+                  <p class="mb-0 phone pl-md-2">
                     <a
-                      href="https://www.facebook.com/phdassistance/"
-                      class="d-flex align-items-center justify-content-center"
+                      href="#"
+                      class="mr-2"
                       style={{ textDecoration: "none", color: "#ffffff" }}
                     >
-                      <span class="fa fa-facebook">
-                        <i class="sr-only">Facebook</i>
-                      </span>
+                      <span
+                        class="fa fa-phone mr-1"
+                        style={{ color: "#ffffff" }}
+                      ></span>{" "}
+                      +91-976966466
                     </a>
                     <a
-                      href="https://x.com/phdassistance/"
-                      class="d-flex align-items-center justify-content-center"
+                      href="#"
                       style={{ textDecoration: "none", color: "#ffffff" }}
                     >
-                      <span class="fa fa-twitter">
-                        <i class="sr-only">Twitter</i>
-                      </span>
-                    </a>
-                    <a
-                      href="https://www.instagram.com/phdassistance/"
-                      class="d-flex align-items-center justify-content-center"
-                      style={{ textDecoration: "none", color: "#ffffff" }}
-                    >
-                      <span class="fa fa-instagram">
-                        <i class="sr-only">Instagram</i>
-                      </span>
-                    </a>
-                    <a
-                      href="https://www.youtube.com/channel/UC-mKbdBTZNv5bBoXsMqxqkQ"
-                      class="d-flex align-items-center justify-content-center"
-                      style={{ textDecoration: "none", color: "#ffffff" }}
-                    >
-                      <span class="fa fa-youtube">
-                        <i class="sr-only">Youtube</i>
-                      </span>
-                    </a>
-                    <a
-                      href="https://www.linkedin.com/company/phd-assistance/"
-                      class="d-flex align-items-center justify-content-center"
-                      style={{ textDecoration: "none", color: "#ffffff" }}
-                    >
-                      <span class="fa fa-linkedin">
-                        <i class="sr-only">LinkedIn</i>
-                      </span>
+                      <span
+                        class="fa fa-paper-plane mr-1 ml-4"
+                        style={{ color: "#ffffff" }}
+                      ></span>{" "}
+                      info@phdassistance.com
                     </a>
                   </p>
+                </div>
+                <div class="col-md-6 d-flex justify-content-md-end">
+                  <div class="social-media">
+                    <p class="mb-0 d-flex">
+                      <a
+                        href="https://www.facebook.com/phdassistance/"
+                        class="d-flex align-items-center justify-content-center"
+                        style={{ textDecoration: "none", color: "#ffffff" }}
+                      >
+                        <span class="fa fa-facebook">
+                          <i class="sr-only">Facebook</i>
+                        </span>
+                      </a>
+                      <a
+                        href="https://x.com/phdassistance/"
+                        class="d-flex align-items-center justify-content-center"
+                        style={{ textDecoration: "none", color: "#ffffff" }}
+                      >
+                        <span class="fa fa-twitter">
+                          <i class="sr-only">Twitter</i>
+                        </span>
+                      </a>
+                      <a
+                        href="https://www.instagram.com/phdassistance/"
+                        class="d-flex align-items-center justify-content-center"
+                        style={{ textDecoration: "none", color: "#ffffff" }}
+                      >
+                        <span class="fa fa-instagram">
+                          <i class="sr-only">Instagram</i>
+                        </span>
+                      </a>
+                      <a
+                        href="https://www.youtube.com/channel/UC-mKbdBTZNv5bBoXsMqxqkQ"
+                        class="d-flex align-items-center justify-content-center"
+                        style={{ textDecoration: "none", color: "#ffffff" }}
+                      >
+                        <span class="fa fa-youtube">
+                          <i class="sr-only">Youtube</i>
+                        </span>
+                      </a>
+                      <a
+                        href="https://www.linkedin.com/company/phd-assistance/"
+                        class="d-flex align-items-center justify-content-center"
+                        style={{ textDecoration: "none", color: "#ffffff" }}
+                      >
+                        <span class="fa fa-linkedin">
+                          <i class="sr-only">LinkedIn</i>
+                        </span>
+                      </a>
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <Navbar expand="lg" style={{ backgroundColor: "#503C3C" }}>
+      <Navbar
+        expand="lg"
+        id="ftco-navbar"
+        style={{ backgroundColor: "#503C3C" }}
+      >
         <Container>
           <Navbar.Brand href="#home" style={{ marginRight: "25px" }}>
             <img
@@ -159,7 +165,7 @@ function topbar() {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-    </div>
+    </>
   );
 }
 

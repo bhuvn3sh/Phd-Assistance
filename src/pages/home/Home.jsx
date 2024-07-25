@@ -93,6 +93,7 @@ function Home() {
                 style={{
                   color: "#3E3232",
                   marginLeft: "950px",
+                  marginTop: "-120px",
                 }}
               >
                 <span className="fa fa-play"></span>
@@ -691,134 +692,7 @@ function Home() {
         </div>
       </section>
 
-      {/* <div class="container">
-        <div class="row mb-5">
-          <div class="col-sm-12 col-md">
-            <div class="ftco-footer-widget mb-4">
-              <ul class="ftco-footer-social list-unstyled mt-2"></ul>
-            </div>
-          </div>
-
-          <div class="col-sm-12 col-md">
-            <div class="ftco-footer-widget mb-4 ml-md-4">
-              <h4 class="ftco-heading-2">Whom We Work For</h4>
-              <ul class="list-unstyled">
-                <li>
-                  <span class="fa fa-chevron-right mr-2"></span> Research
-                  Scholors
-                </li>
-                <li>
-                  <span class="fa fa-chevron-right mr-2"></span>Supervisors
-                </li>
-                <li>
-                  <span class="fa fa-chevron-right mr-2"></span>Litreature
-                  Publishers
-                </li>
-                <li>
-                  <span class="fa fa-chevron-right mr-2"></span>PhD Research
-                  Universities
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-sm-12 col-md">
-            <div class="ftco-footer-widget mb-4">
-              <ul class="list-unstyled">
-                <li>
-                  <a href="https://www.phdassistance.com/blog/">
-                    <span class="fa fa-chevron-right mr-2"></span>Supply Chain
-                  </a>
-                </li>
-                <li>
-                  <a href="https://www.phdassistance.com/industries/">
-                    <span class="fa fa-chevron-right mr-2"></span>Computer
-                    Science
-                  </a>
-                </li>
-                <li>
-                  <a href="https://www.phdassistance.com/pricing/">
-                    <span class="fa fa-chevron-right mr-2"></span>Physics
-                  </a>
-                </li>
-                <li>
-                  <a href="https://www.phdassistance.com/insights/">
-                    <span class="fa fa-chevron-right mr-2"></span>Chemistry
-                  </a>
-                </li>
-                <li>
-                  <a href="https://www.phdassistance.com/help-guide/">
-                    <span class="fa fa-chevron-right mr-2"></span>Biology
-                  </a>
-                </li>
-                <li>
-                  <a href="https://www.phdassistance.com/sample-work/">
-                    <span class="fa fa-chevron-right mr-2"></span>Information
-                    Service
-                  </a>
-                </li>
-                <li>
-                  <a href="https://www.phdassistance.com/faq/">
-                    <span class="fa fa-chevron-right mr-2"></span>Economics
-                  </a>
-                </li>
-                <li>
-                  <a href="https://www.phdassistance.com/career/">
-                    <span class="fa fa-chevron-right mr-2"></span>Psycology
-                  </a>
-                </li>
-                <li>
-                  <a href="https://www.phdassistance.com/contact-us/">
-                    <span class="fa fa-chevron-right mr-2"></span>More Subjects
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-sm-12 col-md">
-            <div class="ftco-footer-widget mb-4">
-              <div class="block-23 mb-3">
-                <ul class="list-unstyled">
-                  <li>
-                    <span class="#"></span>
-                    <span class="fa fa-phone mr-1"></span>Medicine
-                  </li>
-                  <li>
-                    <span class="#"></span>
-                    <span class="fa fa-phone mr-1"></span>Biochemistry
-                  </li>
-                  <li>
-                    <span class="#"></span>
-                    <span class="fa fa-phone mr-1"></span>Human Resources
-                  </li>
-                  <li>
-                    <span class="#"></span>
-                    <span class="fa fa-phone mr-1"></span>Food Sciences
-                  </li>
-                  <li>
-                    <span class="#"></span>
-                    <span class="fa fa-phone mr-1"></span>Geology
-                  </li>
-                  <li>
-                    <span class="#"></span>
-                    <span class="fa fa-paper-plane mr-1 ml-4"></span>{" "}
-                    Engineering
-                  </li>
-                  <li>
-                    <span class="#"></span>
-                    <span class="fa fa-paper-plane mr-1 ml-4"></span> Education
-                  </li>
-                  <li>
-                    <span class="#"></span>
-                    <span class="fa fa-paper-plane mr-1 ml-4"></span> Sociology
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> */}
-
-      <div class="container">
+      <div class="container" style={{ paddingTop: "50px" }}>
         <div class="row">
           <div class="col-lg-8 offset-lg-2 text-center">
             <div class="section-title">
@@ -1291,7 +1165,7 @@ function Home() {
       >
         <div className="overlay"></div>
         <div className="container">
-          <div className="row" style={{ margin: '0 60px'}}>
+          <div className="row" style={{ margin: "0 60px" }}>
             <div className="col-md-6 half animate fadeInUp animated">
               <h2 className="mb-4">Send a Message & Get in touch!</h2>
               <form action="#" className="appointment">
@@ -1396,14 +1270,17 @@ function Home() {
                 <div className="box">
                   <img
                     src="https://imgs.search.brave.com/oHqgLIu4p5MRRDAQg6P1bY7nNyaaogc9phygWA3il1Q/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTM3/MDkwMjg0My9waG90/by9zZW5pb3Itd29t/YW4tYW5kLWRpYWJl/dGVzLXRlc3Rlci1z/ZXQuanBnP3M9NjEy/eDYxMiZ3PTAmaz0y/MCZjPWJ6eGliTC1S/V2NJd0hVUUZGOGMw/RGQtemppMlJ1SVBi/a3QzLTBJcVowcVE9"
-                    width="315px"
-                    height="200px"
+                    width="300px"
+                    height="150px"
                   ></img>
-                  <h4 style={{ textAlign: "center" }}>
+                  <h5 style={{ textAlign: "center", color: "#7e6363" }}>
                     PhD Research Directions For 2022 In Nutritional Aspects Of
                     Sarcopenia..
-                  </h4>
-                  <p class="excerpt" style={{ textAlign: "center" }}>
+                  </h5>
+                  <p
+                    class="excerpt"
+                    style={{ textAlign: "center", color: "#a87c7c" }}
+                  >
                     About 25% of adults over 65 have type 2 diabetes mellitus
                     (T2DM), a significant health burden for the senior
                     population..
@@ -1432,15 +1309,18 @@ function Home() {
                 <div className="box">
                   <img
                     src="https://imgs.search.brave.com/eh7VTuydgJxbRO4dxTTvkMj_F6viD74Pb1GUppc03QI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTMx/NzMyMzYyMi92aWRl/by9jYW5jZXItY2Vs/bHMtdmlzLmpwZz9z/PTY0MHg2NDAmaz0y/MCZjPXZiV3J3LTVK/M1l5M1MtTlBiWHg0/Yks2VFB6YThaeExr/QzAxcW5GTVZJblU9"
-                    width="315px"
-                    height="200px"
+                    width="300px"
+                    height="150px"
                   ></img>
-                  <h4 style={{ textAlign: "center" }}>
+                  <h5 style={{ textAlign: "center", color: "#736363" }}>
                     A Bibliometric Examination Of Chemotherapy Operations
                     Management..
-                  </h4>
+                  </h5>
 
-                  <p class="excerpt" style={{ textAlign: "center" }}>
+                  <p
+                    class="excerpt"
+                    style={{ textAlign: "center", color: "#a87c7c" }}
+                  >
                     Cancer care providers face several operational issues across
                     the world. From screening and diagnosis to therapy,
                     operations ..
@@ -1470,16 +1350,19 @@ function Home() {
                 <div className="box">
                   <img
                     src="https://imgs.search.brave.com/XwrvqQby0QGuy3JITFpjZa_M-loAOyEVcvwKizAWlCk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvOTQ0/NTY1NDYvcGhvdG8v/YS0zLWQtaW1hZ2Ut/b2YtYS1odW1hbi1z/a3VsbC1hbmQtYnJh/aW4tZGVwaWN0aW5n/LWNhbmNlci5qcGc_/cz02MTJ4NjEyJnc9/MCZrPTIwJmM9TVJZ/SkVNMUxWcU5NM0o1/OFMwMm85eGhLbFBP/VFVDWWVWV0ZiUEJp/Ml82bz0"
-                    width="315px"
-                    height="200px"
+                    width="300px"
+                    height="150px"
                     className="image"
                   />
-                  <h4 style={{ textAlign: "center" }}>
+                  <h5 style={{ textAlign: "center", color: "#736363" }}>
                     Prediction Of Glioblastoma Survival Using Techniques Based
                     On Pre-Operative..
-                  </h4>
+                  </h5>
 
-                  <p class="excerpt" style={{ textAlign: "center" }}>
+                  <p
+                    class="excerpt"
+                    style={{ textAlign: "center", color: "#A87c7c" }}
+                  >
                     Glioblastoma multiforme (GBM) is a grade IV brain tumour
                     with a short survival rate. To execute precision surgery
                     followed by…
@@ -1498,167 +1381,6 @@ function Home() {
                     Research Proposal
                   </a>
                 </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="Our guarantee">
-        <div
-          class="container"
-          style={{
-            marginLeft: "100px",
-            marginRight: "150px",
-          }}
-        >
-          <h1 style={{ textAlign: "center", paddingTop: "50px" }}>
-            Our Guarantee
-          </h1>
-          <h3 style={{ textAlign: "center", paddingTop: "15px" }}>
-            What We promise , we deliver exactly the same
-          </h3>
-          <p style={{ textAlign: "center" }}>
-            PhD. Assistance Research Lab assists in framing the PhD research
-            proposal as per the standard university guidelines. We have assisted
-            researchers pursuing their PhD from universities across the globe,
-            such as the UK, the USA, Netherlands, Australia, UAE, Dubai, Kenya,
-            Nigeria, China, Russia and many more countries. We are aware of the
-            guidelines set by different universities and strictly follow the
-            same.
-            <br></br>Further, we are aware of the plagiarism tolerance policy
-            and therefore strive to ensure that all the papers sent to our
-            clients are original. Our Qualified and experienced
-            writers/researchers ensure to deliver your work with
-            100%confidentiality, on-time delivery, and 100% match with the
-            initial requirement
-          </p>
-          <div class="row">
-            <div class="col-md-3 offset-md-2"></div>
-          </div>
-          <div class="row">
-            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
-              <div class="service-box">
-                <i>
-                  <img
-                    src="https://www.phdassistance.com/wp-content/uploads/2024/06/Plagiarism-Free.png"
-                    width="50px"
-                    height="50px"
-                    style={{
-                      border: "2px  black",
-                      boxShadow: "0 5px 5px rgba(62,50,50)",
-                    }}
-                  />
-                </i>
-                <h6 style={{ color: "#3E3232" }}>Plagiarism Free</h6>
-              </div>
-            </div>
-
-            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
-              <div class="service-box">
-                <i>
-                  <img
-                    src="https://www.phdassistance.com/wp-content/uploads/2024/06/Unlimited-Support.png"
-                    width="50px"
-                    height="50px"
-                    style={{
-                      border: "2px  black",
-                      boxShadow: "0 5px 5px rgba(62,50,50)",
-                    }}
-                  />
-                </i>
-                <h6 style={{ color: "#3E3232" }}>Unlimited Support</h6>
-              </div>
-            </div>
-
-            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
-              <div class="service-box">
-                <i>
-                  <img
-                    src="https://www.phdassistance.com/wp-content/uploads/2024/06/On-time-delivery.png"
-                    width="50px"
-                    height="50px"
-                    style={{
-                      border: "2px  black",
-                      boxShadow: "0 5px 5px rgba(62,50,50)",
-                    }}
-                  />
-                </i>
-                <h6 style={{ color: "#3E3232" }}>On-time delivery</h6>
-              </div>
-            </div>
-
-            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
-              <div class="service-box">
-                <i>
-                  <img
-                    src="https://www.phdassistance.com/wp-content/uploads/2024/06/Subject-Matter-Expertise.png"
-                    width="50px"
-                    height="50px"
-                    style={{
-                      border: "2px  black",
-                      boxShadow: "0 5px 5px rgba(62,50,50)",
-                    }}
-                  />
-                </i>
-                <h6 style={{ color: "#3E3232" }}>Subject Matter Expertise</h6>
-              </div>
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="col-lg-4 col-md-6">
-              <div class="service-box">
-                <i>
-                  <img
-                    src="https://www.phdassistance.com/wp-content/uploads/2024/06/Plagiarism-Free.png"
-                    width="50px"
-                    height="50px"
-                    style={{
-                      border: "2px  black",
-                      boxShadow: "0 5px 5px rgba(62,50,50)",
-                    }}
-                  />
-                </i>
-                <h6 style={{ color: "#3E3232" }}>
-                  Communicate with your writer
-                </h6>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6">
-              <div class="service-box">
-                <i>
-                  <img
-                    src="https://www.phdassistance.com/wp-content/uploads/2024/06/Updated-academic-resources.png"
-                    width="50px"
-                    height="50px"
-                    style={{
-                      border: "2px  black",
-                      boxShadow: "0 5px 5px rgba(62,50,50)",
-                    }}
-                  />
-                </i>
-                <h6 style={{ color: "#3E3232" }}>Updated academic resources</h6>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6">
-              <div class="service-box">
-                <i>
-                  <img
-                    src="https://www.phdassistance.com/wp-content/uploads/2024/06/Free-research-articles-supply-.png"
-                    width="50px"
-                    height="50px"
-                    style={{
-                      border: "2px  black",
-                      boxShadow: "0 5px 5px rgba(62,50,50)",
-                    }}
-                  />
-                </i>
-                <h6 style={{ color: "#3E3232" }}>
-                  Free research articles supply{" "}
-                </h6>
               </div>
             </div>
           </div>

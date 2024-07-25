@@ -107,7 +107,7 @@ p {
 }
 
 /* services */
-.services{
+.services {
   padding-top: 6em;
   padding-bottom: 6em;
   margin-bottom: 100px;
@@ -153,7 +153,7 @@ p {
   width: 170px;
   height: 170px;
   margin: 0 auto;
-    margin-bottom: 0px;
+  margin-bottom: 0px;
   margin-bottom: 10px;
   z-index: 0;
 }
@@ -185,7 +185,7 @@ p {
   border-radius: 50%;
   background: #f5f4f0;
   margin: 0 auto;
-    margin-bottom: 0px;
+  margin-bottom: 0px;
   margin-bottom: 10px;
   position: relative;
   z-index: 0;
@@ -209,7 +209,7 @@ p {
   height: 40px;
   border-radius: 50%;
   background: #503c3c;
-  content: '';
+  content: "";
   z-index: -1;
   -moz-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
@@ -233,7 +233,7 @@ p {
   line-height: 1.5;
   color: rgba(0, 0, 0, 0.7);
 }
-.services-2 p{
+.services-2 p {
   color: grey;
 }
 
@@ -373,8 +373,8 @@ a {
 }
 .box {
   width: 350px;
-  height: 450px;
-  box-shadow: 7px 7px 7px 7px rgb(80, 60, 60);
+  height: 390px;
+
   align-items: center;
 
   padding: 10px 10px 10px 10px;
@@ -383,14 +383,17 @@ a {
 .boxdesign {
   width: 350px;
   height: 360px;
-  box-shadow: 10px 10px 10px 10px rgba(62, 50, 50);
+  box-shadow: 5px 3px 3px 7px rgb(210, 207, 207);
   align-items: center;
   background: linear-gradient(135deg, #ffff, #503c3c);
   padding: 10px 10px 10px 10px;
   padding-left: 15px;
 }
 
-.col-md-8, .col-xl-3, .col-md-7, .col-md-12{
+.col-md-8,
+.col-xl-3,
+.col-md-7,
+.col-md-12 {
   position: relative;
   width: 100%;
   padding-right: 15px;
@@ -440,11 +443,9 @@ a {
   font-weight: 500;
   display: block;
   margin-bottom: 10px;
-  transition: transform 0.3s;
 }
 .more-btn:hover {
   color: #7e6363;
-  transform: translateY(-10px);
 }
 .single-service-cap:hover .more-btn i {
   color: #fff;
@@ -541,7 +542,7 @@ a {
   top: 0;
   left: 0;
   right: 0;
-  content: '';
+  content: "";
   height: 400px;
 }
 .border {
@@ -552,10 +553,10 @@ a {
   top: 0;
   left: 0;
   right: 0;
-  content: '';
+  content: "";
   height: 400px;
   background: #a87c7c;
-  opacity: .8;
+  opacity: 0.8;
 }
 .heading-section.heading-section-white .subheading {
   color: rgba(255, 255, 255, 0.9);
@@ -573,7 +574,7 @@ a {
     max-width: 100%;
   }
 }
-.carousel-testimony{
+.carousel-testimony {
   position: relative;
 }
 .swiper {
@@ -592,7 +593,7 @@ a {
   align-items: center;
 }
 
-.swiper-wrapper{
+.swiper-wrapper {
   padding-top: 1.5rem;
 }
 
@@ -600,7 +601,7 @@ a {
   max-width: 10rem;
   height: 10rem;
   border-radius: 50%;
-  border: .5rem solid whitesmoke;
+  border: 0.5rem solid whitesmoke;
 }
 
 .testimony-wrap {
@@ -634,7 +635,7 @@ a {
   -ms-border-radius: 50%;
   border-radius: 50%;
 }
-.user-img{
+.user-img {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -671,13 +672,12 @@ a {
   font-weight: 900;
   color: #503c3c;
 } */
-.client-details{
+.client-details {
   margin-left: 10px;
 }
 
-
 /* appointment-section */
-.appointment-section{
+.appointment-section {
   background-position: center center !important;
   position: relative;
   background-attachment: fixed;
@@ -690,8 +690,8 @@ a {
   right: 0;
   bottom: 0;
   width: 100%;
-  content: '';
-  opacity: .5;
+  content: "";
+  opacity: 0.5;
   background: #7e6363;
 }
 .appointment-section .half {
@@ -722,8 +722,8 @@ a {
   animation-name: fadeInUp;
 }
 .animated {
-  -webkit-animation-duration: .5s;
-  animation-duration: .5s;
+  -webkit-animation-duration: 0.5s;
+  animation-duration: 0.5s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
@@ -768,7 +768,8 @@ input {
   margin: 0;
   font-family: inherit;
 }
-.appointment .form-group .select-wrap, .appointment .form-group .input-wrap {
+.appointment .form-group .select-wrap,
+.appointment .form-group .input-wrap {
   position: relative;
 }
 .appointment .form-group .icon {
@@ -782,7 +783,8 @@ input {
   font-size: 14px;
   color: rgba(0, 0, 0, 0.5) !important;
 }
-.appointment .form-group .select-wrap select, .appointment .form-group .input-wrap select {
+.appointment .form-group .select-wrap select,
+.appointment .form-group .input-wrap select {
   appearance: none;
 }
 select {
