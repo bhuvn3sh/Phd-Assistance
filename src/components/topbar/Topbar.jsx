@@ -152,9 +152,29 @@ function topbar() {
               <Nav.Link href="#home" className="mx-2 text-light">
                 Pricing
               </Nav.Link>
-              <Nav.Link href="#home" className="mx-2 text-light">
-                Help-Guide
-              </Nav.Link>
+              <NavDropdown
+                title="Help-Guide"
+                id="basic-nav-dropdown"
+                className="mx-2 text-"
+                style={{ color: "#141619" }}
+              >
+                <NavDropdown.Item href="#action/3.1">
+                  HEALTH & MEDICAL
+                </NavDropdown.Item>
+                <NavDropdown.Item href="#action/3.2">
+                  BIOLOGICAL & SCIENCE
+                </NavDropdown.Item>
+                <NavDropdown.Item href="#action/3.3">
+                  ENGINEERING
+                </NavDropdown.Item>
+                <NavDropdown.Item href="#action/3.4">
+                  BUSINESS & MANAGEMENT & HUMANITIES
+                </NavDropdown.Item>
+                <NavDropdown.Item href="#action/3.4">
+                  FINANCE & OTHERS
+                </NavDropdown.Item>
+              </NavDropdown>
+
               <Nav.Link href="#home" className="mx-2 text-light">
                 Contact
               </Nav.Link>

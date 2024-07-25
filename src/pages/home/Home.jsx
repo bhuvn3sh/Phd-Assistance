@@ -19,7 +19,6 @@ function Home() {
   return (
     <>
       <Topbar />
-
       <div className="header">
         <div
           className="hero-wrap"
