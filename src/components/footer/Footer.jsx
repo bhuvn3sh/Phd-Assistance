@@ -8,8 +8,13 @@ function Footer() {
           <div class="row mb-5">
             <div class="col-sm-12 col-md">
               <div class="ftco-footer-widget mb-4">
-                <h4 class="ftco-heading-2 logo">About us</h4>
-                <p>
+                <h4
+                  class="ftco-heading-2 logo"
+                  style={{ color: "white", paddingLeft: "20px" }}
+                >
+                  About us
+                </h4>
+                <p style={{ color: "white", paddingLeft: "20px" }}>
                   Ph.D. Assistance serves as an external mentor to brainstorm
                   your idea and translate that into research model. Hiring a
                   mentor or tutor is common and therefore let your research
@@ -23,71 +28,92 @@ function Footer() {
                   correction, statistical analysis, coding and algorithm,
                   illustration and formatting.
                 </p>
-                <ul class="ftco-footer-social list-unstyled mt-2">
-                  <li class="ftco-animate">
-                    <a href="#"></a>
-                  </li>
-                  <li class="ftco-animate">
-                    <a href="#"></a>
-                  </li>
-                  <li class="ftco-animate">
-                    <a href="#"></a>
-                  </li>
-                </ul>
               </div>
             </div>
 
             <div class="col-sm-12 col-md">
               <div class="ftco-footer-widget mb-4 ml-md-4">
-                <h4 class="ftco-heading-2">Main Services</h4>
-                <ul class="list-unstyled">
+                <h4
+                  class="ftco-heading-2"
+                  style={{ paddingLeft: "100px", color: "white" }}
+                >
+                  Main Services
+                </h4>
+                <ul class="list-unstyled " style={{ paddingLeft: "100px" }}>
                   <li>
-                    <a href="https://www.phdassistance.com/services/phd-dissertation/">
+                    <a
+                      href="https://www.phdassistance.com/services/phd-dissertation/"
+                      className="style-links"
+                    >
                       <span class="fa fa-chevron-right mr-2"></span>PhD
                       Dissertation
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.phdassistance.com/services/phd-coursework/">
+                    <a
+                      href="https://www.phdassistance.com/services/phd-coursework/"
+                      className="style-links"
+                    >
                       <span class="fa fa-chevron-right mr-2"></span>Coursework
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.phdassistance.com/services/phd-literature-review/">
+                    <a
+                      href="https://www.phdassistance.com/services/phd-literature-review/"
+                      className="style-links"
+                    >
                       <span class="fa fa-chevron-right mr-2"></span>Litreature
                       Review
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.phdassistance.com/services/phd-research-methodology/">
-                      <span class="fa fa-chevron-right mr-2"></span>PhD Research
-                      Methodology
+                    <a
+                      href="https://www.phdassistance.com/services/phd-research-methodology/"
+                      className="style-links"
+                    >
+                      <span class="fa fa-chevron-right mr-2"></span>
+                      PhD Research Methodology
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.phdassistance.com/services/phd-data-analysis/">
+                    <a
+                      href="https://www.phdassistance.com/services/phd-data-analysis/"
+                      className="style-links"
+                    >
                       <span class="fa fa-chevron-right mr-2"></span>Data
                       Analysis
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.phdassistance.com/services/manuscript/">
+                    <a
+                      href="https://www.phdassistance.com/services/manuscript/"
+                      className="style-links"
+                    >
                       <span class="fa fa-chevron-right mr-2"></span>Manuscript
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.phdassistance.com/services/editing-services/">
+                    <a
+                      href="https://www.phdassistance.com/services/editing-services/"
+                      className="style-links"
+                    >
                       <span class="fa fa-chevron-right mr-2"></span>Editing
                       Service
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.phdassistance.com/services/animation/">
+                    <a
+                      href="https://www.phdassistance.com/services/animation/"
+                      className="style-links"
+                    >
                       <span class="fa fa-chevron-right mr-2"></span>Animation
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.phdassistance.com/services/courses/">
+                    <a
+                      href="https://www.phdassistance.com/services/courses/"
+                      className="style-links"
+                    >
                       <span class="fa fa-chevron-right mr-2"></span>Courses
                     </a>
                   </li>
@@ -96,75 +122,119 @@ function Footer() {
             </div>
             <div class="col-sm-12 col-md">
               <div class="ftco-footer-widget mb-4">
-                <h4 class="ftco-heading-2">Links</h4>
-                <ul class="list-unstyled">
+                <h4
+                  class="ftco-heading-2"
+                  style={{ paddingLeft: "50px", color: "white" }}
+                >
+                  Links
+                </h4>
+                <ul class="list-unstyled" style={{ paddingLeft: "50px" }}>
                   <li>
-                    <a href="https://www.phdassistance.com/blog/">
+                    <a
+                      href="https://www.phdassistance.com/blog/"
+                      className="style-links"
+                    >
                       <span class="fa fa-chevron-right mr-2"></span>Blog
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.phdassistance.com/industries/">
+                    <a
+                      href="https://www.phdassistance.com/industries/"
+                      className="style-links"
+                    >
                       <span class="fa fa-chevron-right mr-2"></span>Industries
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.phdassistance.com/pricing/">
+                    <a
+                      href="https://www.phdassistance.com/pricing/"
+                      className="style-links"
+                    >
                       <span class="fa fa-chevron-right mr-2"></span>Pricing
                       Details
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.phdassistance.com/insights/">
+                    <a
+                      href="https://www.phdassistance.com/insights/"
+                      className="style-links"
+                    >
                       <span class="fa fa-chevron-right mr-2"></span>Insights
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.phdassistance.com/help-guide/">
+                    <a
+                      href="https://www.phdassistance.com/help-guide/"
+                      className="style-links"
+                    >
                       <span class="fa fa-chevron-right mr-2"></span>Help-Guide
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.phdassistance.com/sample-work/">
+                    <a
+                      href="https://www.phdassistance.com/sample-work/"
+                      className="style-links"
+                    >
                       <span class="fa fa-chevron-right mr-2"></span>Our Sample
                       Work
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.phdassistance.com/faq/">
+                    <a
+                      href="https://www.phdassistance.com/faq/"
+                      className="style-links"
+                    >
                       <span class="fa fa-chevron-right mr-2"></span>FAQ
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.phdassistance.com/career/">
+                    <a
+                      href="https://www.phdassistance.com/career/"
+                      className="style-links"
+                    >
                       <span class="fa fa-chevron-right mr-2"></span>Career
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.phdassistance.com/contact-us/">
+                    <a
+                      href="https://www.phdassistance.com/contact-us/"
+                      className="style-links"
+                    >
                       <span class="fa fa-chevron-right mr-2"></span>Contact us
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.phdassistance.com/terms-and-conditions/">
+                    <a
+                      href="https://www.phdassistance.com/terms-and-conditions/"
+                      className="style-links"
+                    >
                       <span class="fa fa-chevron-right mr-2"></span>Terms and
                       conditions
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.phdassistance.com/privacy-policy/">
+                    <a
+                      href="https://www.phdassistance.com/privacy-policy/"
+                      className="style-links"
+                    >
                       <span class="fa fa-chevron-right mr-2"></span>Privacy
                       policy
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.phdassistance.com/customer-centre/">
+                    <a
+                      href="https://www.phdassistance.com/customer-centre/"
+                      className="style-links"
+                    >
                       <span class="fa fa-chevron-right mr-2"></span>Customer
                       Centre
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.phdassistance.com/sitemap.xml">
+                    <a
+                      href="https://www.phdassistance.com/sitemap.xml"
+                      className="style-links"
+                    >
                       <span class="fa fa-chevron-right mr-2"></span>XML Sitemap
                     </a>
                   </li>
@@ -173,9 +243,21 @@ function Footer() {
             </div>
             <div class="col-sm-12 col-md">
               <div class="ftco-footer-widget mb-4">
-                <h4 class="ftco-heading-2">Contact us </h4>
+                <h4
+                  class="ftco-heading-2"
+                  style={{
+                    paddingLeft: "20px",
+                    color: "white",
+                    paddingRight: "120px",
+                  }}
+                >
+                  Contact us{" "}
+                </h4>
                 <div class="block-23 mb-3">
-                  <ul class="list-unstyled">
+                  <ul
+                    class="list-unstyled"
+                    style={{ paddingLeft: "20px", color: "white" }}
+                  >
                     <li>
                       <span class="#"></span>
                       <span class="fa fa-phone mr-1"></span>UK: +44-7537144372

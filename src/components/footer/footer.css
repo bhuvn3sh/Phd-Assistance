@@ -4,7 +4,7 @@ section {
 .ftco-footer {
   font-size: 16px;
   padding: 6em 0 0 0;
-  background: #7e6363;
+  background: #3e3232;
   color: #0e0e0ee6;
 }
 .container {
@@ -95,4 +95,10 @@ user agent stylesheet div {
 }
 .custom-bg {
   background-color: #a87c7c; /* Replace with your desired color */
+}
+.style-links {
+  color: white;
+}
+.style-links:hover {
+  color: #a87c7c;
 }
