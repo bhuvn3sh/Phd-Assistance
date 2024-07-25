@@ -2,7 +2,7 @@ import "./footer.css";
 
 function Footer() {
   return (
-    <div style={{ paddingTop: "50px" }}>
+    <div >
       <footer class="ftco-footer">
         <div class="container">
           <div class="row mb-5">

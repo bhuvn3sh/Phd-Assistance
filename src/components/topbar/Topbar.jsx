@@ -99,7 +99,7 @@ function topbar() {
         style={{ backgroundColor: "#503C3C" }}
       >
         <Container>
-          <Navbar.Brand href="#home" style={{ marginRight: "25px" }}>
+          <Navbar.Brand href="/" style={{ marginRight: "25px" }}>
             <img
               src="./assets/logo.png"
               width="90"
@@ -111,7 +111,7 @@ function topbar() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ml-auto" style={{ marginLeft: "390px" }}>
-              <Nav.Link href="#home" className="mx-2 text-light">
+              <Nav.Link href="/about" className="mx-2 text-light">
                 About
               </Nav.Link>
               <NavDropdown
@@ -149,7 +149,7 @@ function topbar() {
                   Separated link
                 </NavDropdown.Item>
               </NavDropdown>
-              <Nav.Link href="#home" className="mx-2 text-light">
+              <Nav.Link href="/pricing" className="mx-2 text-light">
                 Pricing
               </Nav.Link>
               <NavDropdown
@@ -175,10 +175,10 @@ function topbar() {
                 </NavDropdown.Item>
               </NavDropdown>
 
-              <Nav.Link href="#home" className="mx-2 text-light">
+              <Nav.Link href="/contact" className="mx-2 text-light">
                 Contact
               </Nav.Link>
-              <Nav.Link href="#home" className="mx-2 text-light">
+              <Nav.Link href="/hire" className="mx-2 text-light">
                 Hire A Research Assistant
               </Nav.Link>
             </Nav>
