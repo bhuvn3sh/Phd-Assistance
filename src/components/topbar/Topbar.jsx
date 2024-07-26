@@ -158,7 +158,7 @@ function topbar() {
                 className="mx-2 text-"
                 style={{ color: "#141619" }}
               >
-                <NavDropdown.Item href="#action/3.1">
+                <NavDropdown.Item href="/health-medical">
                   HEALTH & MEDICAL
                 </NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.2">
@@ -179,7 +179,7 @@ function topbar() {
                 Contact
               </Nav.Link>
               <Nav.Link href="/hire" className="mx-2 text-light">
-                Hire A Research Assistant
+                Hire A Researcher
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>

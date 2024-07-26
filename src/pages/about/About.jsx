@@ -3,7 +3,7 @@ import Topbar from "../../components/topbar/Topbar";
 import Footer from "../../components/footer/Footer";
 import "./about.css";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination, Autoplay, EffectCreative } from "swiper/modules";
+import { Pagination, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/autoplay";

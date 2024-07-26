@@ -7,29 +7,29 @@ function Healthmedical() {
     <>
       <Topbar />
       <section
-        class="hero-wrap hero-wrap-2"
+        className="hero-wrap hero-wrap-2 d-flex align-items-center justify-content-center"
         style={{
           backgroundImage: "url(./assets/bg-8.jpg)",
           backgroundPosition: "50% 0%",
         }}
       >
-        <div class="overlay"></div>
-        <div class="container">
-          <div class="row no-gutters slider-text align-items-end justify-content-center">
-            <div class="col-md-9 ftco-animate mb-5 text-center fadeInUp ftco-animated">
-              <p class="breadcrumbs mb-0">
-                <span class="mr-2">
-                  <a href="index.html" style={{ color: "white" }}>
-                    Home <i class="fa fa-chevron-right"></i>
-                  </a>
-                </span>{" "}
-                <span style={{ color: "white" }}>
-                  Help-Guide <i class="fa fa-chevron-right"></i>
-                </span>
-              </p>
-              <h1 class="mb-0 bread" style={{ color: "white" }}>
-                Health and Medical
-              </h1>
+        <div className="overlay"></div>
+        <div className="container">
+          <div className="row">
+            <div className="col-md-12">
+              <div className="about-cap ftco-animate pt-100 fadeInUp ftco-animated">
+                <h2>Health & Medical</h2>
+                <nav aria-label="breadcrumb">
+                  <ol className="breadcrumb">
+                    <li className="breadcrumb-item">
+                      <a href="/">Home</a>
+                    </li>
+                    <li className="breadcrumb-item">
+                      <a href="/contact">Help-Guide</a>
+                    </li>
+                  </ol>
+                </nav>
+              </div>
             </div>
           </div>
         </div>

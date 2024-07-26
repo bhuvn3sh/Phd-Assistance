@@ -59,7 +59,7 @@ function Home() {
                   </p>
                   <p>
                     <a
-                      href="#"
+                      href="/order-now"
                       className="btn py-2 px-4"
                       style={{
                         backgroundColor: "#7E6363",
