@@ -79,9 +79,38 @@ function Order() {
                                     </div>
                                     <div className="clearfix"></div>
                                     <div className="col-md-6 col-sm-6 co-xs-6 form-group">
-                                        <input id="project_country" type="text" name="project_country" placeholder="Billing Address Line 2" />
+                                        <select id="project_country" name="project_country" class="selectpicker countrypicker"></select>
                                         <span id="address2_msg"></span>
                                     </div>
+                                    <div className="col-md-6 col-sm-6 co-xs-6 form-group">
+                                        <input id="project_state" type="text" name="project_state" placeholder="State" />
+                                        <span id="state_msg"></span>
+                                    </div>
+                                    <div className="col-md-6 col-sm-6 co-xs-6 form-group">
+                                        <input id="project_city" type="text" name="project_city" placeholder="City" />
+                                        <span id="city_msg"></span>
+                                    </div>
+                                    <div className="col-md-6 col-sm-6 co-xs-6 form-group">
+                                        <input id="project_pcode" type="text" name="project_pcode" placeholder="Postal Code" />
+                                        <span id="pcode_msg"></span>
+                                    </div>
+                                    <div className="col-md-6 col-sm-6 co-xs-6 form-group">
+                                        <input id="project_pname" type="text" name="project_pname" placeholder="Full Name" />
+                                        <span id="pname_msg"></span>
+                                    </div>
+                                    <div className="col-md-6 col-sm-6 co-xs-6 form-group">
+                                        <input id="project_pemail" type="email" name="project_pemail" placeholder="Email Address" />
+                                        <span id="pemail_msg"></span>
+                                    </div>
+                                    <div className="col-md-12 col-sm-12 co-xs-12 form-group">
+                                        <input id="project_pcontact" className="isNumber" type="text" name="project_pcontact" placeholder="Phone" />
+                                        <span id="pcontact_msg"></span>
+                                    </div>
+                                    <span id="TxtBoxUSD"></span>
+                                    <span id="TxtBoxINR"></span>
+                                </div>
+                                <div className="order-button">
+                                  <button id="submit" className="theme-btn btn-style" type="submit" name="submit">Place Your Order</button>
                                 </div>
                             </form>
                         </div>
