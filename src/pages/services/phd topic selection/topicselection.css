@@ -1,0 +1,23 @@
+.description{
+    padding: 50px 0;
+    /* background: #000000 !important; */
+}
+.description h2{
+    font-weight: 600;
+    padding-bottom: 15px;
+    color: #503c3c;
+}
+.description p{
+    text-align: justify;
+  line-height: 27px;
+  font-size: 15px;
+  color: #3a3a3a;
+}
+.services-description{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  border: none;
+  transition: box-shadow 0.3s ease;
+}
+.services-description:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); /* Increase shadow on hover */
+  }
