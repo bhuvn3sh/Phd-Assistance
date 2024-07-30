@@ -13,12 +13,14 @@
     "bootstrap": "^5.3.3",
     "jquery": "^3.7.1",
     "jquery.animate-number": "^0.0.14",
+    "postcss": "^8.4.40",
     "react": "^18.3.1",
     "react-bootstrap": "^2.10.4",
     "react-dom": "^18.3.1",
     "react-owl-carousel": "^2.3.3",
     "react-router-dom": "^6.25.1",
     "react-scripts": "^5.0.1",
+    "resolve-url-loader": "^5.0.0",
     "swiper": "^11.1.5",
     "waypoints": "^4.0.1",
     "web-vitals": "^2.1.4"
@@ -27,7 +29,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "start-legacy": "react-scripts start --openssl-legacy-provider"
   },
   "eslintConfig": {
     "extends": [

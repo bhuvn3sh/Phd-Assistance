@@ -7,6 +7,9 @@
   top: 0;
   z-index: 1000;
 }
+.fa:hover {
+  color: #a87c7c;
+}
 .wrap {
   position: relative;
   z-index: 0;
@@ -146,4 +149,128 @@ navbar {
 }
 .bg-dark {
   background-color: #ede8f5;
+}
+/* styles.css */
+
+/* Basic reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background-color: #503c3c;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+}
+
+.navbar-menu {
+  list-style-type: none;
+  display: flex;
+}
+
+.navbar-item {
+  position: relative;
+  margin-left: 1rem;
+}
+
+.nav-link,
+.nav-dropdown-title {
+  text-decoration: none;
+  color: white;
+  padding: 0.5rem 1rem;
+  transition: background-color 0.3s, color 0.3s;
+  display: inline-block;
+}
+
+.nav-link:hover,
+.nav-dropdown-title:hover {
+  background-color: #a87c7c; /* Background color on hover */
+  color: white; /* Text color on hover */
+  border-radius: 4px;
+}
+
+.nav-dropdown-title {
+  color: white;
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-dropdown-title:hover {
+  background-color: #141619;
+  color: white;
+  border-radius: 4px;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #444;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  list-style-type: none;
+  padding: 0.5rem 0;
+  margin: 0;
+  min-width: 200px;
+}
+
+.dropdown-item {
+  padding: 0.5rem 1rem;
+}
+
+.dropdown-link {
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding: 0.5rem 1rem;
+  transition: background-color 0.3s;
+}
+
+.dropdown-link:hover {
+  background-color: #575757;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar-menu {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .navbar-item {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .nav-link {
+    width: 100%;
+    text-align: left;
+  }
+
+  .dropdown-menu {
+    position: static;
+    width: 100%;
+  }
 }

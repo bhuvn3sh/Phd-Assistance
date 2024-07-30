@@ -2,10 +2,10 @@ import { useState } from "react";
 import React, { useEffect, useRef } from "react";
 import Topbar from "../../components/topbar/Topbar";
 import Footer from "../../components/footer/Footer";
-import "./healthmedical.css";
+import "./engineering.css";
 import MyModal from "./MyModal";
 
-function Healthmedical() {
+function Engineering() {
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
@@ -25,7 +25,7 @@ function Healthmedical() {
           <div className="row">
             <div className="col-md-12">
               <div className="about-cap ftco-animate pt-100 fadeInUp ftco-animated">
-                <h2>Health & Medical </h2>
+                <h2>Engineering </h2>
                 <nav aria-label="breadcrumb">
                   <ol className="breadcrumb">
                     <li className="breadcrumb-item">
@@ -63,10 +63,10 @@ function Healthmedical() {
             >
               <h3 style={{ color: "#000", textAlign: "center" }}>
                 <div
-                  className="fa-solid fa-user-doctor"
+                  className="fa-solid fa-dna"
                   style={{ marginRight: "14px" }}
                 ></div>
-                {""}Nursing
+                {""}Biomedical Engineering
               </h3>
               <div
                 class="text"
@@ -75,9 +75,9 @@ function Healthmedical() {
                   textAlign: "center",
                 }}
               >
-                Nursing program prepares you to achieve the career goal as an
-                independent researcher on the nursing care to protect vulnerable
-                communities and nursing Knowledge development. {""}
+                Biomedical engineering integrates principles of engineering with
+                biological sciences to advance healthcare treatment and
+                monitoring.{""}
               </div>
               <div>
                 <button className="read-more-btn" onClick={handleShow}>
@@ -105,15 +105,15 @@ function Healthmedical() {
               <h3 style={{ color: "#000000", textAlign: "center" }}>
                 {" "}
                 <div
-                  className="fa-solid fa-stethoscope"
+                  className="fa-solid fa-leaf"
                   style={{ marginRight: "14px" }}
                 ></div>
-                Clinical Pharmocology{" "}
+                Environmental Engineering{" "}
               </h3>
               <div class="text" style={{ color: "white", textAlign: "center" }}>
-                Clinical pharmacology program is an integrated science both
-                basic and clinical, will enable to gain the skills and knowledge
-                to examine the safety of new medical products for human studies.{" "}
+                Environmental engineering focuses on designing and implementing
+                solutions to protect and improve the natural environment. It
+                involves managing resources.{" "}
               </div>
               <div>
                 <button className="read-more-btn" onClick={handleShow}>
@@ -141,16 +141,15 @@ function Healthmedical() {
               <h3 style={{ color: "#000000", textAlign: "center" }}>
                 {" "}
                 <div
-                  className="fa-solid fa-suitcase-medical"
+                  className="fa-solid fa-trowel-bricks"
                   style={{ marginRight: "14px" }}
                 ></div>
-                Public Health
+                Civil and Structural Engineering
               </h3>
               <div class="text" style={{ color: "white", textAlign: "center" }}>
-                {" "}
-                Students are pursuing public health gain skills and knowledge in
-                the public health discipline such as epidemiology, health policy
-                & management, environment health.
+                Civil and Structural Engineering involves the design,
+                construction, and maintenance of infrastructure such as
+                buildings, bridges, roads, and dams.
               </div>
               <div>
                 <button className="read-more-btn" onClick={handleShow}>
@@ -176,15 +175,15 @@ function Healthmedical() {
             >
               <h3 style={{ color: "#000000", textAlign: "center" }}>
                 <div
-                  className="fa-solid fa-virus"
+                  className="fa-solid fa-flask"
                   style={{ marginRight: "14px" }}
                 ></div>
-                Food Science & Nutrition
+                Chemical Engineering
               </h3>
               <div class="text" style={{ color: "white", textAlign: "center" }}>
-                The food science and nutrition program is designed for
-                individuals who are a desire to pursue a graduate degree in
-                related science.{" "}
+                Chemical Engineering applies principles of chemistry, physics,
+                and mathematics to design and operate processes that convert raw
+                materials into valuable products.{" "}
               </div>
               <div>
                 <button className="read-more-btn" onClick={handleShow}>
@@ -209,17 +208,17 @@ function Healthmedical() {
               data-wow-delay="0ms"
               data-wow-duration="1500ms"
             >
-              <h3 style={{ color: "#000", textAlign: "center" }}>
+              <h3 style={{ color: "#000000", textAlign: "center" }}>
                 <div
-                  className="fa-solid fa-tablets"
+                  className="fa-solid fa-industry"
                   style={{ marginRight: "14px" }}
                 ></div>
-                Complimentary & Alternative Medicine{" "}
+                Manufacturing & Materials Science
               </h3>
               <div class="text" style={{ color: "white", textAlign: "center" }}>
-                Complementary and alternative (CAM) medicine course aims to deal
-                with various medical practices and products that implied to be
-                extreme conventional clinical care.{" "}
+                Manufacturing and Materials Science involves the development,
+                production, and optimization of materials and manufacturing
+                processes.{" "}
               </div>
               <div>
                 <button className="read-more-btn" onClick={handleShow}>
@@ -246,16 +245,15 @@ function Healthmedical() {
             >
               <h3 style={{ color: "#000", textAlign: "center" }}>
                 <div
-                  className="fa-solid fa-brain"
+                  className="fa-solid fa-microscope"
                   style={{ marginRight: "14px" }}
                 ></div>
-                Psychology & Psychiatry
+                Nanotechnology
               </h3>
               <div class="text" style={{ color: "white", textAlign: "center" }}>
-                Psychology & Psychiatry program explore studies between the mind
-                and its relationship to the human behavior and emotions. The
-                program mainly aims at the understanding science of several
-                mental states.{" "}
+                Nanotechnology involves manipulating matter at the atomic and
+                molecular scale to create materials and devices with novel
+                properties and functions.{" "}
               </div>
               <div>
                 <button className="read-more-btn" onClick={handleShow}>
@@ -282,19 +280,195 @@ function Healthmedical() {
             >
               <h3 style={{ color: "#000", textAlign: "center" }}>
                 <div
-                  className="fa-solid fa-democrat"
+                  className="fa-solid fa-hammer"
                   style={{ marginRight: "14px" }}
                 ></div>
-                Politics & Sociology
+                Mechanical Engineering
               </h3>
               <div class="text" style={{ color: "white", textAlign: "center" }}>
-                {" "}
+                Mechanical Engineering is the design and manufacturing of
+                mechanical systems and devices. It combines principles of
+                physics to create solutions for mechanical problems.{" "}
               </div>
               <div>
-                Politics & Sociology programs incorporate the perspective of
-                political science and sociology to address critical attributes
-                and fundamental issues of political and social change in this
-                21st-century society.
+                <button className="read-more-btn" onClick={handleShow}>
+                  Get Inquiry
+                </button>
+                <MyModal show={show} handleClose={handleClose} />
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="default-service-block item-margin-bot-10 col-md-6 col-sm-6 col-xs-12"
+            style={{
+              paddingTop: "20px",
+              paddingRight: "50px",
+              paddingLeft: "10px",
+            }}
+          >
+            <div
+              class="inner-box fadeInLeft"
+              style={{ background: "#a87c7c none repeat scroll 0 0" }}
+              data-wow-delay="0ms"
+              data-wow-duration="1500ms"
+            >
+              <h3 style={{ color: "#000", textAlign: "center" }}>
+                <div
+                  className="fa-solid fa-computer"
+                  style={{ marginRight: "14px" }}
+                ></div>
+                Software Engineering
+              </h3>
+              <div class="text" style={{ color: "white", textAlign: "center" }}>
+                Software Engineering focuses on the systematic design,
+                development, testing, and maintenance of software applications
+                and systems.{" "}
+              </div>
+              <div>
+                <button className="read-more-btn" onClick={handleShow}>
+                  Get Inquiry
+                </button>
+                <MyModal show={show} handleClose={handleClose} />
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="default-service-block item-margin-bot-10 col-md-6 col-sm-6 col-xs-12"
+            style={{
+              paddingTop: "20px",
+              paddingRight: "50px",
+              paddingLeft: "40px",
+            }}
+          >
+            <div
+              class="inner-box fadeInLeft"
+              style={{ background: "#a87c7c none repeat scroll 0 0" }}
+              data-wow-delay="0ms"
+              data-wow-duration="1500ms"
+            >
+              <h3 style={{ color: "#000", textAlign: "center" }}>
+                <div
+                  className="fa-solid fa-tty"
+                  style={{ marginRight: "14px" }}
+                ></div>
+                Telecommunications
+              </h3>
+              <div class="text" style={{ color: "white", textAlign: "center" }}>
+                Telecommunications involves the transmission and reception of
+                information over various forms of communication networks,
+                including wired, wireless, and satellite systems.{" "}
+              </div>
+              <div>
+                <button className="read-more-btn" onClick={handleShow}>
+                  Get Inquiry
+                </button>
+                <MyModal show={show} handleClose={handleClose} />
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="default-service-block item-margin-bot-10 col-md-6 col-sm-6 col-xs-12"
+            style={{
+              paddingTop: "20px",
+              paddingRight: "50px",
+              paddingLeft: "10px",
+            }}
+          >
+            <div
+              class="inner-box fadeInLeft"
+              style={{ background: "#a87c7c none repeat scroll 0 0" }}
+              data-wow-delay="0ms"
+              data-wow-duration="1500ms"
+            >
+              <h3 style={{ color: "#000", textAlign: "center" }}>
+                {" "}
+                <div
+                  className="fa-solid fa-network-wired"
+                  style={{ marginRight: "14px" }}
+                ></div>
+                Electrical and Electronic{" "}
+              </h3>
+              <div class="text" style={{ color: "white", textAlign: "center" }}>
+                Electrical and Electronic Engineering involves the study and
+                application of electrical systems, circuits, and electronic
+                devices.{" "}
+              </div>
+              <div>
+                <button className="read-more-btn" onClick={handleShow}>
+                  Get Inquiry
+                </button>
+                <MyModal show={show} handleClose={handleClose} />
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="default-service-block item-margin-bot-10 col-md-6 col-sm-6 col-xs-12"
+            style={{
+              paddingTop: "20px",
+              paddingRight: "50px",
+              paddingLeft: "40px",
+            }}
+          >
+            <div
+              class="inner-box fadeInLeft"
+              style={{ background: "#a87c7c none repeat scroll 0 0" }}
+              data-wow-delay="0ms"
+              data-wow-duration="1500ms"
+            >
+              <h3 style={{ color: "#000", textAlign: "center" }}>
+                <div
+                  className="fa-solid fa-cloud"
+                  style={{ marginRight: "14px" }}
+                ></div>
+                Data Mining / Image Mining / Cloud Computing
+              </h3>
+              <div class="text" style={{ color: "white", textAlign: "center" }}>
+                Data Mining involves extracting valuable patterns and insights
+                from large datasets using techniques like statistical analysis,
+                machine learning, and data visualization.{" "}
+              </div>
+              <div>
+                <button className="read-more-btn" onClick={handleShow}>
+                  Get Inquiry
+                </button>
+                <MyModal show={show} handleClose={handleClose} />
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="default-service-block item-margin-bot-10 col-md-6 col-sm-6 col-xs-12"
+            style={{
+              paddingTop: "20px",
+              paddingRight: "50px",
+              paddingLeft: "10px",
+            }}
+          >
+            <div
+              class="inner-box fadeInLeft"
+              style={{ background: "#a87c7c none repeat scroll 0 0" }}
+              data-wow-delay="0ms"
+              data-wow-duration="1500ms"
+            >
+              <h3 style={{ color: "#000", textAlign: "center" }}>
+                {" "}
+                <div
+                  className="fa-solid fa-computer"
+                  style={{ marginRight: "14px" }}
+                ></div>
+                Computer Science Engineering{" "}
+              </h3>
+              <div class="text" style={{ color: "white", textAlign: "center" }}>
+                Computer Science Engineering focuses on the theory, design,
+                development, and application of computer systems. It covers
+                areas such as algorithms and innovate in areas like artificial
+                intelligence.{" "}
+              </div>
+              <div>
                 <button className="read-more-btn" onClick={handleShow}>
                   Get Inquiry
                 </button>
@@ -309,4 +483,4 @@ function Healthmedical() {
     </>
   );
 }
-export default Healthmedical;
+export default Engineering;

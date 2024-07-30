@@ -2,10 +2,10 @@ import { useState } from "react";
 import React, { useEffect, useRef } from "react";
 import Topbar from "../../components/topbar/Topbar";
 import Footer from "../../components/footer/Footer";
-import "./healthmedical.css";
+import "./buisness.css";
 import MyModal from "./MyModal";
 
-function Healthmedical() {
+function Buisness() {
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
@@ -25,7 +25,7 @@ function Healthmedical() {
           <div className="row">
             <div className="col-md-12">
               <div className="about-cap ftco-animate pt-100 fadeInUp ftco-animated">
-                <h2>Health & Medical </h2>
+                <h2>BUSINESS & MANAGEMENT & HUMANITIES </h2>
                 <nav aria-label="breadcrumb">
                   <ol className="breadcrumb">
                     <li className="breadcrumb-item">
@@ -63,10 +63,10 @@ function Healthmedical() {
             >
               <h3 style={{ color: "#000", textAlign: "center" }}>
                 <div
-                  className="fa-solid fa-user-doctor"
+                  className="fa-solid fa-building-columns"
                   style={{ marginRight: "14px" }}
                 ></div>
-                {""}Nursing
+                {""}Development Studies
               </h3>
               <div
                 class="text"
@@ -75,9 +75,9 @@ function Healthmedical() {
                   textAlign: "center",
                 }}
               >
-                Nursing program prepares you to achieve the career goal as an
-                independent researcher on the nursing care to protect vulnerable
-                communities and nursing Knowledge development. {""}
+                Development Studies explores the processes and challenges of
+                socio-economic development in various regions. It examines
+                policies .{""}
               </div>
               <div>
                 <button className="read-more-btn" onClick={handleShow}>
@@ -105,15 +105,15 @@ function Healthmedical() {
               <h3 style={{ color: "#000000", textAlign: "center" }}>
                 {" "}
                 <div
-                  className="fa-solid fa-stethoscope"
+                  className="fa-solid fa-school"
                   style={{ marginRight: "14px" }}
                 ></div>
-                Clinical Pharmocology{" "}
+                Education{" "}
               </h3>
               <div class="text" style={{ color: "white", textAlign: "center" }}>
-                Clinical pharmacology program is an integrated science both
-                basic and clinical, will enable to gain the skills and knowledge
-                to examine the safety of new medical products for human studies.{" "}
+                ChatGPT Education involves the processes of teaching, learning,
+                and developing knowledge, skills, and values in individuals. It
+                encompasses formal schooling.{" "}
               </div>
               <div>
                 <button className="read-more-btn" onClick={handleShow}>
@@ -141,16 +141,15 @@ function Healthmedical() {
               <h3 style={{ color: "#000000", textAlign: "center" }}>
                 {" "}
                 <div
-                  className="fa-solid fa-suitcase-medical"
+                  className="fa-solid fa-person"
                   style={{ marginRight: "14px" }}
                 ></div>
-                Public Health
+                Human Resource Management
               </h3>
               <div class="text" style={{ color: "white", textAlign: "center" }}>
-                {" "}
-                Students are pursuing public health gain skills and knowledge in
-                the public health discipline such as epidemiology, health policy
-                & management, environment health.
+                Human Resource Management (HRM) involves the strategic approach
+                to managing an organization’s workforce. It includes recruiting,
+                training.
               </div>
               <div>
                 <button className="read-more-btn" onClick={handleShow}>
@@ -176,15 +175,15 @@ function Healthmedical() {
             >
               <h3 style={{ color: "#000000", textAlign: "center" }}>
                 <div
-                  className="fa-solid fa-virus"
+                  className="fa-solid fa-circle-info"
                   style={{ marginRight: "14px" }}
                 ></div>
-                Food Science & Nutrition
+                IT / Strategic Marketing
               </h3>
               <div class="text" style={{ color: "white", textAlign: "center" }}>
-                The food science and nutrition program is designed for
-                individuals who are a desire to pursue a graduate degree in
-                related science.{" "}
+                IT (Information Technology) focuses on the use of computers,
+                networks, and software to manage and process information. It
+                involves the development.{" "}
               </div>
               <div>
                 <button className="read-more-btn" onClick={handleShow}>
@@ -209,17 +208,17 @@ function Healthmedical() {
               data-wow-delay="0ms"
               data-wow-duration="1500ms"
             >
-              <h3 style={{ color: "#000", textAlign: "center" }}>
+              <h3 style={{ color: "#000000", textAlign: "center" }}>
                 <div
-                  className="fa-solid fa-tablets"
+                  className="fa-solid fa-thumbs-up"
                   style={{ marginRight: "14px" }}
                 ></div>
-                Complimentary & Alternative Medicine{" "}
+                Social Work, Social Policy & Administration
               </h3>
               <div class="text" style={{ color: "white", textAlign: "center" }}>
-                Complementary and alternative (CAM) medicine course aims to deal
-                with various medical practices and products that implied to be
-                extreme conventional clinical care.{" "}
+                Social Work focuses on helping individuals, families, and
+                communities improve their well-being and address social issues
+                through direct support.{" "}
               </div>
               <div>
                 <button className="read-more-btn" onClick={handleShow}>
@@ -246,16 +245,15 @@ function Healthmedical() {
             >
               <h3 style={{ color: "#000", textAlign: "center" }}>
                 <div
-                  className="fa-solid fa-brain"
+                  className="fa-solid fa-language"
                   style={{ marginRight: "14px" }}
                 ></div>
-                Psychology & Psychiatry
+                Modern Languages & Linguistics
               </h3>
               <div class="text" style={{ color: "white", textAlign: "center" }}>
-                Psychology & Psychiatry program explore studies between the mind
-                and its relationship to the human behavior and emotions. The
-                program mainly aims at the understanding science of several
-                mental states.{" "}
+                Modern Languages involves the study and use of contemporary
+                languages, focusing on proficiency in speaking, writing, and
+                understanding various languages.{" "}
               </div>
               <div>
                 <button className="read-more-btn" onClick={handleShow}>
@@ -282,19 +280,125 @@ function Healthmedical() {
             >
               <h3 style={{ color: "#000", textAlign: "center" }}>
                 <div
-                  className="fa-solid fa-democrat"
+                  className="fa-solid fa-chart-simple"
                   style={{ marginRight: "14px" }}
                 ></div>
-                Politics & Sociology
+                Philosophy
               </h3>
               <div class="text" style={{ color: "white", textAlign: "center" }}>
                 {" "}
               </div>
               <div>
-                Politics & Sociology programs incorporate the perspective of
-                political science and sociology to address critical attributes
-                and fundamental issues of political and social change in this
-                21st-century society.
+                Philosophy is the systematic study of fundamental questions
+                about existence, knowledge, values, reason, and ethics. It
+                explores concepts and theories through critical thinking.
+                <button className="read-more-btn" onClick={handleShow}>
+                  Get Inquiry
+                </button>
+                <MyModal show={show} handleClose={handleClose} />
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="default-service-block item-margin-bot-10 col-md-6 col-sm-6 col-xs-12"
+            style={{
+              paddingTop: "20px",
+              paddingRight: "50px",
+              paddingLeft: "10px",
+            }}
+          >
+            <div
+              class="inner-box fadeInLeft"
+              style={{ background: "#a87c7c none repeat scroll 0 0" }}
+              data-wow-delay="0ms"
+              data-wow-duration="1500ms"
+            >
+              <h3 style={{ color: "#000", textAlign: "center" }}>
+                <div
+                  className="fa-solid fa-notes-medical"
+                  style={{ marginRight: "14px" }}
+                ></div>
+                Health Sciences
+              </h3>
+              <div class="text" style={{ color: "white", textAlign: "center" }}>
+                Health Sciences encompasses the study and application of various
+                disciplines related to human health and well-being. It includes
+                fields such as medicine, nursing, public health.{" "}
+              </div>
+              <div>
+                <button className="read-more-btn" onClick={handleShow}>
+                  Get Inquiry
+                </button>
+                <MyModal show={show} handleClose={handleClose} />
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="default-service-block item-margin-bot-10 col-md-6 col-sm-6 col-xs-12"
+            style={{
+              paddingTop: "20px",
+              paddingRight: "50px",
+              paddingLeft: "40px",
+            }}
+          >
+            <div
+              class="inner-box fadeInLeft"
+              style={{ background: "#a87c7c none repeat scroll 0 0" }}
+              data-wow-delay="0ms"
+              data-wow-duration="1500ms"
+            >
+              <h3 style={{ color: "#000", textAlign: "center" }}>
+                <div
+                  className="fa-solid fa-earth-africa"
+                  style={{ marginRight: "14px" }}
+                ></div>
+                The Middle East & African Studies (MENA)
+              </h3>
+              <div class="text" style={{ color: "white", textAlign: "center" }}>
+                Middle East and African Studies (MENA) focuses on the
+                historical, cultural, political, and social dynamics of the
+                Middle East and North Africa region. It involves analyzing
+                regional issues, including geopolitics.{" "}
+              </div>
+              <div>
+                <button className="read-more-btn" onClick={handleShow}>
+                  Get Inquiry
+                </button>
+                <MyModal show={show} handleClose={handleClose} />
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="default-service-block item-margin-bot-10 col-md-6 col-sm-6 col-xs-12"
+            style={{
+              paddingTop: "20px",
+              paddingRight: "50px",
+              paddingLeft: "10px",
+            }}
+          >
+            <div
+              class="inner-box fadeInLeft"
+              style={{ background: "#a87c7c none repeat scroll 0 0" }}
+              data-wow-delay="0ms"
+              data-wow-duration="1500ms"
+            >
+              <h3 style={{ color: "#000", textAlign: "center" }}>
+                {" "}
+                <div
+                  className="fa-solid fa-sitemap"
+                  style={{ marginRight: "14px" }}
+                ></div>
+                Architecture & The Built Environment{" "}
+              </h3>
+              <div class="text" style={{ color: "white", textAlign: "center" }}>
+                Architecture & The Built Environment involves the design,
+                planning, and construction of buildings and structures. It
+                focuses on creating functional and human needs.{" "}
+              </div>
+              <div>
                 <button className="read-more-btn" onClick={handleShow}>
                   Get Inquiry
                 </button>
@@ -309,4 +413,4 @@ function Healthmedical() {
     </>
   );
 }
-export default Healthmedical;
+export default Buisness;

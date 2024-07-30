@@ -2,10 +2,10 @@ import { useState } from "react";
 import React, { useEffect, useRef } from "react";
 import Topbar from "../../components/topbar/Topbar";
 import Footer from "../../components/footer/Footer";
-import "./healthmedical.css";
+import "./finance.css";
 import MyModal from "./MyModal";
 
-function Healthmedical() {
+function Finance() {
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
@@ -25,7 +25,7 @@ function Healthmedical() {
           <div className="row">
             <div className="col-md-12">
               <div className="about-cap ftco-animate pt-100 fadeInUp ftco-animated">
-                <h2>Health & Medical </h2>
+                <h2>Finance & Others </h2>
                 <nav aria-label="breadcrumb">
                   <ol className="breadcrumb">
                     <li className="breadcrumb-item">
@@ -63,10 +63,10 @@ function Healthmedical() {
             >
               <h3 style={{ color: "#000", textAlign: "center" }}>
                 <div
-                  className="fa-solid fa-user-doctor"
+                  className="fa-solid fa-coins"
                   style={{ marginRight: "14px" }}
                 ></div>
-                {""}Nursing
+                {""}Accounting & Finance
               </h3>
               <div
                 class="text"
@@ -75,9 +75,9 @@ function Healthmedical() {
                   textAlign: "center",
                 }}
               >
-                Nursing program prepares you to achieve the career goal as an
-                independent researcher on the nursing care to protect vulnerable
-                communities and nursing Knowledge development. {""}
+                Accounting involves the systematic recording, reporting, and
+                analysis of financial transactions to provide accurate financial
+                information for decision-making. {""}
               </div>
               <div>
                 <button className="read-more-btn" onClick={handleShow}>
@@ -105,15 +105,15 @@ function Healthmedical() {
               <h3 style={{ color: "#000000", textAlign: "center" }}>
                 {" "}
                 <div
-                  className="fa-solid fa-stethoscope"
+                  className="fa-solid fa-people-group"
                   style={{ marginRight: "14px" }}
                 ></div>
-                Clinical Pharmocology{" "}
+                Marketing{" "}
               </h3>
               <div class="text" style={{ color: "white", textAlign: "center" }}>
-                Clinical pharmacology program is an integrated science both
-                basic and clinical, will enable to gain the skills and knowledge
-                to examine the safety of new medical products for human studies.{" "}
+                Marketing involves the strategies and tactics used to identify,
+                create, and satisfy customer needs and desires. It encompasses
+                market research, branding, advertising.{" "}
               </div>
               <div>
                 <button className="read-more-btn" onClick={handleShow}>
@@ -141,16 +141,15 @@ function Healthmedical() {
               <h3 style={{ color: "#000000", textAlign: "center" }}>
                 {" "}
                 <div
-                  className="fa-solid fa-suitcase-medical"
+                  className="fa-solid fa-location-dot"
                   style={{ marginRight: "14px" }}
                 ></div>
-                Public Health
+                Tourism & Hospitality
               </h3>
               <div class="text" style={{ color: "white", textAlign: "center" }}>
-                {" "}
-                Students are pursuing public health gain skills and knowledge in
-                the public health discipline such as epidemiology, health policy
-                & management, environment health.
+                Tourism involves the travel and activities of people visiting
+                places for leisure, business, or other purposes. It focuses on
+                providing enjoyable and memorable experiences,.
               </div>
               <div>
                 <button className="read-more-btn" onClick={handleShow}>
@@ -176,15 +175,15 @@ function Healthmedical() {
             >
               <h3 style={{ color: "#000000", textAlign: "center" }}>
                 <div
-                  className="fa-solid fa-virus"
+                  className="fa-solid fa-language"
                   style={{ marginRight: "14px" }}
                 ></div>
-                Food Science & Nutrition
+                English
               </h3>
               <div class="text" style={{ color: "white", textAlign: "center" }}>
-                The food science and nutrition program is designed for
-                individuals who are a desire to pursue a graduate degree in
-                related science.{" "}
+                English involves the study and use of the English language,
+                including its literature, linguistics, and composition. It
+                encompasses analyzing literary works.{" "}
               </div>
               <div>
                 <button className="read-more-btn" onClick={handleShow}>
@@ -209,17 +208,18 @@ function Healthmedical() {
               data-wow-delay="0ms"
               data-wow-duration="1500ms"
             >
-              <h3 style={{ color: "#000", textAlign: "center" }}>
+              <h3 style={{ color: "#000000", textAlign: "center" }}>
                 <div
-                  className="fa-solid fa-tablets"
+                  className="fa-solid fa-monument"
                   style={{ marginRight: "14px" }}
-                ></div>
-                Complimentary & Alternative Medicine{" "}
+                >
+                  History{" "}
+                </div>
               </h3>
               <div class="text" style={{ color: "white", textAlign: "center" }}>
-                Complementary and alternative (CAM) medicine course aims to deal
-                with various medical practices and products that implied to be
-                extreme conventional clinical care.{" "}
+                History is the study of past events, societies, and cultures. It
+                involves researching and interpreting historical evidence to
+                understand how previous occurrences have shaped the present.{" "}
               </div>
               <div>
                 <button className="read-more-btn" onClick={handleShow}>
@@ -246,16 +246,15 @@ function Healthmedical() {
             >
               <h3 style={{ color: "#000", textAlign: "center" }}>
                 <div
-                  className="fa-solid fa-brain"
+                  className="fa-solid fa-monument"
                   style={{ marginRight: "14px" }}
                 ></div>
-                Psychology & Psychiatry
+                Classics & Ancient History
               </h3>
               <div class="text" style={{ color: "white", textAlign: "center" }}>
-                Psychology & Psychiatry program explore studies between the mind
-                and its relationship to the human behavior and emotions. The
-                program mainly aims at the understanding science of several
-                mental states.{" "}
+                Classics & Ancient History focuses on the study of ancient
+                civilizations, particularly those of Greece and Rome. It
+                involves analyzing historical texts.{" "}
               </div>
               <div>
                 <button className="read-more-btn" onClick={handleShow}>
@@ -282,19 +281,53 @@ function Healthmedical() {
             >
               <h3 style={{ color: "#000", textAlign: "center" }}>
                 <div
-                  className="fa-solid fa-democrat"
+                  className="fa-solid fa-gavel"
                   style={{ marginRight: "14px" }}
                 ></div>
-                Politics & Sociology
+                Law
               </h3>
               <div class="text" style={{ color: "white", textAlign: "center" }}>
                 {" "}
               </div>
               <div>
-                Politics & Sociology programs incorporate the perspective of
-                political science and sociology to address critical attributes
-                and fundamental issues of political and social change in this
-                21st-century society.
+                Law involves the study and practice of the legal system,
+                encompassing the rules and principles that govern society. It
+                includes areas such as criminal law, civil law.
+                <button className="read-more-btn" onClick={handleShow}>
+                  Get Inquiry
+                </button>
+                <MyModal show={show} handleClose={handleClose} />
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="default-service-block item-margin-bot-10 col-md-6 col-sm-6 col-xs-12"
+            style={{
+              paddingTop: "20px",
+              paddingRight: "50px",
+              paddingLeft: "10px",
+            }}
+          >
+            <div
+              class="inner-box fadeInLeft"
+              style={{ background: "#a87c7c none repeat scroll 0 0" }}
+              data-wow-delay="0ms"
+              data-wow-duration="1500ms"
+            >
+              <h3 style={{ color: "#000", textAlign: "center" }}>
+                <div
+                  className="fa-solid fa-book"
+                  style={{ marginRight: "14px" }}
+                ></div>
+                Operational Research
+              </h3>
+              <div class="text" style={{ color: "white", textAlign: "center" }}>
+                Operational Research (OR) applies advanced analytical methods to
+                help make better decisions. It involves using techniques such as
+                mathematical modeling, statistics.{" "}
+              </div>
+              <div>
                 <button className="read-more-btn" onClick={handleShow}>
                   Get Inquiry
                 </button>
@@ -309,4 +342,4 @@ function Healthmedical() {
     </>
   );
 }
-export default Healthmedical;
+export default Finance;

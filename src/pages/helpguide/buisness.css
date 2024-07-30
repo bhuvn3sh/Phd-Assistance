@@ -127,3 +127,23 @@ services-section {
   color: #fff;
   text-align: center;
 }
+.read-more-btn {
+  padding: 5px 16px;
+  color: #fff;
+  background-color: #503c3c;
+  border-radius: 2px;
+  margin: 2px auto;
+  display: block;
+  width: 120px;
+  font-size: 16px;
+}
+.read-more-btn:hover {
+  background-color: #000;
+}
+.modal-backdrop.show {
+  opacity: 0 !important;
+}
+
+.modal {
+  background: transparent;
+}

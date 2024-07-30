@@ -111,13 +111,13 @@ function topbar() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ml-auto" style={{ marginLeft: "390px" }}>
-              <Nav.Link href="/about" className="mx-2 text-light">
-                About
+              <Nav.Link href="/about" className="mx-2  nav-link">
+                <div style={{ color: "#ffffff" }}>About</div>
               </Nav.Link>
               <NavDropdown
                 title="Services"
                 id="basic-nav-dropdown"
-                className="mx-2 text-"
+                className="mx-2 nav-link"
                 style={{ color: "#141619" }}
               >
                 <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
@@ -135,7 +135,7 @@ function topbar() {
               <NavDropdown
                 title="Industries"
                 id="basic-nav-dropdown"
-                className="mx-2 "
+                className="mx-2 nav-link"
               >
                 <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.2">
@@ -149,37 +149,37 @@ function topbar() {
                   Separated link
                 </NavDropdown.Item>
               </NavDropdown>
-              <Nav.Link href="/pricing" className="mx-2 text-light">
-                Pricing
+              <Nav.Link href="/pricing" className="mx-2 nav-link">
+                <div style={{ color: "#ffffff" }}> Pricing</div>
               </Nav.Link>
               <NavDropdown
                 title="Help-Guide"
                 id="basic-nav-dropdown"
-                className="mx-2 text-"
+                className="mx-2 nav-link"
                 style={{ color: "#141619" }}
               >
                 <NavDropdown.Item href="/health-medical">
                   HEALTH & MEDICAL
                 </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">
+                <NavDropdown.Item href="/biological-science">
                   BIOLOGICAL & SCIENCE
                 </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">
+                <NavDropdown.Item href="/engineering">
                   ENGINEERING
                 </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.4">
+                <NavDropdown.Item href="/buisness">
                   BUSINESS & MANAGEMENT & HUMANITIES
                 </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.4">
+                <NavDropdown.Item href="/finance">
                   FINANCE & OTHERS
                 </NavDropdown.Item>
               </NavDropdown>
 
-              <Nav.Link href="/contact" className="mx-2 text-light">
-                Contact
+              <Nav.Link href="/contact" className="mx-2 nav-link">
+                <div style={{ color: "#ffffff" }}>Contact</div>
               </Nav.Link>
-              <Nav.Link href="/hire" className="mx-2 text-light">
-                Hire A Researcher
+              <Nav.Link href="/hire" className="mx-2 nav-link">
+                <div style={{ color: "#ffffff" }}> Hire A Researcher</div>
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>
