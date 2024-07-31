@@ -112,7 +112,7 @@ function topbar() {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ml-auto" style={{ marginLeft: "390px" }}>
               <Nav.Link href="/about" className="mx-2  nav-link">
-                <div style={{ color: "#ffffff" }}>About</div>
+                <div style={{ color: "#ffffff", paddingTop: "9px" }}>About</div>
               </Nav.Link>
               <NavDropdown
                 title="Services"
@@ -120,7 +120,9 @@ function topbar() {
                 className="mx-2 nav-link"
                 style={{ color: "#141619" }}
               >
-                <NavDropdown.Item href="/services/phd-dissertation/phd-topic-selection">Topic Selection</NavDropdown.Item>
+                <NavDropdown.Item href="/services/phd-dissertation/phd-topic-selection">
+                  Topic Selection
+                </NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.2">
                   Another action
                 </NavDropdown.Item>
@@ -150,7 +152,10 @@ function topbar() {
                 </NavDropdown.Item>
               </NavDropdown>
               <Nav.Link href="/pricing" className="mx-2 nav-link">
-                <div style={{ color: "#ffffff" }}> Pricing</div>
+                <div style={{ color: "#ffffff", paddingTop: "9px" }}>
+                  {" "}
+                  Pricing
+                </div>
               </Nav.Link>
               <NavDropdown
                 title="Help-Guide"
@@ -176,10 +181,15 @@ function topbar() {
               </NavDropdown>
 
               <Nav.Link href="/contact" className="mx-2 nav-link">
-                <div style={{ color: "#ffffff" }}>Contact</div>
+                <div style={{ color: "#ffffff", paddingTop: "9px" }}>
+                  Contact
+                </div>
               </Nav.Link>
               <Nav.Link href="/hire" className="mx-2 nav-link">
-                <div style={{ color: "#ffffff" }}> Hire A Researcher</div>
+                <div style={{ color: "#ffffff", paddingTop: "9px" }}>
+                  {" "}
+                  Hire A Researcher
+                </div>
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>
