@@ -3,6 +3,7 @@
     /* background: #000000 !important; */
 }
 .description h2{
+    font-size: 40px;
     font-weight: 600;
     padding-bottom: 15px;
     color: #503c3c;
@@ -13,6 +14,8 @@
   font-size: 15px;
   color: #3a3a3a;
 }
+
+
 .services-description{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
   border: none;
@@ -20,4 +23,49 @@
 }
 .services-description:hover {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); /* Increase shadow on hover */
-  }
+}
+
+
+
+
+.service-features{
+  background-color: #f6f6f6;
+  padding: 50px 0;
+  text-align: center;
+}
+.service-features h3{
+  font-size: 40px;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: #503c3c;
+  margin-bottom: 30px;
+}
+.service-features1{
+  background: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.service-features1 i{
+  font-size: 50px;
+  color: #000000;
+  margin-bottom: 20px;
+}
+.service-features h5{
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.service-features1 h5{
+  font-size: 20px;
+  color: #706363;
+}
+.service-features p{
+  text-align: justify;
+  line-height: 27px;
+  font-size: 15px;
+  color: #3a3a3a;
+}
+
+
+.mentors{
+  background-color: #f1f1f1 !important;
+}

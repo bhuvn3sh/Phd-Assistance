@@ -101,7 +101,7 @@ function topbar() {
         <Container>
           <Navbar.Brand href="/" style={{ marginRight: "25px" }}>
             <img
-              src="./assets/logo.png"
+              src="../../../../assets/logo.png"
               width="90"
               height="70"
               className="d-inline-block align-top"
