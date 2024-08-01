@@ -13,6 +13,7 @@ import Buisness from "./pages/helpguide/Buisness";
 import Finance from "./pages/helpguide/Finance";
 import Pricing from "./pages/pricing/Pricing";
 import Order from "./pages/order-now/Order";
+import Faqs from "./pages/faqs/Faqs";
 import TopicSelection from "./pages/services/phd topic selection/TopicSelection";
 import ProblemIdentification from "./pages/services/problem identification/ProblemIdentification";
 import ResearchProposal from "./pages/services/research proposal/ResearchProposal";
