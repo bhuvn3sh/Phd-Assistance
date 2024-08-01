@@ -44,7 +44,7 @@ function Buisness() {
 
       <div
         class="auto-container"
-        style={{ marginLeft: "140px", marginRight: "80px" }}
+        style={{ marginLeft: "250px", marginRight: "80px" }}
       >
         <div class="row clearfix">
           <div
@@ -80,7 +80,7 @@ function Buisness() {
                 policies .{""}
               </div>
               <div>
-                <button className="read-more-btn" onClick={handleShow}>
+                <button className="read-more-btn" onClick={handleShow} style={{ border: 'none'}}>
                   Get Inquiry
                 </button>
                 <MyModal show={show} handleClose={handleClose} />
@@ -116,7 +116,7 @@ function Buisness() {
                 encompasses formal schooling.{" "}
               </div>
               <div>
-                <button className="read-more-btn" onClick={handleShow}>
+                <button className="read-more-btn" onClick={handleShow} style={{ border: 'none'}}>
                   Get Inquiry
                 </button>
                 <MyModal show={show} handleClose={handleClose} />
@@ -152,7 +152,7 @@ function Buisness() {
                 training.
               </div>
               <div>
-                <button className="read-more-btn" onClick={handleShow}>
+                <button className="read-more-btn" onClick={handleShow} style={{ border: 'none'}}>
                   Get Inquiry
                 </button>
                 <MyModal show={show} handleClose={handleClose} />
@@ -186,7 +186,7 @@ function Buisness() {
                 involves the development.{" "}
               </div>
               <div>
-                <button className="read-more-btn" onClick={handleShow}>
+                <button className="read-more-btn" onClick={handleShow} style={{ border: 'none'}}>
                   Get Inquiry
                 </button>
                 <MyModal show={show} handleClose={handleClose} />
@@ -221,7 +221,7 @@ function Buisness() {
                 through direct support.{" "}
               </div>
               <div>
-                <button className="read-more-btn" onClick={handleShow}>
+                <button className="read-more-btn" onClick={handleShow} style={{ border: 'none'}}>
                   Get Inquiry
                 </button>
                 <MyModal show={show} handleClose={handleClose} />
@@ -256,7 +256,7 @@ function Buisness() {
                 understanding various languages.{" "}
               </div>
               <div>
-                <button className="read-more-btn" onClick={handleShow}>
+                <button className="read-more-btn" onClick={handleShow} style={{ border: 'none'}}>
                   Get Inquiry
                 </button>
                 <MyModal show={show} handleClose={handleClose} />
@@ -292,7 +292,7 @@ function Buisness() {
                 Philosophy is the systematic study of fundamental questions
                 about existence, knowledge, values, reason, and ethics. It
                 explores concepts and theories through critical thinking.
-                <button className="read-more-btn" onClick={handleShow}>
+                <button className="read-more-btn" onClick={handleShow} style={{ border: 'none'}}>
                   Get Inquiry
                 </button>
                 <MyModal show={show} handleClose={handleClose} />
@@ -327,7 +327,7 @@ function Buisness() {
                 fields such as medicine, nursing, public health.{" "}
               </div>
               <div>
-                <button className="read-more-btn" onClick={handleShow}>
+                <button className="read-more-btn" onClick={handleShow} style={{ border: 'none'}}>
                   Get Inquiry
                 </button>
                 <MyModal show={show} handleClose={handleClose} />
@@ -363,7 +363,7 @@ function Buisness() {
                 regional issues, including geopolitics.{" "}
               </div>
               <div>
-                <button className="read-more-btn" onClick={handleShow}>
+                <button className="read-more-btn" onClick={handleShow} style={{ border: 'none'}}>
                   Get Inquiry
                 </button>
                 <MyModal show={show} handleClose={handleClose} />
@@ -399,7 +399,7 @@ function Buisness() {
                 focuses on creating functional and human needs.{" "}
               </div>
               <div>
-                <button className="read-more-btn" onClick={handleShow}>
+                <button className="read-more-btn" onClick={handleShow} style={{ border: 'none'}}>
                   Get Inquiry
                 </button>
                 <MyModal show={show} handleClose={handleClose} />

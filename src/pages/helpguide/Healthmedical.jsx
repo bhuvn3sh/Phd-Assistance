@@ -44,7 +44,7 @@ function Healthmedical() {
 
       <div
         class="auto-container"
-        style={{ marginLeft: "140px", marginRight: "80px" }}
+        style={{ marginLeft: "250px", marginRight: "80px" }}
       >
         <div class="row clearfix">
           <div
@@ -80,7 +80,7 @@ function Healthmedical() {
                 communities and nursing Knowledge development. {""}
               </div>
               <div>
-                <button className="read-more-btn" onClick={handleShow}>
+                <button className="read-more-btn" onClick={handleShow} style={{ border: 'none'}}>
                   Get Inquiry
                 </button>
                 <MyModal show={show} handleClose={handleClose} />
@@ -116,7 +116,7 @@ function Healthmedical() {
                 to examine the safety of new medical products for human studies.{" "}
               </div>
               <div>
-                <button className="read-more-btn" onClick={handleShow}>
+                <button className="read-more-btn" onClick={handleShow} style={{ border: 'none'}}>
                   Get Inquiry
                 </button>
                 <MyModal show={show} handleClose={handleClose} />
@@ -153,7 +153,7 @@ function Healthmedical() {
                 & management, environment health.
               </div>
               <div>
-                <button className="read-more-btn" onClick={handleShow}>
+                <button className="read-more-btn" onClick={handleShow} style={{ border: 'none'}}>
                   Get Inquiry
                 </button>
                 <MyModal show={show} handleClose={handleClose} />
@@ -187,7 +187,7 @@ function Healthmedical() {
                 related science.{" "}
               </div>
               <div>
-                <button className="read-more-btn" onClick={handleShow}>
+                <button className="read-more-btn" onClick={handleShow} style={{ border: 'none'}}>
                   Get Inquiry
                 </button>
                 <MyModal show={show} handleClose={handleClose} />
@@ -222,7 +222,7 @@ function Healthmedical() {
                 extreme conventional clinical care.{" "}
               </div>
               <div>
-                <button className="read-more-btn" onClick={handleShow}>
+                <button className="read-more-btn" onClick={handleShow} style={{ border: 'none'}}>
                   Get Inquiry
                 </button>
                 <MyModal show={show} handleClose={handleClose} />
@@ -258,7 +258,7 @@ function Healthmedical() {
                 mental states.{" "}
               </div>
               <div>
-                <button className="read-more-btn" onClick={handleShow}>
+                <button className="read-more-btn" onClick={handleShow} style={{ border: 'none'}}>
                   Get Inquiry
                 </button>
                 <MyModal show={show} handleClose={handleClose} />
@@ -295,7 +295,7 @@ function Healthmedical() {
                 political science and sociology to address critical attributes
                 and fundamental issues of political and social change in this
                 21st-century society.
-                <button className="read-more-btn" onClick={handleShow}>
+                <button className="read-more-btn" onClick={handleShow} style={{ border: 'none'}}>
                   Get Inquiry
                 </button>
                 <MyModal show={show} handleClose={handleClose} />

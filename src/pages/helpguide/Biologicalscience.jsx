@@ -43,7 +43,7 @@ function Biologicalscience() {
 
       <div
         class="auto-container"
-        style={{ marginLeft: "140px", marginRight: "80px" }}
+        style={{ marginLeft: "250px", marginRight: "80px" }}
       >
         <div class="row clearfix">
           <div
@@ -80,7 +80,7 @@ function Biologicalscience() {
                 environmental stewardship.{""}
               </div>
               <div>
-                <button className="read-more-btn" onClick={handleShow}>
+                <button className="read-more-btn" onClick={handleShow} style={{ border: 'none'}}>
                   Get Inquiry
                 </button>
                 <MyModal show={show} handleClose={handleClose} />
@@ -116,7 +116,7 @@ function Biologicalscience() {
                 interactions.{" "}
               </div>
               <div>
-                <button className="read-more-btn" onClick={handleShow}>
+                <button className="read-more-btn" onClick={handleShow} style={{ border: 'none'}}>
                   Get Inquiry
                 </button>
                 <MyModal show={show} handleClose={handleClose} />
@@ -152,7 +152,7 @@ function Biologicalscience() {
                 combat various types of cancer.
               </div>
               <div>
-                <button className="read-more-btn" onClick={handleShow}>
+                <button className="read-more-btn" onClick={handleShow} style={{ border: 'none'}}>
                   Get Inquiry
                 </button>
                 <MyModal show={show} handleClose={handleClose} />
@@ -187,7 +187,7 @@ function Biologicalscience() {
                 the genetic basis of diseases.{" "}
               </div>
               <div>
-                <button className="read-more-btn" onClick={handleShow}>
+                <button className="read-more-btn" onClick={handleShow} style={{ border: 'none'}}>
                   Get Inquiry
                 </button>
                 <MyModal show={show} handleClose={handleClose} />
@@ -223,7 +223,7 @@ function Biologicalscience() {
                 and patient care.{" "}
               </div>
               <div>
-                <button className="read-more-btn" onClick={handleShow}>
+                <button className="read-more-btn" onClick={handleShow} style={{ border: 'none'}}>
                   Get Inquiry
                 </button>
                 <MyModal show={show} handleClose={handleClose} />
@@ -258,7 +258,7 @@ function Biologicalscience() {
                 postpartum period.{" "}
               </div>
               <div>
-                <button className="read-more-btn" onClick={handleShow}>
+                <button className="read-more-btn" onClick={handleShow} style={{ border: 'none'}}>
                   Get Inquiry
                 </button>
                 <MyModal show={show} handleClose={handleClose} />
@@ -294,7 +294,7 @@ function Biologicalscience() {
                 information is regulated and expressed.{" "}
               </div>
               <div>
-                <button className="read-more-btn" onClick={handleShow}>
+                <button className="read-more-btn" onClick={handleShow} style={{ border: 'none'}}>
                   Get Inquiry
                 </button>
                 <MyModal show={show} handleClose={handleClose} />
@@ -330,7 +330,7 @@ function Biologicalscience() {
                 neurological disorders.{" "}
               </div>
               <div>
-                <button className="read-more-btn" onClick={handleShow}>
+                <button className="read-more-btn" onClick={handleShow} style={{ border: 'none'}}>
                   Get Inquiry
                 </button>
                 <MyModal show={show} handleClose={handleClose} />
@@ -365,7 +365,7 @@ function Biologicalscience() {
                 performance and overall health.{" "}
               </div>
               <div>
-                <button className="read-more-btn" onClick={handleShow}>
+                <button className="read-more-btn" onClick={handleShow} style={{ border: 'none'}}>
                   Get Inquiry
                 </button>
                 <MyModal show={show} handleClose={handleClose} />
@@ -401,7 +401,7 @@ function Biologicalscience() {
                 study of disease patterns.{" "}
               </div>
               <div>
-                <button className="read-more-btn" onClick={handleShow}>
+                <button className="read-more-btn" onClick={handleShow} style={{ border: 'none'}}>
                   Get Inquiry
                 </button>
                 <MyModal show={show} handleClose={handleClose} />
@@ -436,7 +436,7 @@ function Biologicalscience() {
                 understand immune mechanisms.{" "}
               </div>
               <div>
-                <button className="read-more-btn" onClick={handleShow}>
+                <button className="read-more-btn" onClick={handleShow} style={{ border: 'none'}}>
                   Get Inquiry
                 </button>
                 <MyModal show={show} handleClose={handleClose} />
@@ -472,7 +472,7 @@ function Biologicalscience() {
                 like medicine, agriculture, and industry.{" "}
               </div>
               <div>
-                <button className="read-more-btn" onClick={handleShow}>
+                <button className="read-more-btn" onClick={handleShow} style={{ border: 'none'}}>
                   Get Inquiry
                 </button>
                 <MyModal show={show} handleClose={handleClose} />

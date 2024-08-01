@@ -44,7 +44,7 @@ function Engineering() {
 
       <div
         class="auto-container"
-        style={{ marginLeft: "140px", marginRight: "80px" }}
+        style={{ marginLeft: "250px", marginRight: "80px" }}
       >
         <div class="row clearfix">
           <div
@@ -80,7 +80,7 @@ function Engineering() {
                 monitoring.{""}
               </div>
               <div>
-                <button className="read-more-btn" onClick={handleShow}>
+                <button className="read-more-btn" onClick={handleShow} style={{ border: 'none'}}>
                   Get Inquiry
                 </button>
                 <MyModal show={show} handleClose={handleClose} />
@@ -116,7 +116,7 @@ function Engineering() {
                 involves managing resources.{" "}
               </div>
               <div>
-                <button className="read-more-btn" onClick={handleShow}>
+                <button className="read-more-btn" onClick={handleShow} style={{ border: 'none'}}>
                   Get Inquiry
                 </button>
                 <MyModal show={show} handleClose={handleClose} />
@@ -152,7 +152,7 @@ function Engineering() {
                 buildings, bridges, roads, and dams.
               </div>
               <div>
-                <button className="read-more-btn" onClick={handleShow}>
+                <button className="read-more-btn" onClick={handleShow} style={{ border: 'none'}}>
                   Get Inquiry
                 </button>
                 <MyModal show={show} handleClose={handleClose} />
@@ -186,7 +186,7 @@ function Engineering() {
                 materials into valuable products.{" "}
               </div>
               <div>
-                <button className="read-more-btn" onClick={handleShow}>
+                <button className="read-more-btn" onClick={handleShow} style={{ border: 'none'}}>
                   Get Inquiry
                 </button>
                 <MyModal show={show} handleClose={handleClose} />
@@ -221,7 +221,7 @@ function Engineering() {
                 processes.{" "}
               </div>
               <div>
-                <button className="read-more-btn" onClick={handleShow}>
+                <button className="read-more-btn" onClick={handleShow} style={{ border: 'none'}}>
                   Get Inquiry
                 </button>
                 <MyModal show={show} handleClose={handleClose} />
@@ -256,7 +256,7 @@ function Engineering() {
                 properties and functions.{" "}
               </div>
               <div>
-                <button className="read-more-btn" onClick={handleShow}>
+                <button className="read-more-btn" onClick={handleShow} style={{ border: 'none'}}>
                   Get Inquiry
                 </button>
                 <MyModal show={show} handleClose={handleClose} />
@@ -291,7 +291,7 @@ function Engineering() {
                 physics to create solutions for mechanical problems.{" "}
               </div>
               <div>
-                <button className="read-more-btn" onClick={handleShow}>
+                <button className="read-more-btn" onClick={handleShow} style={{ border: 'none'}}>
                   Get Inquiry
                 </button>
                 <MyModal show={show} handleClose={handleClose} />
@@ -326,7 +326,7 @@ function Engineering() {
                 and systems.{" "}
               </div>
               <div>
-                <button className="read-more-btn" onClick={handleShow}>
+                <button className="read-more-btn" onClick={handleShow} style={{ border: 'none'}}>
                   Get Inquiry
                 </button>
                 <MyModal show={show} handleClose={handleClose} />
@@ -361,7 +361,7 @@ function Engineering() {
                 including wired, wireless, and satellite systems.{" "}
               </div>
               <div>
-                <button className="read-more-btn" onClick={handleShow}>
+                <button className="read-more-btn" onClick={handleShow} style={{ border: 'none'}}>
                   Get Inquiry
                 </button>
                 <MyModal show={show} handleClose={handleClose} />
@@ -397,7 +397,7 @@ function Engineering() {
                 devices.{" "}
               </div>
               <div>
-                <button className="read-more-btn" onClick={handleShow}>
+                <button className="read-more-btn" onClick={handleShow} style={{ border: 'none'}}>
                   Get Inquiry
                 </button>
                 <MyModal show={show} handleClose={handleClose} />
@@ -432,7 +432,7 @@ function Engineering() {
                 machine learning, and data visualization.{" "}
               </div>
               <div>
-                <button className="read-more-btn" onClick={handleShow}>
+                <button className="read-more-btn" onClick={handleShow} style={{ border: 'none'}}>
                   Get Inquiry
                 </button>
                 <MyModal show={show} handleClose={handleClose} />
@@ -469,7 +469,7 @@ function Engineering() {
                 intelligence.{" "}
               </div>
               <div>
-                <button className="read-more-btn" onClick={handleShow}>
+                <button className="read-more-btn" onClick={handleShow} style={{ border: 'none'}}>
                   Get Inquiry
                 </button>
                 <MyModal show={show} handleClose={handleClose} />

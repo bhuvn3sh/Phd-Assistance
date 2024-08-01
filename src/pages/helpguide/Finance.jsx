@@ -44,7 +44,7 @@ function Finance() {
 
       <div
         class="auto-container"
-        style={{ marginLeft: "140px", marginRight: "80px" }}
+        style={{ marginLeft: "250px", marginRight: "80px" }}
       >
         <div class="row clearfix">
           <div
@@ -80,7 +80,7 @@ function Finance() {
                 information for decision-making. {""}
               </div>
               <div>
-                <button className="read-more-btn" onClick={handleShow}>
+                <button className="read-more-btn" onClick={handleShow} style={{ border: 'none'}}>
                   Get Inquiry
                 </button>
                 <MyModal show={show} handleClose={handleClose} />
@@ -116,7 +116,7 @@ function Finance() {
                 market research, branding, advertising.{" "}
               </div>
               <div>
-                <button className="read-more-btn" onClick={handleShow}>
+                <button className="read-more-btn" onClick={handleShow} style={{ border: 'none'}}>
                   Get Inquiry
                 </button>
                 <MyModal show={show} handleClose={handleClose} />
@@ -152,7 +152,7 @@ function Finance() {
                 providing enjoyable and memorable experiences,.
               </div>
               <div>
-                <button className="read-more-btn" onClick={handleShow}>
+                <button className="read-more-btn" onClick={handleShow} style={{ border: 'none'}}>
                   Get Inquiry
                 </button>
                 <MyModal show={show} handleClose={handleClose} />
@@ -186,7 +186,7 @@ function Finance() {
                 encompasses analyzing literary works.{" "}
               </div>
               <div>
-                <button className="read-more-btn" onClick={handleShow}>
+                <button className="read-more-btn" onClick={handleShow} style={{ border: 'none'}}>
                   Get Inquiry
                 </button>
                 <MyModal show={show} handleClose={handleClose} />
@@ -222,7 +222,7 @@ function Finance() {
                 understand how previous occurrences have shaped the present.{" "}
               </div>
               <div>
-                <button className="read-more-btn" onClick={handleShow}>
+                <button className="read-more-btn" onClick={handleShow} style={{ border: 'none'}}>
                   Get Inquiry
                 </button>
                 <MyModal show={show} handleClose={handleClose} />
@@ -257,7 +257,7 @@ function Finance() {
                 involves analyzing historical texts.{" "}
               </div>
               <div>
-                <button className="read-more-btn" onClick={handleShow}>
+                <button className="read-more-btn" onClick={handleShow} style={{ border: 'none'}}>
                   Get Inquiry
                 </button>
                 <MyModal show={show} handleClose={handleClose} />
@@ -293,7 +293,7 @@ function Finance() {
                 Law involves the study and practice of the legal system,
                 encompassing the rules and principles that govern society. It
                 includes areas such as criminal law, civil law.
-                <button className="read-more-btn" onClick={handleShow}>
+                <button className="read-more-btn" onClick={handleShow} style={{ border: 'none'}}>
                   Get Inquiry
                 </button>
                 <MyModal show={show} handleClose={handleClose} />
@@ -328,7 +328,7 @@ function Finance() {
                 mathematical modeling, statistics.{" "}
               </div>
               <div>
-                <button className="read-more-btn" onClick={handleShow}>
+                <button className="read-more-btn" onClick={handleShow} style={{ border: 'none'}}>
                   Get Inquiry
                 </button>
                 <MyModal show={show} handleClose={handleClose} />
