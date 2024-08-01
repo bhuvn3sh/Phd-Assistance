@@ -123,15 +123,14 @@ function topbar() {
                 <NavDropdown.Item href="/services/phd-dissertation/phd-topic-selection">
                   Topic Selection
                 </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">
-                  Another action
+                <NavDropdown.Item href="/services/phd-dissertation/problem-identification">
+                  Problem Identification
                 </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">
-                  Something
+                <NavDropdown.Item href="/services/phd-dissertation/research-proposal">
+                  Research Proposal
                 </NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item href="#action/3.4">
-                  Separated link
+                <NavDropdown.Item href="/services/phd-dissertation/pilot-study">
+                  Pilot Study
                 </NavDropdown.Item>
               </NavDropdown>
               <NavDropdown

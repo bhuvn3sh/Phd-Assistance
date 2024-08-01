@@ -14,6 +14,9 @@ import Finance from "./pages/helpguide/Finance";
 import Pricing from "./pages/pricing/Pricing";
 import Order from "./pages/order-now/Order";
 import TopicSelection from "./pages/services/phd topic selection/TopicSelection";
+import ProblemIdentification from "./pages/services/problem identification/ProblemIdentification"; 
+import ResearchProposal from "./pages/services/research proposal/ResearchProposal"; 
+import PilotStudy from "./pages/services/pilot study/PilotStudy"; 
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -30,6 +33,9 @@ root.render(
       <Route path="/finance" element={<Finance />} />
       <Route path="/pricing" element={<Pricing />} />
       <Route path="/services/phd-dissertation/phd-topic-selection" element={<TopicSelection />} />
+      <Route path="/services/phd-dissertation/problem-identification" element={<ProblemIdentification />} />
+      <Route path="/services/phd-dissertation/research-proposal" element={<ResearchProposal />} />
+      <Route path="/services/phd-dissertation/pilot-study" element={<PilotStudy />} />
     </Routes>
   </BrowserRouter>
 );

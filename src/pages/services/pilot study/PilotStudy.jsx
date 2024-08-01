@@ -1,7 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import Topbar from "../../../components/topbar/Topbar";
 import Footer from "../../../components/footer/Footer";
-import "./topicselection.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Autoplay } from "swiper/modules";
 import "swiper/css";
@@ -9,7 +8,7 @@ import "swiper/css/pagination";
 import "swiper/css/autoplay";
 import "swiper/css/effect-creative";
 
-function TopicSelection() {
+function PilotStudy() {
   return (
     <>
       <Topbar />
@@ -26,7 +25,7 @@ function TopicSelection() {
           <div className="row">
             <div className="col-md-12">
               <div className="about-cap ftco-animate pt-100 fadeInUp ftco-animated">
-                <h2>Topic Selection Mentoring Service </h2>
+                <h2>Ph.D. Pilot Study Mentoring Assistance </h2>
                 <nav aria-label="breadcrumb">
                   <ol className="breadcrumb">
                     <li className="breadcrumb-item">
@@ -48,51 +47,40 @@ function TopicSelection() {
           <div className="row">
             <div className="col-md-12">
               <div className="">
-                <h2 className="text-center">
-                  Specialized PhD Topic Selection Service
-                </h2>
+                <h2 className="text-center">Ph.D. Pilot Study</h2>
                 <p>
-                  Are you in search of a well-researched and original PhD
-                  research topic? Do you want to engage in brainstorming
-                  sessions with experts to select a topic that perfectly
-                  encapsulates your entire research study? Are you aiming to
-                  choose a research topic that justifies your complete PhD
-                  dissertation? You've come to the right place.
+                  Finding a way to conduct a best preliminary study with the
+                  help of assistance to estimate cost, time, feasibility, effect
+                  size, and adverse events? Or Are you looking to predict
+                  suitable sample sizes and enhance the study design erstwhile
+                  to perform the complete scale research project.You have
+                  reached the right destination.
                 </p>
               </div>
             </div>
             <div className="col-md-8">
               <div className="">
                 <p>
-                  Selecting a PhD research topic is a challenging and crucial
-                  decision that significantly impacts an academic career,
-                  requiring years of investment. Many students, especially from
-                  non-English speaking countries like China, Brazil, Singapore,
-                  Malaysia, Indonesia, and other Asian nations, find the process
-                  hectic and frustrating. A well-researched, unique dissertation
-                  topic with a clear research goal necessitates extensive
-                  literature review of peer-reviewed and online sources. The
-                  chosen topic should align with the candidate's passion,
-                  interest, and knowledge, avoiding overly general or overly
-                  specific subjects to ensure originality and sufficient
-                  available information. PhD Assistance recommends selecting
-                  topics of personal interest previously encountered in seminar
-                  papers, journal articles, or coursework.
+                  A pilot study, or feasibility study, is a small-scale version
+                  of a full-scale study used to test research instruments and
+                  methods. It helps identify potential issues and refine
+                  research design, increasing the likelihood of success in the
+                  main study. Conducting a pilot study allows researchers to
+                  gather feedback, adjust hypotheses, and improve clarity and
+                  effectiveness, which ultimately enhances the main study's
+                  chances of success. It is applicable in qualitative,
+                  quantitative, and mixed methods research.
                 </p>
                 <p>
-                  Engaging with experts who have studied the topic can
-                  significantly enhance your PhD research. At PhD Assistance,
-                  our team of qualified research professionals offers trusted
-                  PhD mentoring support, helping you choose the right topic from
-                  a list provided by an advisor or through personalized
-                  consultation. Our experienced advisors guide you in
-                  identifying issues that generate curiosity and converting them
-                  into research questions. With skills to select topics based on
-                  current gaps and needs, our international team of writers and
-                  researchers, hailing from top-ranked universities in the US,
-                  UK, and India, ensures the selection of a PhD research topic
-                  and title that align with your specialized discipline and
-                  research goals.
+                  Ph.D. Assistance offers expert support to conduct effective
+                  pilot studies, addressing challenges faced by scholars new to
+                  academic research or those with teaching experience who lack
+                  time for extensive literature reviews. By conducting a pilot
+                  study, researchers can identify participant recruitment
+                  issues, refine research instruments, and save time and
+                  resources. This support is crucial for developing a clear
+                  research design and ensuring a successful transition to
+                  full-scale research projects.
                 </p>
               </div>
             </div>
@@ -101,6 +89,7 @@ function TopicSelection() {
                 src="../../../../assets/person_1.jpg"
                 alt=""
                 className="img-fluid"
+                style={{ height: "300px" }}
               />
             </div>
           </div>
@@ -129,7 +118,12 @@ function TopicSelection() {
                       </span>
                     </span>
                     <span className="topic-selection d-block"></span>
-                    <p>3-4 topics along with the research aim</p>
+                    <p>
+                      Includes compiling chapters per university format,
+                      ensuring logical consistency, editing, proofreading, and
+                      plagiarism correction. We also provide a free synopsis and
+                      PowerPoint presentation.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -145,10 +139,10 @@ function TopicSelection() {
                     </span>
                     <span className="topic-selection d-block"></span>
                     <p>
-                      One standard topic selection and 500 words outline with
-                      research aim, objectives, literature review, research
-                      methodology, data analysis guidelines and references lists
-                      (upgradable)
+                      Offers 15 hours of one-on-one coaching with supportive
+                      materials, including up to 50 references. The service
+                      includes chapter-wise discussions, brainstorming sessions,
+                      and personal interactions with experts for clarifications.
                     </p>
                   </div>
                 </div>
@@ -165,16 +159,11 @@ function TopicSelection() {
                     </span>
                     <span className="topic-selection d-block"></span>
                     <p>
-                      One standard topic with 1000 words along with advanced
-                      features and expected contribution, research gap, and
-                      bibliography for additional reading (upgradable)
+                      Provides complete writing services from scratch, including
+                      plagiarism-free content, editing, proofreading, a
+                      synopsis, PowerPoint presentation, and 30 minutes of
+                      coaching.
                     </p>
-                    {/* <a
-                      href="/order-now"
-                      className="btn btn-primary d-block px-2 py-3"
-                    >
-                      Order Now
-                    </a> */}
                   </div>
                 </div>
               </div>
@@ -187,12 +176,12 @@ function TopicSelection() {
         <div className="container">
           <div className="row">
             <div className="col-md-12 text-center">
-              <h3>Outstanding PhD Dissertation Topic Selection Features</h3>
+              <h3>Outstanding Ph.D. Pilot Study Features</h3>
             </div>
             <div className="col-md-4">
               <div className="service-features1">
                 <i class="fa-solid fa-book-open-reader"></i>
-                <h5>Comprehensive List of Well-Researched Topics</h5>
+                <h5>Content validity</h5>
                 <p>
                   We offer an extensive and meticulously curated list of
                   potential topics for your PhD research. Each topic is
@@ -203,18 +192,19 @@ function TopicSelection() {
             <div className="col-md-4">
               <div className="service-features1">
                 <i class="fa-solid fa-book-bookmark"></i>
-                <h5>Complete Thesis Writing Service</h5>
+                <h5>Face Validity</h5>
                 <p>
-                  Our complete thesis writing service covers everything from
-                  initial research and drafting to final editing and formatting.
-                  We ensure your thesis meets the highest academic standards.
+                  The goal and research objectives are developed through a
+                  comprehensive literature review and problem statement
+                  identification, utilizing statistics, news reports, textbooks,
+                  historical data, and recent peer-reviewed scholarly articles.
                 </p>
               </div>
             </div>
             <div className="col-md-4 d-flex">
               <div className="service-features1">
                 <i class="fa-regular fa-square-check"></i>
-                <h5>Flexibility in Topic Modification</h5>
+                <h5>Construct Validity</h5>
                 <p>
                   We understand that research evolves, so we allow for topic
                   modifications during the writing process and even after the
@@ -238,7 +228,7 @@ function TopicSelection() {
             <div className="col-md-4">
               <div className="service-features1">
                 <i class="fa-regular fa-circle-user"></i>
-                <h5>Complimentary Topics with Thesis Commitment</h5>
+                <h5>Reliability</h5>
                 <p>
                   Commit to our full PhD thesis writing service, and we'll
                   provide you with a list of free topic suggestions. This offer
@@ -398,7 +388,7 @@ function TopicSelection() {
             <div className="col-md-12">
               <div className="carousel-testimony">
                 <Swiper
-                  slidesPerView={3}
+                  slidesPerView={2}
                   spaceBetween={30}
                   pagination={{
                     clickable: true,
@@ -418,9 +408,13 @@ function TopicSelection() {
                       </div>
                       <div className="text">
                         <p className="mb-4">
-                          Mollit anim laborum duis au dolor in voluptcate velit
-                          ess cillum dolore eu lore dsu quality mollit anim
-                          laborumuis au dolor in voluptate velit cillu.
+                          I can say that it was a pleasant experience in which
+                          Phdassistance displayed flexibility in adapting to our
+                          needs and presented an exceptional report that met all
+                          of our expectations. Personally, I appreciated the
+                          team's prompt follow-up, and we will undoubtedly
+                          contact them if additional research assistance is
+                          required.
                         </p>
                         <div className="d-flex align-items-center">
                           <div
@@ -445,9 +439,12 @@ function TopicSelection() {
                       </div>
                       <div className="text">
                         <p className="mb-4">
-                          Mollit anim laborum duis au dolor in voluptcate velit
-                          ess cillum dolore eu lore dsu quality mollit anim
-                          laborumuis au dolor in voluptate velit cillu.
+                          My friend recommended that I use your service just
+                          when I was about to give up on my dissertation.
+                          Because I was trapped and didn't know what to do, the
+                          suggestion came at a good moment. I'm now a PhD
+                          holder, and I'm overjoyed about it. Thank you for your
+                          help
                         </p>
                         <div className="d-flex align-items-center">
                           <div
@@ -472,9 +469,12 @@ function TopicSelection() {
                       </div>
                       <div className="text">
                         <p className="mb-4">
-                          Mollit anim laborum duis au dolor in voluptcate velit
-                          ess cillum dolore eu lore dsu quality mollit anim
-                          laborumuis au dolor in voluptate velit cillu.
+                          I'd want to express my gratitude to Phdassistance for
+                          their invaluable assistance in developing our
+                          programme. Everyone was courteous, competent, and
+                          diligent. I was able to meet our deadline thanks to
+                          them, and I want to continue working with them in the
+                          future.
                         </p>
                         <div className="d-flex align-items-center">
                           <div
@@ -499,9 +499,13 @@ function TopicSelection() {
                       </div>
                       <div className="text">
                         <p className="mb-4">
-                          Mollit anim laborum duis au dolor in voluptcate velit
-                          ess cillum dolore eu lore dsu quality mollit anim
-                          laborumuis au dolor in voluptate velit cillu.
+                          I can say that it was a pleasant experience in which
+                          Phdassistance displayed flexibility in adapting to our
+                          needs and presented an exceptional report that met all
+                          of our expectations. Personally, I appreciated the
+                          team's prompt follow-up, and we will undoubtedly
+                          contact them if additional research assistance is
+                          required.
                         </p>
                         <div className="d-flex align-items-center">
                           <div
@@ -526,9 +530,12 @@ function TopicSelection() {
                       </div>
                       <div className="text">
                         <p className="mb-4">
-                          Mollit anim laborum duis au dolor in voluptcate velit
-                          ess cillum dolore eu lore dsu quality mollit anim
-                          laborumuis au dolor in voluptate velit cillu.
+                          My friend recommended that I use your service just
+                          when I was about to give up on my dissertation.
+                          Because I was trapped and didn't know what to do, the
+                          suggestion came at a good moment. I'm now a PhD
+                          holder, and I'm overjoyed about it. Thank you for your
+                          help
                         </p>
                         <div className="d-flex align-items-center">
                           <div
@@ -553,9 +560,12 @@ function TopicSelection() {
                       </div>
                       <div className="text">
                         <p className="mb-4">
-                          Mollit anim laborum duis au dolor in voluptcate velit
-                          ess cillum dolore eu lore dsu quality mollit anim
-                          laborumuis au dolor in voluptate velit cillu.
+                          I'd want to express my gratitude to Phdassistance for
+                          their invaluable assistance in developing our
+                          programme. Everyone was courteous, competent, and
+                          diligent. I was able to meet our deadline thanks to
+                          them, and I want to continue working with them in the
+                          future.
                         </p>
                         <div className="d-flex align-items-center">
                           <div
@@ -580,9 +590,12 @@ function TopicSelection() {
                       </div>
                       <div className="text">
                         <p className="mb-4">
-                          Mollit anim laborum duis au dolor in voluptcate velit
-                          ess cillum dolore eu lore dsu quality mollit anim
-                          laborumuis au dolor in voluptate velit cillu.
+                          I'd want to express my gratitude to Phdassistance for
+                          their invaluable assistance in developing our
+                          programme. Everyone was courteous, competent, and
+                          diligent. I was able to meet our deadline thanks to
+                          them, and I want to continue working with them in the
+                          future.
                         </p>
                         <div className="d-flex align-items-center">
                           <div
@@ -612,4 +625,4 @@ function TopicSelection() {
   );
 }
 
-export default TopicSelection;
+export default PilotStudy;

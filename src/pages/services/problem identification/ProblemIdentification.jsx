@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import Topbar from "../../../components/topbar/Topbar";
 import Footer from "../../../components/footer/Footer";
-import "./topicselection.css";
+import "./problemidentification.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Autoplay } from "swiper/modules";
 import "swiper/css";
@@ -9,7 +9,7 @@ import "swiper/css/pagination";
 import "swiper/css/autoplay";
 import "swiper/css/effect-creative";
 
-function TopicSelection() {
+function ProblemIdentification() {
   return (
     <>
       <Topbar />
@@ -26,7 +26,7 @@ function TopicSelection() {
           <div className="row">
             <div className="col-md-12">
               <div className="about-cap ftco-animate pt-100 fadeInUp ftco-animated">
-                <h2>Topic Selection Mentoring Service </h2>
+                <h2>Problem Identification Mentoring Service </h2>
                 <nav aria-label="breadcrumb">
                   <ol className="breadcrumb">
                     <li className="breadcrumb-item">
@@ -48,51 +48,44 @@ function TopicSelection() {
           <div className="row">
             <div className="col-md-12">
               <div className="">
-                <h2 className="text-center">
-                  Specialized PhD Topic Selection Service
-                </h2>
+                <h2 className="text-center">Ph.D. Problem Identification</h2>
                 <p>
-                  Are you in search of a well-researched and original PhD
-                  research topic? Do you want to engage in brainstorming
-                  sessions with experts to select a topic that perfectly
-                  encapsulates your entire research study? Are you aiming to
-                  choose a research topic that justifies your complete PhD
-                  dissertation? You've come to the right place.
+                  Are you finding it hard in identification of research problem?
+                  Are you looking to narrow down or clarify the problems? Are
+                  you struggling to identify research gaps and ask good research
+                  questions during the problem identification process?You have
+                  reached the right destination.
                 </p>
               </div>
             </div>
             <div className="col-md-8">
               <div className="">
                 <p>
-                  Selecting a PhD research topic is a challenging and crucial
-                  decision that significantly impacts an academic career,
-                  requiring years of investment. Many students, especially from
-                  non-English speaking countries like China, Brazil, Singapore,
-                  Malaysia, Indonesia, and other Asian nations, find the process
-                  hectic and frustrating. A well-researched, unique dissertation
-                  topic with a clear research goal necessitates extensive
-                  literature review of peer-reviewed and online sources. The
-                  chosen topic should align with the candidate's passion,
-                  interest, and knowledge, avoiding overly general or overly
-                  specific subjects to ensure originality and sufficient
-                  available information. PhD Assistance recommends selecting
-                  topics of personal interest previously encountered in seminar
-                  papers, journal articles, or coursework.
+                  The heart of a doctoral dissertation is the problem statement,
+                  which is crucial for the university committee to understand
+                  and evaluate its merits. It should clearly convey the purpose
+                  of the research and be compelling enough to prevent any "so
+                  what?" questions. Precise problem identification involves
+                  determining the specific research area to be studied. Many
+                  students tend to choose overly broad problems due to a lack of
+                  understanding of research nature and problem-solving
+                  processes. Our PhD experts ensure that the problem is unique,
+                  addressing gaps in existing knowledge, with solutions that are
+                  logically explained, and consider interest, expertise, data
+                  availability, relevance, and ethics.
                 </p>
                 <p>
-                  Engaging with experts who have studied the topic can
-                  significantly enhance your PhD research. At PhD Assistance,
-                  our team of qualified research professionals offers trusted
-                  PhD mentoring support, helping you choose the right topic from
-                  a list provided by an advisor or through personalized
-                  consultation. Our experienced advisors guide you in
-                  identifying issues that generate curiosity and converting them
-                  into research questions. With skills to select topics based on
-                  current gaps and needs, our international team of writers and
-                  researchers, hailing from top-ranked universities in the US,
-                  UK, and India, ensures the selection of a PhD research topic
-                  and title that align with your specialized discipline and
-                  research goals.
+                  At PhD Assistance, our experts are adept at selecting the
+                  right problem statement based on current gaps and needs. Our
+                  problem identification service is iterative, involving
+                  multiple attempts to refine it. Before finalizing a problem
+                  statement, our PhD experts brainstorm key questions about the
+                  overarching problem, affected population, study type,
+                  methodology, data collection, and expected outcomes. This
+                  process ensures that the problem statement aligns with the
+                  study's nature, whether it be experimental, model creation,
+                  historical, phenomenological, evaluative, Q-methodology,
+                  Delphi, heuristic, or correlation-based.
                 </p>
               </div>
             </div>
@@ -101,6 +94,7 @@ function TopicSelection() {
                 src="../../../../assets/person_1.jpg"
                 alt=""
                 className="img-fluid"
+                style={{ height: "300px" }}
               />
             </div>
           </div>
@@ -129,7 +123,10 @@ function TopicSelection() {
                       </span>
                     </span>
                     <span className="topic-selection d-block"></span>
-                    <p>3-4 topics along with the research aim</p>
+                    <p>
+                      Introduction Problem identification along with the
+                      research questions
+                    </p>
                   </div>
                 </div>
               </div>
@@ -145,10 +142,9 @@ function TopicSelection() {
                     </span>
                     <span className="topic-selection d-block"></span>
                     <p>
-                      One standard topic selection and 500 words outline with
-                      research aim, objectives, literature review, research
-                      methodology, data analysis guidelines and references lists
-                      (upgradable)
+                      One standard Problem identification introduction, risk
+                      assessment objectives, and 500 words outline with research
+                      aim, objectives, literature review and more (upgradable)
                     </p>
                   </div>
                 </div>
@@ -169,12 +165,6 @@ function TopicSelection() {
                       features and expected contribution, research gap, and
                       bibliography for additional reading (upgradable)
                     </p>
-                    {/* <a
-                      href="/order-now"
-                      className="btn btn-primary d-block px-2 py-3"
-                    >
-                      Order Now
-                    </a> */}
                   </div>
                 </div>
               </div>
@@ -203,11 +193,12 @@ function TopicSelection() {
             <div className="col-md-4">
               <div className="service-features1">
                 <i class="fa-solid fa-book-bookmark"></i>
-                <h5>Complete Thesis Writing Service</h5>
+                <h5>Tailored Recommendations</h5>
                 <p>
-                  Our complete thesis writing service covers everything from
-                  initial research and drafting to final editing and formatting.
-                  We ensure your thesis meets the highest academic standards.
+                  The goal and research objectives are developed through a
+                  comprehensive literature review and problem statement
+                  identification, utilizing statistics, news reports, textbooks,
+                  historical data, and recent peer-reviewed scholarly articles.
                 </p>
               </div>
             </div>
@@ -398,7 +389,7 @@ function TopicSelection() {
             <div className="col-md-12">
               <div className="carousel-testimony">
                 <Swiper
-                  slidesPerView={3}
+                  slidesPerView={2}
                   spaceBetween={30}
                   pagination={{
                     clickable: true,
@@ -418,9 +409,13 @@ function TopicSelection() {
                       </div>
                       <div className="text">
                         <p className="mb-4">
-                          Mollit anim laborum duis au dolor in voluptcate velit
-                          ess cillum dolore eu lore dsu quality mollit anim
-                          laborumuis au dolor in voluptate velit cillu.
+                          I can say that it was a pleasant experience in which
+                          Phdassistance displayed flexibility in adapting to our
+                          needs and presented an exceptional report that met all
+                          of our expectations. Personally, I appreciated the
+                          team's prompt follow-up, and we will undoubtedly
+                          contact them if additional research assistance is
+                          required.
                         </p>
                         <div className="d-flex align-items-center">
                           <div
@@ -445,9 +440,12 @@ function TopicSelection() {
                       </div>
                       <div className="text">
                         <p className="mb-4">
-                          Mollit anim laborum duis au dolor in voluptcate velit
-                          ess cillum dolore eu lore dsu quality mollit anim
-                          laborumuis au dolor in voluptate velit cillu.
+                          My friend recommended that I use your service just
+                          when I was about to give up on my dissertation.
+                          Because I was trapped and didn't know what to do, the
+                          suggestion came at a good moment. I'm now a PhD
+                          holder, and I'm overjoyed about it. Thank you for your
+                          help
                         </p>
                         <div className="d-flex align-items-center">
                           <div
@@ -472,9 +470,12 @@ function TopicSelection() {
                       </div>
                       <div className="text">
                         <p className="mb-4">
-                          Mollit anim laborum duis au dolor in voluptcate velit
-                          ess cillum dolore eu lore dsu quality mollit anim
-                          laborumuis au dolor in voluptate velit cillu.
+                          I'd want to express my gratitude to Phdassistance for
+                          their invaluable assistance in developing our
+                          programme. Everyone was courteous, competent, and
+                          diligent. I was able to meet our deadline thanks to
+                          them, and I want to continue working with them in the
+                          future.
                         </p>
                         <div className="d-flex align-items-center">
                           <div
@@ -499,9 +500,13 @@ function TopicSelection() {
                       </div>
                       <div className="text">
                         <p className="mb-4">
-                          Mollit anim laborum duis au dolor in voluptcate velit
-                          ess cillum dolore eu lore dsu quality mollit anim
-                          laborumuis au dolor in voluptate velit cillu.
+                        I can say that it was a pleasant experience in which
+                          Phdassistance displayed flexibility in adapting to our
+                          needs and presented an exceptional report that met all
+                          of our expectations. Personally, I appreciated the
+                          team's prompt follow-up, and we will undoubtedly
+                          contact them if additional research assistance is
+                          required.
                         </p>
                         <div className="d-flex align-items-center">
                           <div
@@ -526,9 +531,12 @@ function TopicSelection() {
                       </div>
                       <div className="text">
                         <p className="mb-4">
-                          Mollit anim laborum duis au dolor in voluptcate velit
-                          ess cillum dolore eu lore dsu quality mollit anim
-                          laborumuis au dolor in voluptate velit cillu.
+                        My friend recommended that I use your service just
+                          when I was about to give up on my dissertation.
+                          Because I was trapped and didn't know what to do, the
+                          suggestion came at a good moment. I'm now a PhD
+                          holder, and I'm overjoyed about it. Thank you for your
+                          help
                         </p>
                         <div className="d-flex align-items-center">
                           <div
@@ -553,9 +561,12 @@ function TopicSelection() {
                       </div>
                       <div className="text">
                         <p className="mb-4">
-                          Mollit anim laborum duis au dolor in voluptcate velit
-                          ess cillum dolore eu lore dsu quality mollit anim
-                          laborumuis au dolor in voluptate velit cillu.
+                        I'd want to express my gratitude to Phdassistance for
+                          their invaluable assistance in developing our
+                          programme. Everyone was courteous, competent, and
+                          diligent. I was able to meet our deadline thanks to
+                          them, and I want to continue working with them in the
+                          future.
                         </p>
                         <div className="d-flex align-items-center">
                           <div
@@ -580,9 +591,12 @@ function TopicSelection() {
                       </div>
                       <div className="text">
                         <p className="mb-4">
-                          Mollit anim laborum duis au dolor in voluptcate velit
-                          ess cillum dolore eu lore dsu quality mollit anim
-                          laborumuis au dolor in voluptate velit cillu.
+                        I'd want to express my gratitude to Phdassistance for
+                          their invaluable assistance in developing our
+                          programme. Everyone was courteous, competent, and
+                          diligent. I was able to meet our deadline thanks to
+                          them, and I want to continue working with them in the
+                          future.
                         </p>
                         <div className="d-flex align-items-center">
                           <div
@@ -612,4 +626,4 @@ function TopicSelection() {
   );
 }
 
-export default TopicSelection;
+export default ProblemIdentification;
