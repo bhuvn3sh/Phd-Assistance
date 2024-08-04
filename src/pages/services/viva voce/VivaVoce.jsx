@@ -8,7 +8,7 @@ import "swiper/css/pagination";
 import "swiper/css/autoplay";
 import "swiper/css/effect-creative";
 
-function PilotStudy() {
+function VivaVoce() {
   return (
     <>
       <Topbar />
@@ -25,7 +25,7 @@ function PilotStudy() {
           <div className="row">
             <div className="col-md-12">
               <div className="about-cap ftco-animate pt-100 fadeInUp ftco-animated">
-                <h2>Ph.D. Pilot Study Mentoring Assistance </h2>
+                <h2>Defense preparation for Public Viva Voce Examination </h2>
                 <nav aria-label="breadcrumb">
                   <ol className="breadcrumb">
                     <li className="breadcrumb-item">
@@ -47,40 +47,41 @@ function PilotStudy() {
           <div className="row">
             <div className="col-md-12">
               <div className="">
-                <h2 className="text-center">Ph.D. Pilot Study</h2>
+                <h2 className="text-center">Viva Voce coaching</h2>
                 <p>
-                  Finding a way to conduct a best preliminary study with the
-                  help of assistance to estimate cost, time, feasibility, effect
-                  size, and adverse events? Or Are you looking to predict
-                  suitable sample sizes and enhance the study design erstwhile
-                  to perform the complete scale research project.You have
-                  reached the right destination.
+                  Are you concerned about how to attempt face-to-face viva voce
+                  in front of your supervisor and authorized committee? Feeling
+                  worried how to overcome the fear. Or Looking for the possible
+                  and important viva voce question for oral examination?You have
+                  reached the right destination
                 </p>
               </div>
             </div>
             <div className="col-md-8">
               <div className="">
                 <p>
-                  A pilot study, or feasibility study, is a small-scale version
-                  of a full-scale study used to test research instruments and
-                  methods. It helps identify potential issues and refine
-                  research design, increasing the likelihood of success in the
-                  main study. Conducting a pilot study allows researchers to
-                  gather feedback, adjust hypotheses, and improve clarity and
-                  effectiveness, which ultimately enhances the main study's
-                  chances of success. It is applicable in qualitative,
-                  quantitative, and mixed methods research.
+                  The Ph.D. viva is a crucial part of the examination process,
+                  typically conducted "behind closed doors," though some
+                  institutions hold "public" vivas with restricted access. The
+                  purpose of the viva is to showcase your research, demonstrate
+                  your understanding and ability to defend your work verbally,
+                  and assess your overall awareness of your research topic.
+                  During the presentation, you should cover the problem
+                  statement, its significance, your study's findings, tools
+                  used, any relevant publications, conferences, and awards.
+                  Ensure to include in-text references, avoid simply reading
+                  slides, and conclude with an acknowledgment slide.
                 </p>
                 <p>
-                  Ph.D. Assistance offers expert support to conduct effective
-                  pilot studies, addressing challenges faced by scholars new to
-                  academic research or those with teaching experience who lack
-                  time for extensive literature reviews. By conducting a pilot
-                  study, researchers can identify participant recruitment
-                  issues, refine research instruments, and save time and
-                  resources. This support is crucial for developing a clear
-                  research design and ensuring a successful transition to
-                  full-scale research projects.
+                  Ph.D. Assistance provides specialized training for both
+                  English and non-English speakers, addressing the challenges of
+                  preparing and defending a thesis. For students from
+                  non-English speaking countries, such as those from China,
+                  Brazil, Singapore, Malaysia, and Indonesia, our training
+                  includes guidance on the viva's purpose, format, and effective
+                  preparation strategies to help them successfully navigate
+                  their viva voce examination and complete their doctoral
+                  degree.
                 </p>
               </div>
             </div>
@@ -101,11 +102,11 @@ function PilotStudy() {
           <div className="row justify-content-center pb-5">
             <div className="col-md-7 heading-section text-center">
               <span className="subheading">Service Description</span>
-              <h2>We Offer Three Level of Services</h2>
+              <h2>We Offer Two Level of Services</h2>
             </div>
           </div>
           <div className="row">
-            <div className="col-md-4" style={{ height: "300px" }}>
+            <div className="col-md-6" style={{ height: "300px" }}>
               <div
                 className="pricing-1 pricing-animate pricing-fadeUp pricing-animated services-description"
                 style={{ minHeight: "255px" }}
@@ -114,55 +115,32 @@ function PilotStudy() {
                   <div className="text-center">
                     <span className="price">
                       <span className="number" style={{ fontSize: "35px" }}>
-                        Basic
+                        Premium
                       </span>
                     </span>
                     <span className="topic-selection d-block"></span>
                     <p>
-                      Includes compiling chapters per university format,
-                      ensuring logical consistency, editing, proofreading, and
-                      plagiarism correction. We also provide a free synopsis and
-                      PowerPoint presentation.
+                      We derive possible questions based on your thesis and
+                      answers
                     </p>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="col-md-4">
+            <div className="col-md-6">
               <div className="pricing-1 pricing-animate pricing-fadeUp pricing-animated services-description">
                 <div className="block-7 w-100">
                   <div className="text-center">
                     <span className="price">
                       <span className="number" style={{ fontSize: "35px" }}>
-                        Advanced
+                        Premium+
                       </span>
                     </span>
                     <span className="topic-selection d-block"></span>
                     <p>
-                      Offers 15 hours of one-on-one coaching with supportive
-                      materials, including up to 50 references. The service
-                      includes chapter-wise discussions, brainstorming sessions,
-                      and personal interactions with experts for clarifications.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-4">
-              <div className="pricing-1 pricing-animate pricing-fadeUp pricing-animated services-description">
-                <div className="block-7 w-100">
-                  <div className="text-center">
-                    <span className="price">
-                      <span className="number" style={{ fontSize: "35px" }}>
-                        Extended
-                      </span>
-                    </span>
-                    <span className="topic-selection d-block"></span>
-                    <p>
-                      Provides complete writing services from scratch, including
-                      plagiarism-free content, editing, proofreading, a
-                      synopsis, PowerPoint presentation, and 30 minutes of
-                      coaching.
+                      We develop PPT, Possible Peer review questions and
+                      unlimited support till you complete work – However, it
+                      would be purely based on the work being completed.
                     </p>
                   </div>
                 </div>
@@ -176,7 +154,7 @@ function PilotStudy() {
         <div className="container">
           <div className="row">
             <div className="col-md-12 text-center">
-              <h3>Outstanding Ph.D. Pilot Study Features</h3>
+              <h3>Outstanding Viva Voce Features</h3>
             </div>
             <div className="col-md-4">
               <div className="service-features1">
@@ -625,14 +603,16 @@ function PilotStudy() {
           <div className="row justify-content-center pb-5">
             <div className="col-md-7 heading-section text-center">
               <span className="subheading">Order Process</span>
-              <h2 style={{ color: '#a87c7c'}}>Easily Order Your Ph.D. Dissertation </h2>
+              <h2 style={{ color: "#a87c7c" }}>
+                Easily Order Your Ph.D. Dissertation{" "}
+              </h2>
             </div>
           </div>
           <div className="row justify-content-center">
             <img
               src="../../../../assets/process-flow.jpg"
               alt="Phd process flow"
-              style={{ marginBottom: '50px'}}
+              style={{ marginBottom: "50px" }}
             />
           </div>
         </div>
@@ -643,4 +623,4 @@ function PilotStudy() {
   );
 }
 
-export default PilotStudy;
+export default VivaVoce;

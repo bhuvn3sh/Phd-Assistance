@@ -14,23 +14,18 @@ function Footer() {
               <div class="ftco-footer-widget mb-4">
                 <h4
                   class="ftco-heading-2 logo"
-                  style={{ color: "white", paddingLeft: "20px" }}
+                  style={{ color: "white", paddingLeft: "20px", marginBottom: '30px' }}
                 >
                   About us
                 </h4>
                 <p style={{ color: "white", paddingLeft: "20px" }}>
-                  Ph.D. Assistance serves as an external mentor to brainstorm
-                  your idea and translate that into research model. Hiring a
-                  mentor or tutor is common and therefore let your research
-                  committee known about the same. We do not offer any writing
-                  services without the involvement of the researcher, and
-                  therefore we’re merely a translator for non-native English
-                  speakers and our services are merely restricted to research
-                  scholars to hasten their research process. We offer following
-                  services to research scholars across the globe: ideas to
-                  translating in writing, editing, proofreading, plagiarism
-                  correction, statistical analysis, coding and algorithm,
-                  illustration and formatting.
+                  Ph.D. Assistance provides mentorship to help researchers
+                  brainstorm and develop their ideas into research models. We
+                  support non-native English speakers by offering services like
+                  editing, proofreading, statistical analysis, coding,
+                  illustration, and formatting. Our involvement ensures
+                  researchers maintain full control over their work while
+                  accelerating their research process.
                 </p>
               </div>
             </div>
@@ -39,7 +34,7 @@ function Footer() {
               <div class="ftco-footer-widget mb-4 ml-md-4">
                 <h4
                   class="ftco-heading-2"
-                  style={{ paddingLeft: "100px", color: "white" }}
+                  style={{ paddingLeft: "100px", color: "white", marginBottom: '30px' }}
                 >
                   Main Services
                 </h4>
@@ -128,7 +123,7 @@ function Footer() {
               <div class="ftco-footer-widget mb-4">
                 <h4
                   class="ftco-heading-2"
-                  style={{ paddingLeft: "50px", color: "white" }}
+                  style={{ paddingLeft: "50px", color: "white", marginBottom: '30px' }}
                 >
                   Links
                 </h4>
@@ -253,6 +248,7 @@ function Footer() {
                     paddingLeft: "20px",
                     color: "white",
                     paddingRight: "120px",
+                    marginBottom: '30px'
                   }}
                 >
                   Contact us{" "}

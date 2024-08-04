@@ -14,10 +14,16 @@ import Finance from "./pages/helpguide/Finance";
 import Pricing from "./pages/pricing/Pricing";
 import Order from "./pages/order-now/Order";
 import Faqs from "./pages/faqs/Faqs";
+import PhdDissertation from "./pages/services/phd dissertation/PhdDissertation";
 import TopicSelection from "./pages/services/phd topic selection/TopicSelection";
 import ProblemIdentification from "./pages/services/problem identification/ProblemIdentification";
 import ResearchProposal from "./pages/services/research proposal/ResearchProposal";
 import PilotStudy from "./pages/services/pilot study/PilotStudy";
+import PhdDissertationFull from "./pages/services/phd-dissertation-full/PhdDissertationFull";
+import PhdDissertationPart from "./pages/services/phd-dissertation-part/PhdDissertationPart";
+import PhdConsultation from "./pages/services/phd consultation/PhdConsultation";
+import VivaVoce from "./pages/services/viva voce/VivaVoce";
+
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -34,6 +40,10 @@ root.render(
       <Route path="/finance" element={<Finance />} />
       <Route path="/pricing" element={<Pricing />} />
       <Route
+        path="/services/phd-dissertation"
+        element={<PhdDissertation />}
+      />
+      <Route
         path="/services/phd-dissertation/phd-topic-selection"
         element={<TopicSelection />}
       />
@@ -48,6 +58,22 @@ root.render(
       <Route
         path="/services/phd-dissertation/pilot-study"
         element={<PilotStudy />}
+      />
+      <Route
+        path="/services/phd-dissertation/phd-dissertation-full"
+        element={<PhdDissertationFull />}
+      />
+      <Route
+        path="/services/phd-dissertation/phd-dissertation-part"
+        element={<PhdDissertationPart />}
+      />
+      <Route
+        path="/services/phd-dissertation/phd-consultation"
+        element={<PhdConsultation />}
+      />
+      <Route
+        path="/services/phd-dissertation/viva-voce"
+        element={<VivaVoce />}
       />
       <Route path="/faqs" element={<Faqs />} />
     </Routes>

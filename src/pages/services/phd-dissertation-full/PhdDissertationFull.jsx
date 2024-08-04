@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import Topbar from "../../../components/topbar/Topbar";
 import Footer from "../../../components/footer/Footer";
+import "./phddissertationfull.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Autoplay } from "swiper/modules";
 import "swiper/css";
@@ -8,7 +9,7 @@ import "swiper/css/pagination";
 import "swiper/css/autoplay";
 import "swiper/css/effect-creative";
 
-function PilotStudy() {
+function PhdDissertationFull() {
   return (
     <>
       <Topbar />
@@ -25,7 +26,9 @@ function PilotStudy() {
           <div className="row">
             <div className="col-md-12">
               <div className="about-cap ftco-animate pt-100 fadeInUp ftco-animated">
-                <h2>Ph.D. Pilot Study Mentoring Assistance </h2>
+                <h2>
+                  Ph.D. Dissertation (Full) - End to End Mentoring Service{" "}
+                </h2>
                 <nav aria-label="breadcrumb">
                   <ol className="breadcrumb">
                     <li className="breadcrumb-item">
@@ -47,40 +50,41 @@ function PilotStudy() {
           <div className="row">
             <div className="col-md-12">
               <div className="">
-                <h2 className="text-center">Ph.D. Pilot Study</h2>
+                <h2 className="text-center">Ph.D. Complete Research work</h2>
                 <p>
-                  Finding a way to conduct a best preliminary study with the
-                  help of assistance to estimate cost, time, feasibility, effect
-                  size, and adverse events? Or Are you looking to predict
-                  suitable sample sizes and enhance the study design erstwhile
-                  to perform the complete scale research project.You have
-                  reached the right destination.
+                  Are you looking for an expert Ph.D. writer for specific
+                  subjects of a doctoral degree?Then’ You’ve reached the right
+                  destination.
                 </p>
               </div>
             </div>
             <div className="col-md-8">
               <div className="">
                 <p>
-                  A pilot study, or feasibility study, is a small-scale version
-                  of a full-scale study used to test research instruments and
-                  methods. It helps identify potential issues and refine
-                  research design, increasing the likelihood of success in the
-                  main study. Conducting a pilot study allows researchers to
-                  gather feedback, adjust hypotheses, and improve clarity and
-                  effectiveness, which ultimately enhances the main study's
-                  chances of success. It is applicable in qualitative,
-                  quantitative, and mixed methods research.
+                  Writing a dissertation is a complex and challenging task that
+                  requires meticulous attention to detail and adherence to
+                  institutional guidelines. Ph.D. Assistance offers
+                  comprehensive support for all stages of dissertation writing,
+                  from selecting a research topic and crafting a research
+                  proposal to developing the dissertation content. Our
+                  end-to-end services include topic identification, literature
+                  review, problem statement formulation, research design, data
+                  collection, statistical analysis, discussion, results,
+                  recommendations, and conclusion. We also assist with synopsis
+                  preparation and PowerPoint presentations, ensuring your
+                  dissertation meets all academic requirements.
                 </p>
                 <p>
-                  Ph.D. Assistance offers expert support to conduct effective
-                  pilot studies, addressing challenges faced by scholars new to
-                  academic research or those with teaching experience who lack
-                  time for extensive literature reviews. By conducting a pilot
-                  study, researchers can identify participant recruitment
-                  issues, refine research instruments, and save time and
-                  resources. This support is crucial for developing a clear
-                  research design and ensuring a successful transition to
-                  full-scale research projects.
+                  At Ph.D. Assistance, we pride ourselves on delivering unique
+                  and innovative dissertations tailored to the latest trends.
+                  Our expert writers have successfully completed over 10,000
+                  Ph.D. theses for students both in India and abroad, with a
+                  commitment to confidentiality and quality. We also support
+                  non-English speaking students from countries such as China,
+                  Brazil, Singapore, Malaysia, and Indonesia. If you need help
+                  with any aspect of your dissertation, from topic selection to
+                  extensive literature searches, our services are designed to
+                  provide the support you need from the comfort of your desk.
                 </p>
               </div>
             </div>
@@ -101,7 +105,7 @@ function PilotStudy() {
           <div className="row justify-content-center pb-5">
             <div className="col-md-7 heading-section text-center">
               <span className="subheading">Service Description</span>
-              <h2>We Offer Three Level of Services</h2>
+              <h2>We Offer Six Dissertation Services</h2>
             </div>
           </div>
           <div className="row">
@@ -114,15 +118,16 @@ function PilotStudy() {
                   <div className="text-center">
                     <span className="price">
                       <span className="number" style={{ fontSize: "35px" }}>
-                        Basic
+                        <a href="/services/phd-dissertation/phd-topic-selection">
+                          Ph.D. Topic Selection
+                        </a>
                       </span>
                     </span>
                     <span className="topic-selection d-block"></span>
                     <p>
-                      Includes compiling chapters per university format,
-                      ensuring logical consistency, editing, proofreading, and
-                      plagiarism correction. We also provide a free synopsis and
-                      PowerPoint presentation.
+                      Choosing a Ph.D. research topic is a critical career
+                      decision that requires careful consideration of its
+                      long-term impact and potential.
                     </p>
                   </div>
                 </div>
@@ -134,15 +139,17 @@ function PilotStudy() {
                   <div className="text-center">
                     <span className="price">
                       <span className="number" style={{ fontSize: "35px" }}>
-                        Advanced
+                        <a href="/services/phd-dissertation/problem-identification">
+                          Problem Identification
+                        </a>
                       </span>
                     </span>
                     <span className="topic-selection d-block"></span>
                     <p>
-                      Offers 15 hours of one-on-one coaching with supportive
-                      materials, including up to 50 references. The service
-                      includes chapter-wise discussions, brainstorming sessions,
-                      and personal interactions with experts for clarifications.
+                      At Ph.D. Assistance, we help you identify relevant
+                      industry issues and research problems during the
+                      literature review to ensure precise problem identification
+                      for your thesis.
                     </p>
                   </div>
                 </div>
@@ -154,15 +161,81 @@ function PilotStudy() {
                   <div className="text-center">
                     <span className="price">
                       <span className="number" style={{ fontSize: "35px" }}>
-                        Extended
+                        <a href="/services/phd-dissertation/research-proposal">
+                          Research Proposal
+                        </a>
                       </span>
                     </span>
                     <span className="topic-selection d-block"></span>
                     <p>
-                      Provides complete writing services from scratch, including
-                      plagiarism-free content, editing, proofreading, a
-                      synopsis, PowerPoint presentation, and 30 minutes of
-                      coaching.
+                      Crafting a research proposal for a dissertation is
+                      challenging, prompting students to seek expert assistance
+                      to navigate its complexities.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-4">
+              <div className="pricing-1 pricing-animate pricing-fadeUp pricing-animated services-description">
+                <div className="block-7 w-100">
+                  <div className="text-center">
+                    <span className="price">
+                      <span className="number" style={{ fontSize: "35px" }}>
+                        <a href="/services/phd-dissertation/phd-dissertation-part">
+                          Ph.D. Dissertation (Part)
+                        </a>
+                      </span>
+                    </span>
+                    <span className="topic-selection d-block"></span>
+                    <p>
+                      We offer support for both full and partial dissertation
+                      writing, including sections like the Introduction,
+                      Literature Review, Methodology, Results, and Discussion.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-4">
+              <div className="pricing-1 pricing-animate pricing-fadeUp pricing-animated services-description">
+                <div className="block-7 w-100">
+                  <div className="text-center">
+                    <span className="price">
+                      <span className="number" style={{ fontSize: "35px" }}>
+                        <a href="/services/phd-dissertation/phd-consultation">
+                          Ph.D. Consultation
+                        </a>
+                      </span>
+                    </span>
+                    <span className="topic-selection d-block"></span>
+                    <p>
+                      We help with choosing a guide and support a range of
+                      subjects like Behavioral Science, Business Management,
+                      Education, Health, Computer Science, Mathematics, and
+                      Engineering Education.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-4">
+              <div className="pricing-1 pricing-animate pricing-fadeUp pricing-animated services-description">
+                <div className="block-7 w-100">
+                  <div className="text-center">
+                    <span className="price">
+                      <span className="number" style={{ fontSize: "35px" }}>
+                        <a href="/services/phd-dissertation/viva-voce">
+                          Viva Voice
+                        </a>
+                      </span>
+                    </span>
+                    <span className="topic-selection d-block"></span>
+                    <p>
+                      The Ph.D. viva is a mandatory part of the examination,
+                      typically held "behind closed doors," though some
+                      institutions conduct "public" vivas with restricted
+                      access.
                     </p>
                   </div>
                 </div>
@@ -625,14 +698,16 @@ function PilotStudy() {
           <div className="row justify-content-center pb-5">
             <div className="col-md-7 heading-section text-center">
               <span className="subheading">Order Process</span>
-              <h2 style={{ color: '#a87c7c'}}>Easily Order Your Ph.D. Dissertation </h2>
+              <h2 style={{ color: "#a87c7c" }}>
+                Easily Order Your Ph.D. Dissertation{" "}
+              </h2>
             </div>
           </div>
           <div className="row justify-content-center">
             <img
               src="../../../../assets/process-flow.jpg"
               alt="Phd process flow"
-              style={{ marginBottom: '50px'}}
+              style={{ marginBottom: "50px" }}
             />
           </div>
         </div>
@@ -643,4 +718,4 @@ function PilotStudy() {
   );
 }
 
-export default PilotStudy;
+export default PhdDissertationFull;

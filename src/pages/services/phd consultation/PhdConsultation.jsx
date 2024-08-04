@@ -8,7 +8,7 @@ import "swiper/css/pagination";
 import "swiper/css/autoplay";
 import "swiper/css/effect-creative";
 
-function PilotStudy() {
+function PhdConsultation() {
   return (
     <>
       <Topbar />
@@ -25,7 +25,7 @@ function PilotStudy() {
           <div className="row">
             <div className="col-md-12">
               <div className="about-cap ftco-animate pt-100 fadeInUp ftco-animated">
-                <h2>Ph.D. Pilot Study Mentoring Assistance </h2>
+                <h2>Ph.D Research Consultation & Mentoring Service</h2>
                 <nav aria-label="breadcrumb">
                   <ol className="breadcrumb">
                     <li className="breadcrumb-item">
@@ -47,40 +47,41 @@ function PilotStudy() {
           <div className="row">
             <div className="col-md-12">
               <div className="">
-                <h2 className="text-center">Ph.D. Pilot Study</h2>
+                <h2 className="text-center">Ph.D. Consultation</h2>
                 <p>
-                  Finding a way to conduct a best preliminary study with the
-                  help of assistance to estimate cost, time, feasibility, effect
-                  size, and adverse events? Or Are you looking to predict
-                  suitable sample sizes and enhance the study design erstwhile
-                  to perform the complete scale research project.You have
-                  reached the right destination.
+                  Are you facing difficulties in identifying the research
+                  problems? Whether are you looking to narrowing or clarifying
+                  the problems? And or Finding hard to point out the research
+                  gap and ask good research question for problem identification
+                  process?You have reached the right destination
                 </p>
               </div>
             </div>
             <div className="col-md-8">
               <div className="">
                 <p>
-                  A pilot study, or feasibility study, is a small-scale version
-                  of a full-scale study used to test research instruments and
-                  methods. It helps identify potential issues and refine
-                  research design, increasing the likelihood of success in the
-                  main study. Conducting a pilot study allows researchers to
-                  gather feedback, adjust hypotheses, and improve clarity and
-                  effectiveness, which ultimately enhances the main study's
-                  chances of success. It is applicable in qualitative,
-                  quantitative, and mixed methods research.
+                  A Ph.D. is the pinnacle of academic achievement, representing
+                  a significant specialization in a chosen field. It is highly
+                  valued globally, offering numerous opportunities for
+                  successful scholars. As the number of Ph.D. candidates and
+                  research institutions grows, many students find themselves
+                  unprepared for the rigorous challenges and pressures of
+                  doctoral research.
                 </p>
                 <p>
-                  Ph.D. Assistance offers expert support to conduct effective
-                  pilot studies, addressing challenges faced by scholars new to
-                  academic research or those with teaching experience who lack
-                  time for extensive literature reviews. By conducting a pilot
-                  study, researchers can identify participant recruitment
-                  issues, refine research instruments, and save time and
-                  resources. This support is crucial for developing a clear
-                  research design and ensuring a successful transition to
-                  full-scale research projects.
+                  There has been an exponential rise in the number of Ph.D.
+                  candidates along with the increase in some academic
+                  institutions offering research studies in the recent years.
+                  However, many students aspiring for Ph.D. are not well
+                  prepared to face the challenges and handle the pressures that
+                  are associated with pursuing doctorate research. It is
+                  imperative for every Ph.D. aspirants to have adequate
+                  knowledge about the research process, appropriate academic
+                  language, analytical skills and techniques and documentation
+                  methodologies. Ph.D. consultation services offer complete
+                  guidance on every research areas and help towards fulfilling
+                  your dream of completing your thesis in the selected
+                  discipline at the earliest time possible.
                 </p>
               </div>
             </div>
@@ -119,10 +120,10 @@ function PilotStudy() {
                     </span>
                     <span className="topic-selection d-block"></span>
                     <p>
-                      Includes compiling chapters per university format,
-                      ensuring logical consistency, editing, proofreading, and
-                      plagiarism correction. We also provide a free synopsis and
-                      PowerPoint presentation.
+                      Includes compiling all chapters per your university
+                      format, ensuring logical flow and consistency, editing and
+                      proofreading the document, correcting plagiarism, and
+                      providing a free synopsis and PowerPoint presentation.
                     </p>
                   </div>
                 </div>
@@ -159,10 +160,10 @@ function PilotStudy() {
                     </span>
                     <span className="topic-selection d-block"></span>
                     <p>
-                      Provides complete writing services from scratch, including
-                      plagiarism-free content, editing, proofreading, a
-                      synopsis, PowerPoint presentation, and 30 minutes of
-                      coaching.
+                      Our extended PhD dissertation service plan includes
+                      complete writing from scratch, ensuring plagiarism-free
+                      content, editing and proofreading, a detailed synopsis, a
+                      PowerPoint presentation, and 30 minutes of coaching.
                     </p>
                   </div>
                 </div>
@@ -176,7 +177,7 @@ function PilotStudy() {
         <div className="container">
           <div className="row">
             <div className="col-md-12 text-center">
-              <h3>Outstanding Ph.D. Pilot Study Features</h3>
+              <h3>Outstanding Ph.D. Consultation Features</h3>
             </div>
             <div className="col-md-4">
               <div className="service-features1">
@@ -625,14 +626,16 @@ function PilotStudy() {
           <div className="row justify-content-center pb-5">
             <div className="col-md-7 heading-section text-center">
               <span className="subheading">Order Process</span>
-              <h2 style={{ color: '#a87c7c'}}>Easily Order Your Ph.D. Dissertation </h2>
+              <h2 style={{ color: "#a87c7c" }}>
+                Easily Order Your Ph.D. Dissertation{" "}
+              </h2>
             </div>
           </div>
           <div className="row justify-content-center">
             <img
               src="../../../../assets/process-flow.jpg"
               alt="Phd process flow"
-              style={{ marginBottom: '50px'}}
+              style={{ marginBottom: "50px" }}
             />
           </div>
         </div>
@@ -643,4 +646,4 @@ function PilotStudy() {
   );
 }
 
-export default PilotStudy;
+export default PhdConsultation;
