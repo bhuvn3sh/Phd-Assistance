@@ -106,10 +106,6 @@ function Topbar() {
                   About Us
                 </a>
               </li>
-<<<<<<< Updated upstream
-              <li class="nav-item">
-                <a href="/" class="nav-link">
-=======
               <li class="nav-item dropdown">
                 <a
                   href="#"
@@ -120,7 +116,6 @@ function Topbar() {
                   aria-haspopup="true"
                   aria-expanded="false"
                 >
->>>>>>> Stashed changes
                   Services
                 </a>
                 <div
@@ -128,7 +123,7 @@ function Topbar() {
                   aria-labelledby="servicesDropdown"
                   style={{ backgroundColor: "#503C3C" }}
                 >
-                  <a class="dropdown-item" href="service1.html">
+                  <a class="dropdown-item" href="/services/phd-dissertation">
                     <div className="hoverable" style={{ color: "#fff" }}>
                       {" "}
                       PHD DISSERTATION{" "}
@@ -150,7 +145,7 @@ function Topbar() {
                       PHD RESEARCH
                     </div>
                   </a>
-                  <a class="dropdown-item" href="service3.html">
+                  <a class="dropdown-item" href="/services/phd-data-analytics">
                     <div className="hoverable" style={{ color: "#fff" }}>
                       DATA ANALYTICS
                     </div>
@@ -194,11 +189,7 @@ function Topbar() {
                 </a>
               </li>
               <li class="nav-item">
-<<<<<<< Updated upstream
                 <a href="/faqs" class="nav-link">
-=======
-                <a href="/faq" class="nav-link">
->>>>>>> Stashed changes
                   FAQs
                 </a>
               </li>
@@ -206,7 +197,6 @@ function Topbar() {
           </div>
         </div>
       </nav>
-      
     </>
   );
 }

@@ -19,15 +19,18 @@ import TopicSelection from "./pages/services/phd topic selection/TopicSelection"
 import ProblemIdentification from "./pages/services/problem identification/ProblemIdentification";
 import ResearchProposal from "./pages/services/research proposal/ResearchProposal";
 import PilotStudy from "./pages/services/pilot study/PilotStudy";
-<<<<<<< Updated upstream
 import PhdDissertationFull from "./pages/services/phd-dissertation-full/PhdDissertationFull";
 import PhdDissertationPart from "./pages/services/phd-dissertation-part/PhdDissertationPart";
 import PhdConsultation from "./pages/services/phd consultation/PhdConsultation";
 import VivaVoce from "./pages/services/viva voce/VivaVoce";
+import DataAnalysis from "./pages/services/data analytics/DataAnalysis";
+import QuantitativeStatistics from "./pages/services/quantitative statistics/QuantitativeStatistics"; 
+import ContentAnalysis from "./pages/services/content analysis/ContentAnalysis"; 
+import Biostatistics from "./pages/services/biostatistics/Biostatistics"; 
+import Econometrics from "./pages/services/econometrics/Econometrics";  
+import BigDataAnalysis from "./pages/services/big data analysis/BigDataAnalysis"; 
 
-=======
-import Faqs from "./pages/faq/Faqs";
->>>>>>> Stashed changes
+
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -64,7 +67,6 @@ root.render(
         path="/services/phd-dissertation/pilot-study"
         element={<PilotStudy />}
       />
-<<<<<<< Updated upstream
       <Route
         path="/services/phd-dissertation/phd-dissertation-full"
         element={<PhdDissertationFull />}
@@ -82,9 +84,31 @@ root.render(
         element={<VivaVoce />}
       />
       <Route path="/faqs" element={<Faqs />} />
-=======
-      <Route path="/pages/faq/Faqs" element={<Faqs />} />
->>>>>>> Stashed changes
+
+      <Route
+        path="/services/phd-data-analytics"
+        element={<DataAnalysis />}
+      />
+      <Route
+        path="/services/phd-data-analytics/quantitative-statistics"
+        element={<QuantitativeStatistics />}
+      />
+      <Route
+        path="/services/phd-data-analytics/content-analysis"
+        element={<ContentAnalysis />}
+      />
+      <Route
+        path="/services/phd-data-analytics/biostatistics"
+        element={<Biostatistics />}
+      />
+      <Route
+        path="/services/phd-data-analytics/econometrics"
+        element={<Econometrics />}
+      />
+      <Route
+        path="/services/phd-data-analytics/big-data-analysis"
+        element={<BigDataAnalysis />}
+      />
     </Routes>
   </BrowserRouter>
 );
