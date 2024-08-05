@@ -810,3 +810,19 @@ textarea {
   border: 1px solid #7e6363 !important;
   color: #fff !important;
 }
+/* @media (max-width: 767.98px) {
+  .services {
+    padding: 6em 0;
+  }
+}
+@media (max-width: 767.98px) {
+  .heading-section h2 {
+    font-size: 28px;
+  }
+}
+@media (max-width: 767.98px) {
+  .col-md-3 d-flex align-items-stretch {
+    font-size: 28px;
+    padding: 6em 0;
+  }
+} */

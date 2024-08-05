@@ -19,11 +19,15 @@ import TopicSelection from "./pages/services/phd topic selection/TopicSelection"
 import ProblemIdentification from "./pages/services/problem identification/ProblemIdentification";
 import ResearchProposal from "./pages/services/research proposal/ResearchProposal";
 import PilotStudy from "./pages/services/pilot study/PilotStudy";
+<<<<<<< Updated upstream
 import PhdDissertationFull from "./pages/services/phd-dissertation-full/PhdDissertationFull";
 import PhdDissertationPart from "./pages/services/phd-dissertation-part/PhdDissertationPart";
 import PhdConsultation from "./pages/services/phd consultation/PhdConsultation";
 import VivaVoce from "./pages/services/viva voce/VivaVoce";
 
+=======
+import Faqs from "./pages/faq/Faqs";
+>>>>>>> Stashed changes
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -39,6 +43,7 @@ root.render(
       <Route path="/buisness" element={<Buisness />} />
       <Route path="/finance" element={<Finance />} />
       <Route path="/pricing" element={<Pricing />} />
+
       <Route
         path="/services/phd-dissertation"
         element={<PhdDissertation />}
@@ -59,6 +64,7 @@ root.render(
         path="/services/phd-dissertation/pilot-study"
         element={<PilotStudy />}
       />
+<<<<<<< Updated upstream
       <Route
         path="/services/phd-dissertation/phd-dissertation-full"
         element={<PhdDissertationFull />}
@@ -76,6 +82,9 @@ root.render(
         element={<VivaVoce />}
       />
       <Route path="/faqs" element={<Faqs />} />
+=======
+      <Route path="/pages/faq/Faqs" element={<Faqs />} />
+>>>>>>> Stashed changes
     </Routes>
   </BrowserRouter>
 );

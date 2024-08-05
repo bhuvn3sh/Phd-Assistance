@@ -939,7 +939,7 @@ function Home() {
       //   </div>
      </div> */}
 
-      <section className="testimony-section">
+      <section className="ftco-section testimony-section">
         <div
           className="img img-bg border"
           style={{ backgroundImage: "url(./assets/bg-5.jpg)" }}
@@ -952,9 +952,9 @@ function Home() {
               <h2 className="mb-3">Happy Clients</h2>
             </div>
           </div>
-          <div className="row">
+          <div className="row ftco-animate fadeInUp ftco-animated">
             <div className="col-md-12">
-              <div className="carousel-testimony">
+              <div className="carousel-testimony owl-carousel ftco-owl owl-loaded owl-drag">
                 <Swiper
                   slidesPerView={3}
                   spaceBetween={30}
@@ -1460,6 +1460,84 @@ function Home() {
           </div>
         </div>
       </div>
+
+      <section class="ftco-section">
+        <div class="container">
+          <div class="row justify-content-center pb-5">
+            <div class="col-md-7 heading-section text-center ftco-animate fadeInUp ftco-animated">
+              <span class="subheading">Services</span>
+              <h2>How It Works</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3 d-flex align-items-stretch ftco-animate fadeInUp ftco-animated">
+              <div class="services-2 text-center">
+                <div class="icon-wrap">
+                  <div class="number d-flex align-items-center justify-content-center">
+                    <span>01</span>
+                  </div>
+                  <div class="icon d-flex align-items-center justify-content-center">
+                    <span class="fa-solid fa-list-check"></span>
+                  </div>
+                </div>
+                <h2> Requirements</h2>
+                <p>
+                  You raise your request via an email to your Single Point Of
+                  Contact (SPOC) from Amura.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-3 d-flex align-items-stretch ftco-animate fadeInUp ftco-animated">
+              <div class="services-2 text-center">
+                <div class="icon-wrap">
+                  <div class="number d-flex align-items-center justify-content-center">
+                    <span>02</span>
+                  </div>
+                  <div class="icon d-flex align-items-center justify-content-center">
+                    <span class="flaticon-qa"></span>
+                  </div>
+                </div>
+                <h2> Execution</h2>
+                <p>That SPOC then gets the work done from the internal teams</p>
+              </div>
+            </div>
+            <div class="col-md-3 d-flex align-items-stretch ftco-animate fadeInUp ftco-animated">
+              <div class="services-2 text-center">
+                <div class="icon-wrap">
+                  <div class="number d-flex align-items-center justify-content-center">
+                    <span>02</span>
+                  </div>
+                  <div class="icon d-flex align-items-center justify-content-center">
+                    <span class="flaticon-qa"></span>
+                  </div>
+                </div>
+                <h2> Quality Checks</h2>
+                <p>
+                  The work goes through rigorous quality checks by every team's
+                  manager and finally the SPOC
+                </p>
+              </div>
+            </div>
+            <div class="col-md-3 d-flex align-items-stretch ftco-animate fadeInUp ftco-animated">
+              <div class="services-2 text-center">
+                <div class="icon-wrap">
+                  <div class="number d-flex align-items-center justify-content-center">
+                    <span>03</span>
+                  </div>
+                  <div class="icon d-flex align-items-center justify-content-center">
+                    <span class="fa-solid fa-list-check"></span>
+                  </div>
+                </div>
+                <h2> Delivery</h2>
+                <p>
+                  It is emailed back/a download link is sent to you, meeting
+                  previous agreed-upon deadlines
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <Footer />
     </>

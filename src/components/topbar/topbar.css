@@ -537,12 +537,12 @@ a {
   border: 1px solid transparent;
   border-radius: 0.25rem;
 }
-button,
+/* button,
 [type="button"],
 [type="reset"],
 [type="submit"] {
   -webkit-appearance: button;
-}
+} */
 button,
 input {
   overflow: visible;
@@ -610,4 +610,51 @@ input {
 }
 .ftco-navbar-light .navbar-nav > .nav-item > .nav-link:hover {
   color: #fff;
+}
+/* General dropdown menu styles */
+.navbar-nav .nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0; /* Remove the default margin */
+}
+
+/* Optional: Transition effect for smoother appearance */
+.dropdown-menu {
+  transition: all 0.3s ease-in-out;
+  background-color: #343a40; /* Dark background color */
+  border: none; /* Remove border */
+  padding: 0; /* Remove default padding */
+}
+
+/* Styles specifically for all dropdown items */
+.dropdown-item {
+  color: #ffffff; /* White text color */
+  padding: 10px 20px; /* Custom padding */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth background and color transition */
+}
+
+.dropdown-item:hover {
+  background-color: #495057; /* Slightly lighter dark color on hover */
+  color: #00ff00; /* Change this to the desired color */
+}
+
+.dropdown-item:active {
+  background-color: #6c757d; /* Change this to the desired color for active state */
+  color: #ffffff; /* Ensure text remains white */
+}
+.hoverable:hover {
+  background-color: #a87c7c;
+}
+/* Assuming the class for dropdown items is 'dropdown-item' */
+.dropdown-item {
+  padding: 10px;
+  width: 150px; /* Set a base width */
+  transition: width 0.3s ease; /* Smooth transition for the width change */
+}
+
+.dropdown-item:hover {
+  width: 200px; /* Increase width on hover */
+}
+/* Apply to the first child only */
+.dropdown-item:first-child:hover {
+  width: 200px; /* Increase width on hover for the first item */
 }
