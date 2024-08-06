@@ -38,6 +38,13 @@ import InterimReport from "./pages/services/interim report/InterimReport";
 import ExamNotes from "./pages/services/exam notes/ExamNotes";
 import Synopsis from "./pages/services/synopsis/Synopsis";
 import Powerpoint from "./pages/services/powerpoint/Powerpoint";
+import LiteratureReview from "./pages/services/literature review/LiteratureReview";
+import ReferencesCollection from "./pages/services/references collection/ReferencesCollection";
+import ConceptualFramework from "./pages/services/conceptual framework/ConceptualFramework";
+import TheoreticalFramework from "./pages/services/theoretical framework/TheoreticalFramework";
+import AnnotatedBib from "./pages/services/annotated bibliography/AnnotatedBib";
+import TheoremDevelopment from "./pages/services/theorem development/TheoremDevelopment";
+import GapIdentification from "./pages/services/gap identification/GapIdentification";
 
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -153,6 +160,35 @@ root.render(
       <Route
         path="/services/phd-coursework/power-point"
         element={<Powerpoint />}
+      />
+
+      <Route
+        path="/services/phd-literature-review"
+        element={<LiteratureReview />}
+      />
+      <Route
+        path="/services/phd-literature-review/references-collection"
+        element={<ReferencesCollection />}
+      />
+      <Route
+        path="/services/phd-literature-review/conceptual-framework"
+        element={<ConceptualFramework />}
+      />
+      <Route
+        path="/services/phd-literature-review/theoretical-framework"
+        element={<TheoreticalFramework />}
+      />
+      <Route
+        path="/services/phd-literature-review/annotated-bibliography"
+        element={<AnnotatedBib />}
+      />
+      <Route
+        path="/services/phd-literature-review/theorem-development"
+        element={<TheoremDevelopment />}
+      />
+      <Route
+        path="/services/phd-literature-review/gap-identification"
+        element={<GapIdentification />}
       />
     </Routes>
   </BrowserRouter>
