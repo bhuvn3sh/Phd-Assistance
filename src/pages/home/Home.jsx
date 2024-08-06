@@ -86,7 +86,7 @@ function Home() {
                   </p>
                 </div>
               </div>
-              <a
+              {/* <a
                 href="https://vimeo.com/45830194"
                 class="img-video popup-vimeo d-flex align-items-center justify-content-center"
                 style={{
@@ -96,7 +96,7 @@ function Home() {
                 }}
               >
                 <span className="fa fa-play"></span>
-              </a>
+              </a> */}
             </div>
           </div>
         </div>
@@ -526,9 +526,15 @@ function Home() {
                 </div>
                 <div className="service-cap">
                   <h4>
-                    <a href="">Dissertation Services</a>
+                    <a href="" style={{ textDecoration: "none" }}>
+                      Dissertation Services
+                    </a>
                   </h4>
-                  <a className="more-btn" href="">
+                  <a
+                    className="more-btn"
+                    href=""
+                    style={{ textDecoration: "none" }}
+                  >
                     Read More
                     <i className="fa-solid fa-plus"></i>
                   </a>
@@ -542,9 +548,15 @@ function Home() {
                 </div>
                 <div className="service-cap">
                   <h4>
-                    <a href="">Public Support</a>
+                    <a href="" style={{ textDecoration: "none" }}>
+                      Public Support
+                    </a>
                   </h4>
-                  <a className="more-btn" href="">
+                  <a
+                    className="more-btn"
+                    href=""
+                    style={{ textDecoration: "none" }}
+                  >
                     Read More
                     <i className="fa-solid fa-plus"></i>
                   </a>
@@ -558,9 +570,15 @@ function Home() {
                 </div>
                 <div className="service-cap">
                   <h4>
-                    <a href="">Statistical Analysis</a>
+                    <a href="" style={{ textDecoration: "none" }}>
+                      Statistical Analysis
+                    </a>
                   </h4>
-                  <a className="more-btn" href="">
+                  <a
+                    className="more-btn"
+                    href=""
+                    style={{ textDecoration: "none" }}
+                  >
                     Read More
                     <i className="fa-solid fa-plus"></i>
                   </a>
@@ -574,9 +592,15 @@ function Home() {
                 </div>
                 <div className="service-cap">
                   <h4>
-                    <a href="">Coding & AlgorithmServices</a>
+                    <a href="" style={{ textDecoration: "none" }}>
+                      Coding & AlgorithmServices
+                    </a>
                   </h4>
-                  <a className="more-btn" href="">
+                  <a
+                    className="more-btn"
+                    href=""
+                    style={{ textDecoration: "none" }}
+                  >
                     Read More
                     <i className="fa-solid fa-plus"></i>
                   </a>
@@ -592,9 +616,15 @@ function Home() {
                 </div>
                 <div className="service-cap">
                   <h4>
-                    <a href="">Data Collection</a>
+                    <a href="" style={{ textDecoration: "none" }}>
+                      Data Collection
+                    </a>
                   </h4>
-                  <a className="more-btn" href="">
+                  <a
+                    className="more-btn"
+                    href=""
+                    style={{ textDecoration: "none" }}
+                  >
                     Read More
                     <i className="fa-solid fa-plus"></i>
                   </a>
@@ -608,9 +638,15 @@ function Home() {
                 </div>
                 <div className="service-cap">
                   <h4>
-                    <a href="">Editing & Peering Reviewing</a>
+                    <a href="" style={{ textDecoration: "none" }}>
+                      Editing & Peering Reviewing
+                    </a>
                   </h4>
-                  <a className="more-btn" href="">
+                  <a
+                    className="more-btn"
+                    href=""
+                    style={{ textDecoration: "none" }}
+                  >
                     Read More
                     <i className="fa-solid fa-plus"></i>
                   </a>
@@ -624,9 +660,15 @@ function Home() {
                 </div>
                 <div className="service-cap">
                   <h4>
-                    <a href="">Research Support Service</a>
+                    <a href="" style={{ textDecoration: "none" }}>
+                      Research Support Service
+                    </a>
                   </h4>
-                  <a className="more-btn" href="">
+                  <a
+                    className="more-btn"
+                    href=""
+                    style={{ textDecoration: "none" }}
+                  >
                     Read More
                     <i className="fa-solid fa-plus"></i>
                   </a>
@@ -640,9 +682,15 @@ function Home() {
                 </div>
                 <div className="service-cap">
                   <h4>
-                    <a href="">Course Work</a>
+                    <a href="" style={{ textDecoration: "none" }}>
+                      Course Work
+                    </a>
                   </h4>
-                  <a className="more-btn" href="">
+                  <a
+                    className="more-btn"
+                    href=""
+                    style={{ textDecoration: "none" }}
+                  >
                     Read More
                     <i className="fa-solid fa-plus"></i>
                   </a>
@@ -681,9 +729,14 @@ function Home() {
                   href="https://youtu.be/0OOA1ShNJn8"
                 >
                   <div className="icon d-flex align-items-center justify-content-center">
-                    <span className=" fa fa-play "></span>
+                    <span
+                      className=" fa fa-play "
+                      style={{ textDecoration: "none" }}
+                    ></span>
                   </div>
-                  <span className="watch">Take a look at our process flow</span>
+                  <span className="watch" style={{ textDecoration: "none" }}>
+                    Take a look at our process flow
+                  </span>
                 </a>
               </div>
             </div>

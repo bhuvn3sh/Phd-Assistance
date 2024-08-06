@@ -14,7 +14,11 @@ function Footer() {
               <div class="ftco-footer-widget mb-4">
                 <h4
                   class="ftco-heading-2 logo"
-                  style={{ color: "white", paddingLeft: "20px", marginBottom: '30px' }}
+                  style={{
+                    color: "white",
+                    paddingLeft: "20px",
+                    marginBottom: "30px",
+                  }}
                 >
                   About us
                 </h4>
@@ -34,7 +38,11 @@ function Footer() {
               <div class="ftco-footer-widget mb-4 ml-md-4">
                 <h4
                   class="ftco-heading-2"
-                  style={{ paddingLeft: "100px", color: "white", marginBottom: '30px' }}
+                  style={{
+                    paddingLeft: "100px",
+                    color: "white",
+                    marginBottom: "30px",
+                  }}
                 >
                   Main Services
                 </h4>
@@ -43,6 +51,7 @@ function Footer() {
                     <a
                       href="https://www.phdassistance.com/services/phd-dissertation/"
                       className="style-links"
+                      style={{ textDecoration: "none" }}
                     >
                       <span class="fa fa-chevron-right mr-2"></span>PhD
                       Dissertation
@@ -52,6 +61,7 @@ function Footer() {
                     <a
                       href="https://www.phdassistance.com/services/phd-coursework/"
                       className="style-links"
+                      style={{ textDecoration: "none" }}
                     >
                       <span class="fa fa-chevron-right mr-2"></span>Coursework
                     </a>
@@ -60,6 +70,7 @@ function Footer() {
                     <a
                       href="https://www.phdassistance.com/services/phd-literature-review/"
                       className="style-links"
+                      style={{ textDecoration: "none" }}
                     >
                       <span class="fa fa-chevron-right mr-2"></span>Litreature
                       Review
@@ -69,6 +80,7 @@ function Footer() {
                     <a
                       href="https://www.phdassistance.com/services/phd-research-methodology/"
                       className="style-links"
+                      style={{ textDecoration: "none" }}
                     >
                       <span class="fa fa-chevron-right mr-2"></span>
                       PhD Research Methodology
@@ -78,6 +90,7 @@ function Footer() {
                     <a
                       href="https://www.phdassistance.com/services/phd-data-analysis/"
                       className="style-links"
+                      style={{ textDecoration: "none" }}
                     >
                       <span class="fa fa-chevron-right mr-2"></span>Data
                       Analysis
@@ -87,6 +100,7 @@ function Footer() {
                     <a
                       href="https://www.phdassistance.com/services/manuscript/"
                       className="style-links"
+                      style={{ textDecoration: "none" }}
                     >
                       <span class="fa fa-chevron-right mr-2"></span>Manuscript
                     </a>
@@ -95,6 +109,7 @@ function Footer() {
                     <a
                       href="https://www.phdassistance.com/services/editing-services/"
                       className="style-links"
+                      style={{ textDecoration: "none" }}
                     >
                       <span class="fa fa-chevron-right mr-2"></span>Editing
                       Service
@@ -104,6 +119,7 @@ function Footer() {
                     <a
                       href="https://www.phdassistance.com/services/animation/"
                       className="style-links"
+                      style={{ textDecoration: "none" }}
                     >
                       <span class="fa fa-chevron-right mr-2"></span>Animation
                     </a>
@@ -112,6 +128,7 @@ function Footer() {
                     <a
                       href="https://www.phdassistance.com/services/courses/"
                       className="style-links"
+                      style={{ textDecoration: "none" }}
                     >
                       <span class="fa fa-chevron-right mr-2"></span>Courses
                     </a>
@@ -123,7 +140,11 @@ function Footer() {
               <div class="ftco-footer-widget mb-4">
                 <h4
                   class="ftco-heading-2"
-                  style={{ paddingLeft: "50px", color: "white", marginBottom: '30px' }}
+                  style={{
+                    paddingLeft: "50px",
+                    color: "white",
+                    marginBottom: "30px",
+                  }}
                 >
                   Links
                 </h4>
@@ -132,6 +153,7 @@ function Footer() {
                     <a
                       href="https://www.phdassistance.com/blog/"
                       className="style-links"
+                      style={{ textDecoration: "none" }}
                     >
                       <span class="fa fa-chevron-right mr-2"></span>Blog
                     </a>
@@ -140,6 +162,7 @@ function Footer() {
                     <a
                       href="https://www.phdassistance.com/industries/"
                       className="style-links"
+                      style={{ textDecoration: "none" }}
                     >
                       <span class="fa fa-chevron-right mr-2"></span>Industries
                     </a>
@@ -148,6 +171,7 @@ function Footer() {
                     <a
                       href="https://www.phdassistance.com/pricing/"
                       className="style-links"
+                      style={{ textDecoration: "none" }}
                     >
                       <span class="fa fa-chevron-right mr-2"></span>Pricing
                       Details
@@ -157,6 +181,7 @@ function Footer() {
                     <a
                       href="https://www.phdassistance.com/insights/"
                       className="style-links"
+                      style={{ textDecoration: "none" }}
                     >
                       <span class="fa fa-chevron-right mr-2"></span>Insights
                     </a>
@@ -165,6 +190,7 @@ function Footer() {
                     <a
                       href="https://www.phdassistance.com/help-guide/"
                       className="style-links"
+                      style={{ textDecoration: "none" }}
                     >
                       <span class="fa fa-chevron-right mr-2"></span>Help-Guide
                     </a>
@@ -173,6 +199,7 @@ function Footer() {
                     <a
                       href="https://www.phdassistance.com/sample-work/"
                       className="style-links"
+                      style={{ textDecoration: "none" }}
                     >
                       <span class="fa fa-chevron-right mr-2"></span>Our Sample
                       Work
@@ -182,6 +209,7 @@ function Footer() {
                     <a
                       href="https://www.phdassistance.com/faq/"
                       className="style-links"
+                      style={{ textDecoration: "none" }}
                     >
                       <span class="fa fa-chevron-right mr-2"></span>FAQ
                     </a>
@@ -190,6 +218,7 @@ function Footer() {
                     <a
                       href="https://www.phdassistance.com/career/"
                       className="style-links"
+                      style={{ textDecoration: "none" }}
                     >
                       <span class="fa fa-chevron-right mr-2"></span>Career
                     </a>
@@ -198,6 +227,7 @@ function Footer() {
                     <a
                       href="https://www.phdassistance.com/contact-us/"
                       className="style-links"
+                      style={{ textDecoration: "none" }}
                     >
                       <span class="fa fa-chevron-right mr-2"></span>Contact us
                     </a>
@@ -206,6 +236,7 @@ function Footer() {
                     <a
                       href="https://www.phdassistance.com/terms-and-conditions/"
                       className="style-links"
+                      style={{ textDecoration: "none" }}
                     >
                       <span class="fa fa-chevron-right mr-2"></span>Terms and
                       conditions
@@ -215,6 +246,7 @@ function Footer() {
                     <a
                       href="https://www.phdassistance.com/privacy-policy/"
                       className="style-links"
+                      style={{ textDecoration: "none" }}
                     >
                       <span class="fa fa-chevron-right mr-2"></span>Privacy
                       policy
@@ -224,6 +256,7 @@ function Footer() {
                     <a
                       href="https://www.phdassistance.com/customer-centre/"
                       className="style-links"
+                      style={{ textDecoration: "none" }}
                     >
                       <span class="fa fa-chevron-right mr-2"></span>Customer
                       Centre
@@ -233,6 +266,7 @@ function Footer() {
                     <a
                       href="https://www.phdassistance.com/sitemap.xml"
                       className="style-links"
+                      style={{ textDecoration: "none" }}
                     >
                       <span class="fa fa-chevron-right mr-2"></span>XML Sitemap
                     </a>
@@ -248,7 +282,7 @@ function Footer() {
                     paddingLeft: "20px",
                     color: "white",
                     paddingRight: "120px",
-                    marginBottom: '30px'
+                    marginBottom: "30px",
                   }}
                 >
                   Contact us{" "}

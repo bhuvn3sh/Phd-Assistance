@@ -96,11 +96,7 @@ function Topbar() {
 
           <div class="collapse navbar-collapse" id="ftco-nav">
             <ul class="navbar-nav ml-auto">
-              <li class="nav-item active">
-                <a href="/" class="nav-link">
-                  Home
-                </a>
-              </li>
+              <li class="nav-item active"></li>
               <li class="nav-item">
                 <a href="/about" class="nav-link">
                   About Us
@@ -168,20 +164,117 @@ function Topbar() {
                 </div>
               </li>
 
-              <li class="nav-item">
-                <a href="services.html" class="nav-link">
+              <li class="nav-item dropdown">
+                <a
+                  href="#"
+                  class="nav-link dropdown-toggle"
+                  id="servicesDropdown"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
                   Industries
                 </a>
+                <div
+                  class="dropdown-menu"
+                  aria-labelledby="servicesDropdown"
+                  style={{ backgroundColor: "#503C3C" }}
+                >
+                  <a class="dropdown-item" href="service1.html">
+                    <div className="hoverable" style={{ color: "#fff" }}>
+                      {" "}
+                      ACADEMIC LAW WRITING{" "}
+                    </div>
+                  </a>
+                  <a class="dropdown-item" href="service2.html">
+                    <div className="hoverable" style={{ color: "#fff" }}>
+                      {" "}
+                      ARTS & HUMANITIES{" "}
+                    </div>
+                  </a>
+                  <a class="dropdown-item" href="service3.html">
+                    <div className="hoverable" style={{ color: "#fff" }}>
+                      MEDICINE & HEALTHCARE
+                    </div>
+                  </a>
+                  <a class="dropdown-item" href="service3.html">
+                    <div className="hoverable" style={{ color: "#fff" }}>
+                      BUISNESS & MANAGEMENT
+                    </div>
+                  </a>
+                  <a class="dropdown-item" href="service3.html">
+                    <div className="hoverable" style={{ color: "#fff" }}>
+                      ECONOMICS & FINANCE ACADEMIC
+                    </div>
+                  </a>
+                  <a class="dropdown-item" href="service3.html">
+                    <div className="hoverable" style={{ color: "#fff" }}>
+                      COMPUTER SCIENCE & INFORMATION{" "}
+                    </div>
+                  </a>
+                  <a class="dropdown-item" href="service3.html">
+                    <div className="hoverable" style={{ color: "#fff" }}>
+                      ENGINEERING & TECHNOLOGY{" "}
+                    </div>
+                  </a>
+                  <a class="dropdown-item" href="service3.html">
+                    <div className="hoverable" style={{ color: "#fff" }}>
+                      BIOLOGICAL & LIFE SCIENCE{" "}
+                    </div>
+                  </a>
+                </div>
               </li>
               <li class="nav-item">
                 <a href="/pricing" class="nav-link">
                   Pricing
                 </a>
               </li>
-              <li class="nav-item">
-                <a href="blog.html" class="nav-link">
+              <li class="nav-item dropdown">
+                <a
+                  href="#"
+                  class="nav-link dropdown-toggle"
+                  id="servicesDropdown"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
                   Help-Guide
                 </a>
+                <div
+                  class="dropdown-menu"
+                  aria-labelledby="servicesDropdown"
+                  style={{ backgroundColor: "#503C3C" }}
+                >
+                  <a class="dropdown-item" href="service1.html">
+                    <div className="hoverable" style={{ color: "#fff" }}>
+                      {" "}
+                      HEALTH & MEDICAL{" "}
+                    </div>
+                  </a>
+                  <a class="dropdown-item" href="service2.html">
+                    <div className="hoverable" style={{ color: "#fff" }}>
+                      {" "}
+                      BIOLOGICAL & SCIENCE{" "}
+                    </div>
+                  </a>
+                  <a class="dropdown-item" href="service3.html">
+                    <div className="hoverable" style={{ color: "#fff" }}>
+                      ENGINEERING
+                    </div>
+                  </a>
+                  <a class="dropdown-item" href="service3.html">
+                    <div className="hoverable" style={{ color: "#fff" }}>
+                      BUISNESS & MANAGEMENT & HUMANITIES
+                    </div>
+                  </a>
+                  <a class="dropdown-item" href="service3.html">
+                    <div className="hoverable" style={{ color: "#fff" }}>
+                      FINANCE & OTHERS
+                    </div>
+                  </a>
+                </div>
               </li>
               <li class="nav-item">
                 <a href="/contact" class="nav-link">

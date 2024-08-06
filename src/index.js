@@ -46,7 +46,10 @@ import AnnotatedBib from "./pages/services/annotated bibliography/AnnotatedBib";
 import TheoremDevelopment from "./pages/services/theorem development/TheoremDevelopment";
 import GapIdentification from "./pages/services/gap identification/GapIdentification";
 
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter>
@@ -62,10 +65,7 @@ root.render(
       <Route path="/finance" element={<Finance />} />
       <Route path="/pricing" element={<Pricing />} />
 
-      <Route
-        path="/services/phd-dissertation"
-        element={<PhdDissertation />}
-      />
+      <Route path="/services/phd-dissertation" element={<PhdDissertation />} />
       <Route
         path="/services/phd-dissertation/phd-topic-selection"
         element={<TopicSelection />}
@@ -99,6 +99,7 @@ root.render(
         element={<VivaVoce />}
       />
       <Route path="/faqs" element={<Faqs />} />
+<<<<<<< Updated upstream
 
       <Route
         path="/services/phd-data-analytics"
@@ -190,6 +191,8 @@ root.render(
         path="/services/phd-literature-review/gap-identification"
         element={<GapIdentification />}
       />
+=======
+>>>>>>> Stashed changes
     </Routes>
   </BrowserRouter>
 );

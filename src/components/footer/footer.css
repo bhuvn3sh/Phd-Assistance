@@ -99,14 +99,13 @@ user agent stylesheet div {
 .style-links {
   color: white;
 }
-.style-links:hover {
+/* .style-links:hover {
   color: #a87c7c;
-}
-.style-links span{
+} */
+.style-links span {
   margin-bottom: 10px;
 }
-.list-unstyled span{
+.list-unstyled span {
   margin-bottom: 10px;
   margin-right: 5px;
-  
 }
