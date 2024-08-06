@@ -8,3 +8,6 @@ body {
   font-weight: 400;
   color: gray;
 }
+body{
+  overflow-x: hidden;
+}
