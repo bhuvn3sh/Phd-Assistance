@@ -8,7 +8,7 @@ import "swiper/css/pagination";
 import "swiper/css/autoplay";
 import "swiper/css/effect-creative";
 
-function BigDataAnalysis() {
+function Powerpoint() {
   return (
     <>
       <Topbar />
@@ -25,14 +25,14 @@ function BigDataAnalysis() {
           <div className="row">
             <div className="col-md-12">
               <div className="about-cap ftco-animate pt-100 fadeInUp ftco-animated">
-                <h2>Data Mining for Your Big Data </h2>
+                <h2>Ph.D. PowerPoint Presentation Service </h2>
                 <nav aria-label="breadcrumb">
                   <ol className="breadcrumb">
                     <li className="breadcrumb-item">
                       <a href="/">Home</a>
                     </li>
                     <li className="breadcrumb-item">
-                      <a href="/services/phd-data-analytics">Data Analytics</a>
+                      <a href="/services/phd-coursework">Coursework</a>
                     </li>
                   </ol>
                 </nav>
@@ -48,20 +48,37 @@ function BigDataAnalysis() {
             <div className="col-md-12">
               <div className="">
                 <h2 className="text-center">
-                Big Data Analytics
+                  Ph.D. Assistance-PowerPoint Presentation Help
                 </h2>
                 <p>
-                Is the thought of using Big Data in your thesis bothering you? Are you facing troubles in narrowing down where and how to use Big Data in your research? Or is it simply confusing to incorporate Big Data into conventional research methodology? Look no further than here, we have solutions to all your worries.The world turns in Big Data now, so do we!
+                  Are you looking for a trusted professional assistance to grab
+                  the attention of your evaluator with your powerful
+                  presentation?Your Search ends here!Thesis PowerPoint
+                  presentation is effective advertisement tool to highlight the
+                  significance of your Research thesis work in a conference
+                  meet.
                 </p>
               </div>
             </div>
             <div className="col-md-8">
               <div className="">
                 <p>
-                Big data involves large-scale, high-velocity information from diverse sources, including social media, stock exchanges, and search engines. Big data analytics extracts meaningful insights from these vast datasets using tools like Hadoop, Spark, and NoSQL databases, enhancing decision-making and competitive advantage.
+                  Creating an effective PowerPoint presentation for your thesis
+                  requires condensing your research into a concise, impactful
+                  format while maintaining clarity and engagement. The
+                  presentation should feature an attractive design, clear and
+                  simple content, minimal text, appropriate images, and
+                  effective use of animations. The goal is to convey key stages
+                  and major findings of your research in a brief yet
+                  comprehensive manner.
                 </p>
                 <p>
-                At Ph.D. Assistance, we offer expert big data analysis support, applying models such as regression, predictive analytics, and game theory. We use various visualization techniques and tools to analyze and cluster information, ensuring comprehensive support tailored to your research objectives and timeline.
+                  Our team specializes in crafting high-quality PowerPoint
+                  presentations for Ph.D. theses, ensuring a professional
+                  standard with creative design and meticulous planning. We
+                  focus on producing visually appealing and informative slides
+                  that capture the essence of your research and impress your
+                  thesis committee.
                 </p>
               </div>
             </div>
@@ -97,9 +114,11 @@ function BigDataAnalysis() {
                     </span>
                     <span className="topic-selection d-block"></span>
                     <p>
-                      Only Statistical Analysis based on the raw data shared. We
-                      analyze the data using appropriate statistical tools and
-                      just paste the output{" "}
+                      In the Basic service, our experienced writers prepare a
+                      descriptive report highlighting feasible research areas
+                      and critical evaluations. This guidance helps you
+                      understand key elements for your Interim report, enabling
+                      you to develop a comprehensive document.
                     </p>
                   </div>
                 </div>
@@ -116,9 +135,11 @@ function BigDataAnalysis() {
                     </span>
                     <span className="topic-selection d-block"></span>
                     <p>
-                      In addition to the above, we write the basic
-                      interpretation without any discussion against the
-                      literature review
+                      In the Advanced service, our researchers and writers
+                      utilize extensive resources and collaborate with you to
+                      develop appropriate research questions. We also assist in
+                      documenting your research progress and providing a time
+                      plan for completion.
                     </p>
                   </div>
                 </div>
@@ -135,9 +156,12 @@ function BigDataAnalysis() {
                     </span>
                     <span className="topic-selection d-block"></span>
                     <p>
-                      We analyze your data with the right statistical tools,
-                      format tables to manuscript style, and interpret results
-                      in relation to previous studies.
+                      The Premium package offers complete assistance from start
+                      to finish for your Interim report, using the latest
+                      resources to deliver a high-quality, professional
+                      document. It includes critical analysis, a comprehensive
+                      overview, research methodologies, and a detailed
+                      completion timeline.
                     </p>
                   </div>
                 </div>
@@ -151,7 +175,7 @@ function BigDataAnalysis() {
         <div className="container">
           <div className="row">
             <div className="col-md-12 text-center">
-              <h3>Big Data Analytics Service Features </h3>
+              <h3>Outstanding Power Point Features</h3>
             </div>
             <div className="col-md-4">
               <div className="service-features1">
@@ -614,4 +638,4 @@ function BigDataAnalysis() {
   );
 }
 
-export default BigDataAnalysis;
+export default Powerpoint;

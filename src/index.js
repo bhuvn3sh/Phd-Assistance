@@ -29,7 +29,15 @@ import ContentAnalysis from "./pages/services/content analysis/ContentAnalysis";
 import Biostatistics from "./pages/services/biostatistics/Biostatistics"; 
 import Econometrics from "./pages/services/econometrics/Econometrics";  
 import BigDataAnalysis from "./pages/services/big data analysis/BigDataAnalysis"; 
-
+import SoftwareProgramming from "./pages/services/software programming/SoftwareProgramming"; 
+import ComputerProgramming from "./pages/services/computer programming/ComputerProgramming"; 
+import Coursework from "./pages/services/coursework/Coursework";
+import AbstractService from "./pages/services/abstract service/AbstractService";
+import Assignment from "./pages/services/assignment/Assignment";
+import InterimReport from "./pages/services/interim report/InterimReport";
+import ExamNotes from "./pages/services/exam notes/ExamNotes";
+import Synopsis from "./pages/services/synopsis/Synopsis";
+import Powerpoint from "./pages/services/powerpoint/Powerpoint";
 
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -108,6 +116,43 @@ root.render(
       <Route
         path="/services/phd-data-analytics/big-data-analysis"
         element={<BigDataAnalysis />}
+      />
+      <Route
+        path="/services/phd-data-analytics/software-programming"
+        element={<SoftwareProgramming />}
+      />
+      <Route
+        path="/services/phd-data-analytics/computer-programming"
+        element={<ComputerProgramming />}
+      />
+
+      <Route
+        path="/services/phd-coursework"
+        element={<Coursework />}
+      />
+      <Route
+        path="/services/phd-coursework/abstract"
+        element={<AbstractService />}
+      />
+      <Route
+        path="/services/phd-coursework/assignment"
+        element={<Assignment />}
+      />
+      <Route
+        path="/services/phd-coursework/interim-report"
+        element={<InterimReport />}
+      />
+      <Route
+        path="/services/phd-coursework/exam-notes"
+        element={<ExamNotes />}
+      />
+      <Route
+        path="/services/phd-coursework/synopsis-preperation"
+        element={<Synopsis />}
+      />
+      <Route
+        path="/services/phd-coursework/power-point"
+        element={<Powerpoint />}
       />
     </Routes>
   </BrowserRouter>

@@ -8,7 +8,7 @@ import "swiper/css/pagination";
 import "swiper/css/autoplay";
 import "swiper/css/effect-creative";
 
-function BigDataAnalysis() {
+function Coursework() {
   return (
     <>
       <Topbar />
@@ -25,14 +25,14 @@ function BigDataAnalysis() {
           <div className="row">
             <div className="col-md-12">
               <div className="about-cap ftco-animate pt-100 fadeInUp ftco-animated">
-                <h2>Data Mining for Your Big Data </h2>
+                <h2>Ph.D. Coursework Services </h2>
                 <nav aria-label="breadcrumb">
                   <ol className="breadcrumb">
                     <li className="breadcrumb-item">
                       <a href="/">Home</a>
                     </li>
                     <li className="breadcrumb-item">
-                      <a href="/services/phd-data-analytics">Data Analytics</a>
+                      <a href="/services/phd-coursework">Coursework</a>
                     </li>
                   </ol>
                 </nav>
@@ -48,20 +48,49 @@ function BigDataAnalysis() {
             <div className="col-md-12">
               <div className="">
                 <h2 className="text-center">
-                Big Data Analytics
+                  Why Ph.D. Assistance for Ph.D. Coursework Services?
                 </h2>
                 <p>
-                Is the thought of using Big Data in your thesis bothering you? Are you facing troubles in narrowing down where and how to use Big Data in your research? Or is it simply confusing to incorporate Big Data into conventional research methodology? Look no further than here, we have solutions to all your worries.The world turns in Big Data now, so do we!
+                  Are you feeling an extremely hectic and frustrating with
+                  coursework writing task? Not having time to meet the deadline
+                  in writing the coursework assignment? Or Looking the ways to
+                  impress the professor to improve your credits by increasing
+                  the quality of your work? Enjoy the convenience by getting the
+                  high-quality Coursework assignment help from Ph.D.
+                  assistance.We empower the Ph.D. Research Student Community
                 </p>
               </div>
             </div>
             <div className="col-md-8">
               <div className="">
                 <p>
-                Big data involves large-scale, high-velocity information from diverse sources, including social media, stock exchanges, and search engines. Big data analytics extracts meaningful insights from these vast datasets using tools like Hadoop, Spark, and NoSQL databases, enhancing decision-making and competitive advantage.
+                  Writing Ph.D. coursework can be overwhelming, as it aims to
+                  provide students with a broad knowledge base and essential
+                  skills for their thesis. The coursework typically includes
+                  research methodology, statistics, applied research methods,
+                  scientific communication, management principles, social
+                  ethics, review writing, presentation and seminar preparation,
+                  rubric assignments, literature reviews, referencing styles,
+                  research question formulation, and questionnaire development.
+                  Engaging with experts who have studied the topic enhances your
+                  research, making Ph.D. Assistance a trusted source for
+                  international coursework support. Our experienced team offers
+                  end-to-end services from Ph.D. admission to job placement,
+                  leveraging state-of-the-art infrastructure, exclusive library
+                  resources, and classroom facilities.
                 </p>
                 <p>
-                At Ph.D. Assistance, we offer expert big data analysis support, applying models such as regression, predictive analytics, and game theory. We use various visualization techniques and tools to analyze and cluster information, ensuring comprehensive support tailored to your research objectives and timeline.
+                  Our approach begins with understanding the student's country
+                  of origin and their specific university or college curriculum
+                  to tailor our services accordingly. We then assign a subject
+                  matter expert with domain knowledge to the task, ensuring
+                  accurate and timely completion. Regular updates and a single
+                  point of contact streamline communication, while our process
+                  includes understanding the topic, creating an outline,
+                  gathering references, interpreting content, copy-editing, and
+                  proofreading. At Ph.D. Assistance, we customize solutions to
+                  meet all coursework requirements, providing comprehensive
+                  support to overcome any writing challenges students may face.
                 </p>
               </div>
             </div>
@@ -82,24 +111,31 @@ function BigDataAnalysis() {
           <div className="row justify-content-center pb-5">
             <div className="col-md-7 heading-section text-center">
               <span className="subheading">Service Description</span>
-              <h2>We Offer Three Level of Services</h2>
+              <h2>We Offer Various Coursework Services</h2>
             </div>
           </div>
           <div className="row">
-            <div className="col-md-4">
-              <div className="pricing-1 pricing-animate pricing-fadeUp pricing-animated services-description">
+            <div className="col-md-4" style={{ height: "300px" }}>
+              <div
+                className="pricing-1 pricing-animate pricing-fadeUp pricing-animated services-description"
+                style={{ minHeight: "255px" }}
+              >
                 <div className="block-7 w-100">
                   <div className="text-center">
                     <span className="price">
                       <span className="number" style={{ fontSize: "35px" }}>
-                        Basic
+                        <a href="/services/phd-coursework/abstract">
+                          Ph.D. Abstract Writing
+                        </a>
                       </span>
                     </span>
                     <span className="topic-selection d-block"></span>
                     <p>
-                      Only Statistical Analysis based on the raw data shared. We
-                      analyze the data using appropriate statistical tools and
-                      just paste the output{" "}
+                      An abstract is a summary written after completing your
+                      study, as it is the first content read by examiners. At
+                      Ph.D. Assistance, our experts help craft your abstract by
+                      thoroughly reviewing your entire dissertation or
+                      manuscript.
                     </p>
                   </div>
                 </div>
@@ -111,14 +147,17 @@ function BigDataAnalysis() {
                   <div className="text-center">
                     <span className="price">
                       <span className="number" style={{ fontSize: "35px" }}>
-                        Advanced
+                        <a href="/services/phd-coursework/assignment">
+                          Ph.D. Research Papers
+                        </a>
                       </span>
                     </span>
                     <span className="topic-selection d-block"></span>
                     <p>
-                      In addition to the above, we write the basic
-                      interpretation without any discussion against the
-                      literature review
+                      Ph.D. Assistance is a one-stop shop for all your research
+                      paper writing needs, enhancing writing quality,
+                      uniqueness, and ingenuity. We ensure prompt delivery with
+                      meticulous investigation and research.
                     </p>
                   </div>
                 </div>
@@ -130,14 +169,81 @@ function BigDataAnalysis() {
                   <div className="text-center">
                     <span className="price">
                       <span className="number" style={{ fontSize: "35px" }}>
-                        Premium
+                        <a href="/services/phd-coursework/interim-report">Interim Report</a>
                       </span>
                     </span>
                     <span className="topic-selection d-block"></span>
                     <p>
-                      We analyze your data with the right statistical tools,
-                      format tables to manuscript style, and interpret results
-                      in relation to previous studies.
+                      An interim report includes a summary, progress
+                      description, limited evaluation details, and an overview
+                      of the financial situation. It also explains any delays or
+                      deviations in plans and compares actual outcomes to
+                      expected results.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-4">
+              <div className="pricing-1 pricing-animate pricing-fadeUp pricing-animated services-description">
+                <div className="block-7 w-100">
+                  <div className="text-center">
+                    <span className="price">
+                      <span className="number" style={{ fontSize: "35px" }}>
+                        <a href="/services/phd-coursework/exam-notes">Ph.D. Exam notes</a>
+                      </span>
+                    </span>
+                    <span className="topic-selection d-block"></span>
+                    <p>
+                      Ph.D. Assistance offers exam note preparation, helping
+                      students achieve high grades in internal assessments and
+                      exams. These notes are designed to alleviate the pressure
+                      of maintaining good academic performance.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-4">
+              <div className="pricing-1 pricing-animate pricing-fadeUp pricing-animated services-description">
+                <div className="block-7 w-100">
+                  <div className="text-center">
+                    <span className="price">
+                      <span className="number" style={{ fontSize: "35px" }}>
+                        <a href="/services/phd-coursework/synopsis-preperation">
+                          Ph.D. Synopsis preparation
+                        </a>
+                      </span>
+                    </span>
+                    <span className="topic-selection d-block"></span>
+                    <p>
+                      A synopsis summarizes your thesis, presenting its
+                      arguments and conclusions. Many Ph.D. candidates struggle
+                      with this first impression for examiners, so it must be
+                      high-quality and well-argued.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-4">
+              <div className="pricing-1 pricing-animate pricing-fadeUp pricing-animated services-description">
+                <div className="block-7 w-100">
+                  <div className="text-center">
+                    <span className="price">
+                      <span className="number" style={{ fontSize: "35px" }}>
+                        <a href="/services/phd-coursework/power-point">
+                          PowerPoint Preparation
+                        </a>
+                      </span>
+                    </span>
+                    <span className="topic-selection d-block"></span>
+                    <p>
+                      Many students struggle with creating concise PowerPoint
+                      presentations, often adding too much content and losing
+                      key points. Ph.D. Assistance excels in crafting engaging
+                      presentations that highlight relevant information with
+                      compelling designs and graphics.
                     </p>
                   </div>
                 </div>
@@ -151,7 +257,7 @@ function BigDataAnalysis() {
         <div className="container">
           <div className="row">
             <div className="col-md-12 text-center">
-              <h3>Big Data Analytics Service Features </h3>
+              <h3>Outstanding Ph.D. Coursework Features</h3>
             </div>
             <div className="col-md-4">
               <div className="service-features1">
@@ -614,4 +720,4 @@ function BigDataAnalysis() {
   );
 }
 
-export default BigDataAnalysis;
+export default Coursework;

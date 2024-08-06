@@ -126,7 +126,7 @@ function Home() {
                     any stage of your research or from scratch.
                   </p>
                   <a
-                    href="https://www.phdassistance.com/services/phd-dissertation/"
+                    href="/services/phd-dissertation"
                     className=" btn btn-dark py-2 px-4"
                     style={{ color: "white", backgroundColor: "#503C3C" }}
                   >
@@ -148,7 +148,7 @@ function Home() {
                     & algorithm development-related services.
                   </p>
                   <a
-                    href="https://www.phdassistance.com/services/phd-dissertation/"
+                    href="/services/phd-data-analytics"
                     className=" btn btn-dark py-2 px-4"
                     style={{ color: "white", backgroundColor: "#503C3C" }}
                   >

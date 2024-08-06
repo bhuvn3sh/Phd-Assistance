@@ -8,7 +8,7 @@ import "swiper/css/pagination";
 import "swiper/css/autoplay";
 import "swiper/css/effect-creative";
 
-function BigDataAnalysis() {
+function SoftwareProgramming() {
   return (
     <>
       <Topbar />
@@ -25,7 +25,9 @@ function BigDataAnalysis() {
           <div className="row">
             <div className="col-md-12">
               <div className="about-cap ftco-animate pt-100 fadeInUp ftco-animated">
-                <h2>Data Mining for Your Big Data </h2>
+                <h2>
+                  Professional Software Programming Research help{" "}
+                </h2>
                 <nav aria-label="breadcrumb">
                   <ol className="breadcrumb">
                     <li className="breadcrumb-item">
@@ -48,20 +50,45 @@ function BigDataAnalysis() {
             <div className="col-md-12">
               <div className="">
                 <h2 className="text-center">
-                Big Data Analytics
+                  Ph.D. Information technology & engineering mentoring at Ph.D.
+                  Assistance
                 </h2>
                 <p>
-                Is the thought of using Big Data in your thesis bothering you? Are you facing troubles in narrowing down where and how to use Big Data in your research? Or is it simply confusing to incorporate Big Data into conventional research methodology? Look no further than here, we have solutions to all your worries.The world turns in Big Data now, so do we!
+                  Are you confused and stuck with codes lines with your computer
+                  science research project? Do you want to validate the code
+                  with experts?Luckily, you have reached the right destination.
                 </p>
               </div>
             </div>
             <div className="col-md-8">
               <div className="">
                 <p>
-                Big data involves large-scale, high-velocity information from diverse sources, including social media, stock exchanges, and search engines. Big data analytics extracts meaningful insights from these vast datasets using tools like Hadoop, Spark, and NoSQL databases, enhancing decision-making and competitive advantage.
+                  Our programmers and writers possess extensive experience in
+                  coding, offering user-friendly solutions for complex computer
+                  projects and developing reliable software applications to
+                  achieve the best outcomes for your Ph.D. computer science
+                  research. They are proficient in various programming
+                  languages, tools, and technologies, with expertise in advanced
+                  mathematics and algorithms. We can handle Ph.D. IEEE/Non-IEEE
+                  projects in domains like Android, Audio, Speech, and Language
+                  Processing, Automation Science and Engineering, Brain-Computer
+                  Interface, Circuits and Systems, Computational Intelligence
+                  and AI in Games, Computer Communication and Informatics, and
+                  Computer Graphics. Our team also specializes in computer-aided
+                  design of integrated circuits and systems, encompassing
+                  algorithms, modeling, simulation, layout design, verification,
+                  testing, and more.
                 </p>
                 <p>
-                At Ph.D. Assistance, we offer expert big data analysis support, applying models such as regression, predictive analytics, and game theory. We use various visualization techniques and tools to analyze and cluster information, ensuring comprehensive support tailored to your research objectives and timeline.
+                  Choose Ph.D. Assistance for quality-conscious computer
+                  dissertations based on the latest trends. We assist in
+                  developing projects like real-time video streaming on Android,
+                  digital signal processing for audio, cloud automation systems,
+                  signal analysis for brain-computer interfaces, communication
+                  circuits with remote sensors, AI for game prediction,
+                  informatics in nursing, visual analysis in computer graphics,
+                  and comprehensive design and documentation of integrated
+                  circuits and systems.
                 </p>
               </div>
             </div>
@@ -97,9 +124,9 @@ function BigDataAnalysis() {
                     </span>
                     <span className="topic-selection d-block"></span>
                     <p>
-                      Only Statistical Analysis based on the raw data shared. We
-                      analyze the data using appropriate statistical tools and
-                      just paste the output{" "}
+                      Developed from relevant sources, our approach identifies
+                      research-worthy areas with a focus on critical evaluation,
+                      though primarily descriptive.
                     </p>
                   </div>
                 </div>
@@ -116,9 +143,9 @@ function BigDataAnalysis() {
                     </span>
                     <span className="topic-selection d-block"></span>
                     <p>
-                      In addition to the above, we write the basic
-                      interpretation without any discussion against the
-                      literature review
+                      Wide range of sources, a clear identification of research
+                      gap in the literature along with aim and research
+                      questions (upgradable)
                     </p>
                   </div>
                 </div>
@@ -135,9 +162,8 @@ function BigDataAnalysis() {
                     </span>
                     <span className="topic-selection d-block"></span>
                     <p>
-                      We analyze your data with the right statistical tools,
-                      format tables to manuscript style, and interpret results
-                      in relation to previous studies.
+                      Refers to a wide range of seminal research with throughout
+                      engagement using latest resources. (upgradable)
                     </p>
                   </div>
                 </div>
@@ -151,7 +177,8 @@ function BigDataAnalysis() {
         <div className="container">
           <div className="row">
             <div className="col-md-12 text-center">
-              <h3>Big Data Analytics Service Features </h3>
+              <h3>Information technology & engineering Research
+              Features </h3>
             </div>
             <div className="col-md-4">
               <div className="service-features1">
@@ -614,4 +641,4 @@ function BigDataAnalysis() {
   );
 }
 
-export default BigDataAnalysis;
+export default SoftwareProgramming;

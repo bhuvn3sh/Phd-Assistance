@@ -8,7 +8,7 @@ import "swiper/css/pagination";
 import "swiper/css/autoplay";
 import "swiper/css/effect-creative";
 
-function BigDataAnalysis() {
+function Synopsis() {
   return (
     <>
       <Topbar />
@@ -25,14 +25,14 @@ function BigDataAnalysis() {
           <div className="row">
             <div className="col-md-12">
               <div className="about-cap ftco-animate pt-100 fadeInUp ftco-animated">
-                <h2>Data Mining for Your Big Data </h2>
+                <h2>Synopsis Preperation Service </h2>
                 <nav aria-label="breadcrumb">
                   <ol className="breadcrumb">
                     <li className="breadcrumb-item">
                       <a href="/">Home</a>
                     </li>
                     <li className="breadcrumb-item">
-                      <a href="/services/phd-data-analytics">Data Analytics</a>
+                      <a href="/services/phd-coursework">Coursework</a>
                     </li>
                   </ol>
                 </nav>
@@ -48,20 +48,38 @@ function BigDataAnalysis() {
             <div className="col-md-12">
               <div className="">
                 <h2 className="text-center">
-                Big Data Analytics
+                  Ph.D. Assistance-Synopsis Preperation Help
                 </h2>
                 <p>
-                Is the thought of using Big Data in your thesis bothering you? Are you facing troubles in narrowing down where and how to use Big Data in your research? Or is it simply confusing to incorporate Big Data into conventional research methodology? Look no further than here, we have solutions to all your worries.The world turns in Big Data now, so do we!
+                  Are you looking for a trusted professional assistance to
+                  complete your PhD synopsis work at an affordable cost?Your
+                  Search ends here!Our expert and experienced team members are
+                  well versed in the Research domain and successfully assisted
+                  numerous PhD students in the preparation professional-
+                  standard thesis proposal report.
                 </p>
               </div>
             </div>
             <div className="col-md-8">
               <div className="">
                 <p>
-                Big data involves large-scale, high-velocity information from diverse sources, including social media, stock exchanges, and search engines. Big data analytics extracts meaningful insights from these vast datasets using tools like Hadoop, Spark, and NoSQL databases, enhancing decision-making and competitive advantage.
+                  A synopsis is the blueprint of your Ph.D. thesis and requires
+                  meticulous planning and professional assistance to justify the
+                  quality of your research and gain committee approval. It
+                  should include an overview of the thesis, motivation, problem
+                  statements, literature review, data collection, research
+                  methodology, statistical analysis, conclusion, research
+                  deadlines, and potential challenges. An inferior draft can
+                  lead to rejection, making professional guidance crucial for
+                  creating a high-standard synopsis.
                 </p>
                 <p>
-                At Ph.D. Assistance, we offer expert big data analysis support, applying models such as regression, predictive analytics, and game theory. We use various visualization techniques and tools to analyze and cluster information, ensuring comprehensive support tailored to your research objectives and timeline.
+                  Our team, consisting of Ph.D. holders and experts trained at
+                  prestigious institutions like Harvard and London School of
+                  Business, provides comprehensive support from topic selection
+                  to final defense. We ensure your synopsis meets professional
+                  standards and assist you throughout the thesis writing process
+                  to achieve successful completion and defense.
                 </p>
               </div>
             </div>
@@ -97,9 +115,11 @@ function BigDataAnalysis() {
                     </span>
                     <span className="topic-selection d-block"></span>
                     <p>
-                      Only Statistical Analysis based on the raw data shared. We
-                      analyze the data using appropriate statistical tools and
-                      just paste the output{" "}
+                      In the Basic service, our experienced writers prepare a
+                      descriptive report highlighting feasible research areas
+                      and critical evaluations. This guidance helps you
+                      understand key elements for your Interim report, enabling
+                      you to develop a comprehensive document.
                     </p>
                   </div>
                 </div>
@@ -116,9 +136,11 @@ function BigDataAnalysis() {
                     </span>
                     <span className="topic-selection d-block"></span>
                     <p>
-                      In addition to the above, we write the basic
-                      interpretation without any discussion against the
-                      literature review
+                      In the Advanced service, our researchers and writers
+                      utilize extensive resources and collaborate with you to
+                      develop appropriate research questions. We also assist in
+                      documenting your research progress and providing a time
+                      plan for completion.
                     </p>
                   </div>
                 </div>
@@ -135,9 +157,12 @@ function BigDataAnalysis() {
                     </span>
                     <span className="topic-selection d-block"></span>
                     <p>
-                      We analyze your data with the right statistical tools,
-                      format tables to manuscript style, and interpret results
-                      in relation to previous studies.
+                      The Premium package offers complete assistance from start
+                      to finish for your Interim report, using the latest
+                      resources to deliver a high-quality, professional
+                      document. It includes critical analysis, a comprehensive
+                      overview, research methodologies, and a detailed
+                      completion timeline.
                     </p>
                   </div>
                 </div>
@@ -151,7 +176,7 @@ function BigDataAnalysis() {
         <div className="container">
           <div className="row">
             <div className="col-md-12 text-center">
-              <h3>Big Data Analytics Service Features </h3>
+              <h3>Outstanding Ph.D. Synopsis Writing Features</h3>
             </div>
             <div className="col-md-4">
               <div className="service-features1">
@@ -614,4 +639,4 @@ function BigDataAnalysis() {
   );
 }
 
-export default BigDataAnalysis;
+export default Synopsis;

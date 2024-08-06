@@ -8,7 +8,7 @@ import "swiper/css/pagination";
 import "swiper/css/autoplay";
 import "swiper/css/effect-creative";
 
-function BigDataAnalysis() {
+function Assignment() {
   return (
     <>
       <Topbar />
@@ -25,14 +25,14 @@ function BigDataAnalysis() {
           <div className="row">
             <div className="col-md-12">
               <div className="about-cap ftco-animate pt-100 fadeInUp ftco-animated">
-                <h2>Data Mining for Your Big Data </h2>
+                <h2>Professional Assignment Writing </h2>
                 <nav aria-label="breadcrumb">
                   <ol className="breadcrumb">
                     <li className="breadcrumb-item">
                       <a href="/">Home</a>
                     </li>
                     <li className="breadcrumb-item">
-                      <a href="/services/phd-data-analytics">Data Analytics</a>
+                      <a href="/services/phd-coursework">Coursework</a>
                     </li>
                   </ol>
                 </nav>
@@ -48,20 +48,38 @@ function BigDataAnalysis() {
             <div className="col-md-12">
               <div className="">
                 <h2 className="text-center">
-                Big Data Analytics
+                  Ph.D. Assistance-Assignment Writing Help
                 </h2>
                 <p>
-                Is the thought of using Big Data in your thesis bothering you? Are you facing troubles in narrowing down where and how to use Big Data in your research? Or is it simply confusing to incorporate Big Data into conventional research methodology? Look no further than here, we have solutions to all your worries.The world turns in Big Data now, so do we!
+                  Are you facing difficulties in framing the abstract for
+                  writing or finding it hard to write crispy and informative
+                  abstract for your dissertation/conference paper?Then’ You’ve
+                  reached the right destination.
                 </p>
               </div>
             </div>
             <div className="col-md-8">
               <div className="">
                 <p>
-                Big data involves large-scale, high-velocity information from diverse sources, including social media, stock exchanges, and search engines. Big data analytics extracts meaningful insights from these vast datasets using tools like Hadoop, Spark, and NoSQL databases, enhancing decision-making and competitive advantage.
+                  Many students, particularly those from non-English-speaking
+                  countries like China, Brazil, Singapore, Malaysia, and
+                  Indonesia, find Ph.D. assignment writing daunting due to the
+                  need for thorough research and clear goals. Assignments are
+                  crucial for deeper subject understanding, improving writing
+                  and planning skills, enhancing logical and critical thinking,
+                  and developing problem-solving and decision-making abilities.
+                  These skills are essential for producing high-quality,
+                  well-graded assignments.
                 </p>
                 <p>
-                At Ph.D. Assistance, we offer expert big data analysis support, applying models such as regression, predictive analytics, and game theory. We use various visualization techniques and tools to analyze and cluster information, ensuring comprehensive support tailored to your research objectives and timeline.
+                  Ph.D. Assistance understands the complexities of meeting
+                  university standards and common challenges such as adhering to
+                  guidelines, structuring content, avoiding grammatical errors,
+                  and utilizing resources effectively. Our expert team provides
+                  professional support to help students navigate these issues
+                  and produce exceptional assignments tailored to university
+                  expectations, ensuring a high standard of work across various
+                  disciplines.
                 </p>
               </div>
             </div>
@@ -97,9 +115,9 @@ function BigDataAnalysis() {
                     </span>
                     <span className="topic-selection d-block"></span>
                     <p>
-                      Only Statistical Analysis based on the raw data shared. We
-                      analyze the data using appropriate statistical tools and
-                      just paste the output{" "}
+                      Developed from relevant sources, this work identifies
+                      research-worthy areas and offers a primarily descriptive
+                      evaluation with some critical analysis.
                     </p>
                   </div>
                 </div>
@@ -116,9 +134,9 @@ function BigDataAnalysis() {
                     </span>
                     <span className="topic-selection d-block"></span>
                     <p>
-                      In addition to the above, we write the basic
-                      interpretation without any discussion against the
-                      literature review
+                      Wide range of sources, a clear identification of research
+                      gap in the literature along with aim and research
+                      questions (upgradable)
                     </p>
                   </div>
                 </div>
@@ -135,9 +153,8 @@ function BigDataAnalysis() {
                     </span>
                     <span className="topic-selection d-block"></span>
                     <p>
-                      We analyze your data with the right statistical tools,
-                      format tables to manuscript style, and interpret results
-                      in relation to previous studies.
+                      Refers to a wide range of seminal research with throughout
+                      engagement using latest resources. (upgradable)
                     </p>
                   </div>
                 </div>
@@ -151,7 +168,7 @@ function BigDataAnalysis() {
         <div className="container">
           <div className="row">
             <div className="col-md-12 text-center">
-              <h3>Big Data Analytics Service Features </h3>
+              <h3>Outstanding Ph.D. Assignment Writing Features</h3>
             </div>
             <div className="col-md-4">
               <div className="service-features1">
@@ -614,4 +631,4 @@ function BigDataAnalysis() {
   );
 }
 
-export default BigDataAnalysis;
+export default Assignment;

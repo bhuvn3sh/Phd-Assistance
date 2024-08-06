@@ -8,7 +8,7 @@ import "swiper/css/pagination";
 import "swiper/css/autoplay";
 import "swiper/css/effect-creative";
 
-function BigDataAnalysis() {
+function AbstractService() {
   return (
     <>
       <Topbar />
@@ -25,14 +25,14 @@ function BigDataAnalysis() {
           <div className="row">
             <div className="col-md-12">
               <div className="about-cap ftco-animate pt-100 fadeInUp ftco-animated">
-                <h2>Data Mining for Your Big Data </h2>
+                <h2>Professional Ph.D Abstract writing </h2>
                 <nav aria-label="breadcrumb">
                   <ol className="breadcrumb">
                     <li className="breadcrumb-item">
                       <a href="/">Home</a>
                     </li>
                     <li className="breadcrumb-item">
-                      <a href="/services/phd-data-analytics">Data Analytics</a>
+                      <a href="/services/phd-coursework">Coursework</a>
                     </li>
                   </ol>
                 </nav>
@@ -48,20 +48,36 @@ function BigDataAnalysis() {
             <div className="col-md-12">
               <div className="">
                 <h2 className="text-center">
-                Big Data Analytics
+                  PhDAssistance-Abstract Writing Help
                 </h2>
                 <p>
-                Is the thought of using Big Data in your thesis bothering you? Are you facing troubles in narrowing down where and how to use Big Data in your research? Or is it simply confusing to incorporate Big Data into conventional research methodology? Look no further than here, we have solutions to all your worries.The world turns in Big Data now, so do we!
+                  Are you facing difficulties in framing the abstract for
+                  writing or finding it hard to write crispy and informative
+                  abstract for your dissertation/conference paper?Then’ You’ve
+                  reached the right destination.
                 </p>
               </div>
             </div>
             <div className="col-md-8">
               <div className="">
                 <p>
-                Big data involves large-scale, high-velocity information from diverse sources, including social media, stock exchanges, and search engines. Big data analytics extracts meaningful insights from these vast datasets using tools like Hadoop, Spark, and NoSQL databases, enhancing decision-making and competitive advantage.
+                  An abstract is a concise summary of your research paper,
+                  crucial for conference presentations. It must clearly address
+                  the problem statement and present unique, high-quality
+                  content. Ph.D. Assistance specializes in crafting impactful
+                  abstracts that meet these standards, particularly aiding
+                  students from non-English-speaking countries such as China,
+                  Brazil, Singapore, Malaysia, and Indonesia. Our expertise
+                  ensures that your abstract is well-written, free of
+                  grammatical errors, and engaging to readers, effectively
+                  summarizing your research process and findings.
                 </p>
                 <p>
-                At Ph.D. Assistance, we offer expert big data analysis support, applying models such as regression, predictive analytics, and game theory. We use various visualization techniques and tools to analyze and cluster information, ensuring comprehensive support tailored to your research objectives and timeline.
+                  We focus on making your abstract stand out by including around
+                  ten relevant keywords and presenting a clear overview of your
+                  research. Our team of experts helps you meet all critical
+                  requirements, enhancing your chances of a successful
+                  conference presentation and achieving the desired impact.
                 </p>
               </div>
             </div>
@@ -97,9 +113,10 @@ function BigDataAnalysis() {
                     </span>
                     <span className="topic-selection d-block"></span>
                     <p>
-                      Only Statistical Analysis based on the raw data shared. We
-                      analyze the data using appropriate statistical tools and
-                      just paste the output{" "}
+                      Developed from relevant sources, this work seeks to
+                      identify research-worthy areas and provide a critical yet
+                      primarily descriptive evaluation, summarizing evidence and
+                      findings.
                     </p>
                   </div>
                 </div>
@@ -116,9 +133,9 @@ function BigDataAnalysis() {
                     </span>
                     <span className="topic-selection d-block"></span>
                     <p>
-                      In addition to the above, we write the basic
-                      interpretation without any discussion against the
-                      literature review
+                      Wide range of sources, a clear identification of research
+                      gap in the literature along with aim and research
+                      questions (maximum 400-500 words)
                     </p>
                   </div>
                 </div>
@@ -135,9 +152,9 @@ function BigDataAnalysis() {
                     </span>
                     <span className="topic-selection d-block"></span>
                     <p>
-                      We analyze your data with the right statistical tools,
-                      format tables to manuscript style, and interpret results
-                      in relation to previous studies.
+                      Refers to a wide range of seminal research with throughout
+                      engagement using latest resources. (maximum 1000 +words)
+                      (upgradable)
                     </p>
                   </div>
                 </div>
@@ -151,7 +168,7 @@ function BigDataAnalysis() {
         <div className="container">
           <div className="row">
             <div className="col-md-12 text-center">
-              <h3>Big Data Analytics Service Features </h3>
+              <h3>Outstanding Ph.D. Abstract Writing Features</h3>
             </div>
             <div className="col-md-4">
               <div className="service-features1">
@@ -614,4 +631,4 @@ function BigDataAnalysis() {
   );
 }
 
-export default BigDataAnalysis;
+export default AbstractService;
