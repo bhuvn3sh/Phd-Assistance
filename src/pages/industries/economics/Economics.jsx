@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import React from "react";
 import Topbar from "../../../components/topbar/Topbar";
 import Footer from "../../../components/footer/Footer";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -8,7 +8,7 @@ import "swiper/css/pagination";
 import "swiper/css/autoplay";
 import "swiper/css/effect-creative";
 
-function PhdDissertation() {
+function Economics() {
   return (
     <>
       <Topbar />
@@ -25,14 +25,14 @@ function PhdDissertation() {
           <div className="row">
             <div className="col-md-12">
               <div className="about-cap ftco-animate pt-100 fadeInUp ftco-animated">
-                <h2>Ph.D. Dissertation Service </h2>
+                <h2>Economics & Finance– Academic Writing </h2>
                 <nav aria-label="breadcrumb">
                   <ol className="breadcrumb">
                     <li className="breadcrumb-item">
                       <a href="/">Home</a>
                     </li>
                     <li className="breadcrumb-item">
-                      <a href="/">Phd Dissertation</a>
+                      <a href="/services/phd-literature-review">Industries</a>
                     </li>
                   </ol>
                 </nav>
@@ -47,43 +47,43 @@ function PhdDissertation() {
           <div className="row">
             <div className="col-md-12">
               <div className="">
-                <h2 className="text-center">
-                  Why Ph.D. Assistance for Ph.D. Dissertation Services?
-                </h2>
+                <h2 className="text-center">Economics & Finance </h2>
                 <p>
-                  Assistance & guidance for Ph.D. Tutoring and Rewriting
-                  Services – Original, elegant and the arguments nuanced and
-                  sophisticated establishing an academic tone.A One Stop
-                  Solution for all your Research Related Writing Needs
+                  Our experts are professional legal writers having the highest
+                  qualification from the UK.Decades of experience in writing and
+                  editing has been instrumental in shaping the career of legal
+                  students.The US & UK writers at Ph.D. Assistance aim at
+                  inculcating knowledge within students and build a great
+                  confidence to submit their dissertation successfully.
                 </p>
               </div>
             </div>
             <div className="col-md-8">
               <div className="">
                 <p>
-                  Finding a top-notch team with exceptional qualifications, deep
-                  knowledge, and extensive experience in their specialized
-                  fields is challenging. Ph.D. Assistance is proud to have a
-                  dedicated team of expert writers who excel in supporting
-                  research projects. Our Ph.D. writers, each with a completed
-                  Ph.D. and at least two years of experience in conducting and
-                  writing research manuscripts, are skilled at distilling
-                  arguments, brainstorming ideas, and structuring them
-                  effectively. We carefully select our experts from top
-                  universities in the US, UK, and India to ensure they bring a
-                  wealth of experience and academic excellence to your project.
+                  Law encompasses a broad spectrum of rules and regulations
+                  enforced by courts and governments, applicable to all
+                  citizens. It is divided into civil law, which addresses
+                  disputes between individuals and organizations, and criminal
+                  law, which deals with offenses against social order. Key legal
+                  areas include public and private law, constitutional and
+                  administrative law, contract law, tort law, property law, and
+                  labor law. Law plays a crucial role in every aspect of human
+                  life and society. A UK law education provides a strong
+                  foundation and offers significant career advantages in fields
+                  like politics, business, finance, and more, with specialized
+                  courses in areas like privacy, digital rights, and cybercrime.
                 </p>
                 <p>
-                  At PhDAssistance, we offer extensive support throughout the
-                  dissertation process, from pre-planning to final submission.
-                  Our experienced team provides customized services tailored to
-                  your research needs, including thesis writing and editing,
-                  manuscript publication support, data collection, statistical
-                  analyses, and AI and ML integration. We ensure that your
-                  research meets academic standards and assists you in
-                  navigating the complexities of your academic journey with ease
-                  and excellence. Join the growing community of Ph.D. scholars
-                  benefiting from our expertise.
+                  Writing a legal dissertation requires extensive research,
+                  careful organization, and adherence to specific guidelines.
+                  The complexity of legal studies, with its myriad rules,
+                  amendments, and codes, can be challenging for students.
+                  Professional legal writers can assist by providing
+                  well-structured, comprehensive dissertations, ensuring quality
+                  and adherence to academic standards. Ph.D. Assistance offers
+                  expertise in crafting legal dissertations, covering all
+                  essential aspects of the subject.
                 </p>
               </div>
             </div>
@@ -99,225 +99,74 @@ function PhdDissertation() {
         </div>
       </section>
 
-      <section className="service-types">
-        <div className="container">
-          <div className="row justify-content-center pb-5">
-            <div className="col-md-7 heading-section text-center">
-              <span className="subheading">Service Description</span>
-              <h2>We Offer Six Dissertation Services</h2>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-md-4" style={{ height: "300px" }}>
-              <div
-                className="pricing-1 pricing-animate pricing-fadeUp pricing-animated services-description"
-                style={{ minHeight: "255px" }}
-              >
-                <div className="block-7 w-100">
-                  <div className="text-center">
-                    <span className="price">
-                      <span className="number" style={{ fontSize: "35px" }}>
-                        <a href="/services/phd-dissertation/phd-topic-selection">
-                          Ph.D. Topic Selection
-                        </a>
-                      </span>
-                    </span>
-                    <span className="topic-selection d-block"></span>
-                    <p>
-                      Choosing a Ph.D. research topic is a critical career
-                      decision that requires careful consideration of its
-                      long-term impact and potential.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-4">
-              <div className="pricing-1 pricing-animate pricing-fadeUp pricing-animated services-description">
-                <div className="block-7 w-100">
-                  <div className="text-center">
-                    <span className="price">
-                      <span className="number" style={{ fontSize: "35px" }}>
-                        <a href="/services/phd-dissertation/problem-identification">
-                          Problem Identification
-                        </a>
-                      </span>
-                    </span>
-                    <span className="topic-selection d-block"></span>
-                    <p>
-                      At Ph.D. Assistance, we help you identify relevant
-                      industry issues and research problems during the
-                      literature review to ensure precise problem identification
-                      for your thesis.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-4">
-              <div className="pricing-1 pricing-animate pricing-fadeUp pricing-animated services-description">
-                <div className="block-7 w-100">
-                  <div className="text-center">
-                    <span className="price">
-                      <span className="number" style={{ fontSize: "35px" }}>
-                        <a href="/services/phd-dissertation/research-proposal">
-                          Research Proposal
-                        </a>
-                      </span>
-                    </span>
-                    <span className="topic-selection d-block"></span>
-                    <p>
-                      Crafting a research proposal for a dissertation is
-                      challenging, prompting students to seek expert assistance
-                      to navigate its complexities.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-4">
-              <div className="pricing-1 pricing-animate pricing-fadeUp pricing-animated services-description">
-                <div className="block-7 w-100">
-                  <div className="text-center">
-                    <span className="price">
-                      <span className="number" style={{ fontSize: "35px" }}>
-                        <a href="/services/phd-dissertation/phd-dissertation-part">
-                          Ph.D. Dissertation (Part)
-                        </a>
-                      </span>
-                    </span>
-                    <span className="topic-selection d-block"></span>
-                    <p>
-                      We offer support for both full and partial dissertation
-                      writing, including sections like the Introduction,
-                      Literature Review, Methodology, Results, and Discussion.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-4">
-              <div className="pricing-1 pricing-animate pricing-fadeUp pricing-animated services-description">
-                <div className="block-7 w-100">
-                  <div className="text-center">
-                    <span className="price">
-                      <span className="number" style={{ fontSize: "35px" }}>
-                        <a href="/services/phd-dissertation/phd-consultation">
-                          Ph.D. Consultation
-                        </a>
-                      </span>
-                    </span>
-                    <span className="topic-selection d-block"></span>
-                    <p>
-                      We help with choosing a guide and support a range of
-                      subjects like Behavioral Science, Business Management,
-                      Education, Health, Computer Science, Mathematics, and
-                      Engineering Education.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-4">
-              <div className="pricing-1 pricing-animate pricing-fadeUp pricing-animated services-description">
-                <div className="block-7 w-100">
-                  <div className="text-center">
-                    <span className="price">
-                      <span className="number" style={{ fontSize: "35px" }}>
-                        <a href="/services/phd-dissertation/viva-voce">
-                          Viva Voice
-                        </a>
-                      </span>
-                    </span>
-                    <span className="topic-selection d-block"></span>
-                    <p>
-                      The Ph.D. viva is a mandatory part of the examination,
-                      typically held "behind closed doors," though some
-                      institutions conduct "public" vivas with restricted
-                      access.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
       <section className="service-features">
         <div className="container">
           <div className="row">
             <div className="col-md-12 text-center">
-              <h3>Outstanding Ph.D. Pilot Study Features</h3>
+              <h3>Outstanding Service Features</h3>
             </div>
             <div className="col-md-4">
               <div className="service-features1">
                 <i class="fa-solid fa-book-open-reader"></i>
-                <h5>Comprehensive List of Well-Researched Topics</h5>
+                <h5>Sources, Citation and Presentation </h5>
                 <p>
-                  We offer an extensive and meticulously curated list of
-                  potential topics for your PhD research. Each topic is
-                  thoroughly researched to ensure relevance and academic value.
+                  We specialize in sourcing and formatting legal references
+                  across all major citation styles, ensuring precise and
+                  comprehensive legal citations for a wide range of sources.
                 </p>
               </div>
             </div>
             <div className="col-md-4">
               <div className="service-features1">
                 <i class="fa-solid fa-book-bookmark"></i>
-                <h5>Complete Thesis Writing Service</h5>
+                <h5>Legal Style & Argument</h5>
                 <p>
-                  The goal and research objectives are developed through a
-                  comprehensive literature review and problem statement
-                  identification, utilizing statistics, news reports, textbooks,
-                  historical data, and recent peer-reviewed scholarly articles.
+                  We craft dissertations with precise legal style, logical
+                  structure, and unique voice, using both primary and secondary
+                  sources to ensure argumentative coherence.
                 </p>
               </div>
             </div>
             <div className="col-md-4 d-flex">
               <div className="service-features1">
                 <i class="fa-regular fa-square-check"></i>
-                <h5>Flexibility in Topic Modification</h5>
+                <h5>Free Appendices</h5>
                 <p>
-                  We understand that research evolves, so we allow for topic
-                  modifications during the writing process and even after the
-                  thesis is completed. This ensures your thesis stays aligned
-                  with your latest findings and insights.
+                Appendices are crucial for validating your Ph.D. research. We
+                  provide essential supporting materials like raw data,
+                  technical figures, and detailed descriptions at no extra cost.
                 </p>
               </div>
             </div>
             <div className="col-md-4 d-flex">
               <div className="service-features1">
                 <i class="fa-solid fa-check-double"></i>
-                <h5>Gap-Driven Exploration</h5>
+                <h5>0% Plagiarism content</h5>
                 <p>
-                  Our dissertation topics are based on research gaps and future
-                  recommendations from previous studies. Each title reflects the
-                  core problem, research questions, study area, findings,
-                  design, ethnicity, and location.
+                  We ensure 100% plagiarism-free content by thoroughly scanning
+                  your work with online tools, Turnitin, and WriteCheck to
+                  maintain academic integrity.
                 </p>
               </div>
             </div>
             <div className="col-md-4">
               <div className="service-features1">
                 <i class="fa-regular fa-circle-user"></i>
-                <h5>Complimentary Topics with Thesis Commitment</h5>
+                <h5>Quality check</h5>
                 <p>
-                  Commit to our full PhD thesis writing service, and we'll
-                  provide you with a list of free topic suggestions. This offer
-                  is designed to help you start your research journey without
-                  any additional cost.
+                  We ensure accuracy by rigorously checking your dissertation
+                  for language, technical terms, referencing, formatting, and
+                  plagiarism.
                 </p>
               </div>
             </div>
             <div className="col-md-4">
               <div className="service-features1">
                 <i class="fa-regular fa-pen-to-square"></i>
-                <h5>Customized Topic Selection</h5>
+                <h5>Unlimited Revision</h5>
                 <p>
-                  We offer personalized topic selection tailored to the specific
-                  suggestions and requirements of your supervisor or guide. This
-                  ensures your research topic aligns perfectly with academic
-                  expectations and guidelines.
+                  We offer unlimited revisions, respecting feedback to enhance
+                  your research, with revisions provided at no extra cost.
                 </p>
               </div>
             </div>
@@ -571,7 +420,7 @@ function PhdDissertation() {
                       </div>
                       <div className="text">
                         <p className="mb-4">
-                        I can say that it was a pleasant experience in which
+                          I can say that it was a pleasant experience in which
                           Phdassistance displayed flexibility in adapting to our
                           needs and presented an exceptional report that met all
                           of our expectations. Personally, I appreciated the
@@ -602,7 +451,7 @@ function PhdDissertation() {
                       </div>
                       <div className="text">
                         <p className="mb-4">
-                        My friend recommended that I use your service just
+                          My friend recommended that I use your service just
                           when I was about to give up on my dissertation.
                           Because I was trapped and didn't know what to do, the
                           suggestion came at a good moment. I'm now a PhD
@@ -632,7 +481,7 @@ function PhdDissertation() {
                       </div>
                       <div className="text">
                         <p className="mb-4">
-                        I'd want to express my gratitude to Phdassistance for
+                          I'd want to express my gratitude to Phdassistance for
                           their invaluable assistance in developing our
                           programme. Everyone was courteous, competent, and
                           diligent. I was able to meet our deadline thanks to
@@ -662,7 +511,7 @@ function PhdDissertation() {
                       </div>
                       <div className="text">
                         <p className="mb-4">
-                        I'd want to express my gratitude to Phdassistance for
+                          I'd want to express my gratitude to Phdassistance for
                           their invaluable assistance in developing our
                           programme. Everyone was courteous, competent, and
                           diligent. I was able to meet our deadline thanks to
@@ -692,29 +541,9 @@ function PhdDissertation() {
         </div>
       </section>
 
-      <section className="process-flow" style={{ marginTop: "50px" }}>
-        <div className="container">
-          <div className="row justify-content-center pb-5">
-            <div className="col-md-7 heading-section text-center">
-              <span className="subheading">Order Process</span>
-              <h2 style={{ color: "#a87c7c" }}>
-                Easily Order Your Ph.D. Dissertation{" "}
-              </h2>
-            </div>
-          </div>
-          <div className="row justify-content-center">
-            <img
-              src="../../../../assets/process-flow.jpg"
-              alt="Phd process flow"
-              style={{ marginBottom: "50px" }}
-            />
-          </div>
-        </div>
-      </section>
-
       <Footer />
     </>
   );
 }
 
-export default PhdDissertation;
+export default Economics;

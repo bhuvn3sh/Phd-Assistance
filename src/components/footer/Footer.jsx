@@ -49,7 +49,7 @@ function Footer() {
                 <ul class="list-unstyled " style={{ paddingLeft: "100px" }}>
                   <li>
                     <a
-                      href="https://www.phdassistance.com/services/phd-dissertation/"
+                      href="/services/phd-dissertation"
                       className="style-links"
                       style={{ textDecoration: "none" }}
                     >
@@ -59,7 +59,7 @@ function Footer() {
                   </li>
                   <li>
                     <a
-                      href="https://www.phdassistance.com/services/phd-coursework/"
+                      href="/services/phd-coursework"
                       className="style-links"
                       style={{ textDecoration: "none" }}
                     >
@@ -68,7 +68,7 @@ function Footer() {
                   </li>
                   <li>
                     <a
-                      href="https://www.phdassistance.com/services/phd-literature-review/"
+                      href="/services/phd-literature-review"
                       className="style-links"
                       style={{ textDecoration: "none" }}
                     >
@@ -78,7 +78,7 @@ function Footer() {
                   </li>
                   <li>
                     <a
-                      href="https://www.phdassistance.com/services/phd-research-methodology/"
+                      href="/services/phd-data-analytics"
                       className="style-links"
                       style={{ textDecoration: "none" }}
                     >
@@ -88,7 +88,7 @@ function Footer() {
                   </li>
                   <li>
                     <a
-                      href="https://www.phdassistance.com/services/phd-data-analysis/"
+                      href="/services/phd-data-analytics"
                       className="style-links"
                       style={{ textDecoration: "none" }}
                     >
@@ -126,7 +126,7 @@ function Footer() {
                   </li>
                   <li>
                     <a
-                      href="https://www.phdassistance.com/services/courses/"
+                      href="/services/phd-coursework"
                       className="style-links"
                       style={{ textDecoration: "none" }}
                     >
@@ -318,7 +318,7 @@ function Footer() {
                     </li>
                     <li>
                       <span class="#"></span>
-                      <span class="fa fa-paper-plane mr-1 ml-4"></span> Email:
+                      <span class="fa fa-paper-plane mr-1"></span> Email:
                       info@phdassistance.com
                     </li>
                   </ul>
@@ -332,7 +332,7 @@ function Footer() {
           <div class="container">
             <div class="row">
               <div class="col-md-12">
-                <p class="mb-0" style={{ color: "white" }}>
+                <p class="mb-0" style={{ color: "white", display: 'flex', justifyContent:'center' }}>
                   @2024. PhDassistance All rights reserved.
                 </p>
               </div>

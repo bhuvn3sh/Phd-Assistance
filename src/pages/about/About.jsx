@@ -189,10 +189,10 @@ function About() {
         </div>
       </section>
 
-      <section className="testimony-section" style={{ marginTop: '0px'}}>
+      <section className="testimony-section" style={{ marginTop: "0px" }}>
         <div
           className="img img-bg border"
-          style={{ backgroundImage: "url(./assets/bg-5.jpg)" }}
+          style={{ backgroundImage: "url(../../../../assets/bg-5.jpg)" }}
         ></div>
         <div className="overlay"></div>
         <div className="container">
@@ -206,7 +206,7 @@ function About() {
             <div className="col-md-12">
               <div className="carousel-testimony">
                 <Swiper
-                  slidesPerView={3}
+                  slidesPerView={2}
                   spaceBetween={30}
                   pagination={{
                     clickable: true,
@@ -226,15 +226,20 @@ function About() {
                       </div>
                       <div className="text">
                         <p className="mb-4">
-                          Mollit anim laborum duis au dolor in voluptcate velit
-                          ess cillum dolore eu lore dsu quality mollit anim
-                          laborumuis au dolor in voluptate velit cillu.
+                          I can say that it was a pleasant experience in which
+                          Phdassistance displayed flexibility in adapting to our
+                          needs and presented an exceptional report that met all
+                          of our expectations. Personally, I appreciated the
+                          team's prompt follow-up, and we will undoubtedly
+                          contact them if additional research assistance is
+                          required.
                         </p>
                         <div className="d-flex align-items-center">
                           <div
                             className="user-img"
                             style={{
-                              backgroundImage: "url(./assets/person_1.jpg)",
+                              backgroundImage:
+                                "url(../../../../assets/person_1.jpg)",
                             }}
                           ></div>
                           <div className="pl-3 client-details">
@@ -252,15 +257,19 @@ function About() {
                       </div>
                       <div className="text">
                         <p className="mb-4">
-                          Mollit anim laborum duis au dolor in voluptcate velit
-                          ess cillum dolore eu lore dsu quality mollit anim
-                          laborumuis au dolor in voluptate velit cillu.
+                          My friend recommended that I use your service just
+                          when I was about to give up on my dissertation.
+                          Because I was trapped and didn't know what to do, the
+                          suggestion came at a good moment. I'm now a PhD
+                          holder, and I'm overjoyed about it. Thank you for your
+                          help
                         </p>
                         <div className="d-flex align-items-center">
                           <div
                             className="user-img"
                             style={{
-                              backgroundImage: "url(./assets/person_2.jpg)",
+                              backgroundImage:
+                                "url(../../../../assets/person_2.jpg)",
                             }}
                           ></div>
                           <div className="pl-3 client-details">
@@ -278,15 +287,19 @@ function About() {
                       </div>
                       <div className="text">
                         <p className="mb-4">
-                          Mollit anim laborum duis au dolor in voluptcate velit
-                          ess cillum dolore eu lore dsu quality mollit anim
-                          laborumuis au dolor in voluptate velit cillu.
+                          I'd want to express my gratitude to Phdassistance for
+                          their invaluable assistance in developing our
+                          programme. Everyone was courteous, competent, and
+                          diligent. I was able to meet our deadline thanks to
+                          them, and I want to continue working with them in the
+                          future.
                         </p>
                         <div className="d-flex align-items-center">
                           <div
                             className="user-img"
                             style={{
-                              backgroundImage: "url(./assets/person_3.jpg)",
+                              backgroundImage:
+                                "url(../../../../assets/person_3.jpg)",
                             }}
                           ></div>
                           <div className="pl-3 client-details">
@@ -304,15 +317,20 @@ function About() {
                       </div>
                       <div className="text">
                         <p className="mb-4">
-                          Mollit anim laborum duis au dolor in voluptcate velit
-                          ess cillum dolore eu lore dsu quality mollit anim
-                          laborumuis au dolor in voluptate velit cillu.
+                        I can say that it was a pleasant experience in which
+                          Phdassistance displayed flexibility in adapting to our
+                          needs and presented an exceptional report that met all
+                          of our expectations. Personally, I appreciated the
+                          team's prompt follow-up, and we will undoubtedly
+                          contact them if additional research assistance is
+                          required.
                         </p>
                         <div className="d-flex align-items-center">
                           <div
                             className="user-img"
                             style={{
-                              backgroundImage: "url(./assets/person_1.jpg)",
+                              backgroundImage:
+                                "url(../../../../assets/person_1.jpg)",
                             }}
                           ></div>
                           <div className="pl-3 client-details">
@@ -330,15 +348,19 @@ function About() {
                       </div>
                       <div className="text">
                         <p className="mb-4">
-                          Mollit anim laborum duis au dolor in voluptcate velit
-                          ess cillum dolore eu lore dsu quality mollit anim
-                          laborumuis au dolor in voluptate velit cillu.
+                        My friend recommended that I use your service just
+                          when I was about to give up on my dissertation.
+                          Because I was trapped and didn't know what to do, the
+                          suggestion came at a good moment. I'm now a PhD
+                          holder, and I'm overjoyed about it. Thank you for your
+                          help
                         </p>
                         <div className="d-flex align-items-center">
                           <div
                             className="user-img"
                             style={{
-                              backgroundImage: "url(./assets/person_2.jpg)",
+                              backgroundImage:
+                                "url(../../../../assets/person_2.jpg)",
                             }}
                           ></div>
                           <div className="pl-3 client-details">
@@ -356,15 +378,19 @@ function About() {
                       </div>
                       <div className="text">
                         <p className="mb-4">
-                          Mollit anim laborum duis au dolor in voluptcate velit
-                          ess cillum dolore eu lore dsu quality mollit anim
-                          laborumuis au dolor in voluptate velit cillu.
+                        I'd want to express my gratitude to Phdassistance for
+                          their invaluable assistance in developing our
+                          programme. Everyone was courteous, competent, and
+                          diligent. I was able to meet our deadline thanks to
+                          them, and I want to continue working with them in the
+                          future.
                         </p>
                         <div className="d-flex align-items-center">
                           <div
                             className="user-img"
                             style={{
-                              backgroundImage: "url(./assets/person_3.jpg)",
+                              backgroundImage:
+                                "url(../../../../assets/person_3.jpg)",
                             }}
                           ></div>
                           <div className="pl-3 client-details">
@@ -382,15 +408,19 @@ function About() {
                       </div>
                       <div className="text">
                         <p className="mb-4">
-                          Mollit anim laborum duis au dolor in voluptcate velit
-                          ess cillum dolore eu lore dsu quality mollit anim
-                          laborumuis au dolor in voluptate velit cillu.
+                        I'd want to express my gratitude to Phdassistance for
+                          their invaluable assistance in developing our
+                          programme. Everyone was courteous, competent, and
+                          diligent. I was able to meet our deadline thanks to
+                          them, and I want to continue working with them in the
+                          future.
                         </p>
                         <div className="d-flex align-items-center">
                           <div
                             className="user-img"
                             style={{
-                              backgroundImage: "url(./assets/person_1.jpg)",
+                              backgroundImage:
+                                "url(../../../../assets/person_1.jpg)",
                             }}
                           ></div>
                           <div className="pl-3 client-details">

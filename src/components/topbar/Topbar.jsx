@@ -1,8 +1,4 @@
 import "./topbar.css";
-import Container from "react-bootstrap/Container";
-import Nav from "react-bootstrap/Nav";
-import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
 import "./custom-style.css";
 import React, { useEffect } from "react";
 import "./StellarComponent.jsx";
@@ -14,7 +10,7 @@ function Topbar() {
       <div class="wrap">
         <div class="container">
           <div class="row">
-            <div class="col-md-6 d-flex align-items-center">
+            <div class="col-md-6 d-flex align-items-center" style={{ fontSize: '13px'}}>
               <p class="mb-0 phone pl-md-2" style={{ color: "white" }}>
                 <span
                   class="fa fa-phone mr-1"
@@ -181,44 +177,44 @@ function Topbar() {
                   aria-labelledby="servicesDropdown"
                   style={{ backgroundColor: "#503C3C" }}
                 >
-                  <a class="dropdown-item" href="service1.html">
+                  <a class="dropdown-item" href="/industries/academic-law-writing">
                     <div className="hoverable" style={{ color: "#fff" }}>
                       {" "}
                       ACADEMIC LAW WRITING{" "}
                     </div>
                   </a>
-                  <a class="dropdown-item" href="service2.html">
+                  <a class="dropdown-item" href="/industries/arts-and-humanities">
                     <div className="hoverable" style={{ color: "#fff" }}>
                       {" "}
                       ARTS & HUMANITIES{" "}
                     </div>
                   </a>
-                  <a class="dropdown-item" href="service3.html">
+                  <a class="dropdown-item" href="/industries/medicine-and-health">
                     <div className="hoverable" style={{ color: "#fff" }}>
                       MEDICINE & HEALTHCARE
                     </div>
                   </a>
-                  <a class="dropdown-item" href="service3.html">
+                  <a class="dropdown-item" href="/industries/business-and-management">
                     <div className="hoverable" style={{ color: "#fff" }}>
                       BUISNESS & MANAGEMENT
                     </div>
                   </a>
-                  <a class="dropdown-item" href="service3.html">
+                  <a class="dropdown-item" href="/industries/economics-and-finance">
                     <div className="hoverable" style={{ color: "#fff" }}>
                       ECONOMICS & FINANCE ACADEMIC
                     </div>
                   </a>
-                  <a class="dropdown-item" href="service3.html">
+                  <a class="dropdown-item" href="/industries/computer-science">
                     <div className="hoverable" style={{ color: "#fff" }}>
                       COMPUTER SCIENCE & INFORMATION{" "}
                     </div>
                   </a>
-                  <a class="dropdown-item" href="service3.html">
+                  <a class="dropdown-item" href="/industries/engineering-and-technology">
                     <div className="hoverable" style={{ color: "#fff" }}>
                       ENGINEERING & TECHNOLOGY{" "}
                     </div>
                   </a>
-                  <a class="dropdown-item" href="service3.html">
+                  <a class="dropdown-item" href="/industries/biology-and-science">
                     <div className="hoverable" style={{ color: "#fff" }}>
                       BIOLOGICAL & LIFE SCIENCE{" "}
                     </div>
@@ -247,29 +243,29 @@ function Topbar() {
                   aria-labelledby="servicesDropdown"
                   style={{ backgroundColor: "#503C3C" }}
                 >
-                  <a class="dropdown-item" href="service1.html">
+                  <a class="dropdown-item" href="/health-medical">
                     <div className="hoverable" style={{ color: "#fff" }}>
                       {" "}
                       HEALTH & MEDICAL{" "}
                     </div>
                   </a>
-                  <a class="dropdown-item" href="service2.html">
+                  <a class="dropdown-item" href="/biological-science">
                     <div className="hoverable" style={{ color: "#fff" }}>
                       {" "}
                       BIOLOGICAL & SCIENCE{" "}
                     </div>
                   </a>
-                  <a class="dropdown-item" href="service3.html">
+                  <a class="dropdown-item" href="/engineering">
                     <div className="hoverable" style={{ color: "#fff" }}>
                       ENGINEERING
                     </div>
                   </a>
-                  <a class="dropdown-item" href="service3.html">
+                  <a class="dropdown-item" href="/buisness">
                     <div className="hoverable" style={{ color: "#fff" }}>
                       BUISNESS & MANAGEMENT & HUMANITIES
                     </div>
                   </a>
-                  <a class="dropdown-item" href="service3.html">
+                  <a class="dropdown-item" href="/finance">
                     <div className="hoverable" style={{ color: "#fff" }}>
                       FINANCE & OTHERS
                     </div>

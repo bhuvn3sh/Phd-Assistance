@@ -83,15 +83,15 @@ function Pricing() {
                           <ul className="pricing-text mb-5">
                             <li>
                               <span className="fa fa-check mr-2"></span>
-                              Individual Counseling
+                              0% Plagiarism content
                             </li>
                             <li>
                               <span className="fa fa-check mr-2"></span>
-                              Couples Therapy
+                              Reasonable cost
                             </li>
                             <li>
                               <span className="fa fa-check mr-2"></span>
-                              Family Therapy
+                              Unlimited Revision
                             </li>
                           </ul>
                           <a
@@ -119,15 +119,15 @@ function Pricing() {
                           <ul className="pricing-text mb-5">
                             <li>
                               <span className="fa fa-check mr-2"></span>
-                              Individual Counseling
+                              0% Plagiarism Content
                             </li>
                             <li>
                               <span className="fa fa-check mr-2"></span>
-                              Couples Therapy
+                              Reasonable Cost
                             </li>
                             <li>
                               <span className="fa fa-check mr-2"></span>
-                              Family Therapy
+                              Unlimited Revision
                             </li>
                           </ul>
                           <a
@@ -155,15 +155,15 @@ function Pricing() {
                           <ul className="pricing-text mb-5">
                             <li>
                               <span className="fa fa-check mr-2"></span>
-                              Individual Counseling
+                              0% Plagiarism Content
                             </li>
                             <li>
                               <span className="fa fa-check mr-2"></span>
-                              Couples Therapy
+                              Reasonable Cost
                             </li>
                             <li>
                               <span className="fa fa-check mr-2"></span>
-                              Family Therapy
+                              Unlimited Revision
                             </li>
                           </ul>
                           <a
@@ -191,15 +191,15 @@ function Pricing() {
                           <ul className="pricing-text mb-5">
                             <li>
                               <span className="fa fa-check mr-2"></span>
-                              Individual Counseling
+                              0% Plagiarism Content
                             </li>
                             <li>
                               <span className="fa fa-check mr-2"></span>
-                              Couples Therapy
+                              Reasonable Cost
                             </li>
                             <li>
                               <span className="fa fa-check mr-2"></span>
-                              Family Therapy
+                              Unlimited Revision
                             </li>
                           </ul>
                           <a
@@ -227,15 +227,15 @@ function Pricing() {
                           <ul className="pricing-text mb-5">
                             <li>
                               <span className="fa fa-check mr-2"></span>
-                              Individual Counseling
+                              0% Plagiarism Content
                             </li>
                             <li>
                               <span className="fa fa-check mr-2"></span>
-                              Couples Therapy
+                              Reasonable Cost
                             </li>
                             <li>
                               <span className="fa fa-check mr-2"></span>
-                              Family Therapy
+                              Unlimited Revision
                             </li>
                           </ul>
                           <a
@@ -263,15 +263,15 @@ function Pricing() {
                           <ul className="pricing-text mb-5">
                             <li>
                               <span className="fa fa-check mr-2"></span>
-                              Individual Counseling
+                              0% Plagiarism Content
                             </li>
                             <li>
                               <span className="fa fa-check mr-2"></span>
-                              Couples Therapy
+                              Reasonable Cost
                             </li>
                             <li>
                               <span className="fa fa-check mr-2"></span>
-                              Family Therapy
+                              Unlimited Revision
                             </li>
                           </ul>
                           <a
@@ -299,15 +299,15 @@ function Pricing() {
                           <ul className="pricing-text mb-5">
                             <li>
                               <span className="fa fa-check mr-2"></span>
-                              Individual Counseling
+                              0% Plagiarism Content
                             </li>
                             <li>
                               <span className="fa fa-check mr-2"></span>
-                              Couples Therapy
+                              Reasonable Cost
                             </li>
                             <li>
                               <span className="fa fa-check mr-2"></span>
-                              Family Therapy
+                              Unlimited Revision
                             </li>
                           </ul>
                           <a
@@ -335,15 +335,15 @@ function Pricing() {
                           <ul className="pricing-text mb-5">
                             <li>
                               <span className="fa fa-check mr-2"></span>
-                              Individual Counseling
+                              0% Plagiarism Content
                             </li>
                             <li>
                               <span className="fa fa-check mr-2"></span>
-                              Couples Therapy
+                              Reasonable Cost
                             </li>
                             <li>
                               <span className="fa fa-check mr-2"></span>
-                              Family Therapy
+                              Unlimited Revision
                             </li>
                           </ul>
                           <a
@@ -371,15 +371,15 @@ function Pricing() {
                           <ul className="pricing-text mb-5">
                             <li>
                               <span className="fa fa-check mr-2"></span>
-                              Individual Counseling
+                              0% Plagiarism Content
                             </li>
                             <li>
                               <span className="fa fa-check mr-2"></span>
-                              Couples Therapy
+                              Reasonable Cost
                             </li>
                             <li>
                               <span className="fa fa-check mr-2"></span>
-                              Family Therapy
+                              Unlimited Revision
                             </li>
                           </ul>
                           <a

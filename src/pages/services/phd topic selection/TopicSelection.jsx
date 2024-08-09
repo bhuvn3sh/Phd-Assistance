@@ -398,7 +398,7 @@ function TopicSelection() {
             <div className="col-md-12">
               <div className="carousel-testimony">
                 <Swiper
-                  slidesPerView={3}
+                  slidesPerView={2}
                   spaceBetween={30}
                   pagination={{
                     clickable: true,
@@ -418,9 +418,13 @@ function TopicSelection() {
                       </div>
                       <div className="text">
                         <p className="mb-4">
-                          Mollit anim laborum duis au dolor in voluptcate velit
-                          ess cillum dolore eu lore dsu quality mollit anim
-                          laborumuis au dolor in voluptate velit cillu.
+                          I can say that it was a pleasant experience in which
+                          Phdassistance displayed flexibility in adapting to our
+                          needs and presented an exceptional report that met all
+                          of our expectations. Personally, I appreciated the
+                          team's prompt follow-up, and we will undoubtedly
+                          contact them if additional research assistance is
+                          required.
                         </p>
                         <div className="d-flex align-items-center">
                           <div
@@ -445,9 +449,12 @@ function TopicSelection() {
                       </div>
                       <div className="text">
                         <p className="mb-4">
-                          Mollit anim laborum duis au dolor in voluptcate velit
-                          ess cillum dolore eu lore dsu quality mollit anim
-                          laborumuis au dolor in voluptate velit cillu.
+                          My friend recommended that I use your service just
+                          when I was about to give up on my dissertation.
+                          Because I was trapped and didn't know what to do, the
+                          suggestion came at a good moment. I'm now a PhD
+                          holder, and I'm overjoyed about it. Thank you for your
+                          help
                         </p>
                         <div className="d-flex align-items-center">
                           <div
@@ -472,9 +479,12 @@ function TopicSelection() {
                       </div>
                       <div className="text">
                         <p className="mb-4">
-                          Mollit anim laborum duis au dolor in voluptcate velit
-                          ess cillum dolore eu lore dsu quality mollit anim
-                          laborumuis au dolor in voluptate velit cillu.
+                          I'd want to express my gratitude to Phdassistance for
+                          their invaluable assistance in developing our
+                          programme. Everyone was courteous, competent, and
+                          diligent. I was able to meet our deadline thanks to
+                          them, and I want to continue working with them in the
+                          future.
                         </p>
                         <div className="d-flex align-items-center">
                           <div
@@ -499,9 +509,13 @@ function TopicSelection() {
                       </div>
                       <div className="text">
                         <p className="mb-4">
-                          Mollit anim laborum duis au dolor in voluptcate velit
-                          ess cillum dolore eu lore dsu quality mollit anim
-                          laborumuis au dolor in voluptate velit cillu.
+                        I can say that it was a pleasant experience in which
+                          Phdassistance displayed flexibility in adapting to our
+                          needs and presented an exceptional report that met all
+                          of our expectations. Personally, I appreciated the
+                          team's prompt follow-up, and we will undoubtedly
+                          contact them if additional research assistance is
+                          required.
                         </p>
                         <div className="d-flex align-items-center">
                           <div
@@ -526,9 +540,12 @@ function TopicSelection() {
                       </div>
                       <div className="text">
                         <p className="mb-4">
-                          Mollit anim laborum duis au dolor in voluptcate velit
-                          ess cillum dolore eu lore dsu quality mollit anim
-                          laborumuis au dolor in voluptate velit cillu.
+                        My friend recommended that I use your service just
+                          when I was about to give up on my dissertation.
+                          Because I was trapped and didn't know what to do, the
+                          suggestion came at a good moment. I'm now a PhD
+                          holder, and I'm overjoyed about it. Thank you for your
+                          help
                         </p>
                         <div className="d-flex align-items-center">
                           <div
@@ -553,9 +570,12 @@ function TopicSelection() {
                       </div>
                       <div className="text">
                         <p className="mb-4">
-                          Mollit anim laborum duis au dolor in voluptcate velit
-                          ess cillum dolore eu lore dsu quality mollit anim
-                          laborumuis au dolor in voluptate velit cillu.
+                        I'd want to express my gratitude to Phdassistance for
+                          their invaluable assistance in developing our
+                          programme. Everyone was courteous, competent, and
+                          diligent. I was able to meet our deadline thanks to
+                          them, and I want to continue working with them in the
+                          future.
                         </p>
                         <div className="d-flex align-items-center">
                           <div
@@ -580,9 +600,12 @@ function TopicSelection() {
                       </div>
                       <div className="text">
                         <p className="mb-4">
-                          Mollit anim laborum duis au dolor in voluptcate velit
-                          ess cillum dolore eu lore dsu quality mollit anim
-                          laborumuis au dolor in voluptate velit cillu.
+                        I'd want to express my gratitude to Phdassistance for
+                          their invaluable assistance in developing our
+                          programme. Everyone was courteous, competent, and
+                          diligent. I was able to meet our deadline thanks to
+                          them, and I want to continue working with them in the
+                          future.
                         </p>
                         <div className="d-flex align-items-center">
                           <div
@@ -603,6 +626,26 @@ function TopicSelection() {
                 </Swiper>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="process-flow" style={{ marginTop: "50px" }}>
+        <div className="container">
+          <div className="row justify-content-center pb-5">
+            <div className="col-md-7 heading-section text-center">
+              <span className="subheading">Order Process</span>
+              <h2 style={{ color: "#a87c7c" }}>
+                Easily Order Your Ph.D. Dissertation{" "}
+              </h2>
+            </div>
+          </div>
+          <div className="row justify-content-center">
+            <img
+              src="../../../../assets/process-flow.jpg"
+              alt="Phd process flow"
+              style={{ marginBottom: "50px" }}
+            />
           </div>
         </div>
       </section>

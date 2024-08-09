@@ -45,6 +45,14 @@ import TheoreticalFramework from "./pages/services/theoretical framework/Theoret
 import AnnotatedBib from "./pages/services/annotated bibliography/AnnotatedBib";
 import TheoremDevelopment from "./pages/services/theorem development/TheoremDevelopment";
 import GapIdentification from "./pages/services/gap identification/GapIdentification";
+import LawWriting from "./pages/industries/law writing/LawWriting";
+import ArtsAndHumanities from "./pages/industries/arts and humanities/ArtsAndHumanities";
+import MedicineHealth from "./pages/industries/medicine and health/MedicineHealth";
+import BusinessAndManagement from "./pages/industries/business and management/BuisnessAndManagement";
+import Economics from "./pages/industries/economics/Economics";
+import ComputerScience from "./pages/industries/computer science/ComputerScience";
+import EngineeringAndTech from "./pages/industries/engineering/EngineeringTech";
+import Biology from "./pages/industries/biology/Biology";
 
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -186,6 +194,39 @@ root.render(
       <Route
         path="/services/phd-literature-review/gap-identification"
         element={<GapIdentification />}
+      />
+
+      <Route
+        path="/industries/academic-law-writing"
+        element={<LawWriting />}
+      />
+      <Route
+        path="/industries/arts-and-humanities"
+        element={<ArtsAndHumanities />}
+      />
+      <Route
+        path="/industries/medicine-and-health"
+        element={<MedicineHealth />}
+      />
+      <Route
+        path="/industries/business-and-management"
+        element={<BusinessAndManagement />}
+      />
+      <Route
+        path="/industries/economics-and-finance"
+        element={<Economics />}
+      />
+      <Route
+        path="/industries/computer-science"
+        element={<ComputerScience />}
+      />
+      <Route
+        path="/industries/engineering-and-technology"
+        element={<EngineeringAndTech />}
+      />
+      <Route
+        path="/industries/biology-and-science"
+        element={<Biology />}
       />
     </Routes>
   </BrowserRouter>
