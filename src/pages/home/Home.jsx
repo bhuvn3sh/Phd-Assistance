@@ -289,7 +289,9 @@ function Home() {
           </div>
         </div>
       </section>
-      <div class="container" style={{ paddingTop: "50px" }}>
+
+      
+      <div class="container" style={{ paddingTop: "50px", paddingBottom: '70px' }}>
         <div class="row">
           <div className="row justify-content-center pb-5">
             <div className="heading-section text-center ftco-animate fadeInUp ftco-animated">
@@ -306,7 +308,7 @@ function Home() {
             </div>
           </div>
         </div>
-        <div class="row" style={{ marginLeft: "70px", marginTop: "30px" }}>
+        <div class="row" style={{ marginLeft: "20px", marginTop: "30px" }}>
           <div class="col-lg-3 col-md-4">
             <div class="single-latest-news">
               <div class="latest-news-bg news-bg-2"></div>
@@ -585,13 +587,13 @@ function Home() {
                 </div>
                 <div className="service-cap">
                   <h4>
-                    <a href="" style={{ textDecoration: "none" }}>
+                    <a href="/services/phd-dissertation" style={{ textDecoration: "none" }}>
                       Dissertation Services
                     </a>
                   </h4>
                   <a
                     className="more-btn"
-                    href=""
+                    href="/services/phd-dissertation"
                     style={{ textDecoration: "none" }}
                   >
                     Read More <i className="fa-solid fa-plus"></i>
@@ -606,13 +608,13 @@ function Home() {
                 </div>
                 <div className="service-cap">
                   <h4>
-                    <a href="" style={{ textDecoration: "none" }}>
+                    <a href="/services/phd-dissertation/phd-consultation" style={{ textDecoration: "none" }}>
                       Public Support
                     </a>
                   </h4>
                   <a
                     className="more-btn"
-                    href=""
+                    href="/services/phd-dissertation/phd-consultation"
                     style={{ textDecoration: "none" }}
                   >
                     Read More <i className="fa-solid fa-plus"></i>
@@ -630,13 +632,13 @@ function Home() {
                 </div>
                 <div className="service-cap">
                   <h4>
-                    <a href="" style={{ textDecoration: "none" }}>
+                    <a href="/services/phd-data-analytics" style={{ textDecoration: "none" }}>
                       Statistical Analysis
                     </a>
                   </h4>
                   <a
                     className="more-btn"
-                    href=""
+                    href="/services/phd-data-analytics"
                     style={{ textDecoration: "none" }}
                   >
                     Read More <i className="fa-solid fa-plus"></i>
@@ -654,13 +656,13 @@ function Home() {
                 </div>
                 <div className="service-cap">
                   <h4>
-                    <a href="" style={{ textDecoration: "none" }}>
+                    <a href="/services/phd-data-analytics/computer-programming" style={{ textDecoration: "none" }}>
                       Coding & Algorithm Services
                     </a>
                   </h4>
                   <a
                     className="more-btn"
-                    href=""
+                    href="/services/phd-data-analytics/computer-programming"
                     style={{ textDecoration: "none" }}
                   >
                     Read More <i className="fa-solid fa-plus"></i>
@@ -701,13 +703,13 @@ function Home() {
                 </div>
                 <div className="service-cap">
                   <h4>
-                    <a href="" style={{ textDecoration: "none" }}>
+                    <a href="/services/phd-literature-review" style={{ textDecoration: "none" }}>
                       Editing & Peer Reviewing
                     </a>
                   </h4>
                   <a
                     className="more-btn"
-                    href=""
+                    href="/services/phd-literature-review"
                     style={{ textDecoration: "none" }}
                   >
                     Read More <i className="fa-solid fa-plus"></i>
@@ -746,13 +748,13 @@ function Home() {
                 </div>
                 <div className="service-cap">
                   <h4>
-                    <a href="" style={{ textDecoration: "none" }}>
+                    <a href="/services/phd-coursework" style={{ textDecoration: "none" }}>
                       Course Work
                     </a>
                   </h4>
                   <a
                     className="more-btn"
-                    href=""
+                    href="/services/phd-coursework"
                     style={{ textDecoration: "none" }}
                   >
                     Read More <i className="fa-solid fa-plus"></i>

@@ -26,7 +26,7 @@ function Faqs() {
                       <a href="/">Home</a>
                     </li>
                     <li className="breadcrumb-item">
-                      <a href="/contact">Faqs</a>
+                      <a href="/faqs">Faqs</a>
                     </li>
                   </ol>
                 </nav>
@@ -43,15 +43,16 @@ function Faqs() {
             style={{ paddingTop: "0px", paddingBottom: "0px" }}
           >
             <div class="section_wrapper mcb-section-inner">
-              <div class="wrap mcb-wrap one  valign-top clearfix">
-                <div class="mcb-wrap-inner">
-                  <h3>FAQ (Frequently Asked Questions)</h3>
+              <div class="wrap mcb-wrap one  valign-top clearfix" style={{ display: 'flex', justifyContent: 'center', background: 'none'}}>
+                <div class="mcb-wrap-inner" style={{ background: '#ececec', margin: '30px 0px', borderRadius: '5px'}}>
+                  <h3 className="d-flex justify-content-center" style={{ margin: '30px 0px', color: '#503c3c', fontWeight: '600'}}>FAQ (Frequently Asked Questions)</h3>
 
                   <div class="column mcb-column one column_accordion ">
                     <div class="accordion">
                       <div class="mfn-acc accordion_wrapper ">
                         <div class="question">
-                          <div class="title">
+                          <div class="title" style={{ paddingLeft: '0px', fontSize: '15px'}}>
+                            <span className="fa-solid fa-plus" style={{ fontSize: '20px', padding: '0px 20px'}}></span>
                             What are the steps taken to protect my privacy?
                           </div>
                           <div class="answer">
@@ -64,10 +65,9 @@ function Faqs() {
                           </div>
                         </div>
                         <div class="question">
-                          <div class="title">
-                            <i class="icon-plus acc-icon-plus"></i>
-                            <i class="icon-minus acc-icon-minus"></i>What are
-                            your payment methods?
+                          <div class="title" style={{ paddingLeft: '0px', fontSize: '15px'}}>
+                            <span className="fa-solid fa-plus" style={{ fontSize: '20px', padding: '0px 20px'}}></span>
+                            What are your payment methods?
                           </div>
                           <div class="answer">
                             The company accepts Master Card, Visa, Diners, AMEX,
@@ -78,10 +78,9 @@ function Faqs() {
                           </div>
                         </div>
                         <div class="question">
-                          <div class="title">
-                            <i class="icon-plus acc-icon-plus"></i>
-                            <i class="icon-minus acc-icon-minus"></i>Do you take
-                            Payment in Installments?
+                          <div class="title" style={{ paddingLeft: '0px', fontSize: '15px'}}>
+                            <span className="fa-solid fa-plus" style={{ fontSize: '20px', padding: '0px 20px'}}></span>
+                            Do you take Payment in Installments?
                           </div>
                           <div class="answer">
                             Even though the company's prices are fairly low, to
@@ -91,11 +90,9 @@ function Faqs() {
                           </div>
                         </div>
                         <div class="question">
-                          <div class="title">
-                            <i class="icon-plus acc-icon-plus"></i>
-                            <i class="icon-minus acc-icon-minus"></i>How do you
-                            ensure that the dissertation is not plagiarized or
-                            doesn't contain low quality content?
+                          <div class="title" style={{ paddingLeft: '0px', fontSize: '15px'}}>
+                            <span className="fa-solid fa-plus" style={{ fontSize: '20px', padding: '0px 20px'}}></span>
+                            How do you ensure that the dissertation is not plagiarized or doesn't contain low quality content?
                           </div>
                           <div class="answer">
                             The company's Quality Assurance Officer runs each
@@ -107,10 +104,9 @@ function Faqs() {
                           </div>
                         </div>
                         <div class="question">
-                          <div class="title">
-                            <i class="icon-plus acc-icon-plus"></i>
-                            <i class="icon-minus acc-icon-minus"></i>What is
-                            your Refund Policy?
+                          <div class="title" style={{ paddingLeft: '0px', fontSize: '15px'}}>
+                            <span className="fa-solid fa-plus" style={{ fontSize: '20px', padding: '0px 20px'}}></span>
+                            What is your Refund Policy?
                           </div>
                           <div class="answer">
                             If PhD Assistance does not initiate any contact with
@@ -120,10 +116,9 @@ function Faqs() {
                           </div>
                         </div>
                         <div class="question">
-                          <div class="title">
-                            <i class="icon-plus acc-icon-plus"></i>
-                            <i class="icon-minus acc-icon-minus"></i>I need some
-                            revisions. Will the writer adhere to my request?
+                          <div class="title" style={{ paddingLeft: '0px', fontSize: '15px'}}>
+                            <span className="fa-solid fa-plus" style={{ fontSize: '20px', padding: '0px 20px'}}></span>
+                            I need some revisions. Will the writer adhere to my request?
                           </div>
                           <div class="answer">
                             The client's satisfaction means everything to the
@@ -133,10 +128,9 @@ function Faqs() {
                           </div>
                         </div>
                         <div class="question">
-                          <div class="title">
-                            <i class="icon-plus acc-icon-plus"></i>
-                            <i class="icon-minus acc-icon-minus"></i>What is the
-                            Ordering Procedure?
+                          <div class="title" style={{ paddingLeft: '0px', fontSize: '15px'}}>
+                            <span className="fa-solid fa-plus" style={{ fontSize: '20px', padding: '0px 20px'}}></span>
+                            What is the Ordering Procedure?
                           </div>
                           <div class="answer">
                             Simply fill out the Order Form given on the website
