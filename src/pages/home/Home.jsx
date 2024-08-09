@@ -44,7 +44,7 @@ function Home() {
                     }}
                   >
                     {" "}
-                    Your PhD Research Journey Starts Here !{" "}
+                    Your PhD Research Journey Starts Here!{" "}
                   </h1>
                   <p
                     className="mb-4"
@@ -85,17 +85,6 @@ function Home() {
                   </p>
                 </div>
               </div>
-              {/* <a
-                href="https://vimeo.com/45830194"
-                class="img-video popup-vimeo d-flex align-items-center justify-content-center"
-                style={{
-                  color: "#3E3232",
-                  marginLeft: "950px",
-                  marginTop: "-120px",
-                }}
-              >
-                <span className="fa fa-play"></span>
-              </a> */}
             </div>
           </div>
         </div>
@@ -317,7 +306,6 @@ function Home() {
             </div>
           </div>
         </div>
-
         <div class="row" style={{ marginLeft: "70px", marginTop: "30px" }}>
           <div class="col-lg-3 col-md-4">
             <div class="single-latest-news">
@@ -573,208 +561,13 @@ function Home() {
         </div>
       </div>
 
-      {/* <section className="analysis">
-        <div className="container">
-          <div className="row justify-content-center pb-5">
-            <div className="heading-section text-center ftco-animate fadeInUp ftco-animated">
-              <h1 style={{ fontWeight: 600, color: "#503c3c" }}>
-                Check at what stage you’re into & Analyse how you can fit into
-                our engagement model
-              </h1>
-              <p style={{ fontWeight: 400, color: "#A87C7C" }}>
-                The research journey is messy, full of difficulties and
-                surprises, hard work, beginnings and some form of closure.
-                ‘PhDAssistance’ travels as part of this journey by supervising
-                and mentoring researchers across the globe.{" "}
-              </p>
-            </div>
-            <div style={{ marginLeft: "100px", marginTop: "30px" }}>
-              <div className="row">
-                <div
-                  className="person col-md-3 offset-md-2 d-flex align-items-stretch"
-                  style={{
-                    maxWidth: "20%",
-                    margin: "0 10px 0 10px",
-                  }}
-                >
-                  <div className="analysis1 text-center">
-                    <h2
-                      className="my-3"
-                      style={{
-                        fontSize: "15px",
-                        fontWeight: 700,
-                        backgroundColor: "#e5d8d8",
-                        padding: "5px",
-                      }}
-                    >
-                      JERRY
-                    </h2>
-                    <img
-                      src="./assets/Jerry.png"
-                      height="80"
-                      style={{ marginBottom: "20px" }}
-                    />
-                    <p style={{ marginBottom: "20px", color: "grey" }}>
-                      ” I am done with my thesis; I need an expert to review &
-                      provide external comments & addressing those after a
-                      mutual agreement “{" "}
-                    </p>
-                    <h2
-                      style={{
-                        fontSize: "16px",
-                        fontWeight: 600,
-                        lineHeight: "20px",
-                        margin: "30px 0 20px 0",
-                        padding: "10px 0 10px 0",
-                        backgroundColor: "#e5d8d8",
-                      }}
-                    >
-                      External Peer Review & Addressing Comments Support
-                    </h2>
-                  </div>
-                </div>
-                <div
-                  className="person col-md-3 d-flex align-items-stretch"
-                  style={{
-                    maxWidth: "20%",
-                    margin: "0 10px 0 10px",
-                  }}
-                >
-                  <div className="analysis1 text-center">
-                    <h2
-                      className="my-3"
-                      style={{
-                        fontSize: "15px",
-                        fontWeight: 700,
-                        backgroundColor: "#e5d8d8",
-                        padding: "5px",
-                      }}
-                    >
-                      LISSA
-                    </h2>
-                    <img
-                      src="./assets/Lissa.png"
-                      height="80"
-                      style={{ marginBottom: "20px" }}
-                    />
-                    <p style={{ marginBottom: "20px", color: "grey" }}>
-                      “I find it difficult to identify the latest articles for
-                      my research study. I am not aware of how to extract
-                      articles and synthesize them. “{" "}
-                    </p>
-                    <h2
-                      style={{
-                        fontSize: "16px",
-                        fontWeight: 600,
-                        lineHeight: "20px",
-                        margin: "30px 0 20px 0",
-                        padding: "10px 0 10px 0",
-                        backgroundColor: "#e5d8d8",
-                      }}
-                    >
-                      Article Extraction & Annotated Bibliography Services
-                    </h2>
-                  </div>
-                </div>
-                <div
-                  className="person col-md-3 d-flex align-items-stretch"
-                  style={{
-                    maxWidth: "20%",
-                    margin: "0 10px 0 10px",
-                  }}
-                >
-                  <div className="analysis1 text-center">
-                    <h2
-                      className="my-3"
-                      style={{
-                        fontSize: "15px",
-                        fontWeight: 700,
-                        backgroundColor: "#e5d8d8",
-                        padding: "5px",
-                      }}
-                    >
-                      SAM
-                    </h2>
-                    <img
-                      src="./assets/Sam.png"
-                      height="80"
-                      style={{ marginBottom: "20px" }}
-                    />
-                    <p style={{ marginBottom: "20px", color: "grey" }}>
-                      ” I have written more than 300 pages, and I need someone
-                      who can sit with me and work along with it to edit my
-                      thesis. “{" "}
-                    </p>
-                    <h2
-                      style={{
-                        fontSize: "16px",
-                        fontWeight: 600,
-                        lineHeight: "20px",
-                        margin: "30px 0 20px 0",
-                        padding: "10px 0 10px 0",
-                        backgroundColor: "#e5d8d8",
-                      }}
-                    >
-                      Hire a Researcher
-                    </h2>
-                  </div>
-                </div>
-                <div
-                  className="person col-md-3 d-flex align-items-stretch"
-                  style={{
-                    maxWidth: "20%",
-                    margin: "0 10px 0 10px",
-                  }}
-                >
-                  <div className="analysis1 text-center">
-                    <h2
-                      className="my-3"
-                      style={{
-                        fontSize: "15px",
-                        fontWeight: 700,
-                        backgroundColor: "#e5d8d8",
-                        padding: "5px",
-                      }}
-                    >
-                      ROBERT
-                    </h2>
-                    <img
-                      src="./assets/Robert.png"
-                      height="80"
-                      style={{ marginBottom: "20px" }}
-                    />
-                    <p style={{ marginBottom: "20px", color: "grey" }}>
-                      ” I have developed a questionnaire and got data; it seems
-                      when I run the analyses, I could not able to get the
-                      results that I am looking for. “{" "}
-                    </p>
-                    <h2
-                      style={{
-                        fontSize: "16px",
-                        fontWeight: 600,
-                        lineHeight: "20px",
-                        margin: "30px 0 20px 0",
-                        padding: "10px 0 10px 0",
-                        backgroundColor: "#e5d8d8",
-                      }}
-                    >
-                      Statistical Analysis services.
-                    </h2>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> */}
-
       <section
         className="services-area"
-        style={{ margin: "0px 200px 100px 200px" }}
+        style={{ padding: "0 130px", marginBottom: "100px" }}
       >
         <div className="container">
           <div className="row justify-content-center mb-5">
-            <div className="col-md-8 text-center heading-section ">
+            <div className="col-md-8 text-center heading-section">
               <span className="subheading">Our Services</span>
               <h2 className="mb-3" style={{ color: "#7e6363" }}>
                 We Can Help You With These Situations
@@ -782,10 +575,13 @@ function Home() {
             </div>
           </div>
           <div className="row">
-            <div className="col-xl-3 col-lg-3 mb-4">
+            <div className="col-xl-3 col-lg-4 col-md-6 mb-4">
               <div className="single-service-cap">
                 <div className="service-img">
-                  <img src="./assets/service1.jpg" />
+                  <img
+                    src="./assets/service1.jpg"
+                    alt="Dissertation Services"
+                  />
                 </div>
                 <div className="service-cap">
                   <h4>
@@ -798,16 +594,15 @@ function Home() {
                     href=""
                     style={{ textDecoration: "none" }}
                   >
-                    Read More
-                    <i className="fa-solid fa-plus"></i>
+                    Read More <i className="fa-solid fa-plus"></i>
                   </a>
                 </div>
               </div>
             </div>
-            <div className="col-xl-3 col-lg-3 mb-4">
+            <div className="col-xl-3 col-lg-4 col-md-6 mb-4">
               <div className="single-service-cap">
                 <div className="service-img">
-                  <img src="./assets/service2.jpg" />
+                  <img src="./assets/service2.jpg" alt="Public Support" />
                 </div>
                 <div className="service-cap">
                   <h4>
@@ -820,16 +615,18 @@ function Home() {
                     href=""
                     style={{ textDecoration: "none" }}
                   >
-                    Read More
-                    <i className="fa-solid fa-plus"></i>
+                    Read More <i className="fa-solid fa-plus"></i>
                   </a>
                 </div>
               </div>
             </div>
-            <div className="col-xl-3 col-lg-3 mb-4">
+            <div className="col-xl-3 col-lg-4 col-md-6 mb-4">
               <div className="single-service-cap">
                 <div className="service-img">
-                  <img src="./assets/services1.jpg" />
+                  <img
+                    src="./assets/services1.jpg"
+                    alt="Statistical Analysis"
+                  />
                 </div>
                 <div className="service-cap">
                   <h4>
@@ -842,21 +639,23 @@ function Home() {
                     href=""
                     style={{ textDecoration: "none" }}
                   >
-                    Read More
-                    <i className="fa-solid fa-plus"></i>
+                    Read More <i className="fa-solid fa-plus"></i>
                   </a>
                 </div>
               </div>
             </div>
-            <div className="col-xl-3 col-lg-3 mb-4">
+            <div className="col-xl-3 col-lg-4 col-md-6 mb-4">
               <div className="single-service-cap">
                 <div className="service-img">
-                  <img src="./assets/service4.jpg" />
+                  <img
+                    src="./assets/service4.jpg"
+                    alt="Coding & Algorithm Services"
+                  />
                 </div>
                 <div className="service-cap">
                   <h4>
                     <a href="" style={{ textDecoration: "none" }}>
-                      Coding & AlgorithmServices
+                      Coding & Algorithm Services
                     </a>
                   </h4>
                   <a
@@ -864,18 +663,17 @@ function Home() {
                     href=""
                     style={{ textDecoration: "none" }}
                   >
-                    Read More
-                    <i className="fa-solid fa-plus"></i>
+                    Read More <i className="fa-solid fa-plus"></i>
                   </a>
                 </div>
               </div>
             </div>
           </div>
           <div className="row">
-            <div className="col-xl-3 col-lg-3">
+            <div className="col-xl-3 col-lg-4 col-md-6">
               <div className="single-service-cap">
                 <div className="service-img">
-                  <img src="./assets/service8.jpg" />
+                  <img src="./assets/service8.jpg" alt="Data Collection" />
                 </div>
                 <div className="service-cap">
                   <h4>
@@ -888,21 +686,23 @@ function Home() {
                     href=""
                     style={{ textDecoration: "none" }}
                   >
-                    Read More
-                    <i className="fa-solid fa-plus"></i>
+                    Read More <i className="fa-solid fa-plus"></i>
                   </a>
                 </div>
               </div>
             </div>
-            <div className="col-xl-3 col-lg-3">
+            <div className="col-xl-3 col-lg-4 col-md-6">
               <div className="single-service-cap">
                 <div className="service-img">
-                  <img src="./assets/service6.jpg" />
+                  <img
+                    src="./assets/service6.jpg"
+                    alt="Editing & Peer Reviewing"
+                  />
                 </div>
                 <div className="service-cap">
                   <h4>
                     <a href="" style={{ textDecoration: "none" }}>
-                      Editing & Peering Reviewing
+                      Editing & Peer Reviewing
                     </a>
                   </h4>
                   <a
@@ -910,16 +710,18 @@ function Home() {
                     href=""
                     style={{ textDecoration: "none" }}
                   >
-                    Read More
-                    <i className="fa-solid fa-plus"></i>
+                    Read More <i className="fa-solid fa-plus"></i>
                   </a>
                 </div>
               </div>
             </div>
-            <div className="col-xl-3 col-lg-3">
+            <div className="col-xl-3 col-lg-4 col-md-6">
               <div className="single-service-cap">
                 <div className="service-img">
-                  <img src="./assets/service7.jpg" />
+                  <img
+                    src="./assets/service7.jpg"
+                    alt="Research Support Service"
+                  />
                 </div>
                 <div className="service-cap">
                   <h4>
@@ -932,16 +734,15 @@ function Home() {
                     href=""
                     style={{ textDecoration: "none" }}
                   >
-                    Read More
-                    <i className="fa-solid fa-plus"></i>
+                    Read More <i className="fa-solid fa-plus"></i>
                   </a>
                 </div>
               </div>
             </div>
-            <div className="col-xl-3 col-lg-3">
+            <div className="col-xl-3 col-lg-4 col-md-6">
               <div className="single-service-cap">
                 <div className="service-img">
-                  <img src="./assets/service8.jpg" />
+                  <img src="./assets/service8.jpg" alt="Course Work" />
                 </div>
                 <div className="service-cap">
                   <h4>
@@ -954,8 +755,7 @@ function Home() {
                     href=""
                     style={{ textDecoration: "none" }}
                   >
-                    Read More
-                    <i className="fa-solid fa-plus"></i>
+                    Read More <i className="fa-solid fa-plus"></i>
                   </a>
                 </div>
               </div>
@@ -963,53 +763,50 @@ function Home() {
           </div>
         </div>
       </section>
-<<<<<<< Updated upstream
 
-      <section className="ftco-section" style={{ margin: "0px 200px" }}>
-=======
-      <section style={{ margin: "0px 200px" }}>
->>>>>>> Stashed changes
-        <div className="container">
+      <section className="ftco-section" style={{ padding: "0 60px" }}>
+        <div className="container" style={{ padding: "0 60px" }}>
           <div className="row">
             <div
               className="col-md-6 img img-3 d-flex justify-content-center align-items-center"
-              style={{ backgroundImage: "url( ./assets/blog.jpg )" }}
+              style={{
+                backgroundImage: "url(./assets/blog.jpg)",
+                backgroundSize: "cover",
+                backgroundPosition: "center",
+              }}
             ></div>
             <div className="col-md-6 wrap-about px-md-5 py-5 bg-light">
               <div className="heading-section">
-                <span className="subheading"> Welcome to Phd Assistance </span>
+                <span className="subheading">Welcome to PhD Assistance</span>
                 <h2 className="mb-4">Best Dissertation Writing Services.</h2>
                 <p>
                   The research journey is messy, full of difficulties and
                   surprises, hard work, beginnings and some form of closure.
                   ‘PhDAssistance Research Lab’ travels as part of this journey
-                  by supervising and mentoring PhD researchers across the globe.{" "}
+                  by supervising and mentoring PhD researchers across the globe.
                 </p>
                 <p>
                   With years of experience in the industry, we have framed our
                   work standards, including PhD service engagement models, to
                   ensure smooth collaboration between our experts and our
-                  clients.{" "}
+                  clients.
                 </p>
                 <a
-                  className="play-video popup-vimeo d-flex align-items-center mt-4 "
+                  className="play-video popup-vimeo d-flex align-items-center mt-4"
                   href="https://youtu.be/0OOA1ShNJn8"
+                  style={{ textDecoration: "none" }}
                 >
                   <div className="icon d-flex align-items-center justify-content-center">
-                    <span
-                      className=" fa fa-play "
-                      style={{ textDecoration: "none" }}
-                    ></span>
+                    <span className="fa fa-play"></span>
                   </div>
-                  <span className="watch" style={{ textDecoration: "none" }}>
-                    Take a look at our process flow
-                  </span>
+                  <span className="watch">Take a look at our process flow</span>
                 </a>
               </div>
             </div>
           </div>
         </div>
       </section>
+
       <div class="container" style={{ paddingTop: "50px" }}>
         <div class="row">
           <div class="col-lg-8 offset-lg-2 text-center">
@@ -1102,12 +899,7 @@ function Home() {
         </div>
       </div>
 
-<<<<<<< Updated upstream
-
       <section className="testimony-section">
-=======
-      <section className="ftco-section testimony-section">
->>>>>>> Stashed changes
         <div
           className="img img-bg border"
           style={{ backgroundImage: "url(../../../../assets/bg-5.jpg)" }}
@@ -1235,7 +1027,7 @@ function Home() {
                       </div>
                       <div className="text">
                         <p className="mb-4">
-                        I can say that it was a pleasant experience in which
+                          I can say that it was a pleasant experience in which
                           Phdassistance displayed flexibility in adapting to our
                           needs and presented an exceptional report that met all
                           of our expectations. Personally, I appreciated the
@@ -1266,7 +1058,7 @@ function Home() {
                       </div>
                       <div className="text">
                         <p className="mb-4">
-                        My friend recommended that I use your service just
+                          My friend recommended that I use your service just
                           when I was about to give up on my dissertation.
                           Because I was trapped and didn't know what to do, the
                           suggestion came at a good moment. I'm now a PhD
@@ -1296,7 +1088,7 @@ function Home() {
                       </div>
                       <div className="text">
                         <p className="mb-4">
-                        I'd want to express my gratitude to Phdassistance for
+                          I'd want to express my gratitude to Phdassistance for
                           their invaluable assistance in developing our
                           programme. Everyone was courteous, competent, and
                           diligent. I was able to meet our deadline thanks to
@@ -1326,7 +1118,7 @@ function Home() {
                       </div>
                       <div className="text">
                         <p className="mb-4">
-                        I'd want to express my gratitude to Phdassistance for
+                          I'd want to express my gratitude to Phdassistance for
                           their invaluable assistance in developing our
                           programme. Everyone was courteous, competent, and
                           diligent. I was able to meet our deadline thanks to
@@ -1355,15 +1147,18 @@ function Home() {
           </div>
         </div>
       </section>
+
       <section
-        className="appointment-section img"
+        className="appointment-section"
         style={{ backgroundImage: "url(./assets/bg-7.jpg)" }}
       >
         <div className="overlay"></div>
         <div className="container">
-          <div className="row" style={{ margin: "0 60px" }}>
-            <div className="col-md-6 half animate fadeInUp animated">
-              <h2 className="mb-4">Send a Message & Get in touch!</h2>
+          <div className="row">
+            <div className="col-md-6 col-lg-6 half animate fadeInUp animated">
+              <h2 className="mb-4 text-center">
+                Send a Message & Get in touch!
+              </h2>
               <form action="#" className="appointment">
                 <div className="row">
                   <div className="col-md-6">
@@ -1418,7 +1213,7 @@ function Home() {
                     </div>
                   </div>
                   <div className="col-md-12">
-                    <div className="form-group">
+                    <div className="form-group text-center">
                       <input
                         type="submit"
                         value="Send message"
@@ -1432,6 +1227,7 @@ function Home() {
           </div>
         </div>
       </section>
+
       <div class="container">
         <div class="row">
           <div class="col-lg-8 offset-lg-2 text-center">
@@ -1581,7 +1377,7 @@ function Home() {
           </div>
         </div>
       </div>
-      <div class="Published-in">
+      <div class="Published-in" style={{ paddingBottom: "50px" }}>
         <div class="container">
           <h3
             style={{ marginTop: "50px", textAlign: "left", color: "#3E3232" }}

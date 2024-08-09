@@ -14,8 +14,6 @@
   align-items: center !important;
 }
 
-
-
 @media (min-width: 992px) {
   .container {
     max-width: 960px;
@@ -387,6 +385,7 @@ a {
   display: inline-block;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
+
 .box {
   width: 350px;
   height: 390px;

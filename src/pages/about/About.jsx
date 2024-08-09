@@ -80,43 +80,42 @@ function About() {
       </section>
 
       <section
-        className="about-us"
-        style={{ margin: "0px 200px", paddingTop: "100px" }}
+        className="ftco-section"
+        style={{ padding: "0 60px", paddingTop: "100px" }}
       >
-        <div className="container">
+        <div className="container" style={{ padding: "0 60px" }}>
           <div className="row">
             <div
               className="col-md-6 img img-3 d-flex justify-content-center align-items-center"
-              style={{ backgroundImage: "url( ./assets/blog.jpg )" }}
+              style={{
+                backgroundImage: "url(./assets/blog.jpg)",
+                backgroundSize: "cover",
+                backgroundPosition: "center",
+              }}
             ></div>
             <div className="col-md-6 wrap-about px-md-5 py-5 bg-light">
               <div className="heading-section">
-                <span className="subheading"> Welcome to Phd Assistance </span>
+                <span className="subheading">Welcome to PhD Assistance</span>
                 <h2 className="mb-4">Best Dissertation Writing Services.</h2>
                 <p>
-                  PhD Assistance, is world’s reputed academic guidance provider
-                  for the past 15 years have guided more than 4,500 Ph.D.
-                  scholars and 10,500 Masters Students across the globe. We
-                  support students, research scholars, entrepreneurs, and
-                  professionals from various organizations in providing
-                  consistently high-quality writing and data analytical services
-                  every time.{" "}
+                  The research journey is messy, full of difficulties and
+                  surprises, hard work, beginnings and some form of closure.
+                  ‘PhDAssistance Research Lab’ travels as part of this journey
+                  by supervising and mentoring PhD researchers across the globe.
                 </p>
                 <p>
-                  The motive of PhD Assistance is to enable scholars and take
-                  them out of tough situations along with providing them full
-                  satisfaction. In addition, we also offer university (only UGC
-                  recognized) admission support for various national and
-                  international universities, selection of guides/supervisor
-                  (UGC recognized), job placement for scholars who have
-                  successfully completed and pursuing their PhDs.{" "}
+                  With years of experience in the industry, we have framed our
+                  work standards, including PhD service engagement models, to
+                  ensure smooth collaboration between our experts and our
+                  clients.
                 </p>
                 <a
-                  className="play-video popup-vimeo d-flex align-items-center mt-4 "
+                  className="play-video popup-vimeo d-flex align-items-center mt-4"
                   href="https://youtu.be/0OOA1ShNJn8"
+                  style={{ textDecoration: "none" }}
                 >
                   <div className="icon d-flex align-items-center justify-content-center">
-                    <span className=" fa fa-play "></span>
+                    <span className="fa fa-play"></span>
                   </div>
                   <span className="watch">Take a look at our process flow</span>
                 </a>
@@ -317,7 +316,7 @@ function About() {
                       </div>
                       <div className="text">
                         <p className="mb-4">
-                        I can say that it was a pleasant experience in which
+                          I can say that it was a pleasant experience in which
                           Phdassistance displayed flexibility in adapting to our
                           needs and presented an exceptional report that met all
                           of our expectations. Personally, I appreciated the
@@ -348,7 +347,7 @@ function About() {
                       </div>
                       <div className="text">
                         <p className="mb-4">
-                        My friend recommended that I use your service just
+                          My friend recommended that I use your service just
                           when I was about to give up on my dissertation.
                           Because I was trapped and didn't know what to do, the
                           suggestion came at a good moment. I'm now a PhD
@@ -378,7 +377,7 @@ function About() {
                       </div>
                       <div className="text">
                         <p className="mb-4">
-                        I'd want to express my gratitude to Phdassistance for
+                          I'd want to express my gratitude to Phdassistance for
                           their invaluable assistance in developing our
                           programme. Everyone was courteous, competent, and
                           diligent. I was able to meet our deadline thanks to
@@ -408,7 +407,7 @@ function About() {
                       </div>
                       <div className="text">
                         <p className="mb-4">
-                        I'd want to express my gratitude to Phdassistance for
+                          I'd want to express my gratitude to Phdassistance for
                           their invaluable assistance in developing our
                           programme. Everyone was courteous, competent, and
                           diligent. I was able to meet our deadline thanks to
@@ -439,14 +438,16 @@ function About() {
       </section>
 
       <section
-        className="appointment-section img"
+        className="appointment-section"
         style={{ backgroundImage: "url(./assets/bg-7.jpg)" }}
       >
         <div className="overlay"></div>
         <div className="container">
-          <div className="row" style={{ margin: "0 60px" }}>
-            <div className="col-md-6 half animate fadeInUp animated">
-              <h2 className="mb-4">Send a Message & Get in touch!</h2>
+          <div className="row">
+            <div className="col-md-6 col-lg-6 half animate fadeInUp animated">
+              <h2 className="mb-4 text-center">
+                Send a Message & Get in touch!
+              </h2>
               <form action="#" className="appointment">
                 <div className="row">
                   <div className="col-md-6">
@@ -501,7 +502,7 @@ function About() {
                     </div>
                   </div>
                   <div className="col-md-12">
-                    <div className="form-group">
+                    <div className="form-group text-center">
                       <input
                         type="submit"
                         value="Send message"
@@ -517,7 +518,6 @@ function About() {
       </section>
 
       <Footer />
-
     </>
   );
 }
