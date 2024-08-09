@@ -24,13 +24,13 @@ import PhdDissertationPart from "./pages/services/phd-dissertation-part/PhdDisse
 import PhdConsultation from "./pages/services/phd consultation/PhdConsultation";
 import VivaVoce from "./pages/services/viva voce/VivaVoce";
 import DataAnalysis from "./pages/services/data analytics/DataAnalysis";
-import QuantitativeStatistics from "./pages/services/quantitative statistics/QuantitativeStatistics"; 
-import ContentAnalysis from "./pages/services/content analysis/ContentAnalysis"; 
-import Biostatistics from "./pages/services/biostatistics/Biostatistics"; 
-import Econometrics from "./pages/services/econometrics/Econometrics";  
-import BigDataAnalysis from "./pages/services/big data analysis/BigDataAnalysis"; 
-import SoftwareProgramming from "./pages/services/software programming/SoftwareProgramming"; 
-import ComputerProgramming from "./pages/services/computer programming/ComputerProgramming"; 
+import QuantitativeStatistics from "./pages/services/quantitative statistics/QuantitativeStatistics";
+import ContentAnalysis from "./pages/services/content analysis/ContentAnalysis";
+import Biostatistics from "./pages/services/biostatistics/Biostatistics";
+import Econometrics from "./pages/services/econometrics/Econometrics";
+import BigDataAnalysis from "./pages/services/big data analysis/BigDataAnalysis";
+import SoftwareProgramming from "./pages/services/software programming/SoftwareProgramming";
+import ComputerProgramming from "./pages/services/computer programming/ComputerProgramming";
 import Coursework from "./pages/services/coursework/Coursework";
 import AbstractService from "./pages/services/abstract service/AbstractService";
 import Assignment from "./pages/services/assignment/Assignment";
@@ -53,7 +53,6 @@ import Economics from "./pages/industries/economics/Economics";
 import ComputerScience from "./pages/industries/computer science/ComputerScience";
 import EngineeringAndTech from "./pages/industries/engineering/EngineeringTech";
 import Biology from "./pages/industries/biology/Biology";
-
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -105,10 +104,7 @@ root.render(
       />
       <Route path="/faqs" element={<Faqs />} />
 
-      <Route
-        path="/services/phd-data-analytics"
-        element={<DataAnalysis />}
-      />
+      <Route path="/services/phd-data-analytics" element={<DataAnalysis />} />
       <Route
         path="/services/phd-data-analytics/quantitative-statistics"
         element={<QuantitativeStatistics />}
@@ -138,10 +134,7 @@ root.render(
         element={<ComputerProgramming />}
       />
 
-      <Route
-        path="/services/phd-coursework"
-        element={<Coursework />}
-      />
+      <Route path="/services/phd-coursework" element={<Coursework />} />
       <Route
         path="/services/phd-coursework/abstract"
         element={<AbstractService />}

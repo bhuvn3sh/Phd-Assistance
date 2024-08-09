@@ -1,0 +1,124 @@
+@media only screen and (max-width: 767px) {
+  .section_wrapper .column {
+    margin: 0 0 20px;
+    height: auto !important;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .section_wrapper .mcb-wrap,
+  .section_wrapper .column,
+  .container .column,
+  .sections_group,
+  .four.columns {
+    margin: 0;
+    width: 100% !important;
+    clear: both;
+  }
+}
+.clearfix {
+  zoom: 1;
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  h3 {
+    font-size: 23px;
+    line-height: 24px;
+  }
+}
+h3 {
+  font-size: 30px;
+  line-height: 32px;
+  font-weight: 400;
+  letter-spacing: 0px;
+}
+h1,
+h2,
+h3,
+h4,
+.text-logo #logo {
+  font-family: "Lato", Arial, Tahoma, sans-serif;
+}
+h3,
+h3 a,
+h3 a:hover {
+  color: #fff;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 15px;
+}
+.clearfix:after {
+  clear: both;
+}
+.clearfix:before,
+.clearfix:after {
+  content: "\0020";
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+@media only screen and (max-width: 767px) {
+  .section_wrapper .column {
+    margin: 0 0 20px;
+    height: auto !important;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .section_wrapper .mcb-wrap,
+  .section_wrapper .column,
+  .container .column,
+  .sections_group,
+  .four.columns {
+    margin: 0;
+    width: 100% !important;
+    clear: both;
+  }
+}
+.column,
+.columns {
+  float: left;
+  margin: 0 1% 40px;
+}
+.accordion .question {
+  margin-bottom: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  overflow: hidden;
+  border-width: 1px;
+  border-style: solid;
+}
+.accordion .question .title {
+  padding: 14px 14px 14px 60px;
+  font-size: 13px;
+  font-weight: 700;
+  position: relative;
+  border-width: 0;
+  border-style: solid;
+  cursor: pointer;
+  background-image: url(https://www.phdassistance.com/wp-content/themes/betheme/css/../images/bg_panel.png);
+  background-repeat: repeat-x;
+  background-position: left top;
+}
+.accordion .question .answer {
+  padding: 15px 20px 20px;
+  overflow: hidden;
+  display: none;
+}
+.accordion .question .title > .acc-icon-plus,
+.accordion .question .title > .acc-icon-minus {
+  font-size: 17px;
+  line-height: 17px;
+  display: block;
+  position: absolute;
+  left: 15px;
+  top: 16px;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  color: #a87c7c;
+}

@@ -100,7 +100,6 @@ function Home() {
           </div>
         </div>
       </div>
-
       <section class="ftco-intro">
         <div
           class="container"
@@ -204,7 +203,6 @@ function Home() {
           </div>
         </div>
       </section>
-
       <section class="ftco-section">
         <div class="container">
           <div class="row justify-content-center pb-5">
@@ -220,8 +218,8 @@ function Home() {
                   <div class="number d-flex align-items-center justify-content-center">
                     <span>01</span>
                   </div>
-                  <div class="icon d-flex align-items-center justify-content-center">
-                  <div className="calender">
+                  <div className="icon d-flex align-items-center justify-content-center">
+                    <div className="calender">
                       <FactCheckOutlinedIcon
                         style={{
                           fontSize: 70,
@@ -245,8 +243,8 @@ function Home() {
                   <div class="number d-flex align-items-center justify-content-center">
                     <span>02</span>
                   </div>
-                  <div class="icon d-flex align-items-center justify-content-center">
-                  <div className="calender">
+                  <div className="icon d-flex align-items-center justify-content-center">
+                    <div className="calender">
                       <EngineeringOutlinedIcon
                         style={{ fontSize: 70, color: "#141619" }}
                       />
@@ -263,8 +261,8 @@ function Home() {
                   <div class="number d-flex align-items-center justify-content-center">
                     <span>03</span>
                   </div>
-                  <div class="icon d-flex align-items-center justify-content-center">
-                  <div className="calender">
+                  <div className="icon d-flex align-items-center justify-content-center">
+                    <div className="calender">
                       <VerifiedOutlinedIcon
                         style={{ fontSize: 70, color: "#141619" }}
                       />
@@ -284,8 +282,8 @@ function Home() {
                   <div class="number d-flex align-items-center justify-content-center">
                     <span>04</span>
                   </div>
-                  <div class="icon d-flex align-items-center justify-content-center">
-                  <div className="calender">
+                  <div className="icon d-flex align-items-center justify-content-center">
+                    <div className="calender">
                       <LocalShippingOutlinedIcon
                         style={{ fontSize: 70, color: "#141619" }}
                       />
@@ -302,8 +300,280 @@ function Home() {
           </div>
         </div>
       </section>
+      <div class="container" style={{ paddingTop: "50px" }}>
+        <div class="row">
+          <div className="row justify-content-center pb-5">
+            <div className="heading-section text-center ftco-animate fadeInUp ftco-animated">
+              <h1 style={{ fontWeight: 600, color: "#503c3c" }}>
+                Check at what stage you’re into & Analyse how you can fit into
+                our engagement model
+              </h1>
+              <p style={{ fontWeight: 400, color: "#A87C7C" }}>
+                The research journey is messy, full of difficulties and
+                surprises, hard work, beginnings and some form of closure.
+                ‘PhDAssistance’ travels as part of this journey by supervising
+                and mentoring researchers across the globe.{" "}
+              </p>
+            </div>
+          </div>
+        </div>
 
-      <section className="ftco-section">
+        <div class="row" style={{ marginLeft: "70px", marginTop: "30px" }}>
+          <div class="col-lg-3 col-md-4">
+            <div class="single-latest-news">
+              <div class="latest-news-bg news-bg-2"></div>
+              <div class="news-text-box">
+                <div className="boxdesign1">
+                  <div
+                    style={{ paddingBottom: "20px", paddingLeft: "10px" }}
+                  ></div>
+                  <h2
+                    style={{
+                      fontSize: "16px",
+                      textAlign: "center",
+                      paddingTop: "10px",
+                      backgroundColor: "#e5d8d8",
+                      paddingBottom: "5px",
+                      marginLeft: "20px",
+                      marginRight: "15px",
+                    }}
+                  >
+                    JERRY
+                  </h2>
+                  <div style={{ display: "flex", justifyContent: "center" }}>
+                    <img
+                      src="./assets/Jerry.png"
+                      height="70"
+                      style={{
+                        marginBottom: "20px",
+                      }}
+                    />
+                  </div>
+
+                  <p
+                    style={{
+                      marginBottom: "20px",
+                      color: "grey",
+                      textAlign: "center",
+                      paddingBottom: "20px",
+                      paddingLeft: "10px",
+                      paddingRight: "10px",
+                    }}
+                  >
+                    ” I am done with my thesis; I need an expert to review &
+                    provide external comments & addressing those after a mutual
+                    agreement “{" "}
+                  </p>
+                  <h2
+                    style={{
+                      fontSize: "16px",
+                      textAlign: "center",
+                      paddingTop: "10px",
+                      backgroundColor: "#e5d8d8",
+                      paddingBottom: "10px",
+                      marginLeft: "20px",
+                      marginRight: "15px",
+                    }}
+                  >
+                    External Peer Review & Addressing Comments Support
+                  </h2>
+                  <div style={{ paddingBottom: "10px" }}></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <div class="single-latest-news">
+              <div class="latest-news-bg news-bg-2"></div>
+              <div class="news-text-box">
+                <div className="boxdesign1">
+                  <div
+                    style={{ paddingBottom: "20px", paddingLeft: "10px" }}
+                  ></div>
+                  <h2
+                    style={{
+                      fontSize: "16px",
+                      textAlign: "center",
+                      paddingTop: "10px",
+                      backgroundColor: "#e5d8d8",
+                      paddingBottom: "5px",
+                      marginLeft: "20px",
+                      marginRight: "15px",
+                    }}
+                  >
+                    LISSA
+                  </h2>
+                  <div style={{ display: "flex", justifyContent: "center" }}>
+                    <img
+                      src="./assets/Lissa.png"
+                      height="70"
+                      style={{
+                        marginBottom: "20px",
+                      }}
+                    />
+                  </div>
+
+                  <p
+                    style={{
+                      marginBottom: "20px",
+                      color: "grey",
+                      textAlign: "center",
+                      paddingBottom: "20px",
+                      paddingLeft: "10px",
+                      paddingRight: "10px",
+                    }}
+                  >
+                    “I find it difficult to identify the latest articles for my
+                    research study. I am not aware of how to extract articles
+                    and synthesize them. “{" "}
+                  </p>
+                  <h2
+                    style={{
+                      fontSize: "16px",
+                      textAlign: "center",
+                      paddingTop: "10px",
+                      backgroundColor: "#e5d8d8",
+                      paddingBottom: "10px",
+                      marginLeft: "20px",
+                      marginRight: "15px",
+                    }}
+                  >
+                    Article Extraction & Annotated Bibliography Services
+                  </h2>
+                  <div style={{ paddingBottom: "10px" }}></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <div class="single-latest-news">
+              <div class="latest-news-bg news-bg-2"></div>
+              <div class="news-text-box">
+                <div className="boxdesign1">
+                  <div
+                    style={{ paddingBottom: "20px", paddingLeft: "10px" }}
+                  ></div>
+                  <h2
+                    style={{
+                      fontSize: "16px",
+                      textAlign: "center",
+                      paddingTop: "10px",
+                      backgroundColor: "#e5d8d8",
+                      paddingBottom: "5px",
+                      marginLeft: "20px",
+                      marginRight: "15px",
+                    }}
+                  >
+                    SAM
+                  </h2>
+                  <div style={{ display: "flex", justifyContent: "center" }}>
+                    <img
+                      src="./assets/Sam.png"
+                      height="70"
+                      style={{
+                        marginBottom: "20px",
+                      }}
+                    />
+                  </div>
+
+                  <p
+                    style={{
+                      marginBottom: "20px",
+                      color: "grey",
+                      textAlign: "center",
+                      paddingBottom: "20px",
+                      paddingLeft: "10px",
+                      paddingRight: "10px",
+                    }}
+                  >
+                    I have written more than 300 pages, and I need someone who
+                    can sit with me and work along with it to edit my thesis. “
+                  </p>
+                  <h2
+                    style={{
+                      fontSize: "16px",
+                      textAlign: "center",
+                      paddingTop: "10px",
+                      backgroundColor: "#e5d8d8",
+                      paddingBottom: "10px",
+                      marginLeft: "20px",
+                      marginRight: "15px",
+                    }}
+                  >
+                    HIRE A RESEARCHER
+                  </h2>
+                  <div style={{ paddingBottom: "10px" }}></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <div class="single-latest-news">
+              <div class="latest-news-bg news-bg-2"></div>
+              <div class="news-text-box">
+                <div className="boxdesign1">
+                  <div
+                    style={{ paddingBottom: "20px", paddingLeft: "10px" }}
+                  ></div>
+                  <h2
+                    style={{
+                      fontSize: "16px",
+                      textAlign: "center",
+                      paddingTop: "10px",
+                      backgroundColor: "#e5d8d8",
+                      paddingBottom: "5px",
+                      marginLeft: "20px",
+                      marginRight: "15px",
+                    }}
+                  >
+                    ROBERT
+                  </h2>
+                  <div style={{ display: "flex", justifyContent: "center" }}>
+                    <img
+                      src="./assets/Robert.png"
+                      height="70"
+                      style={{
+                        marginBottom: "20px",
+                      }}
+                    />
+                  </div>
+
+                  <p
+                    style={{
+                      marginBottom: "20px",
+                      color: "grey",
+                      textAlign: "center",
+                      paddingBottom: "20px",
+                      paddingLeft: "10px",
+                      paddingRight: "10px",
+                    }}
+                  >
+                    ” I have developed a questionnaire and got data; it seems
+                    when I run the analyses, I could not able to get the results
+                    that I am looking for. “{" "}
+                  </p>
+                  <h2
+                    style={{
+                      fontSize: "16px",
+                      textAlign: "center",
+                      paddingTop: "10px",
+                      backgroundColor: "#e5d8d8",
+                      paddingBottom: "10px",
+                      marginLeft: "20px",
+                      marginRight: "15px",
+                    }}
+                  >
+                    Stastical Analysis services
+                  </h2>
+                  <div style={{ paddingBottom: "10px" }}></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* <section className="analysis">
         <div className="container">
           <div className="row justify-content-center pb-5">
             <div className="heading-section text-center ftco-animate fadeInUp ftco-animated">
@@ -496,7 +766,7 @@ function Home() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <section
         className="services-area"
@@ -693,8 +963,12 @@ function Home() {
           </div>
         </div>
       </section>
+<<<<<<< Updated upstream
 
       <section className="ftco-section" style={{ margin: "0px 200px" }}>
+=======
+      <section style={{ margin: "0px 200px" }}>
+>>>>>>> Stashed changes
         <div className="container">
           <div className="row">
             <div
@@ -736,7 +1010,6 @@ function Home() {
           </div>
         </div>
       </section>
-
       <div class="container" style={{ paddingTop: "50px" }}>
         <div class="row">
           <div class="col-lg-8 offset-lg-2 text-center">
@@ -829,8 +1102,12 @@ function Home() {
         </div>
       </div>
 
+<<<<<<< Updated upstream
 
       <section className="testimony-section">
+=======
+      <section className="ftco-section testimony-section">
+>>>>>>> Stashed changes
         <div
           className="img img-bg border"
           style={{ backgroundImage: "url(../../../../assets/bg-5.jpg)" }}
@@ -1078,7 +1355,6 @@ function Home() {
           </div>
         </div>
       </section>
-
       <section
         className="appointment-section img"
         style={{ backgroundImage: "url(./assets/bg-7.jpg)" }}
@@ -1156,7 +1432,6 @@ function Home() {
           </div>
         </div>
       </section>
-
       <div class="container">
         <div class="row">
           <div class="col-lg-8 offset-lg-2 text-center">
@@ -1306,7 +1581,6 @@ function Home() {
           </div>
         </div>
       </div>
-
       <div class="Published-in">
         <div class="container">
           <h3
@@ -1381,7 +1655,6 @@ function Home() {
           </div>
         </div>
       </div>
-
       <Footer />
     </>
   );

@@ -73,7 +73,7 @@ function Topbar() {
         <div class="container">
           <a href="/">
             <img
-              src="\assets\WhatsApp Image 2024-08-01 at 16.02.08_f5fe37b9.jpg"
+              src="\assets\file.png"
               alt="Counselor Logo"
               style={{ height: "40px" }}
             />
@@ -127,7 +127,10 @@ function Topbar() {
                       COURSEWORK{" "}
                     </div>
                   </a>
-                  <a class="dropdown-item" href="/services/phd-literature-review">
+                  <a
+                    class="dropdown-item"
+                    href="/services/phd-literature-review"
+                  >
                     <div className="hoverable" style={{ color: "#fff" }}>
                       LITERATURE WORK
                     </div>

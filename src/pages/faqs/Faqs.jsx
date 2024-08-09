@@ -45,19 +45,14 @@ function Faqs() {
             <div class="section_wrapper mcb-section-inner">
               <div class="wrap mcb-wrap one  valign-top clearfix">
                 <div class="mcb-wrap-inner">
-                  <div class="column mcb-column one column_column  column-margin-">
-                    <div class="column_attr clearfix">
-                      <h3>FAQ (Frequently Asked Questions)</h3>
-                    </div>
-                  </div>
+                  <h3>FAQ (Frequently Asked Questions)</h3>
+
                   <div class="column mcb-column one column_accordion ">
                     <div class="accordion">
                       <div class="mfn-acc accordion_wrapper ">
                         <div class="question">
                           <div class="title">
-                            <i class="icon-plus acc-icon-plus"></i>
-                            <i class="icon-minus acc-icon-minus"></i>What are
-                            the steps taken to protect my privacy?
+                            What are the steps taken to protect my privacy?
                           </div>
                           <div class="answer">
                             PHD assistance has a high code for moral and ethical
@@ -159,16 +154,6 @@ function Faqs() {
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
-          <div class="section the_content no_content">
-            <div class="section_wrapper">
-              <div class="the_content_wrapper"></div>
-            </div>
-          </div>
-          <div class="section section-page-footer">
-            <div class="section_wrapper clearfix">
-              <div class="column one page-pager"></div>
             </div>
           </div>
         </div>
